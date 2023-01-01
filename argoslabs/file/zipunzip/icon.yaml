@@ -1,0 +1,6 @@
+---
+merge_icons:
+  - name: "myicon"
+    from: zip.png
+    size: 34
+    localte: center

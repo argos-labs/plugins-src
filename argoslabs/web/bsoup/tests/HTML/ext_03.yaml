@@ -1,0 +1,93 @@
+---
+# Specification for extracting data from https://www.motionindustries.com/
+csv:
+  # or criteria (loop until any columns which have the result)
+  or:
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+      - op: find_all
+        name: div
+        class: product-detail-panel ui-helper-clearfix
+      - op: find
+        name: h2
+        class: short-description
+    # column header
+    - header: price
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+      - op: find_all
+        name: div
+        class: product-detail-panel ui-helper-clearfix
+      - op: find
+        name: div
+        class: price-container
+      split: 0
+    - header: unit
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+      - op: find_all
+        name: div
+        class: product-detail-panel ui-helper-clearfix
+      - op: find
+        name: div
+        class: price-container
+      split: 1
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+        # //*[@id="product-catalog-search-form"]/div[2]/div/div[2]/div[3]/div
+      - op: find_all
+        name: div
+        class: result-item
+      - op: find
+        name: h2
+        class: result-item-short-desc
+    # column header
+    - header: price
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+      - op: find_all
+        name: div
+        class: result-item
+      - op: find
+        name: div
+        class: result-item-price
+      # for result : regular expression replace
+      re-replace:
+        from: \s+
+        to:
+      split: 0
+    # column header
+    - header: unit
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="product-catalog-search-form"]/div[2]/div[1]
+      - op: find_all
+        name: div
+        class: result-item
+      - op: find
+        name: div
+        class: result-item-price
+      # for result : regular expression replace
+      re-replace:
+        from: \s+
+        to: " "
+      split: 1

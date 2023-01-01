@@ -1,0 +1,41 @@
+---
+csv:
+  or:
+  - columns:
+    - header: dayofweek
+      find:
+      - op: select_one
+        xpath: /html/body/div/div[2]/div[2]/table
+      - op: find_all
+        name: a
+        class: tpl
+      split:
+        separator: ","
+        index: 0
+    - header: date
+      find:
+      - op: select_one
+        xpath: /html/body/div/div[2]/div[2]/table
+      - op: find_all
+        name: a
+        class: tpl
+      split:
+        separator: ","
+        index: 1
+      re-replace:
+        from: "^\\s+"
+        to: ""
+    - header: year
+      find:
+      - op: select_one
+        xpath: /html/body/div/div[2]/div[2]/table
+      - op: find_all
+        name: a
+        class: tpl
+      split:
+        separator: ","
+        index: 2
+      re-replace:
+        from: "^\\s+"
+        to: ""
+skip-empty-row: true

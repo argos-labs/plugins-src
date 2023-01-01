@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: OCR :: Tesseract'
+  description: plugin module for PreProcessing of OCR
+  keywords:
+  - ocr
+  - preprocess
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt ethem module
+    argoslabs.ocr.preprocess: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  # version: 4.610.925
+  version: 4.610.3456

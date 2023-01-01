@@ -1,0 +1,27 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: File :: Encoding'
+  description: plugin module file encoding
+  keywords:
+  - file
+  - convert
+  - encoding
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.file.encoding: ['icon.*', 'Python Encoding Table.csv']
+  url: https://www.argos-labs.com
+#  version: 2.326.2130
+  # version: 3.408.2030
+  version: 3.408.3456

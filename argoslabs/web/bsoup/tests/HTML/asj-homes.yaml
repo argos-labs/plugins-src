@@ -1,0 +1,46 @@
+# output type
+csv:
+  # define columns
+  columns:
+   # column header
+  - header: type
+    find:
+    - op: select_one
+      xpath: //*[@id="contents"]/div[3]/div[1]/div/div/div[1]/ul
+    - op: find_all
+      name: li
+    - op: select_one
+      xpath: li/table/tbody/tr[1]/td
+   # column header
+  - header: floor
+    find:
+    - op: select_one
+      xpath: //*[@id="contents"]/div[3]/div[1]/div/div/div[1]/ul
+    - op: find_all
+      name: li
+    - op: select_one
+      xpath: li/table/tbody/tr[2]/td
+   # column header
+  - header: area
+    find:
+    - op: select_one
+      xpath: //*[@id="contents"]/div[3]/div[1]/div/div/div[1]/ul
+    - op: find_all
+      name: li
+    - op: select_one
+      xpath: li/table/tbody/tr[3]/td
+   # column header
+  - header: price
+    find:
+    - op: select_one
+      xpath: //*[@id="contents"]/div[3]/div[1]/div/div/div[1]/ul
+    - op: find_all
+      name: li
+    - op: select_one
+      xpath: li/table/tbody/tr[4]/td
+    re-replace:
+      from: "\\s+"
+      to: " "
+
+# in case no-result show this message
+no-result: There is no Result

@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: PDF :: Miner'
+  description: plugin module for PDF Miner
+  keywords:
+  - pdf
+  - miner
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.pdf.miner: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 2.604.2100
+  # version: 2.604.3300
+  version: 2.604.3456

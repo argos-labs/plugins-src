@@ -1,0 +1,23 @@
+setup:
+  author: Arun Kumar
+  author_email: arunk@argos-labs.com
+  classifiers:
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: uitext :: pyauto'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Control Mouse Action
+  keywords:
+  - pyauto
+  - uitext
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+    argoslabs.pyauto.uioperations: ['icon.*','README*.*','setup.yaml']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  version: 4.905.901
+

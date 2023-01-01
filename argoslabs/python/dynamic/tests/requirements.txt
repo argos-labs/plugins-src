@@ -1,0 +1,4 @@
+# requirements.txt for pandas handling
+
+openpyxl
+pandas

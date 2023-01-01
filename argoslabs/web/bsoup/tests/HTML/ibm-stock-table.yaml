@@ -1,0 +1,14 @@
+# output type
+csv:
+  # define columns
+  columns:
+   # column header
+  - header: item
+    find:
+    - op: select_one
+      xpath: //*[@id="quote_key_stats_bucket"]/table
+    - op: find_all
+      name: td
+      ng-repeat: "pair in group"
+    - op: find
+      name: span

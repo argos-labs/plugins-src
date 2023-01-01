@@ -1,0 +1,80 @@
+{
+    "customerRef": {
+        "id": "06bf0258-4a11-4a44-b141-a991fcb1d7c7",
+        "companyName": "Speedy Gonzales"
+    },
+    "issueDate": "2021-01-10T00:00:00Z",
+    "dueDate": "2021-04-23T00:00:00Z",
+    "lineItems": [
+        {
+            "accountRef": {
+                "id": "string",
+                "name": "string"
+            },
+            "description": "string",
+            "discountAmount": 0,
+            "discountPercentage": 0,
+            "itemRef": {
+                "id": "string",
+                "name": "string"
+            },
+            "quantity": 0,
+            "subTotal": 0,
+            "taxAmount": 0,
+            "taxRateRef": {
+                "id": "string",
+                "name": "string"
+            },
+            "totalAmount": 0,
+            "tracking": {
+                "categoryRefs": [
+                    {
+                        "id": "string",
+                        "name": "string"
+                    }
+                ],
+                "customerRef": {
+                    "companyName": "string",
+                    "id": "string"
+                },
+                "isBilledTo": "Unknown",
+                "projectRef": {
+                    "id": "string",
+                    "name": "string"
+                }
+            },
+            "trackingCategoryRefs": [
+                {
+                    "id": "string",
+                    "name": "string"
+                }
+            ],
+            "unitAmount": 0
+        }
+    ],
+    "modifiedDate": "2021-01-25T17:41:01.729Z",
+    "note": "string",
+    "paidOnDate": "2021-01-25T17:41:01.729Z",
+    "paymentAllocations": [
+        {
+            "accountRef": {
+                "id": "string",
+                "name": "string"
+            },
+            "allocatedOnDate": "2021-01-25T17:41:01.730Z",
+            "currency": "string",
+            "currencyRate": 0,
+            "date": "2021-01-25T17:41:01.730Z",
+            "id": "string",
+            "note": "string",
+            "reference": "string",
+            "totalAmount": 0
+        }
+    ],
+    "sourceModifiedDate": "2021-01-25T17:41:01.729Z",
+    "status": "Draft",
+    "subTotal": 0,
+    "totalAmount": 0,
+    "totalDiscount": 0,
+    "totalTaxAmount": 0
+}

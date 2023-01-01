@@ -1,0 +1,14 @@
+[
+  {
+    "author" : "Tom",
+    "text" : "My second blog post!",
+    "tags" : ["mongodb", "python", "pymongo"],
+    "date": "2020/01/09"
+  },
+  {
+    "author" : "Jerry",
+    "text" : "My third blog post!",
+    "tags" : ["mongodb", "python", "pymongo"],
+    "date": "2020/01/10"
+  }
+]

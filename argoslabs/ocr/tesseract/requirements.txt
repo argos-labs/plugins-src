@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for tesseract
+#numpy~=1.15
+opencv-python
+pytesseract

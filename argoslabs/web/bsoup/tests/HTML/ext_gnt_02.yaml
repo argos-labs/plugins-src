@@ -1,0 +1,13 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: "고객번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[2]
+      - op: find_all
+        name: td
+
+skip-empty-row: true

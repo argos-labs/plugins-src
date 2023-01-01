@@ -1,0 +1,4 @@
+foobar/bar.txt
+foobar/foo.txt
+foo.txt
+bar.txt

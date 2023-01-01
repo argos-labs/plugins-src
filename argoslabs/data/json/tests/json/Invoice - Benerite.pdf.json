@@ -1,0 +1,888 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_other",
+                "table_column_description",
+                "table_column_other",
+                "table_column_quantity",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Sl No",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                672,
+                                216,
+                                720
+                            ],
+                            "value": "Sl No"
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                672,
+                                558,
+                                720
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Billing Period",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                672,
+                                732,
+                                720
+                            ],
+                            "value": "Billing Period"
+                        },
+                        {
+                            "content": "Total Hours",
+                            "value_type": "text",
+                            "bbox": [
+                                744,
+                                672,
+                                894,
+                                720
+                            ],
+                            "value": "Total Hours"
+                        },
+                        {
+                            "content": "Total Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                930,
+                                672,
+                                1092,
+                                720
+                            ],
+                            "value": "Total Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "1",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                714,
+                                216,
+                                756
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "Symf 2 to 4 conversion",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                714,
+                                558,
+                                756
+                            ],
+                            "value": "Symf 2 to 4 conversion"
+                        },
+                        {
+                            "content": "N/A",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                714,
+                                732,
+                                756
+                            ],
+                            "value": "N/A"
+                        },
+                        {
+                            "content": "72",
+                            "value_type": "number",
+                            "bbox": [
+                                744,
+                                714,
+                                894,
+                                756
+                            ],
+                            "value": "72"
+                        },
+                        {
+                            "content": "720",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                714,
+                                1092,
+                                756
+                            ],
+                            "value": "720"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "2",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                750,
+                                216,
+                                792
+                            ],
+                            "value": "2"
+                        },
+                        {
+                            "content": "New Skin for the entire",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                750,
+                                558,
+                                792
+                            ],
+                            "value": "New Skin for the entire"
+                        },
+                        {
+                            "content": "N/A",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                750,
+                                732,
+                                792
+                            ],
+                            "value": "N/A"
+                        },
+                        {
+                            "content": "176",
+                            "value_type": "number",
+                            "bbox": [
+                                744,
+                                750,
+                                894,
+                                792
+                            ],
+                            "value": "176"
+                        },
+                        {
+                            "content": "1760",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                750,
+                                1092,
+                                792
+                            ],
+                            "value": "1760"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                786,
+                                216,
+                                864
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "application, Bootstrap 4\nconversion",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                786,
+                                558,
+                                864
+                            ],
+                            "value": "application, Bootstrap 4 conversion"
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                786,
+                                732,
+                                864
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                744,
+                                786,
+                                894,
+                                864
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                786,
+                                1092,
+                                864
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "3",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                858,
+                                216,
+                                942
+                            ],
+                            "value": "3"
+                        },
+                        {
+                            "content": "Changes and Fixes from\nHR team",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                858,
+                                558,
+                                942
+                            ],
+                            "value": "Changes and Fixes from HR team"
+                        },
+                        {
+                            "content": "N/A",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                858,
+                                732,
+                                942
+                            ],
+                            "value": "N/A"
+                        },
+                        {
+                            "content": "40",
+                            "value_type": "number",
+                            "bbox": [
+                                744,
+                                858,
+                                894,
+                                942
+                            ],
+                            "value": "40"
+                        },
+                        {
+                            "content": "400",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                858,
+                                1092,
+                                942
+                            ],
+                            "value": "400"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "4",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                936,
+                                216,
+                                978
+                            ],
+                            "value": "4"
+                        },
+                        {
+                            "content": "QA",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                936,
+                                558,
+                                978
+                            ],
+                            "value": "QA"
+                        },
+                        {
+                            "content": "N/A",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                936,
+                                732,
+                                978
+                            ],
+                            "value": "N/A"
+                        },
+                        {
+                            "content": "16",
+                            "value_type": "number",
+                            "bbox": [
+                                744,
+                                936,
+                                894,
+                                978
+                            ],
+                            "value": "16"
+                        },
+                        {
+                            "content": "112",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                936,
+                                1092,
+                                978
+                            ],
+                            "value": "112"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "5",
+                            "value_type": "text",
+                            "bbox": [
+                                132,
+                                972,
+                                216,
+                                1020
+                            ],
+                            "value": "5"
+                        },
+                        {
+                            "content": "Server related efforts",
+                            "value_type": "text",
+                            "bbox": [
+                                258,
+                                972,
+                                558,
+                                1020
+                            ],
+                            "value": "Server related efforts"
+                        },
+                        {
+                            "content": "N/A",
+                            "value_type": "text",
+                            "bbox": [
+                                564,
+                                972,
+                                732,
+                                1020
+                            ],
+                            "value": "N/A"
+                        },
+                        {
+                            "content": "12",
+                            "value_type": "number",
+                            "bbox": [
+                                744,
+                                972,
+                                894,
+                                1020
+                            ],
+                            "value": "12"
+                        },
+                        {
+                            "content": "120",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                972,
+                                1092,
+                                1020
+                            ],
+                            "value": "120"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                132,
+                672,
+                1092,
+                1020
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "INVOICE",
+            "Rain Concert Technologies Private Limited",
+            "#410, Thejaswini, Technopark",
+            "Thiruvananthapuram, Kerala, India 695581.",
+            "Phone: +91-471-2700751",
+            "Email: operations@rainconcert.in",
+            "CIN:U72200KL2008PTC022270",
+            "Bill To",
+            "Benerite Technologies",
+            "Inc.260 Sheridan Dr.",
+            "Invoice No",
+            "Invoice Date",
+            "Invoice Amount",
+            "Terms",
+            "Due Date",
+            "Palo Alto,",
+            "CA, USA",
+            "IBU1819030",
+            "06/03/2019",
+            "$3112.00",
+            "Net 7",
+            "13/06/2019",
+            "Email: escalon.accounting@escalon.services",
+            "Sl No",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "Description",
+            "Symf 2 to 4 conversion",
+            "New Skin for the entire",
+            "application, Bootstrap 4",
+            "conversion",
+            "Changes and Fixes from",
+            "HR team",
+            "QA",
+            "Server related efforts",
+            "Billing Period",
+            "Total Hours",
+            "Total Amount",
+            "N/A",
+            "N/A",
+            "72",
+            "176",
+            "720",
+            "1760",
+            "N/A",
+            "40",
+            "400",
+            "N/A",
+            "N/A",
+            "16",
+            "12",
+            "Total",
+            "Amount",
+            "112",
+            "120",
+            "$3112",
+            "Total Amount \u2013 Dollar Three thousand one hundred and twelve only.",
+            "Payment due in 7 days from the date of Invoice. Overdue accounts subject to a service charge of 2% per month",
+            "Remittance Wire Transfer Details",
+            "Beneficiary Name : RAIN CONCERT TECHNOLOGIES PRIVATE LIMITED",
+            "Beneficiary's Bank Account Number : 10300200053959",
+            "Beneficiary's Banker's Name : Federal Bank",
+            "Beneficiary's Branch Name : Thiruvananthapuram/Statue",
+            "Beneficiary\u2019s Branch Swift Code : FDRLINBBIBD",
+            "CorrespondentBank's Name:JP MORGAN CHASE BANK, NEWYORK",
+            "Correspondent Bank's Account Number : 001 1 427374",
+            "Correspondent Bank's Swift Code : CHASUS33XXX",
+            "Thank you for your business !"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "001 1 427374",
+            "checks": {},
+            "score": 0.9332987328181106,
+            "value_type": "text",
+            "bbox": [
+                498,
+                1428,
+                632,
+                1452
+            ],
+            "title": "Bank Account",
+            "page": 0,
+            "value": "0011427374",
+            "name": "account_num"
+        },
+        {
+            "content": "3112",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.904265585214069,
+            "value_type": "number",
+            "bbox": [
+                1001,
+                1008,
+                1057,
+                1044
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "3112",
+            "name": "amount_due"
+        },
+        {
+            "content": "3112",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9334089432369662,
+            "value_type": "number",
+            "bbox": [
+                1001,
+                1008,
+                1057,
+                1044
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "3112",
+            "name": "amount_total"
+        },
+        {
+            "content": "CHASUS33XXX",
+            "checks": {},
+            "score": 0.9138298237238907,
+            "value_type": "text",
+            "bbox": [
+                443,
+                1458,
+                599,
+                1482
+            ],
+            "title": "BIC/SWIFT",
+            "page": 0,
+            "value": "CHASUS33XXX",
+            "name": "bic"
+        },
+        {
+            "content": "13/06/2019",
+            "checks": {},
+            "score": 1.0,
+            "value_type": "date",
+            "bbox": [
+                973,
+                582,
+                1085,
+                618
+            ],
+            "title": "Date Due",
+            "page": 0,
+            "value": "2019-06-13",
+            "name": "date_due"
+        },
+        {
+            "content": "06/03/2019",
+            "checks": {},
+            "score": 0.984918015280821,
+            "value_type": "date",
+            "bbox": [
+                973,
+                492,
+                1089,
+                528
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2019-03-06",
+            "name": "date_issue"
+        },
+        {
+            "content": "IBU1819030",
+            "checks": {},
+            "score": 0.9968163523672613,
+            "value_type": "text",
+            "bbox": [
+                973,
+                468,
+                1103,
+                498
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "IBU1819030",
+            "name": "invoice_id"
+        },
+        {
+            "content": "Inc.260 Sheridan Dr.\nPalo Alto,\nCA, USA",
+            "checks": {},
+            "score": 0.8864943579559414,
+            "value_type": "text",
+            "bbox": [
+                105,
+                492,
+                333,
+                588
+            ],
+            "title": "Recipient Address",
+            "page": 0,
+            "value": "Inc.260 Sheridan Dr.\nPalo Alto,\nCA, USA",
+            "name": "recipient_address"
+        },
+        {
+            "content": "CA, USA",
+            "checks": {},
+            "score": 0.874540199331223,
+            "value_type": "text",
+            "bbox": [
+                107,
+                552,
+                193,
+                588
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "CA, USA",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Inc.260 Sheridan Dr.",
+            "checks": {},
+            "score": 0.8862865345343403,
+            "value_type": "text",
+            "bbox": [
+                107,
+                492,
+                333,
+                528
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Inc.260 Sheridan Dr.",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Palo Alto,",
+            "checks": {},
+            "score": 0.898993574756733,
+            "value_type": "text",
+            "bbox": [
+                105,
+                528,
+                213,
+                558
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Palo Alto,",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Benerite Technologies",
+            "checks": {},
+            "score": 0.947439833143107,
+            "value_type": "text",
+            "bbox": [
+                107,
+                468,
+                347,
+                498
+            ],
+            "title": "Recipient Name",
+            "page": 0,
+            "value": "Benerite Technologies",
+            "name": "recipient_name"
+        },
+        {
+            "content": "410, Thejaswini, Technopark\nhiruvananthapuram, Kerala, India 695581",
+            "checks": {},
+            "score": 0.901295423994835,
+            "value_type": "text",
+            "bbox": [
+                120,
+                234,
+                546,
+                300
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "410, Thejaswini, Technopark\nhiruvananthapuram, Kerala, India 695581",
+            "name": "sender_address"
+        },
+        {
+            "content": "410, Thejaswini, Technopark",
+            "checks": {},
+            "score": 0.8930752175206429,
+            "value_type": "text",
+            "bbox": [
+                120,
+                234,
+                418,
+                270
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "410, Thejaswini, Technopark",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "hiruvananthapuram, Kerala, India 695581",
+            "checks": {},
+            "score": 0.9096683601109117,
+            "value_type": "text",
+            "bbox": [
+                120,
+                264,
+                546,
+                300
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "hiruvananthapuram, Kerala, India 695581",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "in Concert Technologies Private Limit",
+            "checks": {},
+            "score": 0.8686069816760766,
+            "value_type": "text",
+            "bbox": [
+                132,
+                204,
+                558,
+                240
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "in Concert Technologies Private Limit",
+            "name": "sender_name"
+        },
+        {
+            "content": "Net 7",
+            "checks": {},
+            "score": 0.727270365714806,
+            "value_type": "text",
+            "bbox": [
+                973,
+                558,
+                1029,
+                588
+            ],
+            "title": "Terms",
+            "page": 0,
+            "value": "Net 7",
+            "name": "terms"
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "INVOICE",
+                "Rain Concert Technologies Private Limited",
+                "#410, Thejaswini, Technopark",
+                "Thiruvananthapuram, Kerala, India 695581.",
+                "Phone: +91-471-2700751",
+                "Email: operations@rainconcert.in",
+                "CIN:U72200KL2008PTC022270",
+                "Bill To",
+                "Benerite Technologies",
+                "Inc.260 Sheridan Dr.",
+                "Invoice No",
+                "Invoice Date",
+                "Invoice Amount",
+                "Terms",
+                "Due Date",
+                "Palo Alto,",
+                "CA, USA",
+                "IBU1819030",
+                "06/03/2019",
+                "$3112.00",
+                "Net 7",
+                "13/06/2019",
+                "Email: escalon.accounting@escalon.services",
+                "Sl No",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "Description",
+                "Symf 2 to 4 conversion",
+                "New Skin for the entire",
+                "application, Bootstrap 4",
+                "conversion",
+                "Changes and Fixes from",
+                "HR team",
+                "QA",
+                "Server related efforts",
+                "Billing Period",
+                "Total Hours",
+                "Total Amount",
+                "N/A",
+                "N/A",
+                "72",
+                "176",
+                "720",
+                "1760",
+                "N/A",
+                "40",
+                "400",
+                "N/A",
+                "N/A",
+                "16",
+                "12",
+                "Total",
+                "Amount",
+                "112",
+                "120",
+                "$3112",
+                "Total Amount \u2013 Dollar Three thousand one hundred and twelve only.",
+                "Payment due in 7 days from the date of Invoice. Overdue accounts subject to a service charge of 2% per month",
+                "Remittance Wire Transfer Details",
+                "Beneficiary Name : RAIN CONCERT TECHNOLOGIES PRIVATE LIMITED",
+                "Beneficiary's Bank Account Number : 10300200053959",
+                "Beneficiary's Banker's Name : Federal Bank",
+                "Beneficiary's Branch Name : Thiruvananthapuram/Statue",
+                "Beneficiary\u2019s Branch Swift Code : FDRLINBBIBD",
+                "CorrespondentBank's Name:JP MORGAN CHASE BANK, NEWYORK",
+                "Correspondent Bank's Account Number : 001 1 427374",
+                "Correspondent Bank's Swift Code : CHASUS33XXX",
+                "Thank you for your business !"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/04a5f3cb8d0f4af6b865e373_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_04a5f3cb8d0f4af6b865e373_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/04a5f3cb8d0f4af6b865e373_0.png"
+}

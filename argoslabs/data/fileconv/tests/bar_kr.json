@@ -1,0 +1,22 @@
+{
+    "world": {
+        "people": [
+            {
+                "name": "Earth",
+                "tall": "183cm"
+            },
+            {
+                "name": "Jupiter",
+                "tall": "175cm"
+            },
+            {
+                "name": "Mars",
+                "tall": "168cm"
+            },
+            {
+                "name": "±Ý¼º",
+                "tall": "99cm"
+            }
+        ]
+    }
+}

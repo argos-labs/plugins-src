@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: String :: RE'
+  description: plugin module for String manipulation with Regular Expression
+  keywords:
+  - string
+  - manipulation
+  - re
+  - regular
+  - expression
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.string.re: ['icon.*', 'tests/*.txt']
+  url: https://www.argos-labs.com
+#  version: 2.1104.1120
+  # version: 3.1122.1253
+  version: 3.1122.3456

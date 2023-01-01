@@ -1,0 +1,8 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common>=3.721.1350
+
+# dpath
+dpath
+PyYAML

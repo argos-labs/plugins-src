@@ -1,0 +1,6 @@
+org,url,found,output_file
+Elementary Robotics,https://www.elementaryrobotics.com/,robot,W:\crpa_src\rpa-modules\argoslabs\python\dynamic\tests\output\Elementary Robotics.txt
+Dexterity,https://dexterity.ai/,food|robot,W:\crpa_src\rpa-modules\argoslabs\python\dynamic\tests\output\Dexterity.txt
+Miso Robotics,https://misorobotics.com/,food|robot,W:\crpa_src\rpa-modules\argoslabs\python\dynamic\tests\output\Miso Robotics.txt
+Sight Machine,https://sightmachine.com/,food|robot,W:\crpa_src\rpa-modules\argoslabs\python\dynamic\tests\output\Sight Machine.txt
+Vicarious,https://www.vicarious.com/,food|robot,W:\crpa_src\rpa-modules\argoslabs\python\dynamic\tests\output\Vicarious.txt

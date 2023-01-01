@@ -1,0 +1,11 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for ldap
+#chardet
+# https://pypi-test.argos-labs.com/api/package/python-ldap/python_ldap-3.3.1-cp37-cp37m-win32.whl; sys_platform == 'win32'
+
+https://package-index.level12.net/python-ldap/python_ldap-3.3.1-cp37-cp37m-win32.whl; sys_platform == 'win32'
+python-ldap; sys_platform == 'linux'

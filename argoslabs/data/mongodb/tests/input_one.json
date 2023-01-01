@@ -1,0 +1,6 @@
+{
+  "author" : "Mike",
+  "text" : "My first blog post!",
+  "tags" : ["mongodb", "python", "pymongo"],
+  "date": "2020/01/08"
+}

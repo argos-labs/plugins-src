@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Utility :: TimeDiff'
+  description: plugin module for compare Date/Time
+  keywords:
+  - time
+  - timestamp
+  - date
+  - datetime
+  - diff
+  - compare
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.time.diff: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 3.1112.1103
+  # version: 3.1112.9988
+  version: 3.1113.3456

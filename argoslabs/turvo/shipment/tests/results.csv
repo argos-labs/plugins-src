@@ -1,0 +1,7 @@
+{
+    "Status": "ERROR",
+    "details": {
+        "errorMessage": "SomeThing went wrong , No Shipment Associated with this id",
+        "errorCode": "4601"
+    }
+}

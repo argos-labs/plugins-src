@@ -1,0 +1,45 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+      # column header
+    - header: prev_comment
+      find:
+      - op: find
+        name: div
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_PrevComment_txtDiv
+#      - op: select_one
+#        xpath: //*[@id="Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_PrevComment_txtDiv"]
+      # column header
+    - header: transaction_date
+      find:
+      - op: find
+        name: div
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_TransactionDate_cell
+      # column header
+    - header: purpose
+      find:
+      - op: find
+        name: div
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_Description_txtDiv
+      # column header
+    - header: vendor
+      find:
+      - op: find
+        name: div
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_VendorDescription_cell
+    - header: payment_type
+      find:
+      - op: find
+        name: div
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_PatKey_cell
+    - header: amount
+      find:
+      - op: find
+        name: input
+        id: Expense_4714_TRAVELER_READONLY_P1273_ADJAMT_RO_ApprovedAmount
+
+
+skip-empty-row: true

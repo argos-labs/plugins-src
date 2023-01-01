@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "TestEntity",
+    "title": "TestEntity",
+    "description": "The TestEntity Schema",
+    "type": "object",
+    "required": ["field5"],
+    "properties": {
+        "field1": {
+            "type": "string",
+            "identity": 1
+        },
+        "field2": {
+            "type": "number"
+        },
+        "field3": {
+            "type": "boolean"
+        },
+        "field4": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "field5": {
+            "type": "object",
+            "properties": {
+                "subfield1": {
+                    "type": "number"
+                },
+                "subfield2": {
+                    "type": "number"
+                },
+                "subfield3": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "subfield1"
+            ]
+        }
+    }
+}

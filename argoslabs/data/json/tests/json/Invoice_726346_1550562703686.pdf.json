@@ -1,0 +1,3431 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_description",
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_quantity",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Item",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                714,
+                                384,
+                                774
+                            ],
+                            "value": "Item"
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                714,
+                                840,
+                                774
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Quantity\nOrdered",
+                            "value_type": "text",
+                            "bbox": [
+                                834,
+                                714,
+                                930,
+                                774
+                            ],
+                            "value": "Quantity\nOrdered"
+                        },
+                        {
+                            "content": "Quantity\nBilled",
+                            "value_type": "text",
+                            "bbox": [
+                                930,
+                                714,
+                                1032,
+                                774
+                            ],
+                            "value": "Quantity\nBilled"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                1086,
+                                714,
+                                1176,
+                                774
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite Finance as a Service Sm. \nBiz/OneWorld Cloud Service",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                774,
+                                384,
+                                972
+                            ],
+                            "value": "NetSuite Finance as a Service Sm. Biz/OneWorld Cloud Service"
+                        },
+                        {
+                            "content": "NetSuite Finance-as-a-Service Limited Cloud Service -\n Small Business OneWorld (\"FaaS LE - SmallBiz\n OneWorld\") includes:\n ** NetSuite ERP with G/L, Accounts Payable,\n Purchasing, Inventory, Order Entry, A/R, Expense\n Reporting, Advanced Shipping with integrated UPS or\n FedEx shipping depending on your location\n ** NetSuite CRM Sales Force Automation with quote\n and order management, Marketing Automation with",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                774,
+                                840,
+                                972
+                            ],
+                            "value": "NetSuite Finance-as-a-Service Limited Cloud Service - Small Business OneWorld (\"FaaS LE - SmallBiz OneWorld\") includes: ** NetSuite ERP with G/L, Accounts Payable, Purchasing, Inventory, Order Entry, A/R, Expense Reporting, Advanced Shipping with integrated UPS or FedEx shipping depending on your location ** NetSuite CRM Sales Force Automation with quote and order management, Marketing Automation with"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                774,
+                                930,
+                                972
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "0.25",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                774,
+                                1032,
+                                972
+                            ],
+                            "value": "0.25"
+                        },
+                        {
+                            "content": "$777.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1086,
+                                774,
+                                1176,
+                                972
+                            ],
+                            "value": "777.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                972,
+                                384,
+                                1002
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "campaigns; Customer Service/Support",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                972,
+                                840,
+                                1002
+                            ],
+                            "value": "campaigns; Customer Service/Support"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                972,
+                                930,
+                                1002
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                972,
+                                1032,
+                                1002
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1086,
+                                972,
+                                1176,
+                                1002
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1068,
+                                384,
+                                1200
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** Real-time Dashboards with key business metrics,\nreport snapshots\n** Customer Center and Vendor Center logins\n** 3 BPO Users\n** NetSuite OneWorld Cloud Service included.\nCustomer must provide the # of subs to provision, but\nsubs are \u201cunlimited\u201d within a single country. Additional",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1068,
+                                840,
+                                1200
+                            ],
+                            "value": "** Real-time Dashboards with key business metrics, report snapshots ** Customer Center and Vendor Center logins ** 3 BPO Users ** NetSuite OneWorld Cloud Service included. Customer must provide the # of subs to provision, but subs are \u201cunlimited\u201d within a single country. Additional"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1068,
+                                930,
+                                1200
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1068,
+                                1032,
+                                1200
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1086,
+                                1068,
+                                1176,
+                                1200
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1296,
+                                384,
+                                1404
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** 30,000 integrated bulk mail merges per month\n** 120,000 campaign emails per year with no single\nblast exceeding 10,000 recipients\n** 5 GB File Cabinet and 5 GB Data storage per\naccount",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1296,
+                                840,
+                                1404
+                            ],
+                            "value": "** 30,000 integrated bulk mail merges per month ** 120,000 campaign emails per year with no single blast exceeding 10,000 recipients ** 5 GB File Cabinet and 5 GB Data storage per account"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1296,
+                                930,
+                                1404
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1296,
+                                1032,
+                                1404
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1086,
+                                1296,
+                                1176,
+                                1404
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                72,
+                714,
+                1176,
+                1404
+            ]
+        },
+        {
+            "column_types": [
+                "table_column_description",
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_quantity",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Item",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                66,
+                                372,
+                                126
+                            ],
+                            "value": "Item"
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                66,
+                                840,
+                                126
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Quantity\nOrdered",
+                            "value_type": "text",
+                            "bbox": [
+                                834,
+                                66,
+                                936,
+                                126
+                            ],
+                            "value": "Quantity\nOrdered"
+                        },
+                        {
+                            "content": "Quantity\nBilled",
+                            "value_type": "text",
+                            "bbox": [
+                                930,
+                                66,
+                                1032,
+                                126
+                            ],
+                            "value": "Quantity\nBilled"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                1074,
+                                66,
+                                1176,
+                                126
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite OneWorld Additiona\nCountry/Currency Cloud Service",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                126,
+                                372,
+                                546
+                            ],
+                            "value": "NetSuite OneWorld Additiona Country/Currency Cloud Service"
+                        },
+                        {
+                            "content": "NetSuite OneWorld Additional Country/Currency\n includes:\n ** Management of multiple subsidiaries, business units\n and legal entities\n ** Support of consistent processes across countries\n ** Unlimited subsidiaries in a single country for a single\n currency\n ** Comprehensive Language Management\n ** Support for 19 different languages\n ** Comprehensive Multi-Currency Management\n ** Currency support for 190+ different local currencies\n ** Audit and Compliance Reporting\n ** Always-on audit trail, built-in analytics, access logs\n and workflow\n ** Supports global compliance of internal and external\n processes\n ** Real-time global business insight\n ** Configurable Tax Engine\n ** Pre-configuration of tax codes and localized",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                126,
+                                840,
+                                546
+                            ],
+                            "value": "NetSuite OneWorld Additional Country/Currency includes: ** Management of multiple subsidiaries, business units and legal entities ** Support of consistent processes across countries ** Unlimited subsidiaries in a single country for a single currency ** Comprehensive Language Management ** Support for 19 different languages ** Comprehensive Multi-Currency Management ** Currency support for 190+ different local currencies ** Audit and Compliance Reporting ** Always-on audit trail, built-in analytics, access logs and workflow ** Supports global compliance of internal and external processes ** Real-time global business insight ** Configurable Tax Engine ** Pre-configuration of tax codes and localized"
+                        },
+                        {
+                            "content": "3",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                126,
+                                936,
+                                546
+                            ],
+                            "value": "3"
+                        },
+                        {
+                            "content": "0.75",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                126,
+                                1032,
+                                546
+                            ],
+                            "value": "0.75"
+                        },
+                        {
+                            "content": "$7,191.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                126,
+                                1176,
+                                546
+                            ],
+                            "value": "7191.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                570,
+                                372,
+                                630
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** Flexible indirect tax engine automates calculations\n** Cross border sales and Intrastat reporting across all\n27 EU countries",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                570,
+                                840,
+                                630
+                            ],
+                            "value": "** Flexible indirect tax engine automates calculations ** Cross border sales and Intrastat reporting across all 27 EU countries"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                570,
+                                936,
+                                630
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                570,
+                                1032,
+                                630
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                570,
+                                1176,
+                                630
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                678,
+                                372,
+                                720
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "globe\n** Take payments directly from customers.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                678,
+                                840,
+                                720
+                            ],
+                            "value": "globe ** Take payments directly from customers."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                678,
+                                936,
+                                720
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                678,
+                                1032,
+                                720
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                678,
+                                1176,
+                                720
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite OneWorld Add'l Sub\nExisting Country Cloud Service",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                720,
+                                372,
+                                1134
+                            ],
+                            "value": "NetSuite OneWorld Add'l Sub Existing Country Cloud Service"
+                        },
+                        {
+                            "content": "NetSuite OneWorld Additional Sub in Existing Country\n includes:\n ** Management of multiple subsidiaries, business units\n and legal entities\n ** Support of consistent processes across countries\n ** Unlimited subsidiaries in a single country\n ** Comprehensive Language Management\n ** Support for 19 different languages\n ** Comprehensive Multi-Currency Management\n ** Currency support for 190+ different local currencies\n ** Audit and Compliance Reporting\n ** Always-on audit trail, built-in analytics, access logs\n and workflow\n ** Supports global compliance of internal and external\n processes\n ** Real-time global business insight\n ** Configurable Tax Engine\n ** Pre-configuration of tax codes and localized\n reporting for over 50 countries",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                720,
+                                840,
+                                1134
+                            ],
+                            "value": "NetSuite OneWorld Additional Sub in Existing Country includes: ** Management of multiple subsidiaries, business units and legal entities ** Support of consistent processes across countries ** Unlimited subsidiaries in a single country ** Comprehensive Language Management ** Support for 19 different languages ** Comprehensive Multi-Currency Management ** Currency support for 190+ different local currencies ** Audit and Compliance Reporting ** Always-on audit trail, built-in analytics, access logs and workflow ** Supports global compliance of internal and external processes ** Real-time global business insight ** Configurable Tax Engine ** Pre-configuration of tax codes and localized reporting for over 50 countries"
+                        },
+                        {
+                            "content": "6",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                720,
+                                936,
+                                1134
+                            ],
+                            "value": "6"
+                        },
+                        {
+                            "content": "1.5",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                720,
+                                1032,
+                                1134
+                            ],
+                            "value": "1.5"
+                        },
+                        {
+                            "content": "$0.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                720,
+                                1176,
+                                1134
+                            ],
+                            "value": "0.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1140,
+                                372,
+                                1194
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** Flexible indirect tax engine automates calculations\n** Cross border sales and Intrastat reporting across all\n27 EU countries",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1140,
+                                840,
+                                1194
+                            ],
+                            "value": "** Flexible indirect tax engine automates calculations ** Cross border sales and Intrastat reporting across all 27 EU countries"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1140,
+                                936,
+                                1194
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1140,
+                                1032,
+                                1194
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                1140,
+                                1176,
+                                1194
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1212,
+                                372,
+                                1278
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** Pay vendor bills and employee expenses across the\nglobe\n** Take payments directly from customers.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1212,
+                                840,
+                                1278
+                            ],
+                            "value": "** Pay vendor bills and employee expenses across the globe ** Take payments directly from customers."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1212,
+                                936,
+                                1278
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1212,
+                                1032,
+                                1278
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                1212,
+                                1176,
+                                1278
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite BPO Cloud Service User",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1284,
+                                372,
+                                1362
+                            ],
+                            "value": "NetSuite BPO Cloud Service User"
+                        },
+                        {
+                            "content": "BPO User means a User login credential created by\nBPO for an employee of BPO or an employee of BPO\u2019s\nAffiliate.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1284,
+                                840,
+                                1362
+                            ],
+                            "value": "BPO User means a User login credential created by BPO for an employee of BPO or an employee of BPO\u2019s Affiliate."
+                        },
+                        {
+                            "content": "2",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                1284,
+                                936,
+                                1362
+                            ],
+                            "value": "2"
+                        },
+                        {
+                            "content": "0.5",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                1284,
+                                1032,
+                                1362
+                            ],
+                            "value": "0.5"
+                        },
+                        {
+                            "content": "$594.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                1284,
+                                1176,
+                                1362
+                            ],
+                            "value": "594.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite BPO Cloud Service User",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1356,
+                                372,
+                                1440
+                            ],
+                            "value": "NetSuite BPO Cloud Service User"
+                        },
+                        {
+                            "content": "BPO User means a User login credential created by\nBPO for an employee of BPO or an employee of BPO\u2019s\nAffiliate.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1356,
+                                840,
+                                1440
+                            ],
+                            "value": "BPO User means a User login credential created by BPO for an employee of BPO or an employee of BPO\u2019s Affiliate."
+                        },
+                        {
+                            "content": "4",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                1356,
+                                936,
+                                1440
+                            ],
+                            "value": "4"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                1356,
+                                1032,
+                                1440
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "$1,188.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                1356,
+                                1176,
+                                1440
+                            ],
+                            "value": "1188.00"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 1,
+            "bbox": [
+                72,
+                66,
+                1176,
+                1440
+            ]
+        },
+        {
+            "column_types": [
+                "table_column_other",
+                "table_column_other",
+                "table_column_description",
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_quantity",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Item",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                66,
+                                168,
+                                126
+                            ],
+                            "value": "Item"
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                66,
+                                288,
+                                126
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                66,
+                                384,
+                                126
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                66,
+                                840,
+                                126
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Quantity\nOrdered",
+                            "value_type": "text",
+                            "bbox": [
+                                834,
+                                66,
+                                936,
+                                126
+                            ],
+                            "value": "Quantity\nOrdered"
+                        },
+                        {
+                            "content": "Quantity\nBilled",
+                            "value_type": "text",
+                            "bbox": [
+                                930,
+                                66,
+                                1032,
+                                126
+                            ],
+                            "value": "Quantity\nBilled"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                1080,
+                                66,
+                                1176,
+                                126
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite \nCloud Serv",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                126,
+                                168,
+                                228
+                            ],
+                            "value": "NetSuite Cloud Serv"
+                        },
+                        {
+                            "content": "BPO Client \nvice User",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                126,
+                                288,
+                                228
+                            ],
+                            "value": "BPO Client vice User"
+                        },
+                        {
+                            "content": "Restricted",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                126,
+                                384,
+                                228
+                            ],
+                            "value": "Restricted"
+                        },
+                        {
+                            "content": "Client Restricted User means a User login credential\n created by BPO for Client\u2019s employees or contractors. A\n Client Restricted User is limited to the following access\n (as further limited by the specific Suite Offering):",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                126,
+                                840,
+                                228
+                            ],
+                            "value": "Client Restricted User means a User login credential created by BPO for Client\u2019s employees or contractors. A Client Restricted User is limited to the following access (as further limited by the specific Suite Offering):"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                126,
+                                936,
+                                228
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "0.25",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                126,
+                                1032,
+                                228
+                            ],
+                            "value": "0.25"
+                        },
+                        {
+                            "content": "$297.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1080,
+                                126,
+                                1176,
+                                228
+                            ],
+                            "value": "297.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                300,
+                                168,
+                                528
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                300,
+                                288,
+                                528
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                300,
+                                384,
+                                528
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "record types that do not have a general ledger impact\n(excluding the standard transaction record types:\n\u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d)\niii) 'create' and 'edit' access to vendors, customers,\npartners, and contacts;\niv) the same level of access allowed under the default\nrole of \u201cEmployee Center\u201d as defined by the Service;\nv) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom\nrecord types; and\nvi) 'view' access to all record types.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                300,
+                                840,
+                                528
+                            ],
+                            "value": "record types that do not have a general ledger impact (excluding the standard transaction record types: \u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d) iii) 'create' and 'edit' access to vendors, customers, partners, and contacts; iv) the same level of access allowed under the default role of \u201cEmployee Center\u201d as defined by the Service; v) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom record types; and vi) 'view' access to all record types."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                300,
+                                936,
+                                528
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                300,
+                                1032,
+                                528
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                300,
+                                1176,
+                                528
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite \nCloud Serv",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                522,
+                                168,
+                                624
+                            ],
+                            "value": "NetSuite Cloud Serv"
+                        },
+                        {
+                            "content": "BPO Client \nvice User",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                522,
+                                288,
+                                624
+                            ],
+                            "value": "BPO Client vice User"
+                        },
+                        {
+                            "content": "Restricted",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                522,
+                                384,
+                                624
+                            ],
+                            "value": "Restricted"
+                        },
+                        {
+                            "content": "Client Restricted User means a User login credential\n created by BPO for Client\u2019s employees or contractors. A\n Client Restricted User is limited to the following access\n (as further limited by the specific Suite Offering):",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                522,
+                                840,
+                                624
+                            ],
+                            "value": "Client Restricted User means a User login credential created by BPO for Client\u2019s employees or contractors. A Client Restricted User is limited to the following access (as further limited by the specific Suite Offering):"
+                        },
+                        {
+                            "content": "3",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                522,
+                                936,
+                                624
+                            ],
+                            "value": "3"
+                        },
+                        {
+                            "content": "0.75",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                522,
+                                1032,
+                                624
+                            ],
+                            "value": "0.75"
+                        },
+                        {
+                            "content": "$891.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1080,
+                                522,
+                                1176,
+                                624
+                            ],
+                            "value": "891.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                636,
+                                168,
+                                666
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                636,
+                                288,
+                                666
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                636,
+                                384,
+                                666
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "i) 'approval' access to transaction record types that",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                636,
+                                840,
+                                666
+                            ],
+                            "value": "i) 'approval' access to transaction record types that"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                636,
+                                936,
+                                666
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                636,
+                                1032,
+                                666
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                636,
+                                1176,
+                                666
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                672,
+                                168,
+                                924
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                672,
+                                288,
+                                924
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                672,
+                                384,
+                                924
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "ii) 'create', 'edit', and 'approval' access to transaction\nrecord types that do not have a general ledger impact\n(excluding the standard transaction record types:\n\u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d)\niii) 'create' and 'edit' access to vendors, customers,\npartners, and contacts;\niv) the same level of access allowed under the default\nrole of \u201cEmployee Center\u201d as defined by the Service;\nv) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom\nrecord types; and\nvi) 'view' access to all record types.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                672,
+                                840,
+                                924
+                            ],
+                            "value": "ii) 'create', 'edit', and 'approval' access to transaction record types that do not have a general ledger impact (excluding the standard transaction record types: \u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d) iii) 'create' and 'edit' access to vendors, customers, partners, and contacts; iv) the same level of access allowed under the default role of \u201cEmployee Center\u201d as defined by the Service; v) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom record types; and vi) 'view' access to all record types."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                672,
+                                936,
+                                924
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                672,
+                                1032,
+                                924
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                672,
+                                1176,
+                                924
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                978,
+                                168,
+                                1038
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                978,
+                                288,
+                                1038
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                978,
+                                384,
+                                1038
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Client Operational User may not be assigned the\nsystem-defined roles of \u201cAdministrator\u201d or \u201cFull Access\u201d\n(as such terms are defined in the NetSuite Help",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                978,
+                                840,
+                                1038
+                            ],
+                            "value": "Client Operational User may not be assigned the system-defined roles of \u201cAdministrator\u201d or \u201cFull Access\u201d (as such terms are defined in the NetSuite Help"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                978,
+                                936,
+                                1038
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                978,
+                                1032,
+                                1038
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                978,
+                                1176,
+                                1038
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1038,
+                                168,
+                                1080
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                1038,
+                                288,
+                                1080
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                1038,
+                                384,
+                                1080
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Documentation), or any configured role that is\nmaterially similar to such system-defined roles of",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1038,
+                                840,
+                                1080
+                            ],
+                            "value": "Documentation), or any configured role that is materially similar to such system-defined roles of"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1038,
+                                936,
+                                1080
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1038,
+                                1032,
+                                1080
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                1038,
+                                1176,
+                                1080
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1080,
+                                168,
+                                1128
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                1080,
+                                288,
+                                1128
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                1080,
+                                384,
+                                1128
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Administrator or Full Access or grants right to create\nUser login credentials.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1080,
+                                840,
+                                1128
+                            ],
+                            "value": "Administrator or Full Access or grants right to create User login credentials."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1080,
+                                936,
+                                1128
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1080,
+                                1032,
+                                1128
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                1080,
+                                1176,
+                                1128
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                1176,
+                                168,
+                                1290
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                162,
+                                1176,
+                                288,
+                                1290
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                282,
+                                1176,
+                                384,
+                                1290
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "** Expense Allocations\n** Amortization Schedules\n** Advanced Billing Schedules\n** Milestone Billing (when used with Project\nManagement)",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                1176,
+                                840,
+                                1290
+                            ],
+                            "value": "** Expense Allocations ** Amortization Schedules ** Advanced Billing Schedules ** Milestone Billing (when used with Project Management)"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                1176,
+                                936,
+                                1290
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                1176,
+                                1032,
+                                1290
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1080,
+                                1176,
+                                1176,
+                                1290
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 2,
+            "bbox": [
+                72,
+                66,
+                1176,
+                1290
+            ]
+        },
+        {
+            "column_types": [
+                "table_column_description",
+                "table_column_description",
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_quantity",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "Item",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                66,
+                                342,
+                                126
+                            ],
+                            "value": "Item"
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                66,
+                                384,
+                                126
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                66,
+                                840,
+                                126
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Quantity\nOrdered",
+                            "value_type": "text",
+                            "bbox": [
+                                834,
+                                66,
+                                936,
+                                126
+                            ],
+                            "value": "Quantity\nOrdered"
+                        },
+                        {
+                            "content": "Quantity\nBilled",
+                            "value_type": "text",
+                            "bbox": [
+                                930,
+                                66,
+                                1032,
+                                126
+                            ],
+                            "value": "Quantity\nBilled"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                1074,
+                                66,
+                                1176,
+                                126
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite SuiteAnalytics Connect \nMarket Cloud Service",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                126,
+                                342,
+                                192
+                            ],
+                            "value": "NetSuite SuiteAnalytics Connect Market Cloud Service"
+                        },
+                        {
+                            "content": "Mid-",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                126,
+                                384,
+                                192
+                            ],
+                            "value": "Mid"
+                        },
+                        {
+                            "content": "The SuiteAnalytics Connect Cloud Service enables you\n to access and query your NetSuite data using SQL\n through the following mainstream database standards:",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                126,
+                                840,
+                                192
+                            ],
+                            "value": "The SuiteAnalytics Connect Cloud Service enables you to access and query your NetSuite data using SQL through the following mainstream database standards:"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                126,
+                                936,
+                                192
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "0.25",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                126,
+                                1032,
+                                192
+                            ],
+                            "value": "0.25"
+                        },
+                        {
+                            "content": "$1,497.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                126,
+                                1176,
+                                192
+                            ],
+                            "value": "1497.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                276,
+                                342,
+                                300
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                276,
+                                384,
+                                300
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "to you at no additional cost if you have procured the",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                276,
+                                840,
+                                300
+                            ],
+                            "value": "to you at no additional cost if you have procured the"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                276,
+                                936,
+                                300
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                276,
+                                1032,
+                                300
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                276,
+                                1176,
+                                300
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                408,
+                                342,
+                                438
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                408,
+                                384,
+                                438
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Drivers is governed by the terms and conditions set",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                408,
+                                840,
+                                438
+                            ],
+                            "value": "Drivers is governed by the terms and conditions set"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                408,
+                                936,
+                                438
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                408,
+                                1032,
+                                438
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                408,
+                                1176,
+                                438
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                432,
+                                342,
+                                468
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                432,
+                                384,
+                                468
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "forth in the SuiteAnalytics Connect Drivers End User\nLicense Agreement that can be found at",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                432,
+                                840,
+                                468
+                            ],
+                            "value": "forth in the SuiteAnalytics Connect Drivers End User License Agreement that can be found at"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                432,
+                                936,
+                                468
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                432,
+                                1032,
+                                468
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                432,
+                                1176,
+                                468
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                462,
+                                342,
+                                486
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                462,
+                                384,
+                                486
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "License Agreement that can be found at",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                462,
+                                840,
+                                486
+                            ],
+                            "value": "License Agreement that can be found at"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                462,
+                                936,
+                                486
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                462,
+                                1032,
+                                486
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                462,
+                                1176,
+                                486
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                486,
+                                342,
+                                546
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                486,
+                                384,
+                                546
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "www.netsuite.com/termsofservice. By signing the\nEstimate/Order Form and/or downloading the Drivers,\nyou agree you have reviewed and agree to such terms.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                486,
+                                840,
+                                546
+                            ],
+                            "value": "www.netsuite.com/termsofservice. By signing the Estimate/Order Form and/or downloading the Drivers, you agree you have reviewed and agree to such terms."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                486,
+                                936,
+                                546
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                486,
+                                1032,
+                                546
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                486,
+                                1176,
+                                546
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "NetSuite Premium Support",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                546,
+                                342,
+                                744
+                            ],
+                            "value": "NetSuite Premium Support"
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                546,
+                                384,
+                                744
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "Users of NetSuite Premium Support are authorized to\naccess the services: Users of NetSuite Premium\nSupport are authorized to access the services: 24x7\naccess for critical support; Extended hours for non-\ncritical issues (S3\u2019s); improved Response Time Goals;\nfunctional questions logged via SuiteAnswers, and\nadditional Authorized Contacts are provided (4).\nCurrent URL Terms for support are located at\nwww.netsuite.com/supportterms",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                546,
+                                840,
+                                744
+                            ],
+                            "value": "Users of NetSuite Premium Support are authorized to access the services: Users of NetSuite Premium Support are authorized to access the services: 24x7 access for critical support; Extended hours for non- critical issues (S3\u2019s); improved Response Time Goals; functional questions logged via SuiteAnswers, and additional Authorized Contacts are provided (4). Current URL Terms for support are located at www.netsuite.com/supportterms"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                834,
+                                546,
+                                936,
+                                744
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "0.25",
+                            "value_type": "number",
+                            "bbox": [
+                                930,
+                                546,
+                                1032,
+                                744
+                            ],
+                            "value": "0.25"
+                        },
+                        {
+                            "content": "$1,482.60",
+                            "value_type": "number",
+                            "bbox": [
+                                1074,
+                                546,
+                                1176,
+                                744
+                            ],
+                            "value": "1482.60"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                852,
+                                342,
+                                894
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                852,
+                                384,
+                                894
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "revenue in excess of $20,000,000 in the immediately\npreceding calendar year.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                852,
+                                840,
+                                894
+                            ],
+                            "value": "revenue in excess of $20,000,000 in the immediately preceding calendar year."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                852,
+                                936,
+                                894
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                852,
+                                1032,
+                                894
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                852,
+                                1176,
+                                894
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                72,
+                                888,
+                                342,
+                                960
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "",
+                            "value_type": "text",
+                            "bbox": [
+                                342,
+                                888,
+                                384,
+                                960
+                            ],
+                            "value": ""
+                        },
+                        {
+                            "content": "The following items are not renewed and will be\nremoved from this subscription at the beginning of this\nsubscription term.",
+                            "value_type": "text",
+                            "bbox": [
+                                378,
+                                888,
+                                840,
+                                960
+                            ],
+                            "value": "The following items are not renewed and will be removed from this subscription at the beginning of this subscription term."
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                834,
+                                888,
+                                936,
+                                960
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                930,
+                                888,
+                                1032,
+                                960
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1074,
+                                888,
+                                1176,
+                                960
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 3,
+            "bbox": [
+                72,
+                66,
+                1176,
+                960
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "Invoice # 726346",
+            "2955 Campus Drive",
+            "Suite 100",
+            "San Mateo CA 94403-2511",
+            "United States",
+            "800 762 5524",
+            "Tax ID No.: 94-2805249",
+            "Bill To",
+            "Escalon Services fbo Wiser Solutions",
+            "2345 Yale St",
+            "First Floor",
+            "Palo Alto CA 94306",
+            "United States",
+            "Invoice Date",
+            "Ship To",
+            "Escalon Services fbo Wiser Solutions",
+            "2345 Yale St",
+            "First Floor",
+            "Palo Alto CA 94306",
+            "United States",
+            "Terms",
+            "18 February 2019",
+            "Currency",
+            "FX Rate",
+            "USD",
+            "1.00",
+            "Item",
+            "Due Date",
+            "Sales Rep",
+            "21 March 2019",
+            "Hecht, Trevor",
+            "PO #",
+            "Estimate #",
+            "Estimate #549599",
+            "Description",
+            "Quantity",
+            "Ordered",
+            "NetSuite Finance as a Service Sm. NetSuite Finance-as-a-Service Limited Cloud Service -",
+            "Biz/OneWorld Cloud Service",
+            "Small Business OneWorld (\"FaaS LE - SmallBiz",
+            "OneWorld\") includes:",
+            "** NetSuite ERP with G/L, Accounts Payable,",
+            "Purchasing, Inventory, Order Entry, A/R, Expense",
+            "Reporting, Advanced Shipping with integrated UPS or",
+            "FedEx shipping depending on your location",
+            "** NetSuite CRM Sales Force Automation with quote",
+            "and order management, Marketing Automation with",
+            "campaigns; Customer Service/Support",
+            "** Customer, Vendor, Partner, Employee, and Contact",
+            "data management",
+            "** Productivity tools including contacts/calendar/events",
+            "** Real-time Dashboards with key business metrics,",
+            "report snapshots",
+            "** Customer Center and Vendor Center logins",
+            "** 3 BPO Users",
+            "** NetSuite OneWorld Cloud Service included.",
+            "Customer must provide the # of subs to provision, but",
+            "subs are \u201cunlimited\u201d within a single country. Additional",
+            "countries may be purchased separately",
+            "** NetSuite Basic Customer Support. Current URL",
+            "Terms for support are located at www.netsuite.com/",
+            "supportterms.",
+            "** 30,000 integrated bulk mail merges per month",
+            "** 120,000 campaign emails per year with no single",
+            "blast exceeding 10,000 recipients",
+            "** 5 GB File Cabinet and 5 GB Data storage per",
+            "account",
+            "Page 1 of 5",
+            "1",
+            "Quantity",
+            "Billed",
+            "0.25",
+            "Amount",
+            "$777.00"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "1499827093",
+            "checks": {},
+            "score": 0.9606929343514956,
+            "value_type": "text",
+            "bbox": [
+                173,
+                282,
+                265,
+                306
+            ],
+            "title": "Bank Account",
+            "page": 4,
+            "value": "1499827093",
+            "name": "account_num"
+        },
+        {
+            "content": "2,212.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9837750726945018,
+            "value_type": "number",
+            "bbox": [
+                900,
+                234,
+                962,
+                258
+            ],
+            "title": "Amount Due",
+            "page": 4,
+            "value": "2212.00",
+            "name": "amount_due"
+        },
+        {
+            "content": "2,212.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9695324931340293,
+            "value_type": "number",
+            "bbox": [
+                1091,
+                1044,
+                1161,
+                1068
+            ],
+            "title": "Total Amount",
+            "page": 3,
+            "value": "2212.00",
+            "name": "amount_total"
+        },
+        {
+            "content": "2,212.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9683326103838733,
+            "value_type": "number",
+            "bbox": [
+                1091,
+                984,
+                1161,
+                1008
+            ],
+            "title": "Tax Base Total",
+            "page": 3,
+            "value": "2212.00",
+            "name": "amount_total_base"
+        },
+        {
+            "content": "0.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9754412319543564,
+            "value_type": "number",
+            "bbox": [
+                1127,
+                1008,
+                1161,
+                1038
+            ],
+            "title": "Tax Total",
+            "page": 3,
+            "value": "0.00",
+            "name": "amount_total_tax"
+        },
+        {
+            "content": "BOFAUS3N",
+            "checks": {},
+            "score": 0.9771283121066688,
+            "value_type": "text",
+            "bbox": [
+                180,
+                342,
+                266,
+                360
+            ],
+            "title": "BIC/SWIFT",
+            "page": 4,
+            "value": "BOFAUS3N",
+            "name": "bic"
+        },
+        {
+            "content": "4892652",
+            "checks": {},
+            "score": 0.799962695670247,
+            "value_type": "text",
+            "bbox": [
+                890,
+                138,
+                962,
+                162
+            ],
+            "title": "Customer Number",
+            "page": 4,
+            "value": "4892652",
+            "name": "customer_id"
+        },
+        {
+            "content": "21 March 2019",
+            "checks": {},
+            "score": 0.9770267501719245,
+            "value_type": "date",
+            "bbox": [
+                626,
+                606,
+                748,
+                636
+            ],
+            "title": "Date Due",
+            "page": 0,
+            "value": "2019-03-21",
+            "name": "date_due"
+        },
+        {
+            "content": "18 February 2019",
+            "checks": {},
+            "score": 0.9933148985134641,
+            "value_type": "date",
+            "bbox": [
+                78,
+                606,
+                222,
+                636
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2019-02-18",
+            "name": "date_issue"
+        },
+        {
+            "content": "726346",
+            "checks": {},
+            "score": 0.9954853113801689,
+            "value_type": "text",
+            "bbox": [
+                1069,
+                66,
+                1165,
+                108
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "726346",
+            "name": "invoice_id"
+        },
+        {
+            "content": "2345 Yale St\nFirst Floor\nPalo Alto CA 94306\nUnited States",
+            "checks": {},
+            "score": 0.8751163152826255,
+            "value_type": "text",
+            "bbox": [
+                66,
+                438,
+                230,
+                528
+            ],
+            "title": "Recipient Address",
+            "page": 0,
+            "value": "2345 Yale St\nFirst Floor\nPalo Alto CA 94306\nUnited States",
+            "name": "recipient_address"
+        },
+        {
+            "content": "15612 Collections Center Drive",
+            "checks": {},
+            "score": 0.6290052328850608,
+            "value_type": "text",
+            "bbox": [
+                95,
+                180,
+                317,
+                204
+            ],
+            "title": "Recipient Address Line",
+            "page": 4,
+            "value": "15612 Collections Center Drive",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "2345 Yale St",
+            "checks": {},
+            "score": 0.8139469804942244,
+            "value_type": "text",
+            "bbox": [
+                74,
+                438,
+                174,
+                462
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "2345 Yale St",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Bank of America Lockbox Services",
+            "checks": {},
+            "score": 0.31678241187142614,
+            "value_type": "text",
+            "bbox": [
+                95,
+                168,
+                343,
+                186
+            ],
+            "title": "Recipient Address Line",
+            "page": 4,
+            "value": "Bank of America Lockbox Services",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Chicago, IL 60693",
+            "checks": {},
+            "score": 0.5914988681192279,
+            "value_type": "text",
+            "bbox": [
+                93,
+                198,
+                267,
+                228
+            ],
+            "title": "Recipient Address Line",
+            "page": 4,
+            "value": "Chicago, IL 60693",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "First Floor",
+            "checks": {},
+            "score": 0.8801611651113372,
+            "value_type": "text",
+            "bbox": [
+                66,
+                456,
+                174,
+                486
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "First Floor",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Palo Alto CA 94306",
+            "checks": {},
+            "score": 0.9309604348563174,
+            "value_type": "text",
+            "bbox": [
+                74,
+                480,
+                230,
+                510
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Palo Alto CA 94306",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "San Mateo CA 94403-2511",
+            "checks": {},
+            "score": 0.2301870442202354,
+            "value_type": "text",
+            "bbox": [
+                73,
+                240,
+                345,
+                276
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "San Mateo CA 94403-2511",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "United States",
+            "checks": {},
+            "score": 0.8834510325087643,
+            "value_type": "text",
+            "bbox": [
+                74,
+                504,
+                182,
+                528
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "United States",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Escalon Services fbo Wiser Solutions",
+            "checks": {},
+            "score": 0.9312761465503813,
+            "value_type": "text",
+            "bbox": [
+                74,
+                414,
+                378,
+                444
+            ],
+            "title": "Recipient Name",
+            "page": 0,
+            "value": "Escalon Services fbo Wiser Solutions",
+            "name": "recipient_name"
+        },
+        {
+            "content": "2955 Campus Drive\nSuite 100\nSan Mateo CA 94403-2511\nUnited States",
+            "checks": {},
+            "score": 0.8406658170955964,
+            "value_type": "text",
+            "bbox": [
+                63,
+                186,
+                345,
+                300
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "2955 Campus Drive\nSuite 100\nSan Mateo CA 94403-2511\nUnited States",
+            "name": "sender_address"
+        },
+        {
+            "content": "15612 Collections Center Drive",
+            "checks": {},
+            "score": 0.2889600556650959,
+            "value_type": "text",
+            "bbox": [
+                96,
+                180,
+                318,
+                204
+            ],
+            "title": "Supplier Address Line",
+            "page": 4,
+            "value": "15612 Collections Center Drive",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "2955 Campus Drive",
+            "checks": {},
+            "score": 0.8506368008873463,
+            "value_type": "text",
+            "bbox": [
+                73,
+                186,
+                271,
+                216
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "2955 Campus Drive",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Chicago, IL 60693",
+            "checks": {},
+            "score": 0.32464145876399975,
+            "value_type": "text",
+            "bbox": [
+                96,
+                198,
+                226,
+                228
+            ],
+            "title": "Supplier Address Line",
+            "page": 4,
+            "value": "Chicago, IL 60693",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "San Mateo CA 94403-2511",
+            "checks": {},
+            "score": 0.8375060246711827,
+            "value_type": "text",
+            "bbox": [
+                73,
+                240,
+                345,
+                276
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "San Mateo CA 94403-2511",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Suite 100",
+            "checks": {},
+            "score": 0.8367932935739821,
+            "value_type": "text",
+            "bbox": [
+                71,
+                210,
+                225,
+                246
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Suite 100",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "United States",
+            "checks": {},
+            "score": 0.8378831114564009,
+            "value_type": "text",
+            "bbox": [
+                63,
+                270,
+                269,
+                300
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "United States",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Oracle America, Inc.",
+            "checks": {},
+            "score": 0.4828856775140885,
+            "value_type": "text",
+            "bbox": [
+                95,
+                144,
+                241,
+                168
+            ],
+            "title": "Supplier Name",
+            "page": 4,
+            "value": "Oracle America, Inc.",
+            "name": "sender_name"
+        },
+        {
+            "content": "94-2805249",
+            "checks": {},
+            "score": 0.6742308508147163,
+            "value_type": "text",
+            "bbox": [
+                185,
+                324,
+                315,
+                354
+            ],
+            "title": "Supplier VAT Number",
+            "page": 0,
+            "value": "94-2805249",
+            "name": "sender_vat_id"
+        },
+        {
+            "content": [
+                {
+                    "content": "2,212.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.31673387250444857,
+                    "value_type": "number",
+                    "bbox": [
+                        1091,
+                        984,
+                        1161,
+                        1008
+                    ],
+                    "title": "Tax Base",
+                    "page": 3,
+                    "value": "2212.00",
+                    "name": "tax_detail_base"
+                },
+                {
+                    "content": "0.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.6557351529743802,
+                    "value_type": "number",
+                    "bbox": [
+                        1127,
+                        1014,
+                        1161,
+                        1038
+                    ],
+                    "title": "Tax Amount",
+                    "page": 3,
+                    "value": "0.00",
+                    "name": "tax_detail_tax"
+                },
+                {
+                    "content": "2,212.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.6548371573101204,
+                    "value_type": "number",
+                    "bbox": [
+                        1091,
+                        1050,
+                        1161,
+                        1068
+                    ],
+                    "title": "Tax Total",
+                    "page": 3,
+                    "value": "2212.00",
+                    "name": "tax_detail_total"
+                }
+            ],
+            "score": 0.31673387250444857,
+            "name": "tax_details",
+            "title": "Tax Details",
+            "page": 3,
+            "bbox": [
+                1091,
+                984,
+                1161,
+                1008
+            ]
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "Invoice # 726346",
+                "2955 Campus Drive",
+                "Suite 100",
+                "San Mateo CA 94403-2511",
+                "United States",
+                "800 762 5524",
+                "Tax ID No.: 94-2805249",
+                "Bill To",
+                "Escalon Services fbo Wiser Solutions",
+                "2345 Yale St",
+                "First Floor",
+                "Palo Alto CA 94306",
+                "United States",
+                "Invoice Date",
+                "Ship To",
+                "Escalon Services fbo Wiser Solutions",
+                "2345 Yale St",
+                "First Floor",
+                "Palo Alto CA 94306",
+                "United States",
+                "Terms",
+                "18 February 2019",
+                "Currency",
+                "FX Rate",
+                "USD",
+                "1.00",
+                "Item",
+                "Due Date",
+                "Sales Rep",
+                "21 March 2019",
+                "Hecht, Trevor",
+                "PO #",
+                "Estimate #",
+                "Estimate #549599",
+                "Description",
+                "Quantity",
+                "Ordered",
+                "NetSuite Finance as a Service Sm. NetSuite Finance-as-a-Service Limited Cloud Service -",
+                "Biz/OneWorld Cloud Service",
+                "Small Business OneWorld (\"FaaS LE - SmallBiz",
+                "OneWorld\") includes:",
+                "** NetSuite ERP with G/L, Accounts Payable,",
+                "Purchasing, Inventory, Order Entry, A/R, Expense",
+                "Reporting, Advanced Shipping with integrated UPS or",
+                "FedEx shipping depending on your location",
+                "** NetSuite CRM Sales Force Automation with quote",
+                "and order management, Marketing Automation with",
+                "campaigns; Customer Service/Support",
+                "** Customer, Vendor, Partner, Employee, and Contact",
+                "data management",
+                "** Productivity tools including contacts/calendar/events",
+                "** Real-time Dashboards with key business metrics,",
+                "report snapshots",
+                "** Customer Center and Vendor Center logins",
+                "** 3 BPO Users",
+                "** NetSuite OneWorld Cloud Service included.",
+                "Customer must provide the # of subs to provision, but",
+                "subs are \u201cunlimited\u201d within a single country. Additional",
+                "countries may be purchased separately",
+                "** NetSuite Basic Customer Support. Current URL",
+                "Terms for support are located at www.netsuite.com/",
+                "supportterms.",
+                "** 30,000 integrated bulk mail merges per month",
+                "** 120,000 campaign emails per year with no single",
+                "blast exceeding 10,000 recipients",
+                "** 5 GB File Cabinet and 5 GB Data storage per",
+                "account",
+                "Page 1 of 5",
+                "1",
+                "Quantity",
+                "Billed",
+                "0.25",
+                "Amount",
+                "$777.00"
+            ],
+            [
+                "Item",
+                "Description",
+                "Quantity",
+                "Ordered",
+                "Quantity",
+                "Billed",
+                "Amount",
+                "NetSuite OneWorld Additional NetSuite OneWorld Additional Country/Currency",
+                "Country/Currency Cloud Service",
+                "includes:",
+                "** Management of multiple subsidiaries, business units",
+                "and legal entities",
+                "** Support of consistent processes across countries",
+                "** Unlimited subsidiaries in a single country for a single",
+                "currency",
+                "** Comprehensive Language Management",
+                "** Support for 19 different languages",
+                "** Comprehensive Multi-Currency Management",
+                "** Currency support for 190+ different local currencies",
+                "** Audit and Compliance Reporting",
+                "** Always-on audit trail, built-in analytics, access logs",
+                "and workflow",
+                "** Supports global compliance of internal and external",
+                "processes",
+                "** Real-time global business insight",
+                "** Configurable Tax Engine",
+                "** Pre-configuration of tax codes and localized",
+                "reporting for over 50 countries",
+                "** Flexible indirect tax engine automates calculations",
+                "** Cross border sales and Intrastat reporting across all",
+                "27 EU countries",
+                "** Indirect Tax Compliance; Payment processing",
+                "** Pay vendor bills and employee expenses across the",
+                "globe",
+                "** Take payments directly from customers.",
+                "3",
+                "0.75",
+                "$7,191.00",
+                "NetSuite OneWorld Add'l Sub/ NetSuite OneWorld Additional Sub in Existing Country",
+                "Existing Country Cloud Service",
+                "includes:",
+                "** Management of multiple subsidiaries, business units",
+                "and legal entities",
+                "** Support of consistent processes across countries",
+                "** Unlimited subsidiaries in a single country",
+                "** Comprehensive Language Management",
+                "** Support for 19 different languages",
+                "** Comprehensive Multi-Currency Management",
+                "** Currency support for 190+ different local currencies",
+                "** Audit and Compliance Reporting",
+                "** Always-on audit trail, built-in analytics, access logs",
+                "and workflow",
+                "** Supports global compliance of internal and external",
+                "processes",
+                "** Real-time global business insight",
+                "** Configurable Tax Engine",
+                "** Pre-configuration of tax codes and localized",
+                "reporting for over 50 countries",
+                "** Flexible indirect tax engine automates calculations",
+                "** Cross border sales and Intrastat reporting across all",
+                "27 EU countries",
+                "** Indirect Tax Compliance; Payment processing",
+                "** Pay vendor bills and employee expenses across the",
+                "globe",
+                "** Take payments directly from customers.",
+                "6",
+                "1.5",
+                "$0.00",
+                "NetSuite BPO Cloud Service User",
+                "BPO User means a User login credential created by",
+                "BPO for an employee of BPO or an employee of BPO\u2019s",
+                "Affiliate.",
+                "2",
+                "0.5",
+                "$594.00",
+                "NetSuite BPO Cloud Service User",
+                "BPO User means a User login credential created by",
+                "BPO for an employee of BPO or an employee of BPO\u2019s",
+                "Affiliate.",
+                "4",
+                "1",
+                "$1,188.00",
+                "Page 2 of 5"
+            ],
+            [
+                "Item",
+                "Description",
+                "Quantity",
+                "Ordered",
+                "NetSuite BPO Client Restricted Client Restricted User means a User login credential",
+                "Cloud Service User",
+                "created by BPO for Client\u2019s employees or contractors. A",
+                "Client Restricted User is limited to the following access",
+                "(as further limited by the specific Suite Offering):",
+                "Quantity",
+                "Billed",
+                "Amount",
+                "1",
+                "0.25",
+                "$297.00",
+                "3",
+                "0.75",
+                "$891.00",
+                "NetSuite BPO Client Operational Client Operational User means a User login credential",
+                "Cloud Service User",
+                "created by BPO for Client\u2019s employees or contractors. A",
+                "Client Operational User may not be assigned the",
+                "system-defined roles of \u201cAdministrator\u201d or \u201cFull Access\u201d",
+                "(as such terms are defined in the NetSuite Help",
+                "Documentation), or any configured role that is",
+                "materially similar to such system-defined roles of",
+                "Administrator or Full Access or grants right to create",
+                "User login credentials.",
+                "2",
+                "0.5",
+                "$594.00",
+                "NetSuite Financial Management Mid- Advanced Financials:",
+                "Market Cloud Service",
+                "** Advanced Budgeting",
+                "** Expense Allocations",
+                "** Amortization Schedules",
+                "** Advanced Billing Schedules",
+                "** Milestone Billing (when used with Project",
+                "Management)",
+                "** Statistical Accounting",
+                "** Dynamic Allocation",
+                "1",
+                "0.25",
+                "$1,797.00",
+                "i) 'approval' access to transaction record types that",
+                "have a general ledger impact;",
+                "ii) 'create', 'edit', and 'approval' access to transaction",
+                "record types that do not have a general ledger impact",
+                "(excluding the standard transaction record types:",
+                "\u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d)",
+                "iii) 'create' and 'edit' access to vendors, customers,",
+                "partners, and contacts;",
+                "iv) the same level of access allowed under the default",
+                "role of \u201cEmployee Center\u201d as defined by the Service;",
+                "v) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom",
+                "record types; and",
+                "vi) 'view' access to all record types.",
+                "NetSuite BPO Client Restricted Client Restricted User means a User login credential",
+                "Cloud Service User",
+                "created by BPO for Client\u2019s employees or contractors. A",
+                "Client Restricted User is limited to the following access",
+                "(as further limited by the specific Suite Offering):",
+                "i) 'approval' access to transaction record types that",
+                "have a general ledger impact;",
+                "ii) 'create', 'edit', and 'approval' access to transaction",
+                "record types that do not have a general ledger impact",
+                "(excluding the standard transaction record types:",
+                "\u201cProject,\u201d \u201cCase,\u201d \u201cIssue\u201d and \u201cKnowledge Base\u201d)",
+                "iii) 'create' and 'edit' access to vendors, customers,",
+                "partners, and contacts;",
+                "iv) the same level of access allowed under the default",
+                "role of \u201cEmployee Center\u201d as defined by the Service;",
+                "v) \u2018create\u2019 and \u2018edit\u2019 access to instances of custom",
+                "record types; and",
+                "vi) 'view' access to all record types.",
+                "Page 3 of 5"
+            ],
+            [
+                "Item",
+                "Description",
+                "Quantity",
+                "Ordered",
+                "Quantity",
+                "Billed",
+                "Amount",
+                "NetSuite SuiteAnalytics Connect Mid- The SuiteAnalytics Connect Cloud Service enables you",
+                "Market Cloud Service",
+                "to access and query your NetSuite data using SQL",
+                "through the following mainstream database standards:",
+                "ODBC, JDBC and ADO.NET. The SuiteAnalytics",
+                "Connect Cloud Service requires separately licensed",
+                "drivers for ODBC, JDBC and ADO.Net (\u201cSuiteAnalytics",
+                "Connect Drivers\u201d or \u201cDrivers\u201d), which NetSuite provides",
+                "to you at no additional cost if you have procured the",
+                "SuiteAnalytics Connect Cloud Service. Access to",
+                "SuiteAnalytics Connect Cloud Service is provided",
+                "pursuant to the Subscription Services Agreement,",
+                "which you previously accepted when you procured",
+                "NetSuite\u2019s hosted business solution. Your use of the",
+                "Drivers is governed by the terms and conditions set",
+                "forth in the SuiteAnalytics Connect Drivers End User",
+                "License Agreement that can be found at",
+                "www.netsuite.com/termsofservice. By signing the",
+                "Estimate/Order Form and/or downloading the Drivers,",
+                "you agree you have reviewed and agree to such terms.",
+                "1",
+                "0.25",
+                "$1,497.00",
+                "NetSuite Premium Support",
+                "1",
+                "0.25",
+                "$1,482.60",
+                "Users of NetSuite Premium Support are authorized to",
+                "access the services: Users of NetSuite Premium",
+                "Support are authorized to access the services: 24x7",
+                "access for critical support; Extended hours for non-",
+                "critical issues (S3\u2019s); improved Response Time Goals;",
+                "functional questions logged via SuiteAnswers, and",
+                "additional Authorized Contacts are provided (4).",
+                "Current URL Terms for support are located at",
+                "www.netsuite.com/supportterms",
+                "Subtotal",
+                "Discount",
+                "$16,308.60",
+                "Discount",
+                "$-14,096.60",
+                "Partner affirms that client did not Report gross annual",
+                "revenue in excess of $20,000,000 in the immediately",
+                "preceding calendar year.",
+                "The following items are not renewed and will be",
+                "removed from this subscription at the beginning of this",
+                "subscription term.",
+                "Page 4 of 5",
+                "Subtotal",
+                "$2,212.00",
+                "Tax Total",
+                "$0.00",
+                "Total",
+                "$2,212.00"
+            ],
+            [
+                "Remittance Slip",
+                "Payment Address:",
+                "Oracle America, Inc.",
+                "Bank of America Lockbox Services",
+                "15612 Collections Center Drive",
+                "Chicago, IL 60693",
+                "__________________________",
+                "Payment by Wire:",
+                "Bank of America",
+                "Account #: 1499827093",
+                "Account Name: Oracle America, Inc.",
+                "Bank Routing No: 026009593",
+                "Swift Code: BOFAUS3N",
+                "Customer",
+                "4892652 Escalon - BPO :",
+                "Escalon Services fbo Wiser",
+                "Solutions Inc.",
+                "Invoice #",
+                "726346",
+                "Amount Due",
+                "$2,212.00",
+                "Amount Paid",
+                "________________",
+                "Payments Online",
+                "To pay via credit card, please go to this link to login to your Payment/",
+                "Customer Center role:",
+                "https://system.netsuite.com/app/login/secure/privatelogin.nl?",
+                "c=NLCORP",
+                "Alternately, you can call 877.638.7848 OPTION 4 for assistance.",
+                "Page 5 of 5"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_0.png",
+        "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_1.png",
+        "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_2.png",
+        "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_3.png",
+        "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_4.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_7763788157a94a1cbfadc437_0.png",
+        "https://all.rir.rossum.ai/img/o_7763788157a94a1cbfadc437_1.png",
+        "https://all.rir.rossum.ai/img/o_7763788157a94a1cbfadc437_2.png",
+        "https://all.rir.rossum.ai/img/o_7763788157a94a1cbfadc437_3.png",
+        "https://all.rir.rossum.ai/img/o_7763788157a94a1cbfadc437_4.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/7763788157a94a1cbfadc437_0.png"
+}

@@ -1,0 +1,6 @@
+---
+merge_icons:
+  - name: "myicon"
+    from: images.png
+    size: 30
+    localte: center

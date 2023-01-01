@@ -1,0 +1,8 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# In Windows pexpect does not work, so instead use paramiko-expect
+paramiko
+scp

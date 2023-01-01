@@ -1,0 +1,13 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for checking system
+requests
+psutil
+speedtest-cli
+
+# for screen
+screeninfo
+pyautogui

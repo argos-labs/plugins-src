@@ -1,0 +1,16 @@
+mimi
+
+https://mimi.readme.io/docs/first-step#section-developer-console-%E3%81%B8%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3
+
+application id: 
+client id: 3c8d2e7547e14097be27c7eadc48120d
+secret key: b2ebdcb1cdad4ccd19c6429a6ec074ab1bd8fd68f578d0ef4ad0a202bbfb565e99eb71757fc7fe5e1c5cc85cfb6ca28ef2e4fe66da08dc28f3b58fb0a1b7fd25a0989a9aec0970114a7c88cdb290a746e8c53e4a6c620945b901075b1798f37b74e961b1640d152f2ddb6c151621ce6300ce96daf94aaea5b060b19ee7ebc2e9a95d5013510d6c5057f345a64821001e92f9db4cab8a8e6010f87b697cd7311000b7cdfe62f759031a41fecbc1260387f3b0f106a4d8de352f4e3f6cdc649b7c7057dd74603a2320330d2e3383f78711e07e6fb7444b15ef9c52ba8b9ec0ba64a082aa2a24a919a6fc166113f48165d3bb1bc0b1f207e69f4bf3426e8c94a4b8
+
+
+다케시의 샘플을 보니, application_id 가 client_id 앞에 붙어야 함!
+
+curl -X POST https://auth.mimi.fd.ai/v2/token \
+    -F grant_type="https://auth.mimi.fd.ai/grant_type/client_credentials" \
+    -F client_id="7246da6c9b904c70b397cc9d79c87df3:1bb787b35c0e4e02927fd265d36b6a08" \
+    -F client_secret="9d80babb8f6978f9edd1025a7711bc97c89403a0ad3141cc08e5cb52c23cccce6c666c2b171fcace7bce37d600c78bfcd23e592408a6dec13c98568bd4405b64a271f26364dd20b3a463463bd97e3ceb8362ce5654ffaa6e244be4845c0b2112ac3dd6943b84c2d9e6029df70c9ba2b5ee9bda61a5121549be920f66b37f126a496df3a839ee52f5ae71c021c5eb66c623558840cdbc874108e734c1271f1bfdafa9f98262728d7c607b00e6dd00d6c9bffa5f790f48b5d801195b9ba4156bd7dc500445dd97ac2eac4379f88dde58c24f24606d5f5f9693587212cbc396651de387909132c474ae3720269ce748bd12412f0df0f1000cbcc6bf4b31cd4948d6" \
+    --form-string scope="https://apis.mimi.fd.ai/auth/asr/websocket-api-service;https://apis.mimi.fd.ai/auth/asr/http-api-service"

@@ -1,0 +1,55 @@
+---
+csv:
+  or:
+  - columns:
+    - header: "은행"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[5]/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "]"
+        index: 0
+      re-replace:
+        from: "[[\\s]+"
+        to: ""
+    - header: "계좌번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[5]/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "]"
+        index: 1
+      re-replace:
+        from: "\\s+"
+        to: ""
+  - columns:
+    - header: "은행"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[5]/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "]"
+        index: 0
+      re-replace:
+        from: "[[\\s]+"
+        to: ""
+    - header: "계좌번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[5]/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "]"
+        index: 1
+      re-replace:
+        from: "\\s+"
+        to: ""
+
+skip-empty-row: true

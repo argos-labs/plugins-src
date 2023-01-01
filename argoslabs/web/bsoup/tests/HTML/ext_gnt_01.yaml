@@ -1,0 +1,17 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: year
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+      split: 2
+    - header: month
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+      split: 3
+
+skip-empty-row: true

@@ -1,0 +1,10 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for TTS
+gTTS
+
+# for play sound
+playsound

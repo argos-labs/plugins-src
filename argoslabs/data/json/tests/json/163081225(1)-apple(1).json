@@ -1,0 +1,213 @@
+{
+    "documents_response": {
+        "status": "200",
+        "message": "The request has been successfully processed",
+        "document": {
+            "@revision": "2",
+            "document_id": "163081225",
+            "document_status": "indexing",
+            "number_of_pages": "1",
+            "api_download_status": "active",
+            "free_form": null,
+            "classification": "basic",
+            "classification_class": "3416063",
+            "classification_design": "undetected",
+            "document_url": "https://web1-akl.xtracta.com/akl_northcote_storage2_datasource4/1/da/88/iq231394738-ZHTb0vMh.pdf",
+            "image_url": "https://web1-akl.xtracta.com/akl_northcote_storage2_datasource4/1/36/d6/ds163081225-iq231394738-ZHTb0vMh7356-1-800.jpg",
+            "field_data": {
+                "field": [
+                    {
+                        "field_id": "38883985",
+                        "field_name": "Supplier Name",
+                        "field_value": null,
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38884003",
+                        "field_name": "Supplier VAT Number",
+                        "field_value": "Customer Information",
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38884001",
+                        "field_name": "Supplier Bank Account Number",
+                        "field_value": "GB314034060",
+                        "field_extraction_confidence": "6"
+                    },
+                    {
+                        "field_id": "38884002",
+                        "field_name": "Supplier Bank Account Sort Code",
+                        "field_value": null,
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38884004",
+                        "field_name": "Supplier Address",
+                        "field_value": "41 Corsham Street london, Greater London N1 6DR GB",
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38883986",
+                        "field_name": "Invoice Number",
+                        "field_value": "S060274305",
+                        "field_extraction_confidence": "47"
+                    },
+                    {
+                        "field_id": "38883987",
+                        "field_name": "Invoice Date",
+                        "field_value": "07 Nov 2019",
+                        "field_extraction_confidence": "49"
+                    },
+                    {
+                        "field_id": "38883991",
+                        "field_name": "Due Date",
+                        "field_value": null,
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38883988",
+                        "field_name": "Net Total",
+                        "field_value": "3.03",
+                        "field_extraction_confidence": "77"
+                    },
+                    {
+                        "field_id": "38883989",
+                        "field_name": "VAT",
+                        "field_value": "3.03",
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38883990",
+                        "field_name": "Gross Total",
+                        "field_value": "3.03",
+                        "field_extraction_confidence": "40"
+                    },
+                    {
+                        "field_id": "38884994",
+                        "field_name": "Number of Pages",
+                        "field_value": "1",
+                        "field_extraction_confidence": "100"
+                    }
+                ],
+                "field_set": {
+                    "field_set_id": "6202059",
+                    "field_set_name": "Items",
+                    "row": [
+                        {
+                            "field": [
+                                {
+                                    "field_id": "38883992",
+                                    "field_name": "Description",
+                                    "field_value": "Spend",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883993",
+                                    "field_name": "Quantity",
+                                    "field_value": "3",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883994",
+                                    "field_name": "Unit Price",
+                                    "field_value": "Installs",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883995",
+                                    "field_name": "Line Total",
+                                    "field_value": null,
+                                    "field_extraction_confidence": null
+                                }
+                            ]
+                        },
+                        {
+                            "field": [
+                                {
+                                    "field_id": "38883992",
+                                    "field_name": "Description",
+                                    "field_value": "Spend",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883993",
+                                    "field_name": "Quantity",
+                                    "field_value": "5",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883994",
+                                    "field_name": "Unit Price",
+                                    "field_value": "Taps",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883995",
+                                    "field_name": "Line Total",
+                                    "field_value": null,
+                                    "field_extraction_confidence": null
+                                }
+                            ]
+                        },
+                        {
+                            "field": [
+                                {
+                                    "field_id": "38883992",
+                                    "field_name": "Description",
+                                    "field_value": null,
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883993",
+                                    "field_name": "Quantity",
+                                    "field_value": "Subtotal",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883994",
+                                    "field_name": "Unit Price",
+                                    "field_value": null,
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883995",
+                                    "field_name": "Line Total",
+                                    "field_value": null,
+                                    "field_extraction_confidence": null
+                                }
+                            ]
+                        },
+                        {
+                            "field": [
+                                {
+                                    "field_id": "38883992",
+                                    "field_name": "Description",
+                                    "field_value": null,
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883993",
+                                    "field_name": "Quantity",
+                                    "field_value": "at 0.00%",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883994",
+                                    "field_name": "Unit Price",
+                                    "field_value": "VAT",
+                                    "field_extraction_confidence": "0"
+                                },
+                                {
+                                    "field_id": "38883995",
+                                    "field_name": "Line Total",
+                                    "field_value": null,
+                                    "field_extraction_confidence": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

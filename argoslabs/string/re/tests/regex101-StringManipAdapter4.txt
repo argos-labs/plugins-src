@@ -1,0 +1,1309 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<!-- Google Tag Manager -->
+<script type="text/plain" data-cli-class="cli-blocker-script" data-cli-label="Google Tag Manager" data-cli-script-type="analytics" data-cli-block="true" data-cli-block-if-ccpa-optout="false" data-cli-element-position="head">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBRLFWC');</script>
+<!-- End Google Tag Manager -->
+<!-- Matmat Code -->
+<script type="text/javascript">var _paq=window._paq=window._paq||[];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="//matmat.aimultiple.com/";_paq.push(['setTrackerUrl',u+'js/']);_paq.push(['setSiteId','1']);_paq.push(['enableHeartBeatTimer']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=true;g.src=u+'js/';s.parentNode.insertBefore(g,s);})();</script>
+<!-- End Matmat Code -->	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>No Code RPA | AIMultiple: AI Use cases &amp; Tools to Grow Your Business</title>
+<link rel="alternate" hreflang="en" href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/"/>
+<link rel="alternate" hreflang="zh" href="https://research.aimultiple.com/zh/category/rpa/no-code-rpa-zh-hans/"/>
+<!-- All in One SEO 4.1.0.2 -->
+<link rel="canonical" href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/"/>
+<meta name="google" content="nositelinkssearchbox"/>
+<script type="application/ld+json" class="aioseo-schema">
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/research.aimultiple.com\/#website","url":"https:\/\/research.aimultiple.com\/","name":"AIMultiple: AI Use cases & Tools to Grow Your Business","description":"Transparent, Data-driven, Practical AI Industry Analysis","publisher":{"@id":"https:\/\/research.aimultiple.com\/#organization"}},{"@type":"Organization","@id":"https:\/\/research.aimultiple.com\/#organization","name":"AIMultiple","url":"https:\/\/research.aimultiple.com\/","logo":{"@type":"ImageObject","@id":"https:\/\/research.aimultiple.com\/#organizationLogo","url":"https:\/\/research.aimultiple.com\/wp-content\/uploads\/2020\/12\/AIMultiple-logo.png","width":"1020","height":"380"},"image":{"@id":"https:\/\/research.aimultiple.com\/#organizationLogo"},"sameAs":["https:\/\/www.facebook.com\/aimultiple\/","https:\/\/twitter.com\/AIMultiple","https:\/\/www.pinterest.com\/aimultiple\/","https:\/\/www.linkedin.com\/company\/aimultiple"]},{"@type":"BreadcrumbList","@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/research.aimultiple.com\/#listItem","position":"1","item":{"@id":"https:\/\/research.aimultiple.com\/#item","name":"Home","description":"AIMultiple features AI usecases, tools, best practices in marketing, sales, customer service, tech, IT, fintech, healthcare, retail, other sectors & functions","url":"https:\/\/research.aimultiple.com\/"},"nextItem":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/#listItem"},{"@type":"ListItem","@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/#listItem","position":"2","item":{"@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/#item","name":"Robotic Process Automation (RPA)","url":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/"},"nextItem":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#listItem","previousItem":"https:\/\/research.aimultiple.com\/#listItem"},{"@type":"ListItem","@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#listItem","position":"3","item":{"@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#item","name":"No Code RPA","url":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/"},"previousItem":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/#listItem"}]},{"@type":"CollectionPage","@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#collectionpage","url":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/","name":"No Code RPA | AIMultiple: AI Use cases & Tools to Grow Your Business","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/research.aimultiple.com\/#website"},"breadcrumb":{"@id":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/#breadcrumblist"}}]}
+</script>
+<!-- All in One SEO -->
+<link rel='dns-prefetch' href='//www.google.com'/>
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect'/>
+<link rel="alternate" type="application/rss+xml" title="AIMultiple: AI Use cases &amp; Tools to Grow Your Business &raquo; Feed" href="https://research.aimultiple.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="AIMultiple: AI Use cases &amp; Tools to Grow Your Business &raquo; Comments Feed" href="https://research.aimultiple.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="AIMultiple: AI Use cases &amp; Tools to Grow Your Business &raquo; No Code RPA Category Feed" href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/feed/"/>
+<link rel="preload" href="https://research.aimultiple.com/wp-content/plugins/powerkit/assets/fonts/powerkit-icons.woff" as="font" type="font/woff" crossorigin>
+<!-- research.aimultiple.com is managing ads with Advanced Ads 1.24.2 --><script data-wpfc-render="false">advanced_ads_ready=function(){var fns=[],listener,doc=typeof document==="object"&&document,hack=doc&&doc.documentElement.doScroll,domContentLoaded="DOMContentLoaded",loaded=doc&&(hack?/^loaded|^c/:/^loaded|^i|^c/).test(doc.readyState);if(!loaded&&doc){listener=function(){doc.removeEventListener(domContentLoaded,listener);window.removeEventListener("load",listener);loaded=1;while(listener=fns.shift())listener()};doc.addEventListener(domContentLoaded,listener);window.addEventListener("load",listener)}return function(fn){loaded?setTimeout(fn,0):fns.push(fn)}}();</script>
+<!-- <link rel='stylesheet' id='powerkit-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/assets/css/powerkit.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://research.aimultiple.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-posts-sidebar-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/posts-sidebar.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-twitter-slider-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/twitter-slider.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-tiles-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/tiles.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-horizontal-tiles-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/horizontal-tiles.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-full-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/full.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-slider-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/slider.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-carousel-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/carousel.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-wide-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/wide.css?ver=1598018184' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='csco-block-narrow-style-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/css/blocks/narrow.css?ver=1598018184' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/kdgcx26f/A.6bdbr.css.pagespeed.cf.Pyi8sCoEIS.css" media="all"/>
+<!-- <link rel='stylesheet' id='bootstrap-css'  href='https://research.aimultiple.com/wp-content/plugins/basic-shortcodes/public/css/bootstrap.min.css?ver=4.0.0' type='text/css' media='screen' /> -->
+<!-- <link rel='stylesheet' id='bsc-css-css'  href='https://research.aimultiple.com/wp-content/plugins/basic-shortcodes/public/css/basic-shortcodes.css?ver=1.1.1' type='text/css' media='screen' /> -->
+<!-- <link rel='stylesheet' id='bsa_css-css'  href='https://research.aimultiple.com/wp-content/plugins/basic-social-accounts/public/css/basic-social-accounts-public.css?ver=1.1.4' type='text/css' media='screen' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/8wil5u1l/A.bqo20.css.pagespeed.cf.W_DRuqM3aj.css" media="screen"/>
+<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://research.aimultiple.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-author-box-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/author-box/public/css/public-powerkit-author-box.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/ehr5fzqi/A.dx3vl.css.pagespeed.cf.NFnuoHWUkJ.css" media="all"/>
+<!-- <link rel='stylesheet' id='powerkit-basic-elements-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/basic-elements/public/css/public-powerkit-basic-elements.css?ver=2.5.2.3' type='text/css' media='screen' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/1s8rib5j/A.bqo20.css.pagespeed.cf.k_Lgrl4-Ia.css" media="screen"/>
+<!-- <link rel='stylesheet' id='powerkit-coming-soon-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/coming-soon/public/css/public-powerkit-coming-soon.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-content-formatting-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/content-formatting/public/css/public-powerkit-content-formatting.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-сontributors-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/contributors/public/css/public-powerkit-contributors.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-facebook-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/facebook/public/css/public-powerkit-facebook.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-featured-categories-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/featured-categories/public/css/public-powerkit-featured-categories.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-inline-posts-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/inline-posts/public/css/public-powerkit-inline-posts.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-instagram-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/instagram/public/css/public-powerkit-instagram.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-justified-gallery-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/justified-gallery/public/css/public-powerkit-justified-gallery.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='magnific-popup-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/lightbox/public/css/public-magnific-popup.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-lightbox-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/lightbox/public/css/public-powerkit-lightbox.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-opt-in-forms-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/opt-in-forms/public/css/public-powerkit-opt-in-forms.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-pinterest-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/pinterest/public/css/public-powerkit-pinterest.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-scroll-to-top-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/scroll-to-top/public/css/public-powerkit-scroll-to-top.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-share-buttons-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/share-buttons/public/css/public-powerkit-share-buttons.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-social-links-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/social-links/public/css/public-powerkit-social-links.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-twitter-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/twitter/public/css/public-powerkit-twitter.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='powerkit-widget-about-css'  href='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/widget-about/public/css/public-powerkit-widget-about.css?ver=2.5.2.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='rate-my-post-css'  href='https://research.aimultiple.com/wp-content/plugins/rate-my-post/public/css/rate-my-post.css?ver=3.3.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ssp-recent-episodes-css'  href='https://research.aimultiple.com/wp-content/plugins/seriously-simple-podcasting/assets/css/recent-episodes.css?ver=2.6.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cookie-law-info-css'  href='https://research.aimultiple.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-public.css?ver=2.3.4' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='cookie-law-info-gdpr-css'  href='https://research.aimultiple.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-gdpr.css?ver=2.3.4' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/7uygzrjl/680nd.css" media="all"/>
+<style id='cookie-law-info-gdpr-inline-css' type='text/css'>.cli-modal-content,.cli-tab-content{background-color:#fff}.cli-privacy-content-text,.cli-modal .cli-modal-dialog,.cli-tab-container p,a.cli-privacy-readmore{color:#000}.cli-tab-header{background-color:#f2f2f2}.cli-tab-header,.cli-tab-header a.cli-nav-link,span.cli-necessary-caption,.cli-switch .cli-slider:after{color:#000}.cli-switch .cli-slider:before{background-color:#fff}.cli-switch input:checked+.cli-slider:before{background-color:#fff}.cli-switch .cli-slider{background-color:#e3e1e8}.cli-switch input:checked+.cli-slider{background-color:#28a745}.cli-modal-close svg{fill:#000}.cli-tab-footer .wt-cli-privacy-accept-all-btn{background-color:#00acad;color:#fff}.cli-tab-footer .wt-cli-privacy-accept-btn{background-color:#00acad;color:#fff}.cli-tab-header a:before{border-right:1px solid #000;border-bottom:1px solid #000}</style>
+<!-- <link rel='stylesheet' id='ez-icomoon-css'  href='https://research.aimultiple.com/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css?ver=2.0.17' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ez-toc-css'  href='https://research.aimultiple.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.17' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/337ibehh/680nd.css.pagespeed.ce.GXoQd7m_bS.css" media="all"/>
+<style id='ez-toc-inline-css' type='text/css'>div#ez-toc-container p.ez-toc-title{font-size:120%}div#ez-toc-container p.ez-toc-title{font-weight:400}div#ez-toc-container ul li{font-size:95%}div#ez-toc-container{background:#fff;border:1px solid #fff}div#ez-toc-container p.ez-toc-title{color:#999}div#ez-toc-container ul.ez-toc-list a{color:#000}div#ez-toc-container ul.ez-toc-list a:hover{color:#2a6496}div#ez-toc-container ul.ez-toc-list a:visited{color:#428bca}</style>
+<!-- <link rel='stylesheet' id='csco-styles-css'  href='https://research.aimultiple.com/wp-content/themes/authentic/style.css?ver=1.0.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='tablepress-default-css'  href='https://research.aimultiple.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.13' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='tablepress-responsive-tables-css'  href='https://research.aimultiple.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/mk9q6d0o/A.bqo20.css.pagespeed.cf.6aRYLG0Irb.css" media="all"/>
+<script src='//research.aimultiple.com/wp-content/cache/wpfc-minified/e4ujp4u4/kn98.js.pagespeed.jm.jEn_SEQgQW.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script> -->
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script> -->
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/basic-shortcodes/public/js/tether.min.js?ver=1.3.3' id='tether-js'></script> -->
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/basic-shortcodes/public/js/bootstrap.min.js?ver=4.0.0' id='bootstrap-js'></script> -->
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/basic-shortcodes/public/js/basic-shortcodes.js?ver=1.1.1' id='bsc-js-js'></script> -->
+<script type='text/javascript' id='cookie-law-info-js-extra'>//<![CDATA[
+var Cli_Data={"nn_cookie_ids":["YSC","_icl_visitor_lang_js","wpml_browser_redirect_test","_gid","IDE","_ga","test_cookie","_GRECAPTCHA","VISITOR_INFO1_LIVE","__cfduid","SNID"],"non_necessary_cookies":{"necessary":["_GRECAPTCHA","__cfduid"],"functional":["_icl_visitor_lang_js","wpml_browser_redirect_test"],"performance":["YSC"],"analytics":["_gid","_ga","SNID"],"advertisement":["IDE","test_cookie","VISITOR_INFO1_LIVE"]},"cookielist":{"necessary":{"id":301,"status":true,"priority":0,"title":"Necessary","strict":true,"default_state":false,"ccpa_optout":false,"loadonstart":false},"functional":{"id":302,"status":true,"priority":5,"title":"Functional","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"performance":{"id":303,"status":true,"priority":4,"title":"Performance","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"analytics":{"id":304,"status":true,"priority":3,"title":"Analytics","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"advertisement":{"id":305,"status":true,"priority":2,"title":"Advertisement","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false}},"ajax_url":"https:\/\/research.aimultiple.com\/wp-admin\/admin-ajax.php","current_lang":"en","security":"acdbf8ed31","eu_countries":["GB"],"geoIP":"enabled","use_custom_geolocation_api":"","custom_geolocation_api":"https:\/\/geoip.cookieyes.com\/geoip\/checker\/result.php","consentVersion":"1","strictlyEnabled":["necessary","obligatoire"],"cookieDomain":"","privacy_length":"250","ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","ccpaType":"gdpr","triggerDomRefresh":"","secure_cookies":""};var log_object={"ajax_url":"https:\/\/research.aimultiple.com\/wp-admin\/admin-ajax.php"};
+//]]></script>
+<script src='//research.aimultiple.com/wp-content/cache/wpfc-minified/e734r37m/680nd.js.pagespeed.jm.9xY6bMiT1n.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js?ver=2.3.4' id='cookie-law-info-js'></script> -->
+<script type='text/javascript' id='wpml-browser-redirect-js-extra'>//<![CDATA[
+var wpml_browser_redirect_params={"pageLanguage":"en","languageUrls":{"en_us":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/","en":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/","us":"https:\/\/research.aimultiple.com\/category\/robotic-process-automation\/no-code-rpa\/","zh_cn":"https:\/\/research.aimultiple.com\/zh\/category\/rpa\/no-code-rpa-zh-hans\/","zh":"https:\/\/research.aimultiple.com\/zh\/category\/rpa\/no-code-rpa-zh-hans\/","cn":"https:\/\/research.aimultiple.com\/zh\/category\/rpa\/no-code-rpa-zh-hans\/"},"cookie":{"name":"_icl_visitor_lang_js","domain":"research.aimultiple.com","path":"\/","expiration":24}};
+//]]></script>
+<script src='//research.aimultiple.com/wp-content/cache/wpfc-minified/76z51b6q/kn98.js.pagespeed.jm.t2_21vK9i0.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='http://research.aimultiple.com/wp-content/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app.js?ver=4.4.10' id='wpml-browser-redirect-js'></script> -->
+<link rel="https://api.w.org/" href="https://research.aimultiple.com/wp-json/"/><link rel="alternate" type="application/json" href="https://research.aimultiple.com/wp-json/wp/v2/categories/188"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://research.aimultiple.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://research.aimultiple.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WPML ver:4.4.10 stt:59,65,1;"/>
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://research.aimultiple.com/feed/podcast"/>
+<link rel="icon" href="https://research.aimultiple.com/wp-content/uploads/2018/12/aimultiple_favicon-90x90.png" sizes="32x32"/>
+<link rel="icon" href="https://research.aimultiple.com/wp-content/uploads/2018/12/aimultiple_favicon-320x320.png" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://research.aimultiple.com/wp-content/uploads/2018/12/aimultiple_favicon-320x320.png"/>
+<meta name="msapplication-TileImage" content="https://research.aimultiple.com/wp-content/uploads/2018/12/aimultiple_favicon-320x320.png"/>
+<style type="text/css" id="wp-custom-css">.header .logo-image{height:80px}footer .footer-info{padding-top:10px!important;padding-bottom:10px!important}footer .site-logo .logo-image{width:150px}.navbar-primary .navbar .navbar-brand img{height:40px}.site-footer .title-widget{text-align:left}.ecae li{text-align:left}.comment-content p a{word-break:break-word}.crp_related>ul>li{border-radius:0;box-shadow:none;padding:0;margin:11px!important}.crp_related>ul>li>a{width:150px;height:150px}.crp_related>ul>li>a>.crp_title{width:100%;border-radius:0}.content p>span>a{text-decoration:underline}.style-align-center .post-standard .entry-content,.style-align-center .post-standard .post-media{text-align:center}.style-align-center .post-archive article{text-align:left}.meta-date .published:not(.updated) {display:none}.meta-date .published+.updated{display:block}.gallery-caption,.sticky,.wp-caption,.wp-caption-text{max-width:100%}.icon[class^="icon-"]:before,.icon[class*=" icon-"]:before{font-family:inherit!important}.wpcf7-form label{font-weight:500;color:#333;margin-bottom:10px}.wpcf7-form p{margin-bottom:10px}.widget_categories ul.children{margin-top:5px}#cookie-notice{position:relative}@media (min-width:1120px){.navbar-search{display:none}.navbar-primary{display:none}}.tablepress td,.tablepress th{padding:4px}.tablepress tfoot th,.tablepress thead th{font-weight:500;color:#000;line-height:1.3;font-size:14px;vertical-align:top}.tablepress tbody td{font-weight:500;line-height:1.3;font-size:14px}.tablepress .sorting:after,.tablepress .sorting_asc:after,.tablepress .sorting_desc:after{top:10px;bottom:initial}.grecaptcha-badge{visibility:hidden}.entry-content{line-height:1.5}.main-content .entry-content>p{margin-bottom:20px!important;margin-top:20px!important}</style>
+<style id="kirki-inline-styles">@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u8w4BMUTPHjxsAUi-sNiXg7eU0.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u8w4BMUTPHjxsAXC-sNiXg7Q.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u_w4BMUTPHjxsI5wq_FQfrx9897sxZ.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u_w4BMUTPHjxsI5wq_Gwfrx9897g.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6uyw4BMUTPHjx4wWCWtFCc.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhzSTh89ZNpQ.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hzSTh89ZNpQ.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhzSTh89ZNpQ.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WdhzSTh89ZNpQ.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WlhzSTh89Y.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u8w4BMUTPHjxsAUi-sNiXg7eU0.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:italic;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u8w4BMUTPHjxsAXC-sNiXg7Q.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u_w4BMUTPHjxsI5wq_FQfrx9897sxZ.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:italic;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u_w4BMUTPHjxsI5wq_Gwfrx9897g.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6uyw4BMUTPHjxAwWCWtFCfQ7A.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6uyw4BMUTPHjx4wWCWtFCc.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwaPHw3q5d0N7w.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Lato';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/lato/S6u9w4BMUTPHh6UVSwiPHw3q5d0.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:300;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_cJD3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WRhzSTh89ZNpQ.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459W1hzSTh89ZNpQ.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WZhzSTh89ZNpQ.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WdhzSTh89ZNpQ.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTUSjIg1_i6t8kCHKm459WlhzSTh89Y.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:500;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_ZpC3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:600;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gTD-Px3rCubqg.woff) format('woff');unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3g3D-Px3rCubqg.woff) format('woff');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gbD-Px3rCubqg.woff) format('woff');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gfD-Px3rCubqg.woff) format('woff');unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;font-display:swap;src:url(https://research.aimultiple.com/wp-content/fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gnD-Px3rCs.woff) format('woff');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}body,.offcanvas,#search,input[type="search"],input[type="text"],input[type="number"],input[type="email"],input[type="tel"],input[type="password"],textarea,.form-control,.pk-card,.pagination-content,.adp-popup-type-content .adp-popup-container{background-color:#fff}.entry-content .pk-block-bg-inverse,.pk-dropcap-bg-inverse:first-letter,.entry-content .has-drop-cap.is-cnvs-dropcap-bg-dark:first-letter{color:#fff!important}body,input[type="search"],input[type="text"],input[type="number"],input[type="email"],input[type="tel"],input[type="password"],textarea,.abr-reviews-posts .abr-review-meta{color:#777}blockquote cite,figcaption,.wp-caption-text,.wp-block-gallery .blocks-gallery-item figcaption,.wp-block-image figcaption,.wp-block-audio figcaption,.wp-block-embed figcaption,.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote .wp-block-pullquote__citation,.wp-block-quote cite,label,.text-small,.comment-metadata,.logged-in-as,.post-categories,.post-count,.product-count,.post-meta,.entry-content figcaption,.post-media figcaption,.post-tags,.sub-title,.tagcloud,.timestamp,#wp-calendar caption,.comment-metadata a,.comment-metadata,.widget_rss ul li cite,.widget_rss ul li .rss-date,.pk-widget-about .pk-about-small,.pk-share-buttons-total .pk-share-buttons-count,.pk-share-buttons-post-loop .pk-share-buttons-count,.pk-share-buttons-block-posts .pk-share-buttons-count,.pk-share-buttons-post-sidebar .pk-share-buttons-count,.pk-share-buttons-post-loop .pk-share-buttons-link:hover .pk-share-buttons-count,.pk-share-buttons-block-posts .pk-share-buttons-link:hover .pk-share-buttons-count,.pk-share-buttons-post-sidebar .pk-share-buttons-link:hover .pk-share-buttons-count,.title-share,.pk-social-links-template-default .pk-social-links-label,.pk-social-links-wrap .pk-social-links-label,.pk-color-secondary,.pk-twitter-default .pk-twitter-tweet:before,.cs-meet-team .pk-social-links-link,.abr-post-review .abr-review-score .abr-review-subtext .abr-data-label{color:#c9c9c9}.owl-dot span,.abr-post-review .abr-review-score .abr-review-subtext .abr-data-info{background-color:#c9c9c9}.entry-content p > code, a, #search .close, .button-link, .pk-share-buttons-total .pk-share-buttons-label, .pk-share-buttons-total .pk-share-buttons-title, .pk-social-links-wrap .pk-social-links-count, .pk-nav-tabs .pk-nav-link, .pk-nav-tabs .pk-nav-link.pk-active, .pk-tabs .pk-nav-pills .pk-nav-link, .pk-block-social-links .pk-social-links-link, .pk-block-social-links .pk-social-links-title, .pk-social-links-scheme-light .pk-social-links-link, .pk-social-links-scheme-light .pk-social-links-title, .pk-social-links-scheme-bold .pk-social-links-title, .pk-social-links-scheme-bold-rounded .pk-social-links-title, .pk-share-buttons-scheme-default .pk-share-buttons-link, .pk-share-buttons-after-post.pk-share-buttons-scheme-default .pk-share-buttons-link:not(:hover), .pk-share-buttons-before-post.pk-share-buttons-scheme-default .pk-share-buttons-link:not(:hover), .pk-toc ol > li:before, ol.pk-list-styled > li:before, h2.pk-heading-numbered:before, .pk-card-header a, .pk-twitter-info a, .pk-instagram-username a, .pk-social-links-template-default .pk-social-links-link, .pk-widget-contributors .pk-social-links-link, .cs-list-articles > li > a, .pk-block-contributors .author-name a, .edit-post-visual-editor.editor-styles-wrapper .pk-author-posts-single a, .pk-twitter-content a, .pk-block-author .pk-widget-author-container:not(.pk-bg-overlay) .pk-author-title a, .pk-share-buttons-scheme-simple-light .pk-share-buttons-link, .pk-share-buttons-scheme-simple-light .pk-share-buttons-count, .is-style-pk-share-buttons-simple-light .pk-share-buttons-link, .is-style-pk-share-buttons-simple-light .pk-share-buttons-link .pk-share-buttons-count, .is-style-pk-share-buttons-default .pk-share-buttons-link:not(hover), ol.is-style-cnvs-list-styled > li:before, h2.is-style-cnvs-heading-numbered:before, .cnvs-block-collapsible .cnvs-block-collapsible-title h6 a{color:#000}.owl-dot.active span{background-color:#000}a:hover, .button-link:hover, #search .close:hover, .pk-social-links-scheme-light:not(.pk-social-links-scheme-light-bg) .pk-social-links-link:hover .pk-social-links-title, .is-style-pk-social-links-bold .pk-social-links-link:hover .pk-social-links-title, .pk-social-links-scheme-bold .pk-social-links-link:hover .pk-social-links-title, .is-style-pk-social-links-bold-rounded .pk-social-links-link:hover .pk-social-links-title, .pk-social-links-scheme-bold-rounded .pk-social-links-link:hover .pk-social-links-title, .pk-nav-tabs .pk-nav-link:not(.pk-active):focus, .pk-nav-tabs .pk-nav-link:not(.pk-active):hover, .pk-card-header a:hover, .pk-twitter-info a:hover, .pk-instagram-username a:hover, .pk-widget-contributors .pk-social-links-link:hover, .cs-list-articles > li > a:hover, .pk-block-contributors .author-name a:hover, .edit-post-visual-editor.editor-styles-wrapper .pk-author-posts-single a:hover, .pk-twitter-content a:hover, .pk-block-author .pk-widget-author-container:not(.pk-bg-overlay) .pk-author-title a:hover, .cnvs-block-collapsible .cnvs-block-collapsible-title h6 a:hover{color:#a0a0a0}.wp-block-separator{color:#eee}hr, .wp-block-separator:not(.is-style-dots), .wp-block-pullquote:not([style*="border-color"]), .entry-content .table-bordered th, .entry-content .table-bordered td, section.widget .widget-wrap, .form-control, input[type=search], input[type=text], input[type=number], input[type=email], input[type=tel], input[type=password], textarea, select, .pk-collapsibles .pk-card, .post-archive .archive-compact .post-masonry, .post-archive .archive-compact .post-grid, .post-archive .archive-compact.archive-masonry section.widget, .post-archive .archive-compact.archive-grid section.widget, .archive-list section.widget .widget-wrap, .archive-standard section.widget .widget-wrap, .sidebar-offcanvas .widget, .pk-nav-tabs .pk-nav-link, .pk-collapsibles .pk-card + .pk-card, .cnvs-block-tabs .cnvs-block-tabs-buttons .cnvs-block-tabs-button a, .cnvs-block-collapsibles .cnvs-block-collapsible, .abr-reviews-posts .abr-post-item{border-color:#eee}hr, .entry-content table th, .entry-content table td, .entry-content table tbody + tbody, .header-enabled .navbar-primary:not(.sticky-nav-slide) .navbar, .navigation.comment-navigation, .site-main > article > .post-author, .post-main .post-author, .comment-body + .comment-respond, .comment-list + .comment-respond, .comment-list article, .comment-list .pingback, .comment-list .trackback, .post-standard:not(.post-featured) + .post-standard:not(.post-featured), .archive-first + .archive-list, .single .section-carousel, .widget_nav_menu .menu > .menu-item:not(:first-child), .widget_pages li:not(:first-child) a, .widget_meta li:not(:first-child) a, .widget_categories > ul > li:not(:first-child), .widget_archive > ul > li:not(:first-child), .widget_categories .widget-wrap > ul > li:not(:first-child), .widget_archive .widget-wrap > ul > li:not(:first-child), .widget_recent_comments li:not(:first-child), .widget_recent_entries li:not(:first-child), #wp-calendar tbody td, .navigation.pagination, .navigation.pagination + .post-tags, .fb-comments, .post-tags, .page-header-simple .page-header + .post-archive, .section-grid + .site-content > .cs-container:before, .archive-pagination:not(:empty), .post-list:not(.post-featured) + .post-list:not(.post-featured), .post-list + .post, .post + .post-list, .cs-meet-team .cs-author .cs-author-posts, .pk-widget-contributors .pk-author-item, .pk-toc:not(:first-child), .pk-inline-posts:not(:first-child), .cnvs-block-toc:not(:first-child){border-top-color:#eee}.entry-content thead th, .navbar-primary:not(.sticky-nav-slide) .navbar, .sticky-nav-slide, .topbar, .navbar-offcanvas, .navigation.comment-navigation, .widget_rss ul li, .searchwp-live-search-results.searchwp-live-search-results-showing .searchwp-live-search-result:not(:last-child) a, .pk-separator, .pk-toc:not(:last-child), .pk-inline-posts:not(:last-child), .cnvs-block-tabs.cnvs-block-tabs-vertical .cnvs-block-tabs-buttons .cnvs-block-tabs-button-active a, .cnvs-block-toc:not(:last-child){border-bottom-color:#eee}.pk-nav-tabs .pk-nav-link:not(.pk-active):focus, .pk-nav-tabs .pk-nav-link:not(.pk-active):hover{background-color:#eee}.wp-block-separator.is-style-dots:before{color:#eee}.entry-content p > code, .site-main .pk-subscribe-form-wrap, .post-comments, .archive-list .pk-subscribe-form-wrap, .archive-full .pk-subscribe-form-wrap, .entry-content .pk-dropcap-bg-inverse:first-letter, .entry-content .pk-dropcap-bg-light:first-letter, .entry-content .pk-block-bg-inverse, .entry-content .pk-block-bg-light, .basic_mailchimp_widget, .pk-twitter-slider, .pk-card-header, .pk-share-buttons-after-post.pk-share-buttons-scheme-default .pk-share-buttons-link, .pk-share-buttons-before-post.pk-share-buttons-scheme-default .pk-share-buttons-link, .pk-toc ol > li:before, ol.pk-list-styled > li:before, .pk-social-links-scheme-light-bg .pk-social-links-link, .is-style-pk-social-links-light-bg .pk-social-links-link, h2.pk-heading-numbered:before, .entry-content .table-bordered th, .entry-content .table-striped tbody tr:nth-of-type(odd), .wp-block-code, .wp-block-verse, .wp-block-preformatted, .is-style-pk-share-buttons-default .pk-share-buttons-link:not(hover), .is-style-pk-share-buttons-bold .pk-share-buttons-link, .cnvs-block-twitter-layout-slider, .entry-content .has-drop-cap:first-letter, ol.is-style-cnvs-list-styled > li:before, h2.is-style-cnvs-heading-numbered:before, .wp-block-group.is-style-cnvs-block-bg-light{background-color:#f8f8f8}.cnvs-block-collapsible-title{background-color:#f8f8f8}h1,h2,h3,h4,h5,h6,.comment .fn,#search input[type="search"],.entry-content .table-bordered th,.wp-block-table td strong,.abr-post-review .abr-review-name,.abr-post-review .abr-review-text,.abr-reviews-posts .abr-review-number{color:#000}#search input[type="search"]:-ms-input-placeholder{color:#000}#search input[type="search"]:-moz-placeholder{color:#000}#search input[type="search"]::-webkit-input-placeholder{color:#000}h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .comment .fn a, .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a, .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a{color:#000}h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .comment .fn a:hover, .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a:hover, .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a:hover{color:#a0a0a0}.wp-block-button .wp-block-button__link:not(.has-background), .button-primary, .overlay-inner a.button-primary, .header-light .button-primary, .wp-block-search .wp-block-search__button, .post-number, .post-pagination .post-more .button, .pk-button-primary, .pk-author-button, .pk-about-button, .pk-instagram-follow, .pk-twitter-follow, .pk-subscribe-submit, .pk-badge-primary, .pk-featured-categories-vertical-list .pk-featured-count, .adp-button-primary{color:#eee}.pk-pin-it{color:#eee!important}.wp-block-button .wp-block-button__link:not(.has-background):hover, .button-primary:hover, .button-primary:active, .button-primary:focus, .button-primary:not([disabled]):not(.disabled).active, .button-primary:not([disabled]):not(.disabled):active, .overlay-inner a.button-primary:hover, .overlay-inner a.button-primary:active, .overlay-inner a.button-primary:focus, .overlay-inner a.button-primary:not([disabled]):not(.disabled).active, .overlay-inner a.button-primary:not([disabled]):not(.disabled):active, .header-light .button-primary:hover, .header-light .button-primary:active, .header-light .button-primary:focus, .header-light .button-primary:not([disabled]):not(.disabled).active, .header-light .button-primary:not([disabled]):not(.disabled):active, .wp-block-search .wp-block-search__button:hover, .post-pagination .post-more .button:hover, .pk-button-primary:not(:disabled):not(.disabled):active, .pk-button-primary:focus, .pk-button-primary:hover, .pk-button-primary:focus, .pk-button-primary:active, .pk-author-button:hover, .pk-about-button:hover, .pk-instagram-follow:hover, .pk-twitter-follow:hover, .pk-subscribe-submit:hover, .adp-button-primary:hover, .adp-button-primary:focus{color:#fff}.pk-pin-it:hover{color:#fff!important;background-color:#4bc4fb!important}.wp-block-button .wp-block-button__link:not(.has-background), .button-primary, .overlay-inner a.button-primary, .header-light .button-primary, .wp-block-search .wp-block-search__button, .post-number, .pk-tabs .pk-nav-pills .pk-nav-link.pk-active, .pk-tabs .pk-nav-pills .pk-nav-link.pk-active:focus, .pk-tabs .pk-nav-pills .pk-tabs .pk-nav-pills .pk-nav-link.pk-active:hover, .pk-button-primary, .pk-author-button, .pk-about-button, .pk-instagram-follow, .pk-twitter-follow, .pk-subscribe-submit, .pk-badge-primary, .pk-featured-categories-vertical-list .pk-featured-count, .cnvs-block-tabs.is-style-cnvs-block-tabs-pills .cnvs-block-tabs-buttons .cnvs-block-tabs-button.cnvs-block-tabs-button-active a, .cnvs-block-tabs.is-style-cnvs-block-tabs-pills .cnvs-block-tabs-buttons .cnvs-block-tabs-button.cnvs-block-tabs-button-active a:focus, .cnvs-block-tabs.is-style-cnvs-block-tabs-pills .cnvs-block-tabs-buttons .cnvs-block-tabs-button.cnvs-block-tabs-button-active a:hover, .adp-button-primary{background-color:#19b5fe}.pk-bg-primary,.pk-pin-it{background-color:#19b5fe!important}.post-tags a:focus, .post-tags a:hover, .tagcloud a:focus, .tagcloud a:hover, .wp-block-button .wp-block-button__link:not(.has-background):hover, .button-primary:hover, .button-primary:active, .button-primary:focus, .button-primary:not([disabled]):not(.disabled).active, .button-primary:not([disabled]):not(.disabled):active, .overlay-inner a.button-primary:hover, .overlay-inner a.button-primary:active, .overlay-inner a.button-primary:focus, .overlay-inner a.button-primary:not([disabled]):not(.disabled).active, .overlay-inner a.button-primary:not([disabled]):not(.disabled):active, .header-light .button-primary:hover, .header-light .button-primary:active, .header-light .button-primary:focus, .header-light .button-primary:not([disabled]):not(.disabled).active, .header-light .button-primary:not([disabled]):not(.disabled):active, .wp-block-search .wp-block-search__button:hover, .pk-button-primary:not(:disabled):not(.disabled):active, .pk-button-primary:hover, .pk-button-primary:active, .pk-button-primary:focus, .pk-author-button:hover, .pk-about-button:hover, .pk-instagram-follow:hover, .pk-twitter-follow:hover, .pk-subscribe-submit:hover, .adp-button-primary:hover, .adp-button-primary:focus{background-color:#4bc4fb}.button-secondary,.pk-button-secondary{color:#a0a0a0!important;background-color:#eee}.button-secondary:hover,.button-secondary:active,.button-secondary:focus,.pk-button-secondary:hover,.pk-button-secondary:active,.pk-button-secondary:focus{color:#000!important;background-color:#f8f8f8}.site-title{color:#000}.site-title:hover{color:#a0a0a0}.site-description{color:#a0a0a0}.navbar-primary{background-color:rgba(255,255,255,.97)}.navbar-primary:not(.sticky-nav-slide) .navbar, .sticky-nav-slide{border-bottom-width:1px;border-bottom-style:solid}.navbar-primary a,.navbar-primary button,.navbar-primary .navbar-nav>li>a{color:#000}.navbar-primary a:hover,.navbar-primary button:hover,.navbar-primary .navbar-nav>li>a:focus,.navbar-primary .navbar-nav>li>a:hover,.navbar-primary .navbar-nav>li.current-menu-parent>a,.navbar-primary .navbar-nav>li.current-nav-item>a,.site-submenu:hover .navbar-widgets-btn{color:#a0a0a0}.navbar-nav .sub-menu{background-color:#fff;border:1px #eee solid}.navbar-nav .sub-menu .sub-menu{margin-top:-1px}.navbar-nav .sub-menu>li>a,.navbar-nav .cs-mm-categories>li>a,.navbar-nav .menu-columns>.sub-menu>li>a:hover,.mega-menu-item .entry-title a{color:#000}.navbar-nav .sub-menu>li>a:hover,.navbar-nav .sub-menu>li>a:focus,.navbar-nav .sub-menu>li>a:active,.navbar-nav .cs-mm-categories>li>a:hover,.navbar-nav .cs-mm-categories>li>a:focus,.navbar-nav .cs-mm-categories>li>a:active,.mega-menu-item .entry-title a:hover{color:#a0a0a0}.navbar-nav .sub-menu .current-menu-item>a,.navbar-nav .sub-menu .current-menu-ancestor>a,.navbar-nav .sub-menu .current-menu-parent>a{color:#a0a0a0}.navbar-nav .sub-menu>li+li>a,.navbar-nav .cs-mm-categories>li+li>a{border-top:1px #eee solid}.navbar-primary .pk-social-links-template-nav .pk-social-links-icon{color:#000}.navbar-primary .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-icon{color:#000}.navbar-primary .pk-social-links-template-nav .pk-social-links-title,.navbar-primary .pk-social-links-template-nav .pk-social-links-count,.navbar-primary .pk-social-links-template-nav .pk-social-links-label{color:#a0a0a0}.navbar-primary .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-title,.navbar-primary .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-count,.navbar-primary .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-label{color:#000}.navbar-primary .navbar-multi-column-widgets .navbar-widgets-container,.navbar-primary .navbar-single-column-widgets .widget-area{border:1px #eee solid}.navbar-primary .navbar-multi-column-widgets .navbar-widgets-container,.navbar-primary .navbar-single-column-widgets .navbar-widgets-container{margin-top:0}.site-submenu .navbar-widgets-container,.site-submenu .pk-social-links-scheme-light-bg .pk-social-links-link{background-color:#fff}.site-submenu{color:#777}.site-submenu label,.site-submenu figcaption,.site-submenu blockquote cite,.site-submenu .wp-caption-text,.site-submenu .wp-block-gallery .blocks-gallery-item figcaption,.site-submenu .wp-block-image figcaption,.site-submenu .wp-block-audio figcaption,.site-submenu .wp-block-embed figcaption,.site-submenu .wp-block-pullquote cite,.site-submenu .wp-block-pullquote footer,.site-submenu .wp-block-pullquote .wp-block-pullquote__citation,.site-submenu .wp-block-quote cite,.site-submenu .text-small,.site-submenu .comment-metadata,.site-submenu .logged-in-as,.site-submenu .post-categories,.site-submenu .post-count,.site-submenu .product-count,.site-submenu .post-meta,.site-submenu .entry-content figcaption,.site-submenu .post-media figcaption,.site-submenu .post-tags,.site-submenu .sub-title,.site-submenu .tagcloud,.site-submenu .timestamp,.site-submenu #wp-calendar caption,.site-submenu .comment-metadata a,.site-submenu .comment-metadata,.site-submenu .widget_rss ul li cite,.site-submenu .widget_rss ul li .rss-date,.site-submenu .title-share,.site-submenu .pk-widget-about .pk-about-small,.site-submenu .pk-share-buttons-total .pk-share-buttons-count,.site-submenu .pk-share-buttons-post-loop .pk-share-buttons-count,.site-submenu .pk-share-buttons-block-posts .pk-share-buttons-count,.site-submenu .pk-share-buttons-post-sidebar .pk-share-buttons-count,.site-submenu .pk-share-buttons-post-loop .pk-share-buttons-link:hover .pk-share-buttons-count,.site-submenu .pk-share-buttons-block-posts .pk-share-buttons-link:hover .pk-share-buttons-count,.site-submenu .pk-share-buttons-post-sidebar .pk-share-buttons-link:hover .pk-share-buttons-count,.site-submenu .pk-social-links-template-default .pk-social-links-label,.site-submenu .pk-social-links-wrap .pk-social-links-label,.site-submenu .pk-color-secondary,.site-submenu .pk-twitter-default .pk-twitter-tweet:before{color:#c9c9c9}.site-submenu .owl-dot span{background-color:#c9c9c9}.site-submenu .title-widget{color:#000}.site-submenu a, .site-submenu .post-meta, .site-submenu #wp-calendar thead th, .site-submenu h2, .site-submenu .pk-social-links-wrap .pk-social-links-count, .site-submenu .pk-social-links-scheme-light .pk-social-links-icon, .site-submenu .pk-social-links-wrap .pk-social-links-title, .site-submenu .pk-subscribe-form-wrap .pk-title, .site-submenu .pk-social-links-template-default .pk-social-links-link, .site-submenu .pk-widget-contributors .pk-social-links-link, .site-submenu .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a, .site-submenu .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a{color:#000}.site-submenu .owl-dot.active span{background-color:#000}.site-submenu a:hover,.site-submenu a:hover:active, .site-submenu a:focus:active, .site-submenu .pk-social-links-template-default .pk-social-links-link:hover, .site-submenu .pk-widget-contributors .pk-social-links-link:hover, .site-submenu .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a:hover, .site-submenu .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a:focus, .site-submenu .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a:hover, .site-submenu .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a:focus{color:#a0a0a0}.site-submenu #wp-calendar tfoot tr #prev+.pad:after,.site-submenu #wp-calendar tbody td a,.sidebar-footer .basic_mailchimp_widget,.sidebar-footer .pk-social-links-template-vertical .pk-social-links-link{background-color:#eee}.site-submenu .navbar-widgets-container .widget-col{border-color:#eee}.site-submenu .widget, .site-submenu .widget_nav_menu .menu > .menu-item:not(:first-child), .site-submenu .widget_categories > ul > li:not(:first-child), .site-submenu .widget_archive > ul > li:not(:first-child), .site-submenu .widget_categories .widget-wrap > ul > li:not(:first-child), .widget_archive .site-submenu .widget-wrap > ul > li:not(:first-child), .site-submenu #wp-calendar tbody td, .site-submenu .widget_pages li:not(:first-child) a, .site-submenu .widget_meta li:not(:first-child) a, .site-submenu .widget_recent_comments li:not(:first-child), .site-submenu .widget_recent_entries li:not(:first-child), .site-submenu #wp-calendar tbody td#today:after, .footer-section + .footer-section > .cs-container > *, .sidebar-footer .widget + .widget, .site-submenu .pk-widget-contributors .pk-author-item{border-top-color:#eee}.site-submenu .button,.site-submenu .post-number,.site-submenu .pk-author-button,.site-submenu .pk-about-button,.site-submenu .pk-instagram-follow,.site-submenu .pk-twitter-follow,.site-submenu .pk-subscribe-submit,.site-submenu .pk-badge-primary{color:#eee}.site-submenu .button:hover,.site-submenu .button:active,.site-submenu .pk-author-button:hover,.site-submenu .pk-about-button:hover,.site-submenu .pk-instagram-follow:hover,.site-submenu .pk-twitter-follow:hover,.site-submenu .pk-subscribe-submit:hover,.site-submenu .pk-badge-primary:hover{color:#fff}.site-submenu .button,.site-submenu select,.site-submenu .post-number,.site-submenu .pk-author-button,.site-submenu .pk-about-button,.site-submenu .pk-instagram-follow,.site-submenu .pk-twitter-follow,.site-submenu .pk-subscribe-submit,.site-submenu .pk-badge-primary{background-color:#282828}.site-submenu .button:hover,.site-submenu .button:active,.site-submenu .button:focus,.site-submenu .button:active,.site-submenu .pk-author-button:hover,.site-submenu .pk-about-button:hover,.site-submenu .pk-instagram-follow:hover,.site-submenu .pk-twitter-follow:hover,.site-submenu .pk-subscribe-submit:hover,.site-submenu .pk-badge-primary:hover{background-color:#000}.topbar{border-bottom-width:1px;border-bottom-style:solid}.topbar a,.topbar .navbar-nav>li>a,.topbar .pk-social-links-template-nav .pk-social-links-icon,.topbar .pk-social-links-template-nav .pk-social-links-label,.topbar .pk-social-links-template-nav .pk-social-links-title{color:#a0a0a0}.topbar a:hover,.topbar .navbar-nav>li>a:focus,.topbar .navbar-nav>li>a:hover,.topbar .navbar-nav>li.current-menu-item>a,.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-icon,.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover pk-social-links-title,.topbar .pk-social-links-template-nav .pk-social-links-count{color:#000}.topbar .pk-social-links-template-nav .pk-social-links-icon{color:#000}.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-icon{color:#000}.topbar .pk-social-links-template-nav .pk-social-links-title,.topbar .pk-social-links-template-nav .pk-social-links-count,.topbar .pk-social-links-template-nav .pk-social-links-label{color:#a0a0a0}.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-title,.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-count,.topbar .pk-social-links-template-nav .pk-social-links-item .pk-social-links-link:hover .pk-social-links-label{color:#000}.offcanvas-header .navbar-brand,.offcanvas-header .navbar-toggle{color:#000}.offcanvas-header .navbar-brand:hover,.offcanvas-header .navbar-brand:focus,.offcanvas-header .navbar-toggle:hover,.offcanvas-header .navbar-toggle:focus{color:#a0a0a0}.offcanvas-header .navbar{background-color:#fff}.navbar-offcanvas{border-bottom-width:1px;border-bottom-style:solid}.entry-content p{color:#a0a0a0}.entry-content p > a:not(.button):not(.pk-button), .entry-content > ul a, .entry-content ol a, .entry-content .wp-block-column ol a, .entry-content .wp-block-column a, .entry-content table ol a, .entry-content table ul a, .taxonomy-description a, .entry-content .cnvs-block-section-content-inner > ol a, .entry-content .cnvs-block-section-content-inner > ul a{color:#000}.entry-content p > a:not(.button):not(.pk-button):hover, .entry-content ul a:hover, .entry-content ol a:hover, .taxonomy-description a:hover{color:#a0a0a0}.post-categories a, .cs-block-archive-posts article:not(.post-featured) .entry-header .post-categories a, .cs-block-narrow .layout-variation-simple .entry-header .post-categories a, .cs-block-wide .layout-variation-simple .entry-header .post-categories a, .cs-block-carousel .post-categories a, .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .post-categories a, .pk-widget-posts .post-categories a{color:#000}.post-categories a:hover, .post-categories a:focus, .cs-block-archive-posts article:not(.post-featured) .entry-header .post-categories a:hover, .cs-block-archive-posts article:not(.post-featured) .entry-header .post-categories a:focus, .cs-block-narrow .layout-variation-simple .entry-header .post-categories a:hover, .cs-block-narrow .layout-variation-simple .entry-header .post-categories a:focus, .cs-block-wide .layout-variation-simple .entry-header .post-categories a:hover, .cs-block-wide .layout-variation-simple .entry-header .post-categories a:focus, .cs-block-carousel .post-categories a:hover, .cs-block-carousel .post-categories a:focus, .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .post-categories a:hover, .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .post-categories a:focus, .pk-widget-posts .post-categories a:hover, .pk-widget-posts .post-categories a:focus{color:#a0a0a0}::selection{color:#fff;background:#000}::-moz-selection{color:#fff;background:#000}.entry-content blockquote,.entry-content blockquote p{color:#000}.entry-content .pk-dropcap:first-letter, .entry-content .pk-content-block, .entry-content .pk-callout, .entry-content .has-drop-cap:first-letter, .entry-content .has-drop-cap.is-cnvs-dropcap-bordered:first-letter, .entry-content .has-drop-cap.is-cnvs-dropcap-border-right:first-letter, .entry-content .has-drop-cap.:first-letter{color:#000}.entry-content .pk-dropcap-bg-inverse:first-letter,.entry-content .pk-dropcap-bg-inverse:first-letter,.entry-content .pk-block-border-top:before,.entry-content .pk-block-border-bottom:after,.entry-content .pk-block-bg-inverse,.entry-content .has-drop-cap.is-cnvs-dropcap-bg-dark:first-letter,.wp-block-group.is-style-cnvs-block-single-border:before,.wp-block-group.is-style-cnvs-block-single-border:after,.wp-block-group.is-style-cnvs-block-bg-inverse{background-color:#000}.entry-content .pk-dropcap-borders:first-letter,.entry-content .pk-block-border-all,.entry-content .has-drop-cap.is-cnvs-dropcap-bordered:first-letter,.wp-block-group.is-style-cnvs-block-bordered{border-color:#000}.entry-content .pk-dropcap-border-right:first-letter,.entry-content .pk-block-border-right,.entry-content .has-drop-cap.is-cnvs-dropcap-border-right:first-letter{border-right-color:#000}.entry-content .pk-block-border-left{border-left-color:#000}.site-footer,.site-footer .pk-social-links-scheme-light-bg .pk-social-links-link{background-color:#000}.site-footer{color:#a0a0a0}.site-footer label,.site-footer figcaption,.site-footer blockquote cite,.site-footer .wp-caption-text,.site-footer .wp-block-gallery .blocks-gallery-item figcaption,.site-footer .wp-block-image figcaption,.site-footer .wp-block-audio figcaption,.site-footer .wp-block-embed figcaption,.site-footer .wp-block-pullquote cite,.site-footer .wp-block-pullquote footer,.site-footer .wp-block-pullquote .wp-block-pullquote__citation,.site-footer .wp-block-quote cite,.site-footer .text-small,.site-footer .comment-metadata,.site-footer .logged-in-as,.site-footer .post-categories,.site-footer .post-count,.site-footer .product-count,.site-footer .post-meta,.site-footer .entry-content figcaption,.site-footer .post-media figcaption,.site-footer .post-tags,.site-footer .sub-title,.site-footer .tagcloud,.site-footer .timestamp,.site-footer #wp-calendar caption,.site-footer .comment-metadata a,.site-footer .comment-metadata,.site-footer .widget_rss ul li cite,.site-footer .widget_rss ul li .rss-date,.site-footer .title-share,.site-footer .pk-widget-about .pk-about-small,.site-footer .pk-share-buttons-total .pk-share-buttons-count,.site-footer .pk-share-buttons-post-loop .pk-share-buttons-count,.site-footer .pk-share-buttons-block-posts .pk-share-buttons-count,.site-footer .pk-share-buttons-post-sidebar .pk-share-buttons-count,.site-footer .pk-share-buttons-post-loop .pk-share-buttons-link:hover .pk-share-buttons-count,.site-footer .pk-share-buttons-block-posts .pk-share-buttons-link:hover .pk-share-buttons-count,.site-footer .pk-share-buttons-post-sidebar .pk-share-buttons-link:hover .pk-share-buttons-count,.site-footer .pk-social-links-template-default .pk-social-links-label,.site-footer .pk-social-links-wrap .pk-social-links-label,.site-footer .pk-color-secondary,.site-footer .pk-twitter-default .pk-twitter-tweet:before,.site-footer .footer-subscribe .pk-privacy label{color:#c9c9c9}.site-footer .owl-dot span{background-color:#c9c9c9}.site-footer .title-widget{color:#777}.site-footer a, .site-footer .post-meta, .site-footer .post-categories a, .site-footer #wp-calendar thead th, .site-footer h2, .site-footer .pk-social-links-wrap .pk-social-links-count, .site-footer .pk-social-links-scheme-light .pk-social-links-icon, .site-footer .pk-social-links-wrap .pk-social-links-title, .site-footer .pk-subscribe-form-wrap .pk-title, .site-footer .pk-social-links-template-default .pk-social-links-link, .site-footer .pk-widget-contributors .pk-social-links-link, .site-footer .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a, .site-footer .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a{color:#fff}.site-footer .owl-dot.active span{background-color:#fff}.site-footer a:hover, site-footer a:hover:active, .site-footer a:focus:active, .site-footer .post-categories a:hover, .site-footer .pk-social-links-template-default .pk-social-links-link:hover, .site-footer .pk-widget-contributors .pk-social-links-link:hover, .site-footer .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a:hover, .site-footer .cnvs-block-posts-sidebar:not(.cnvs-block-posts-sidebar-slider) .entry-title a:focus, .site-footer .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a:hover, .site-footer .pk-widget-posts:not(.pk-widget-posts-template-slider) .entry-title a:focus{color:#a0a0a0}.site-footer #wp-calendar tfoot tr #prev+.pad:after,.site-footer #wp-calendar tbody td a,.sidebar-footer .basic_mailchimp_widget,.sidebar-footer .pk-social-links-template-vertical .pk-social-links-link{background-color:#242424}.site-footer .widget, .site-footer .widget_nav_menu .menu > .menu-item:not(:first-child), .site-footer .widget_categories > ul > li:not(:first-child), .site-footer .widget_archive > ul > li:not(:first-child), .site-footer .widget_categories .widget-wrap > ul > li:not(:first-child), .widget_archive .site-footer .widget-wrap > ul > li:not(:first-child), .site-footer #wp-calendar tbody td, .site-footer .widget_pages li:not(:first-child) a, .site-footer .widget_meta li:not(:first-child) a, .site-footer .widget_recent_comments li:not(:first-child), .site-footer .widget_recent_entries li:not(:first-child), .site-footer #wp-calendar tbody td#today:after, .footer-section + .footer-section > .cs-container > *, .sidebar-footer .widget + .widget, .site-footer .pk-widget-contributors .pk-author-item{border-top-color:#242424}.site-footer .button,.site-footer .post-number,.site-footer .pk-author-button,.site-footer .pk-about-button,.site-footer .pk-instagram-follow,.site-footer .pk-twitter-follow,.site-footer .pk-subscribe-submit,.site-footer .pk-badge-primary{color:#a0a0a0}.site-footer .button:hover,.site-footer .button:active,.site-footer .pk-author-button:hover,.site-footer .pk-about-button:hover,.site-footer .pk-instagram-follow:hover,.site-footer .pk-twitter-follow:hover,.site-footer .pk-subscribe-submit:hover,.site-footer .pk-badge-primary:hover{color:#fff}.site-footer .button,.site-footer select,.site-footer .post-number,.site-footer .pk-author-button,.site-footer .pk-about-button,.site-footer .pk-instagram-follow,.site-footer .pk-twitter-follow,.site-footer .pk-subscribe-submit,.site-footer .pk-badge-primary{background-color:#242424}.site-footer .button:hover,.site-footer .button:active,.site-footer .button:focus,.site-footer .button:active,.site-footer .pk-author-button:hover,.site-footer .pk-about-button:hover,.site-footer .pk-instagram-follow:hover,.site-footer .pk-twitter-follow:hover,.site-footer .pk-subscribe-submit:hover,.site-footer .pk-badge-primary:hover{background-color:#141414}.overlay-media:before,.page-header.overlay:hover .overlay-media:before,.pk-bg-overlay,.pk-instagram-link:before{background-color:rgba(40,40,40,.75)}.overlay:hover .overlay-media:before,.post-thumbnail:hover:before,.pagination-visible:hover .pagination-title{background-color:rgba(40,40,40,.9)}body,button,input[type="search"],input[type="text"],input[type="number"],input[type="email"],input[type="tel"],input[type="password"],optgroup,select,textarea{font-family:Lato;font-size:1rem;font-weight:400}.cs-separator,.wp-caption-text,blockquote cite,figcaption,.wp-block-image figcaption,.wp-block-audio figcaption,.wp-block-embed figcaption,.wp-block-gallery .blocks-gallery-item figcaption,.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote .wp-block-pullquote__citation,.wp-block-quote cite,label,.text-small,.comment-metadata,.logged-in-as,.post-categories,.post-count,.product-count,.post-meta,.post-tags,.sub-title,.tagcloud,.timestamp,#wp-calendar caption,.widget_rss ul li cite,.widget_rss ul li .rss-date,.pk-badge,.pk-about-small,.pk-instagram-meta,.pk-instagram-counters,.pk-instagram-name,.pk-twitter-username,.pk-twitter-counters,.pk-alert,.pk-share-buttons-total .pk-share-buttons-count,.pk-social-links-count,.pk-social-links-label,.pk-share-buttons-count,.pk-block-alert,.abr-post-review .abr-review-subtext .pk-data-label,.pk-featured-categories-tiles .pk-featured-count,.abr-badge,.abr-post-review .abr-review-name,.abr-review-caption,.cnvs-block-alert{font-family:Montserrat;font-size:.625rem;font-weight:400;letter-spacing:.025em;text-transform:uppercase}.pk-callout,.text-large,.pk-subscribe-form-wrap .pk-subscribe-message{font-family:Lato;font-size:1.25rem;font-weight:400;text-transform:none}.button,.button-link,.wp-block-search .wp-block-search__button,.pagination-title,.comment-reply-link,.post-number span:first-child,.pk-button,.pk-nav-tabs .pk-nav-link,.pk-nav-tabs .pk-nav-link,.pk-nav-pills .pk-nav-link,.pk-share-buttons-total .pk-share-buttons-label,.pk-share-buttons-total .pk-share-buttons-title,.title-share,.pk-font-heading,.pk-twitter-label,.pk-card-title a,.pk-font-primary,.pk-author-button span:first-child,.pk-about-button span:first-child,.pk-instagram-follow span:first-child,.pk-twitter-follow span:first-child,.pk-subscribe-submit span:first-child,.pk-pin-it span:first-child,.wp-block-button__link,.pk-social-links-title,.pk-featured-categories-tiles .pk-featured-name,.pk-featured-categories-tiles .pk-featured-link,.pk-featured-categories-vertical-list .pk-featured-name,.pk-featured-categories-vertical-list .pk-featured-count .pk-featured-number,.adp-button{font-family:Montserrat;font-size:.6875rem;font-weight:700;letter-spacing:.0125em;text-transform:uppercase}.cnvs-block-tabs .cnvs-block-tabs-buttons .cnvs-block-tabs-button a,.cnvs-block-collapsible-title a{font-family:Montserrat;font-size:.6875rem;font-weight:700;letter-spacing:.0125em;text-transform:uppercase}h1,h2,h3,h4,h5,h6,.wp-block-cover .wp-block-cover-image-text,.wp-block-cover .wp-block-cover-text,.wp-block-cover h2,.wp-block-cover-image .wp-block-cover-image-text,.wp-block-cover-image .wp-block-cover-text,.wp-block-cover-image h2,.comment .fn,.archive-standard section.basic_mailchimp_widget .title-widget,.archive-list section.basic_mailchimp_widget .title-widget,.abr-reviews-posts .abr-review-number{font-family:Montserrat;font-weight:600}h1,.post-standard .entry-title,.archive-list .post-featured .entry-title,.archive-standard .post-featured .entry-title{font-size:3rem;letter-spacing:-.05em;text-transform:none}h2, .post-archive > div:not(.columns-3):not(.columns-4) .post-featured h2, .pk-subscribe-form-wrap .pk-title, .archive-standard section.basic_mailchimp_widget .title-widget, .archive-list section.basic_mailchimp_widget .title-widget{font-size:2rem;letter-spacing:-.05em;text-transform:none}h3,.archive-grid h2,.archive-masonry h2,.archive-list h2{font-size:1.5rem;letter-spacing:-.05em;text-transform:none}h4{font-size:1.25rem;letter-spacing:-.0375em;text-transform:none}h5{font-size:1rem;letter-spacing:-.0375em;text-transform:none}h6,.comment .fn{font-size:.9375rem;letter-spacing:-.0375em;text-transform:none}.comment-reply-title,.nav-links,.title-block,.section-heading,.cnvs-block-section-heading,section.related.products>h2,.pk-inline-posts-title,.pk-toc-title,.pk-block-contributors .pk-author-posts>h6{font-family:Montserrat;font-size:.8125rem;font-weight:700;letter-spacing:.0125em;text-transform:uppercase}.section-heading,.cnvs-block-section-heading,.cnvs-block-section-heading .cnvs-section-title{color:#000}.navbar-nav>li>a,.navbar-nav .menu-columns>.sub-menu>li>a,.widget_archive li,.widget_categories li,.widget_meta li a,.widget_nav_menu .menu>li>a,.widget_pages .page_item a,.navbar-widgets-btn{font-family:Montserrat;font-size:.8125rem;font-weight:600;letter-spacing:.0125em;text-transform:uppercase}.topbar .navbar-nav>li>a,.nav .sub-menu>li>a,.navbar-nav .cs-mm-categories>li>a,.widget_categories .children li a,.widget_nav_menu .sub-menu>li>a{font-family:Montserrat;font-size:.8125rem;font-weight:400;letter-spacing:-.0125em;text-transform:none}.entry-content .pk-callout,.entry-content .is-style-cnvs-paragraph-callout{font-family:Montserrat;font-size:2rem;font-weight:700;letter-spacing:-.05em;text-transform:none}.entry-content .pk-dropcap:first-letter, p.has-drop-cap:not(:focus):first-letter{font-family:Montserrat;font-size:2.5rem;font-weight:500;text-transform:uppercase}.entry-content blockquote,.wp-block-quote,.wp-block-pullquote p{font-family:Montserrat;font-size:2rem;font-weight:700;letter-spacing:-.05em;text-transform:none}#search input[type="search"]{font-family:Montserrat!important;font-size:3rem!important;font-weight:600;letter-spacing:-.05em!important;text-transform:none!important}.topbar .navbar{height:40px}.header .site-description{font-family:Montserrat;font-size:.875rem;font-weight:300;letter-spacing:-.0125em;text-transform:none}.navbar-primary .navbar{height:50px}.offcanvas .offcanvas-header{flex:0 0 50px}.offcanvas .navbar-offcanvas{height:50px}.offcanvas-header .navbar .navbar-brand{font-family:Montserrat;font-size:1.375rem;font-weight:600;letter-spacing:-.05em;line-height:1;text-transform:none}.button-primary, .wp-block-button:not(.is-style-squared) .wp-block-button__link, .wp-block-search .wp-block-search__button, .pk-button, .pk-about-button, .pk-zoom-icon-popup:after, .pk-pin-it, .entry-content .pk-dropcap:first-letter, .pk-social-links-template-vertical .pk-social-links-link, .pk-share-buttons-before-post .pk-share-buttons-link, .pk-share-buttons-after-post .pk-share-buttons-link, .pk-instagram-follow, .pk-twitter-follow, .pk-scroll-to-top, .widget-area .pk-subscribe-with-name input[type="text"], .widget-area .pk-subscribe-with-name button, .widget-area .pk-subscribe-with-bg input[type="text"], .widget-area .pk-subscribe-with-bg button, .entry-content .pk-share-buttons-wrap .pk-share-buttons-link, .adp-button, .abr-badge-primary{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.cs-input-group-btn button,.pk-subscribe-form-wrap button{border-top-right-radius:0;border-bottom-right-radius:0}@media (min-width:768px ){.pk-tabs-horizontal .pk-nav-link.pk-active{border-bottom-color:#fff}.pk-tabs-vertical .pk-nav-tabs .pk-nav-link.pk-active{border-right-color:#fff}.pk-tabs-horizontal .pk-nav-tabs,.cnvs-block-tabs .cnvs-block-tabs-buttons{border-bottom-color:#eee}.pk-tabs-vertical .pk-nav-tabs,.cnvs-block-tabs.cnvs-block-tabs-vertical .cnvs-block-tabs-buttons{border-right-color:#eee}}@media (max-width:1019px){.layout-sidebar .content-area{border-bottom-color:#eee}}@media (min-width:760px){.sidebar-area .sidebar-2{border-left-color:#eee}}@media (min-width:970px ){.header-enabled .navbar-primary:not(.sticky-nav-slide) .navbar{border-top-width:1px;border-top-style:solid}.header-col{height:100px}}@media (max-width:719px){.pk-subscribe-with-name input[type="text"],.pk-subscribe-with-name button,.pk-subscribe-with-bg input[type="text"],.pk-subscribe-with-bg button{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}}</style></head>
+<body class="archive category category-no-code-rpa category-188 wp-embed-responsive header-enabled cs-page-layout-sidebar cs-page-layout-sidebar-right parallax-enabled sticky-sidebar-enabled stick-to-bottom block-align-enabled style-align-center aa-prefix-resea-">
+<div class="site-overlay"></div>
+<div class="offcanvas">
+<div class="offcanvas-header">
+<nav class="navbar navbar-offcanvas  navbar-border">
+<a class="navbar-brand site-title" href="https://research.aimultiple.com/">
+AIMultiple				</a>
+<button type="button" class="offcanvas-toggle navbar-toggle">
+<i class="cs-icon cs-icon-cross"></i>
+</button>
+</nav>
+</div>
+<div class="offcanvas-sidebar">
+<div class="offcanvas-inner widget-area">
+<div class="widget nav_menu-5 widget_nav_menu"><div class="menu-off-canvas-menu-container"><ul id="menu-off-canvas-menu" class="menu"><li id="menu-item-2273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2273"><a href="https://research.aimultiple.com">HOME</a></li>
+<li id="menu-item-2272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2272"><a href="https://aimultiple.com">EXPLORE AI USE CASES &#038; VENDORS</a></li>
+</ul></div></div><div class="widget categories-3 widget_categories"><h5 class="cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft title-widget "><span class="cnvs-section-title"><span>Categories</span></span></h5>
+<ul>
+<li class="cat-item cat-item-43 current-cat-parent current-cat-ancestor"><a href="https://research.aimultiple.com/category/robotic-process-automation/" title="Robotic Process Automation">Robotic Process Automation (RPA)</a>
+<ul class='children'>
+<li class="cat-item cat-item-188 current-cat"><a aria-current="page" href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/">No Code RPA</a>
+</li>
+<li class="cat-item cat-item-192"><a href="https://research.aimultiple.com/category/robotic-process-automation/rpa-marketplace/">RPA marketplace</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-250"><a href="https://research.aimultiple.com/category/document-automation/">Document automation</a>
+</li>
+<li class="cat-item cat-item-195"><a href="https://research.aimultiple.com/category/process-mining/">Process mining</a>
+<ul class='children'>
+<li class="cat-item cat-item-263"><a href="https://research.aimultiple.com/category/process-mining/task-mining/">Task mining</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-49"><a href="https://research.aimultiple.com/category/e2e-chatbot/">Chatbot</a>
+</li>
+<li class="cat-item cat-item-210"><a href="https://research.aimultiple.com/category/machine-learning/">Machine Learning</a>
+<ul class='children'>
+<li class="cat-item cat-item-299"><a href="https://research.aimultiple.com/category/machine-learning/deep-learning/">Deep learning</a>
+</li>
+<li class="cat-item cat-item-209"><a href="https://research.aimultiple.com/category/machine-learning/data-labeling/">Data Labeling</a>
+</li>
+<li class="cat-item cat-item-156"><a href="https://research.aimultiple.com/category/machine-learning/automated-machine-learning/">Automated Machine Learning</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-293"><a href="https://research.aimultiple.com/category/b2c/">B2C</a>
+<ul class='children'>
+<li class="cat-item cat-item-294"><a href="https://research.aimultiple.com/category/b2c/invest/">Investing</a>
+<ul class='children'>
+<li class="cat-item cat-item-295"><a href="https://research.aimultiple.com/category/b2c/invest/cryptocurrency/">Cryptocurrency</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-292"><a href="https://research.aimultiple.com/category/vendors/" title="Marketing and sales best practices for B2B tech product or service providers">Growth for B2B Tech Vendors</a>
+</li>
+<li class="cat-item cat-item-191"><a href="https://research.aimultiple.com/category/affective-computing/">Affective Computing</a>
+</li>
+<li class="cat-item cat-item-63"><a href="https://research.aimultiple.com/category/agi/">AGI</a>
+</li>
+<li class="cat-item cat-item-187"><a href="https://research.aimultiple.com/category/automation/" title="Flexible software automation for all business functions for all industries">Automation</a>
+</li>
+<li class="cat-item cat-item-255"><a href="https://research.aimultiple.com/category/business/">Business</a>
+</li>
+<li class="cat-item cat-item-247"><a href="https://research.aimultiple.com/category/common-solutions/">Common solutions</a>
+<ul class='children'>
+<li class="cat-item cat-item-289"><a href="https://research.aimultiple.com/category/common-solutions/messaging/">Messaging</a>
+</li>
+<li class="cat-item cat-item-248"><a href="https://research.aimultiple.com/category/common-solutions/insight-engines/">Insight engines</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-208"><a href="https://research.aimultiple.com/category/computer-vision/">Computer Vision</a>
+<ul class='children'>
+<li class="cat-item cat-item-206"><a href="https://research.aimultiple.com/category/computer-vision/image-recognition/">Image recognition</a>
+</li>
+<li class="cat-item cat-item-207"><a href="https://research.aimultiple.com/category/computer-vision/machine-vision/">Machine Vision</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-198"><a href="https://research.aimultiple.com/category/decision-making/">Decision making</a>
+</li>
+<li class="cat-item cat-item-204"><a href="https://research.aimultiple.com/category/digital-transformation/">Digital Transformation</a>
+<ul class='children'>
+<li class="cat-item cat-item-205"><a href="https://research.aimultiple.com/category/digital-transformation/ai-transformation/">AI transformation</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-266"><a href="https://research.aimultiple.com/category/digital-twins/">Digital twins</a>
+</li>
+<li class="cat-item cat-item-274"><a href="https://research.aimultiple.com/category/ecm/">ECM</a>
+</li>
+<li class="cat-item cat-item-229"><a href="https://research.aimultiple.com/category/edge-computing/">Edge Computing</a>
+</li>
+<li class="cat-item cat-item-276"><a href="https://research.aimultiple.com/category/hyperautomation/">Hyperautomation</a>
+</li>
+<li class="cat-item cat-item-264"><a href="https://research.aimultiple.com/category/legal-tech/">Legal tech</a>
+</li>
+<li class="cat-item cat-item-212"><a href="https://research.aimultiple.com/category/low-code/">Low code</a>
+</li>
+<li class="cat-item cat-item-257"><a href="https://research.aimultiple.com/category/financial-services/">Financial Services</a>
+</li>
+<li class="cat-item cat-item-259"><a href="https://research.aimultiple.com/category/insurtech/">Insurtech</a>
+</li>
+<li class="cat-item cat-item-196"><a href="https://research.aimultiple.com/category/iot/">IoT</a>
+<ul class='children'>
+<li class="cat-item cat-item-197"><a href="https://research.aimultiple.com/category/iot/analytics-iot/">Analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-278"><a href="https://research.aimultiple.com/category/media-entertainment/">Media &amp; Entertainment</a>
+</li>
+<li class="cat-item cat-item-203"><a href="https://research.aimultiple.com/category/quantum-computing/">Quantum Computing</a>
+</li>
+<li class="cat-item cat-item-193"><a href="https://research.aimultiple.com/category/process-automation/">Process automation</a>
+</li>
+<li class="cat-item cat-item-256"><a href="https://research.aimultiple.com/category/process-improvement/">Process improvement</a>
+</li>
+<li class="cat-item cat-item-279"><a href="https://research.aimultiple.com/category/robotics/">Robotics</a>
+</li>
+<li class="cat-item cat-item-109"><a href="https://research.aimultiple.com/category/surveyreview-analytics/">Survey&amp;review analytics</a>
+</li>
+<li class="cat-item cat-item-107"><a href="https://research.aimultiple.com/category/self-checkout-system/">Self checkout system</a>
+</li>
+<li class="cat-item cat-item-251"><a href="https://research.aimultiple.com/category/finance/">Finance</a>
+<ul class='children'>
+<li class="cat-item cat-item-252"><a href="https://research.aimultiple.com/category/finance/source-to-pay/">Source to Pay</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-5"><a href="https://research.aimultiple.com/category/marketing/">Marketing</a>
+<ul class='children'>
+<li class="cat-item cat-item-287"><a href="https://research.aimultiple.com/category/marketing/conversion-rate-optimization/">Conversion rate optimization</a>
+</li>
+<li class="cat-item cat-item-290"><a href="https://research.aimultiple.com/category/marketing/social-media/">Social Media</a>
+</li>
+<li class="cat-item cat-item-254"><a href="https://research.aimultiple.com/category/marketing/account-based-marketing/">Account based marketing</a>
+</li>
+<li class="cat-item cat-item-258"><a href="https://research.aimultiple.com/category/marketing/seo/">SEO</a>
+</li>
+<li class="cat-item cat-item-76"><a href="https://research.aimultiple.com/category/marketing/pricing-optimization/">Dynamic pricing</a>
+</li>
+<li class="cat-item cat-item-81"><a href="https://research.aimultiple.com/category/marketing/recommendation-system/">Recommendation system</a>
+</li>
+<li class="cat-item cat-item-88"><a href="https://research.aimultiple.com/category/marketing/website-personalization/">Website personalization</a>
+</li>
+<li class="cat-item cat-item-108"><a href="https://research.aimultiple.com/category/marketing/content-automation/">Content Automation</a>
+</li>
+<li class="cat-item cat-item-110"><a href="https://research.aimultiple.com/category/marketing/voice-recognition/">Voice recognition</a>
+</li>
+<li class="cat-item cat-item-112"><a href="https://research.aimultiple.com/category/marketing/marketing-analytics/">Marketing analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-6"><a href="https://research.aimultiple.com/category/sales/">Sales</a>
+<ul class='children'>
+<li class="cat-item cat-item-261"><a href="https://research.aimultiple.com/category/sales/crm/">CRM</a>
+</li>
+<li class="cat-item cat-item-44"><a href="https://research.aimultiple.com/category/sales/predictive-sales/">Predictive sales</a>
+</li>
+<li class="cat-item cat-item-64"><a href="https://research.aimultiple.com/category/sales/lead-generation/">Lead Generation</a>
+</li>
+<li class="cat-item cat-item-122"><a href="https://research.aimultiple.com/category/sales/sales-analytics/">Sales analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-36"><a href="https://research.aimultiple.com/category/customer-service/">Customer Service</a>
+<ul class='children'>
+<li class="cat-item cat-item-111"><a href="https://research.aimultiple.com/category/customer-service/intelligent-call-routing/">Intelligent call routing</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-260"><a href="https://research.aimultiple.com/category/supply-chain-logistics/">Supply Chain &amp; Logistics</a>
+</li>
+<li class="cat-item cat-item-41"><a href="https://research.aimultiple.com/category/operations/">Operations</a>
+<ul class='children'>
+<li class="cat-item cat-item-288"><a href="https://research.aimultiple.com/category/operations/erp/">ERP</a>
+</li>
+<li class="cat-item cat-item-249"><a href="https://research.aimultiple.com/category/operations/order-management/">Order management</a>
+</li>
+<li class="cat-item cat-item-202"><a href="https://research.aimultiple.com/category/operations/ocr/">OCR</a>
+</li>
+<li class="cat-item cat-item-189"><a href="https://research.aimultiple.com/category/operations/invoice-automation/">Invoice automation</a>
+</li>
+<li class="cat-item cat-item-42"><a href="https://research.aimultiple.com/category/operations/predictive-maintenance/">Predictive maintenance</a>
+</li>
+<li class="cat-item cat-item-105"><a href="https://research.aimultiple.com/category/operations/manufacturing-analytics/">Manufacturing analytics</a>
+</li>
+<li class="cat-item cat-item-165"><a href="https://research.aimultiple.com/category/operations/fraud-detection/">Fraud Detection</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-159"><a href="https://research.aimultiple.com/category/it/">Tech</a>
+<ul class='children'>
+<li class="cat-item cat-item-224"><a href="https://research.aimultiple.com/category/it/devops/">DevOps</a>
+</li>
+<li class="cat-item cat-item-230"><a href="https://research.aimultiple.com/category/it/software-development/">Software development</a>
+</li>
+<li class="cat-item cat-item-245"><a href="https://research.aimultiple.com/category/it/monitoring/">Monitoring</a>
+</li>
+<li class="cat-item cat-item-160"><a href="https://research.aimultiple.com/category/it/information-security/">Information Security</a>
+<ul class='children'>
+<li class="cat-item cat-item-162"><a href="https://research.aimultiple.com/category/it/information-security/deception-technology/">Deception Technology</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-45"><a href="https://research.aimultiple.com/category/hr/">HR</a>
+<ul class='children'>
+<li class="cat-item cat-item-241"><a href="https://research.aimultiple.com/category/hr/recruiting/">Recruiting</a>
+</li>
+<li class="cat-item cat-item-46"><a href="https://research.aimultiple.com/category/hr/hr-analytics/">Analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-128"><a href="https://research.aimultiple.com/category/data/">Data</a>
+<ul class='children'>
+<li class="cat-item cat-item-307"><a href="https://research.aimultiple.com/category/data/data-augmentation/">Data augmentation</a>
+</li>
+<li class="cat-item cat-item-286"><a href="https://research.aimultiple.com/category/data/web-scraping/">Web Scraping</a>
+</li>
+<li class="cat-item cat-item-211"><a href="https://research.aimultiple.com/category/data/data-virtualization/">Data Virtualization</a>
+</li>
+<li class="cat-item cat-item-253"><a href="https://research.aimultiple.com/category/data/data-marketplace/">Data marketplace</a>
+</li>
+<li class="cat-item cat-item-129"><a href="https://research.aimultiple.com/category/data/etl/">ETL</a>
+</li>
+<li class="cat-item cat-item-134"><a href="https://research.aimultiple.com/category/data/data-integration/">Data integration</a>
+</li>
+<li class="cat-item cat-item-153"><a href="https://research.aimultiple.com/category/data/data-visualization/">Data Visualization</a>
+</li>
+<li class="cat-item cat-item-155"><a href="https://research.aimultiple.com/category/data/knowledge-management/">Knowledge Management</a>
+</li>
+<li class="cat-item cat-item-167"><a href="https://research.aimultiple.com/category/data/data-cleaning/">Data Cleaning</a>
+</li>
+<li class="cat-item cat-item-171"><a href="https://research.aimultiple.com/category/data/data-governance/">Data Governance</a>
+</li>
+<li class="cat-item cat-item-176"><a href="https://research.aimultiple.com/category/data/synthetic-data/">Synthetic Data</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-177"><a href="https://research.aimultiple.com/category/analytics/">Analytics</a>
+</li>
+<li class="cat-item cat-item-114"><a href="https://research.aimultiple.com/category/blockchain/">Blockchain</a>
+<ul class='children'>
+<li class="cat-item cat-item-300"><a href="https://research.aimultiple.com/category/blockchain/nft/">NFT</a>
+</li>
+<li class="cat-item cat-item-115"><a href="https://research.aimultiple.com/category/blockchain/blockchain-consulting/">Blockchain Consulting</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-116"><a href="https://research.aimultiple.com/category/consulting/">Consulting</a>
+<ul class='children'>
+<li class="cat-item cat-item-117"><a href="https://research.aimultiple.com/category/consulting/ai-consulting/">AI consulting</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-113"><a href="https://research.aimultiple.com/category/data-science/">Data science</a>
+</li>
+<li class="cat-item cat-item-157"><a href="https://research.aimultiple.com/category/fintech/">Fintech</a>
+<ul class='children'>
+<li class="cat-item cat-item-158"><a href="https://research.aimultiple.com/category/fintech/credit-scoring/">Credit Scoring</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-10"><a href="https://research.aimultiple.com/category/healthcare/">Healthcare</a>
+<ul class='children'>
+<li class="cat-item cat-item-298"><a href="https://research.aimultiple.com/category/healthcare/telehealth/">Telehealth</a>
+</li>
+<li class="cat-item cat-item-61"><a href="https://research.aimultiple.com/category/healthcare/drug-discovery/">Drug discovery</a>
+</li>
+<li class="cat-item cat-item-71"><a href="https://research.aimultiple.com/category/healthcare/healthcare-analytics/">Analytics</a>
+</li>
+<li class="cat-item cat-item-106"><a href="https://research.aimultiple.com/category/healthcare/personalized-care/">Personalized care</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-57"><a href="https://research.aimultiple.com/category/non-profit/">Nonprofit</a>
+<ul class='children'>
+<li class="cat-item cat-item-58"><a href="https://research.aimultiple.com/category/non-profit/art/">Art</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-80"><a href="https://research.aimultiple.com/category/artificial-intelligence/">Artificial intelligence</a>
+<ul class='children'>
+<li class="cat-item cat-item-291"><a href="https://research.aimultiple.com/category/artificial-intelligence/nlp/">NLP</a>
+</li>
+<li class="cat-item cat-item-242"><a href="https://research.aimultiple.com/category/artificial-intelligence/accelerator/">Accelerator</a>
+</li>
+<li class="cat-item cat-item-243"><a href="https://research.aimultiple.com/category/artificial-intelligence/xai/">XAI</a>
+</li>
+<li class="cat-item cat-item-246"><a href="https://research.aimultiple.com/category/artificial-intelligence/ai-avatar/">AI avatar</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-82"><a href="https://research.aimultiple.com/category/ai-company/">AI Company</a>
+<ul class='children'>
+<li class="cat-item cat-item-18"><a href="https://research.aimultiple.com/category/ai-company/alphabet/">Alphabet</a>
+</li>
+<li class="cat-item cat-item-83"><a href="https://research.aimultiple.com/category/ai-company/facebook/">Facebook</a>
+</li>
+<li class="cat-item cat-item-118"><a href="https://research.aimultiple.com/category/ai-company/veritone/">Veritone</a>
+</li>
+<li class="cat-item cat-item-124"><a href="https://research.aimultiple.com/category/ai-company/carlabs/">CarLabs</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-91"><a href="https://research.aimultiple.com/category/ai-vendors/">AI Vendors</a>
+</li>
+<li class="cat-item cat-item-93"><a href="https://research.aimultiple.com/category/ai-startups/">AI startups</a>
+</li>
+<li class="cat-item cat-item-92"><a href="https://research.aimultiple.com/category/autonomous-driving/">Autonomous driving</a>
+</li>
+<li class="cat-item cat-item-103"><a href="https://research.aimultiple.com/category/e-commerce/">e-commerce</a>
+</li>
+<li class="cat-item cat-item-262"><a href="https://research.aimultiple.com/category/industry-analysts/">Industry analysts</a>
+</li>
+<li class="cat-item cat-item-265"><a href="https://research.aimultiple.com/category/software-reviews/">Software reviews</a>
+</li>
+<li class="cat-item cat-item-3"><a href="https://research.aimultiple.com/category/aimultiple/">AIMultiple</a>
+</li>
+<li class="cat-item cat-item-96"><a href="https://research.aimultiple.com/category/guidelines/">Guidelines</a>
+</li>
+</ul>
+</div>		</div>
+</div>
+</div>
+<div id="page" class="site">
+<div class="site-inner">
+<header id="masthead" class="site-header page-header-type-simple" role="banner">
+<div class="header header-left header-dark d-none d-lg-block">
+<div class="cs-container">
+<div class="header-col header-col-center">
+<div>
+<a href="https://aimultiple.com" class="site-logo">
+<script data-pagespeed-no-defer>//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/','8Xxa2XQLv9',true,false,'FZ1GU5cTk1s');
+//]]></script><img class="logo-image" src="https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg" srcset="https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg 1x, https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg 2x" alt="AIMultiple: AI Use cases &amp; Tools to Grow Your Business" data-pagespeed-url-hash="2137490000" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</a>
+</div>
+</div>
+<div class="header-col header-col-right">
+<div>
+<a href="https://research.aimultiple.com">RESEARCH</a>				</div>
+</div>
+</div>
+</div>
+<div class="navbar-primary navbar-center search-disabled social-disabled toggle-disabled">
+<div class="cs-container">
+<nav class="navbar">
+<div class="navbar-col">
+<div>
+<button class="navbar-toggle offcanvas-toggle" type="button">
+<i class="cs-icon cs-icon-menu"></i>
+</button>
+<a class="navbar-brand" href="https://research.aimultiple.com/">
+<img class="logo-image" src="https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg" srcset="https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg 1x, https://research.aimultiple.com/wp-content/uploads/2019/06/logo.svg 2x" alt="AIMultiple: AI Use cases &amp; Tools to Grow Your Business" data-pagespeed-url-hash="2137490000" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</a>
+</div>
+</div>
+<div class="navbar-col">
+<div>
+<ul id="menu-off-canvas-menu-1" class="nav navbar-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2273"><a href="https://research.aimultiple.com">HOME</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2272"><a href="https://aimultiple.com">EXPLORE AI USE CASES &#038; VENDORS</a></li>
+</ul>				</div>
+</div>
+<div class="navbar-col">
+<div>
+<a href="#search" class="navbar-search"><i class="cs-icon cs-icon-search"></i></a>
+</div>
+</div>
+</nav>
+</div>
+</div><!-- .navbar-primary -->
+</header>
+<div class="site-content layout-sidebar layout-sidebar-right post-sidebar-disabled layout-narrow-enabled section-heading-default-style-1">
+<div class="cs-container">
+<div id="content" class="main-content">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+<header class="page-header page-header-simple">
+<h1>No Code RPA</h1>			<div class="post-count">
+5 posts			</div>
+</header>
+<div class="post-archive"><div class="archive-main archive-standard">
+<article class="post-standard post-3997 post type-post status-publish format-standard category-robotic-process-automation category-no-code-rpa">
+<div class="post-outer">
+<div class="post-inner">
+<header class="entry-header">
+<div class="meta-category"><ul class="post-categories">
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/" rel="category tag">Robotic Process Automation (RPA)</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/" rel="category tag">No Code RPA</a></li></ul></div>				<h2 class="entry-title"><a href="https://research.aimultiple.com/argos-labs/">Argos Labs CEO Shige gives 5 reasons to choose RPA+</a></h2>
+<ul class="post-meta"><li class="meta-date"><a href="https://research.aimultiple.com/argos-labs/" rel="bookmark">May 31, 2020</a></li></ul>			</header>
+<div class="post-excerpt">We are grateful to Shige Sato for his time. He is a veteran of tech 30+ years of experience, co-founder &amp; CEO of Argos Labs. Their solution, RPA+, is one&hellip;</div><div class="post-more"><a href="https://research.aimultiple.com/argos-labs/" class="button button-primary button-effect button-lg"><span>View Post</span><span><i class="cs-icon cs-icon-arrow-right"></i></span></a></div>				<div class="post-share">
+<span class="title-share">Share <i class="cs-icon cs-icon-arrow-right"></i></span>
+<div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-default pk-share-buttons-post-loop pk-share-buttons-mode-cached" data-post-id="3997" data-share-url="https://research.aimultiple.com/argos-labs/">
+<div class="pk-share-buttons-items">
+<div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.aimultiple.com/argos-labs/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter">
+<a href="https://twitter.com/share?&text=Argos%20Labs%20CEO%20Shige%20gives%205%20reasons%20to%20choose%20RPA%2B&url=https://research.aimultiple.com/argos-labs/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook">
+<a href="https://www.facebook.com/sharer.php?u=https://research.aimultiple.com/argos-labs/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="post-standard post-3307 post type-post status-publish format-standard category-robotic-process-automation category-no-code-rpa">
+<div class="post-outer">
+<div class="post-inner">
+<header class="entry-header">
+<div class="meta-category"><ul class="post-categories">
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/" rel="category tag">Robotic Process Automation (RPA)</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/" rel="category tag">No Code RPA</a></li></ul></div>				<h2 class="entry-title"><a href="https://research.aimultiple.com/rda/">Robotic Desktop Automation in 2021: In-depth Guide</a></h2>
+<ul class="post-meta"><li class="meta-date"><a href="https://research.aimultiple.com/rda/" rel="bookmark">March 8, 2021</a></li></ul>			</header>
+<div class="post-excerpt">RDA, also called attended RPA, is Robotic Process Automation (RPA) for the masses. RPA includes: Attended RPA which enables most knowledge workers to automate their work Unattended RPA which runs&hellip;</div><div class="post-more"><a href="https://research.aimultiple.com/rda/" class="button button-primary button-effect button-lg"><span>View Post</span><span><i class="cs-icon cs-icon-arrow-right"></i></span></a></div>				<div class="post-share">
+<span class="title-share">Share <i class="cs-icon cs-icon-arrow-right"></i></span>
+<div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-default pk-share-buttons-post-loop pk-share-buttons-mode-cached" data-post-id="3307" data-share-url="https://research.aimultiple.com/rda/">
+<div class="pk-share-buttons-items">
+<div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.aimultiple.com/rda/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter">
+<a href="https://twitter.com/share?&text=Robotic%20Desktop%20Automation%20in%202021%3A%20In-depth%20Guide&url=https://research.aimultiple.com/rda/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook">
+<a href="https://www.facebook.com/sharer.php?u=https://research.aimultiple.com/rda/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="post-standard post-3187 post type-post status-publish format-standard category-robotic-process-automation category-no-code-rpa">
+<div class="post-outer">
+<div class="post-inner">
+<header class="entry-header">
+<div class="meta-category"><ul class="post-categories">
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/" rel="category tag">Robotic Process Automation (RPA)</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/" rel="category tag">No Code RPA</a></li></ul></div>				<h2 class="entry-title"><a href="https://research.aimultiple.com/no-code-rpa-software/">No code / low code RPA tools enabling faster RPA in 2021</a></h2>
+<ul class="post-meta"><li class="meta-date"><a href="https://research.aimultiple.com/no-code-rpa-software/" rel="bookmark">January 1, 2021</a></li></ul>			</header>
+<div class="post-excerpt">No code RPA (also called low code RPA when a limited amount of coding is required) is an emerging technology but there are already strong companies with commercial space emerging&hellip;</div><div class="post-more"><a href="https://research.aimultiple.com/no-code-rpa-software/" class="button button-primary button-effect button-lg"><span>View Post</span><span><i class="cs-icon cs-icon-arrow-right"></i></span></a></div>				<div class="post-share">
+<span class="title-share">Share <i class="cs-icon cs-icon-arrow-right"></i></span>
+<div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-default pk-share-buttons-post-loop pk-share-buttons-mode-cached" data-post-id="3187" data-share-url="https://research.aimultiple.com/no-code-rpa-software/">
+<div class="pk-share-buttons-items">
+<div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.aimultiple.com/no-code-rpa-software/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter">
+<a href="https://twitter.com/share?&text=No%20code%20%2F%20low%20code%20RPA%20tools%20enabling%20faster%20RPA%20in%202021&url=https://research.aimultiple.com/no-code-rpa-software/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook">
+<a href="https://www.facebook.com/sharer.php?u=https://research.aimultiple.com/no-code-rpa-software/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="post-standard post-3183 post type-post status-publish format-standard has-post-thumbnail category-robotic-process-automation category-no-code-rpa">
+<div class="post-outer">
+<div class="post-inner">
+<header class="entry-header">
+<div class="meta-category"><ul class="post-categories">
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/" rel="category tag">Robotic Process Automation (RPA)</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/" rel="category tag">No Code RPA</a></li></ul></div>				<h2 class="entry-title"><a href="https://research.aimultiple.com/no-code-rpa/">No code / Low code RPA: Guide to faster, cheaper RPA in 2021</a></h2>
+<ul class="post-meta"><li class="meta-date"><a href="https://research.aimultiple.com/no-code-rpa/" rel="bookmark">January 1, 2021</a></li></ul>			</header>
+<section class="post-media">
+<a href="https://research.aimultiple.com/no-code-rpa/">
+<img width="800" height="404" src="https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-800x404.png" class="attachment-csco-800 size-csco-800 wp-post-image" alt="" loading="lazy" srcset="https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-800x404.png 800w, https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-1160x586.png 1160w, https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-320x162.png 320w, https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-560x283.png 560w, https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code-1920x971.png 1920w, https://research.aimultiple.com/wp-content/uploads/2018/12/No-code-low-code.png 2560w" sizes="(max-width: 800px) 100vw, 800px" data-pagespeed-url-hash="1571117623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>		</a>
+</section>
+<div class="post-excerpt">As we explained in future of RPA, currently most RPA solutions require a time consuming programming process which is mostly outsourced to consulting companies, system integrators or niche RPA implementation&hellip;</div><div class="post-more"><a href="https://research.aimultiple.com/no-code-rpa/" class="button button-primary button-effect button-lg"><span>View Post</span><span><i class="cs-icon cs-icon-arrow-right"></i></span></a></div>				<div class="post-share">
+<span class="title-share">Share <i class="cs-icon cs-icon-arrow-right"></i></span>
+<div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-default pk-share-buttons-post-loop pk-share-buttons-mode-cached" data-post-id="3183" data-share-url="https://research.aimultiple.com/no-code-rpa/">
+<div class="pk-share-buttons-items">
+<div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.aimultiple.com/no-code-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter">
+<a href="https://twitter.com/share?&text=No%20code%20%2F%20Low%20code%20RPA%3A%20Guide%20to%20faster%2C%20cheaper%20RPA%20in%202021&url=https://research.aimultiple.com/no-code-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook">
+<a href="https://www.facebook.com/sharer.php?u=https://research.aimultiple.com/no-code-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="post-standard post-3169 post type-post status-publish format-standard has-post-thumbnail category-robotic-process-automation category-no-code-rpa category-rpa-marketplace">
+<div class="post-outer">
+<div class="post-inner">
+<header class="entry-header">
+<div class="meta-category"><ul class="post-categories">
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/" rel="category tag">Robotic Process Automation (RPA)</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/" rel="category tag">No Code RPA</a></li>
+<li><a href="https://research.aimultiple.com/category/robotic-process-automation/rpa-marketplace/" rel="category tag">RPA marketplace</a></li></ul></div>				<h2 class="entry-title"><a href="https://research.aimultiple.com/future-of-rpa/">Future of RPA: In-depth Guide to RPA Innovation in 2021</a></h2>
+<ul class="post-meta"><li class="meta-date"><a href="https://research.aimultiple.com/future-of-rpa/" rel="bookmark">January 1, 2021</a></li></ul>			</header>
+<section class="post-media">
+<a href="https://research.aimultiple.com/future-of-rpa/">
+<img width="800" height="480" src="https://research.aimultiple.com/wp-content/uploads/2018/12/RPA-innovation-800x480.jpg" class="attachment-csco-800 size-csco-800 wp-post-image" alt="" loading="lazy" srcset="https://research.aimultiple.com/wp-content/uploads/2018/12/RPA-innovation-800x480.jpg 800w, https://research.aimultiple.com/wp-content/uploads/2018/12/RPA-innovation-320x192.jpg 320w, https://research.aimultiple.com/wp-content/uploads/2018/12/RPA-innovation-560x336.jpg 560w, https://research.aimultiple.com/wp-content/uploads/2018/12/RPA-innovation.jpg 1000w" sizes="(max-width: 800px) 100vw, 800px" data-pagespeed-url-hash="570528184" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>		</a>
+</section>
+<div class="post-excerpt">RPA tools are the most successful generalist automation tools for the modern enterprise but implementing RPA is not without pitfalls as we outlined before. We see 3 trends shaping the&hellip;</div><div class="post-more"><a href="https://research.aimultiple.com/future-of-rpa/" class="button button-primary button-effect button-lg"><span>View Post</span><span><i class="cs-icon cs-icon-arrow-right"></i></span></a></div>				<div class="post-share">
+<span class="title-share">Share <i class="cs-icon cs-icon-arrow-right"></i></span>
+<div class="pk-share-buttons-wrap pk-share-buttons-layout-simple pk-share-buttons-scheme-default pk-share-buttons-post-loop pk-share-buttons-mode-cached" data-post-id="3169" data-share-url="https://research.aimultiple.com/future-of-rpa/">
+<div class="pk-share-buttons-items">
+<div class="pk-share-buttons-item pk-share-buttons-linkedin pk-share-buttons-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://research.aimultiple.com/future-of-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-linkedin"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-twitter pk-share-buttons-no-count" data-id="twitter">
+<a href="https://twitter.com/share?&text=Future%20of%20RPA%3A%20In-depth%20Guide%20to%20RPA%20Innovation%20in%202021&url=https://research.aimultiple.com/future-of-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-twitter"></i>
+</a>
+</div>
+<div class="pk-share-buttons-item pk-share-buttons-facebook pk-share-buttons-no-count" data-id="facebook">
+<a href="https://www.facebook.com/sharer.php?u=https://research.aimultiple.com/future-of-rpa/" class="pk-share-buttons-link" target="_blank">
+<i class="pk-share-buttons-icon pk-icon pk-icon-facebook"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div></div>
+</main>
+</div><!-- .content-area -->
+<aside id="secondary" class="sidebar-area widget-area" role="complementary">
+<div class="sidebar sidebar-1">
+<div class="widget search-2 widget_search">
+<form role="search" method="get" class="search-form form" action="https://research.aimultiple.com/">
+<label class="sr-only">Search for:</label>
+<div class="cs-input-group">
+<input type="search" value="" name="s" class="search-field form-control" placeholder="Enter Keyword" required>
+<span class="cs-input-group-btn">
+<button type="submit" class="search-submit button button-primary button-effect"><span>Search</span><span><i class="cs-icon cs-icon-search"></i></span></button>
+</span>
+</div>
+</form>
+</div><div class="widget categories-2 widget_categories"><h5 class="cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft title-widget "><span class="cnvs-section-title"><span>Categories</span></span></h5>
+<ul>
+<li class="cat-item cat-item-43 current-cat-parent current-cat-ancestor"><a href="https://research.aimultiple.com/category/robotic-process-automation/" title="Robotic Process Automation">Robotic Process Automation (RPA)</a>
+<ul class='children'>
+<li class="cat-item cat-item-188 current-cat"><a aria-current="page" href="https://research.aimultiple.com/category/robotic-process-automation/no-code-rpa/">No Code RPA</a>
+</li>
+<li class="cat-item cat-item-192"><a href="https://research.aimultiple.com/category/robotic-process-automation/rpa-marketplace/">RPA marketplace</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-250"><a href="https://research.aimultiple.com/category/document-automation/">Document automation</a>
+</li>
+<li class="cat-item cat-item-195"><a href="https://research.aimultiple.com/category/process-mining/">Process mining</a>
+<ul class='children'>
+<li class="cat-item cat-item-263"><a href="https://research.aimultiple.com/category/process-mining/task-mining/">Task mining</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-49"><a href="https://research.aimultiple.com/category/e2e-chatbot/">Chatbot</a>
+</li>
+<li class="cat-item cat-item-210"><a href="https://research.aimultiple.com/category/machine-learning/">Machine Learning</a>
+<ul class='children'>
+<li class="cat-item cat-item-299"><a href="https://research.aimultiple.com/category/machine-learning/deep-learning/">Deep learning</a>
+</li>
+<li class="cat-item cat-item-209"><a href="https://research.aimultiple.com/category/machine-learning/data-labeling/">Data Labeling</a>
+</li>
+<li class="cat-item cat-item-156"><a href="https://research.aimultiple.com/category/machine-learning/automated-machine-learning/">Automated Machine Learning</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-293"><a href="https://research.aimultiple.com/category/b2c/">B2C</a>
+<ul class='children'>
+<li class="cat-item cat-item-294"><a href="https://research.aimultiple.com/category/b2c/invest/">Investing</a>
+<ul class='children'>
+<li class="cat-item cat-item-295"><a href="https://research.aimultiple.com/category/b2c/invest/cryptocurrency/">Cryptocurrency</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-292"><a href="https://research.aimultiple.com/category/vendors/" title="Marketing and sales best practices for B2B tech product or service providers">Growth for B2B Tech Vendors</a>
+</li>
+<li class="cat-item cat-item-191"><a href="https://research.aimultiple.com/category/affective-computing/">Affective Computing</a>
+</li>
+<li class="cat-item cat-item-63"><a href="https://research.aimultiple.com/category/agi/">AGI</a>
+</li>
+<li class="cat-item cat-item-187"><a href="https://research.aimultiple.com/category/automation/" title="Flexible software automation for all business functions for all industries">Automation</a>
+</li>
+<li class="cat-item cat-item-255"><a href="https://research.aimultiple.com/category/business/">Business</a>
+</li>
+<li class="cat-item cat-item-247"><a href="https://research.aimultiple.com/category/common-solutions/">Common solutions</a>
+<ul class='children'>
+<li class="cat-item cat-item-289"><a href="https://research.aimultiple.com/category/common-solutions/messaging/">Messaging</a>
+</li>
+<li class="cat-item cat-item-248"><a href="https://research.aimultiple.com/category/common-solutions/insight-engines/">Insight engines</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-208"><a href="https://research.aimultiple.com/category/computer-vision/">Computer Vision</a>
+<ul class='children'>
+<li class="cat-item cat-item-206"><a href="https://research.aimultiple.com/category/computer-vision/image-recognition/">Image recognition</a>
+</li>
+<li class="cat-item cat-item-207"><a href="https://research.aimultiple.com/category/computer-vision/machine-vision/">Machine Vision</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-198"><a href="https://research.aimultiple.com/category/decision-making/">Decision making</a>
+</li>
+<li class="cat-item cat-item-204"><a href="https://research.aimultiple.com/category/digital-transformation/">Digital Transformation</a>
+<ul class='children'>
+<li class="cat-item cat-item-205"><a href="https://research.aimultiple.com/category/digital-transformation/ai-transformation/">AI transformation</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-266"><a href="https://research.aimultiple.com/category/digital-twins/">Digital twins</a>
+</li>
+<li class="cat-item cat-item-274"><a href="https://research.aimultiple.com/category/ecm/">ECM</a>
+</li>
+<li class="cat-item cat-item-229"><a href="https://research.aimultiple.com/category/edge-computing/">Edge Computing</a>
+</li>
+<li class="cat-item cat-item-276"><a href="https://research.aimultiple.com/category/hyperautomation/">Hyperautomation</a>
+</li>
+<li class="cat-item cat-item-264"><a href="https://research.aimultiple.com/category/legal-tech/">Legal tech</a>
+</li>
+<li class="cat-item cat-item-212"><a href="https://research.aimultiple.com/category/low-code/">Low code</a>
+</li>
+<li class="cat-item cat-item-257"><a href="https://research.aimultiple.com/category/financial-services/">Financial Services</a>
+</li>
+<li class="cat-item cat-item-259"><a href="https://research.aimultiple.com/category/insurtech/">Insurtech</a>
+</li>
+<li class="cat-item cat-item-196"><a href="https://research.aimultiple.com/category/iot/">IoT</a>
+<ul class='children'>
+<li class="cat-item cat-item-197"><a href="https://research.aimultiple.com/category/iot/analytics-iot/">Analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-278"><a href="https://research.aimultiple.com/category/media-entertainment/">Media &amp; Entertainment</a>
+</li>
+<li class="cat-item cat-item-203"><a href="https://research.aimultiple.com/category/quantum-computing/">Quantum Computing</a>
+</li>
+<li class="cat-item cat-item-193"><a href="https://research.aimultiple.com/category/process-automation/">Process automation</a>
+</li>
+<li class="cat-item cat-item-256"><a href="https://research.aimultiple.com/category/process-improvement/">Process improvement</a>
+</li>
+<li class="cat-item cat-item-279"><a href="https://research.aimultiple.com/category/robotics/">Robotics</a>
+</li>
+<li class="cat-item cat-item-109"><a href="https://research.aimultiple.com/category/surveyreview-analytics/">Survey&amp;review analytics</a>
+</li>
+<li class="cat-item cat-item-107"><a href="https://research.aimultiple.com/category/self-checkout-system/">Self checkout system</a>
+</li>
+<li class="cat-item cat-item-251"><a href="https://research.aimultiple.com/category/finance/">Finance</a>
+<ul class='children'>
+<li class="cat-item cat-item-252"><a href="https://research.aimultiple.com/category/finance/source-to-pay/">Source to Pay</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-5"><a href="https://research.aimultiple.com/category/marketing/">Marketing</a>
+<ul class='children'>
+<li class="cat-item cat-item-287"><a href="https://research.aimultiple.com/category/marketing/conversion-rate-optimization/">Conversion rate optimization</a>
+</li>
+<li class="cat-item cat-item-290"><a href="https://research.aimultiple.com/category/marketing/social-media/">Social Media</a>
+</li>
+<li class="cat-item cat-item-254"><a href="https://research.aimultiple.com/category/marketing/account-based-marketing/">Account based marketing</a>
+</li>
+<li class="cat-item cat-item-258"><a href="https://research.aimultiple.com/category/marketing/seo/">SEO</a>
+</li>
+<li class="cat-item cat-item-76"><a href="https://research.aimultiple.com/category/marketing/pricing-optimization/">Dynamic pricing</a>
+</li>
+<li class="cat-item cat-item-81"><a href="https://research.aimultiple.com/category/marketing/recommendation-system/">Recommendation system</a>
+</li>
+<li class="cat-item cat-item-88"><a href="https://research.aimultiple.com/category/marketing/website-personalization/">Website personalization</a>
+</li>
+<li class="cat-item cat-item-108"><a href="https://research.aimultiple.com/category/marketing/content-automation/">Content Automation</a>
+</li>
+<li class="cat-item cat-item-110"><a href="https://research.aimultiple.com/category/marketing/voice-recognition/">Voice recognition</a>
+</li>
+<li class="cat-item cat-item-112"><a href="https://research.aimultiple.com/category/marketing/marketing-analytics/">Marketing analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-6"><a href="https://research.aimultiple.com/category/sales/">Sales</a>
+<ul class='children'>
+<li class="cat-item cat-item-261"><a href="https://research.aimultiple.com/category/sales/crm/">CRM</a>
+</li>
+<li class="cat-item cat-item-44"><a href="https://research.aimultiple.com/category/sales/predictive-sales/">Predictive sales</a>
+</li>
+<li class="cat-item cat-item-64"><a href="https://research.aimultiple.com/category/sales/lead-generation/">Lead Generation</a>
+</li>
+<li class="cat-item cat-item-122"><a href="https://research.aimultiple.com/category/sales/sales-analytics/">Sales analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-36"><a href="https://research.aimultiple.com/category/customer-service/">Customer Service</a>
+<ul class='children'>
+<li class="cat-item cat-item-111"><a href="https://research.aimultiple.com/category/customer-service/intelligent-call-routing/">Intelligent call routing</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-260"><a href="https://research.aimultiple.com/category/supply-chain-logistics/">Supply Chain &amp; Logistics</a>
+</li>
+<li class="cat-item cat-item-41"><a href="https://research.aimultiple.com/category/operations/">Operations</a>
+<ul class='children'>
+<li class="cat-item cat-item-288"><a href="https://research.aimultiple.com/category/operations/erp/">ERP</a>
+</li>
+<li class="cat-item cat-item-249"><a href="https://research.aimultiple.com/category/operations/order-management/">Order management</a>
+</li>
+<li class="cat-item cat-item-202"><a href="https://research.aimultiple.com/category/operations/ocr/">OCR</a>
+</li>
+<li class="cat-item cat-item-189"><a href="https://research.aimultiple.com/category/operations/invoice-automation/">Invoice automation</a>
+</li>
+<li class="cat-item cat-item-42"><a href="https://research.aimultiple.com/category/operations/predictive-maintenance/">Predictive maintenance</a>
+</li>
+<li class="cat-item cat-item-105"><a href="https://research.aimultiple.com/category/operations/manufacturing-analytics/">Manufacturing analytics</a>
+</li>
+<li class="cat-item cat-item-165"><a href="https://research.aimultiple.com/category/operations/fraud-detection/">Fraud Detection</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-159"><a href="https://research.aimultiple.com/category/it/">Tech</a>
+<ul class='children'>
+<li class="cat-item cat-item-224"><a href="https://research.aimultiple.com/category/it/devops/">DevOps</a>
+</li>
+<li class="cat-item cat-item-230"><a href="https://research.aimultiple.com/category/it/software-development/">Software development</a>
+</li>
+<li class="cat-item cat-item-245"><a href="https://research.aimultiple.com/category/it/monitoring/">Monitoring</a>
+</li>
+<li class="cat-item cat-item-160"><a href="https://research.aimultiple.com/category/it/information-security/">Information Security</a>
+<ul class='children'>
+<li class="cat-item cat-item-162"><a href="https://research.aimultiple.com/category/it/information-security/deception-technology/">Deception Technology</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-45"><a href="https://research.aimultiple.com/category/hr/">HR</a>
+<ul class='children'>
+<li class="cat-item cat-item-241"><a href="https://research.aimultiple.com/category/hr/recruiting/">Recruiting</a>
+</li>
+<li class="cat-item cat-item-46"><a href="https://research.aimultiple.com/category/hr/hr-analytics/">Analytics</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-128"><a href="https://research.aimultiple.com/category/data/">Data</a>
+<ul class='children'>
+<li class="cat-item cat-item-307"><a href="https://research.aimultiple.com/category/data/data-augmentation/">Data augmentation</a>
+</li>
+<li class="cat-item cat-item-286"><a href="https://research.aimultiple.com/category/data/web-scraping/">Web Scraping</a>
+</li>
+<li class="cat-item cat-item-211"><a href="https://research.aimultiple.com/category/data/data-virtualization/">Data Virtualization</a>
+</li>
+<li class="cat-item cat-item-253"><a href="https://research.aimultiple.com/category/data/data-marketplace/">Data marketplace</a>
+</li>
+<li class="cat-item cat-item-129"><a href="https://research.aimultiple.com/category/data/etl/">ETL</a>
+</li>
+<li class="cat-item cat-item-134"><a href="https://research.aimultiple.com/category/data/data-integration/">Data integration</a>
+</li>
+<li class="cat-item cat-item-153"><a href="https://research.aimultiple.com/category/data/data-visualization/">Data Visualization</a>
+</li>
+<li class="cat-item cat-item-155"><a href="https://research.aimultiple.com/category/data/knowledge-management/">Knowledge Management</a>
+</li>
+<li class="cat-item cat-item-167"><a href="https://research.aimultiple.com/category/data/data-cleaning/">Data Cleaning</a>
+</li>
+<li class="cat-item cat-item-171"><a href="https://research.aimultiple.com/category/data/data-governance/">Data Governance</a>
+</li>
+<li class="cat-item cat-item-176"><a href="https://research.aimultiple.com/category/data/synthetic-data/">Synthetic Data</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-177"><a href="https://research.aimultiple.com/category/analytics/">Analytics</a>
+</li>
+<li class="cat-item cat-item-114"><a href="https://research.aimultiple.com/category/blockchain/">Blockchain</a>
+<ul class='children'>
+<li class="cat-item cat-item-300"><a href="https://research.aimultiple.com/category/blockchain/nft/">NFT</a>
+</li>
+<li class="cat-item cat-item-115"><a href="https://research.aimultiple.com/category/blockchain/blockchain-consulting/">Blockchain Consulting</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-116"><a href="https://research.aimultiple.com/category/consulting/">Consulting</a>
+<ul class='children'>
+<li class="cat-item cat-item-117"><a href="https://research.aimultiple.com/category/consulting/ai-consulting/">AI consulting</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-113"><a href="https://research.aimultiple.com/category/data-science/">Data science</a>
+</li>
+<li class="cat-item cat-item-157"><a href="https://research.aimultiple.com/category/fintech/">Fintech</a>
+<ul class='children'>
+<li class="cat-item cat-item-158"><a href="https://research.aimultiple.com/category/fintech/credit-scoring/">Credit Scoring</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-10"><a href="https://research.aimultiple.com/category/healthcare/">Healthcare</a>
+<ul class='children'>
+<li class="cat-item cat-item-298"><a href="https://research.aimultiple.com/category/healthcare/telehealth/">Telehealth</a>
+</li>
+<li class="cat-item cat-item-61"><a href="https://research.aimultiple.com/category/healthcare/drug-discovery/">Drug discovery</a>
+</li>
+<li class="cat-item cat-item-71"><a href="https://research.aimultiple.com/category/healthcare/healthcare-analytics/">Analytics</a>
+</li>
+<li class="cat-item cat-item-106"><a href="https://research.aimultiple.com/category/healthcare/personalized-care/">Personalized care</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-57"><a href="https://research.aimultiple.com/category/non-profit/">Nonprofit</a>
+<ul class='children'>
+<li class="cat-item cat-item-58"><a href="https://research.aimultiple.com/category/non-profit/art/">Art</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-80"><a href="https://research.aimultiple.com/category/artificial-intelligence/">Artificial intelligence</a>
+<ul class='children'>
+<li class="cat-item cat-item-291"><a href="https://research.aimultiple.com/category/artificial-intelligence/nlp/">NLP</a>
+</li>
+<li class="cat-item cat-item-242"><a href="https://research.aimultiple.com/category/artificial-intelligence/accelerator/">Accelerator</a>
+</li>
+<li class="cat-item cat-item-243"><a href="https://research.aimultiple.com/category/artificial-intelligence/xai/">XAI</a>
+</li>
+<li class="cat-item cat-item-246"><a href="https://research.aimultiple.com/category/artificial-intelligence/ai-avatar/">AI avatar</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-82"><a href="https://research.aimultiple.com/category/ai-company/">AI Company</a>
+<ul class='children'>
+<li class="cat-item cat-item-18"><a href="https://research.aimultiple.com/category/ai-company/alphabet/">Alphabet</a>
+</li>
+<li class="cat-item cat-item-83"><a href="https://research.aimultiple.com/category/ai-company/facebook/">Facebook</a>
+</li>
+<li class="cat-item cat-item-118"><a href="https://research.aimultiple.com/category/ai-company/veritone/">Veritone</a>
+</li>
+<li class="cat-item cat-item-124"><a href="https://research.aimultiple.com/category/ai-company/carlabs/">CarLabs</a>
+</li>
+</ul>
+</li>
+<li class="cat-item cat-item-91"><a href="https://research.aimultiple.com/category/ai-vendors/">AI Vendors</a>
+</li>
+<li class="cat-item cat-item-93"><a href="https://research.aimultiple.com/category/ai-startups/">AI startups</a>
+</li>
+<li class="cat-item cat-item-92"><a href="https://research.aimultiple.com/category/autonomous-driving/">Autonomous driving</a>
+</li>
+<li class="cat-item cat-item-103"><a href="https://research.aimultiple.com/category/e-commerce/">e-commerce</a>
+</li>
+<li class="cat-item cat-item-262"><a href="https://research.aimultiple.com/category/industry-analysts/">Industry analysts</a>
+</li>
+<li class="cat-item cat-item-265"><a href="https://research.aimultiple.com/category/software-reviews/">Software reviews</a>
+</li>
+<li class="cat-item cat-item-3"><a href="https://research.aimultiple.com/category/aimultiple/">AIMultiple</a>
+</li>
+<li class="cat-item cat-item-96"><a href="https://research.aimultiple.com/category/guidelines/">Guidelines</a>
+</li>
+</ul>
+</div>
+<div class="widget recent-posts-2 widget_recent_entries">
+<h5 class="cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft title-widget "><span class="cnvs-section-title"><span>Recent Posts</span></span></h5>
+<ul>
+<li>
+<a href="https://research.aimultiple.com/quantum-computing-stocks/">33 Public &#038; Private Quantum Computing Stocks in 2021</a>
+</li>
+<li>
+<a href="https://research.aimultiple.com/dapps/">Decentralized Applications DApps: In-depth Guide 2021</a>
+</li>
+<li>
+<a href="https://research.aimultiple.com/deep-learning/">What is Deep Learning? Explore Use Cases / Examples, Benefits</a>
+</li>
+<li>
+<a href="https://research.aimultiple.com/quantum-computing-programming/">Quantum programming: Languages, SDKs, &#038; Algorithms in 2021</a>
+</li>
+<li>
+<a href="https://research.aimultiple.com/insurance-chatbot/">Top 10 Insurance Chatbots Applications / Use cases in 2021</a>
+</li>
+</ul>
+</div><div class="widget_text widget custom_html-5 widget_custom_html"><div class="textwidget custom-html-widget"><div class="text-center"><a href="https://research.aimultiple.com/about/"><p class="text-medium">ABOUT US</p></a><div class="widget-content">We democratize Artificial Intelligence.
+We are building a transparent marketplace of companies offering B2B AI products &amp; services.<br>
+We allow companies to look beyond marketing speak to understand how they can use AI in their businesses and evaluate AI services in a practical, data driven manner.</div>
+<a href="https://aimultiple.com/" class="button button-secondary btn-effect m-3">
+<span>Visit Website</span>
+<span><i class="cs-icon cs-icon-arrow-right"></i></span>
+</a>
+<div class="bsa-wrap bsa-default bsa-titles-disabled bsa-counts-disabled bsa-labels-disabled bsa-mode-rest">
+<div class="bsa-items">
+<div class="bsa-item bsa-facebook  bsa-no-count bsa-error bsa-item-count" data-id="facebook">
+<a href="https://facebook.com/aimultiple" class="bsa-link" target="_blank" rel="nofollow noopener">
+<i class="bsa-icon icon icon-facebook"></i>
+</a>
+</div>
+<div class="bsa-item bsa-twitter  bsa-no-count bsa-error bsa-item-count" data-id="twitter">
+<a href="https://twitter.com/aimultiple" class="bsa-link" target="_blank" rel="nofollow noopener">
+<i class="bsa-icon icon icon-twitter"></i>
+</a>
+</div>
+<div class="bsa-item bsa-linkedin  bsa-no-count" data-id="linkedin">
+<a href="https://www.linkedin.com/company/aimultiple" class="bsa-link" target="_blank" rel="nofollow noopener">
+<i class="bsa-icon icon icon-linkedin"></i>
+</a>
+</div>
+</div>
+</div>
+</div></div></div>					</div>
+<div class="sidebar sidebar-2"></div>
+</aside><!-- .sidebar-area .widget-area -->
+
+</div><!-- .main-content -->
+</div><!-- .container -->
+</div><!-- .site-content -->
+<footer class="site-footer section-heading-default-style-1">
+<div class="footer-section">
+<div class="cs-container">
+<div class="footer-widgets">
+<div class="footer-sidebars">
+<div class="sidebar-footer widget-area">
+<div class="widget nav_menu-6 widget_nav_menu"><h5 class="cnvs-block-section-heading is-style-cnvs-block-section-heading-default halignleft title-widget "><span class="cnvs-section-title"><span>ABOUT</span></span></h5><div class="menu-about-container"><ul id="menu-about" class="menu"><li id="menu-item-16339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16339"><a href="https://research.aimultiple.com/about/">ABOUT US</a></li>
+<li id="menu-item-18289" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-18289"><a href="https://research.aimultiple.com/expert-contributors/">WRITE FOR US &#038; GROW YOUR PERSONAL BRAND</a></li>
+<li id="menu-item-18121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18121"><a href="https://research.aimultiple.com/newsletter/">NEWSLETTER</a></li>
+<li id="menu-item-16340" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-16340"><a href="https://research.aimultiple.com/">RESEARCH</a></li>
+<li id="menu-item-3385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3385"><a href="https://research.aimultiple.com/contact-us/">CONTACT US</a></li>
+</ul></div></div><div class="widget basic_social_accounts_widget-3 basic_social_accounts_widget">
+<div class="widget-body">
+<div class="bsa-wrap bsa-default bsa-columns bsa-col-6 bsa-titles-disabled bsa-counts-disabled bsa-labels-disabled bsa-mode-rest">
+<div class="bsa-items">
+<div class="bsa-item bsa-facebook " data-id="facebook">
+<a href="https://facebook.com/aimultiple" class="bsa-link" target="_blank" rel="nofollow">
+<i class="bsa-icon icon icon-facebook"></i>
+</a>
+</div>
+<div class="bsa-item bsa-twitter " data-id="twitter">
+<a href="https://twitter.com/aimultiple" class="bsa-link" target="_blank" rel="nofollow">
+<i class="bsa-icon icon icon-twitter"></i>
+</a>
+</div>
+<div class="bsa-item bsa-linkedin " data-id="linkedin">
+<a href="https://www.linkedin.com/company/aimultiple" class="bsa-link" target="_blank" rel="nofollow">
+<i class="bsa-icon icon icon-linkedin"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>					</div>
+</div><!-- .footer-sidebars -->
+</div><!-- .footer-widgets -->
+</div><!-- .container -->
+</div><!-- .footer-section -->
+<div class="footer-section">
+<div class="container">
+<div class="footer-info">
+<a href="https://aimultiple.com" class="site-logo" target="_blank">
+<img class="logo-image" src="https://research.aimultiple.com/wp-content/uploads/2019/06/logo-bw.svg" srcset="https://research.aimultiple.com/wp-content/uploads/2019/06/logo-bw.svg 1x, https://research.aimultiple.com/wp-content/uploads/2019/06/logo-bw.svg 2x" alt="AIMultiple: AI Use cases &amp; Tools to Grow Your Business" data-pagespeed-url-hash="906698902" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</a>
+<div class="footer-copyright">All Rights Reserved @ 2020 <div style="font-size: 12px;line-height: 2">This site is protected by reCAPTCHA and the Google     <a href="https://policies.google.com/privacy">Privacy Policy</a> and     <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div></div>
+</div><!-- .footer-info -->
+</div><!-- .container -->
+</div><!-- .footer-section -->
+</footer>
+</div><!-- .site-inner -->
+</div><!-- .site -->
+<div class="site-search" id="search">
+<button type="button" class="close"></button>
+<div class="form-container">
+<div class="cs-container">
+<div class="site-search-wrap">
+<form role="search" method="get" class="search-form form" action="https://research.aimultiple.com/">
+<label class="sr-only">Search for:</label>
+<div class="cs-input-group">
+<input type="search" value="" name="s" class="search-field form-control" placeholder="Enter Keyword" required>
+<span class="cs-input-group-btn">
+<button type="submit" class="search-submit button button-primary button-effect"><span>Search</span><span><i class="cs-icon cs-icon-search"></i></span></button>
+</span>
+</div>
+</form>
+<p>Input your search keywords and press Enter.</p>
+</div>
+</div>
+</div>
+</div>
+<a href="#top" class="pk-scroll-to-top">
+<i class="pk-icon pk-icon-up"></i>
+</a>
+<div id="fb-root"></div>
+<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=305449883698649";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+<div class="wt-cli-cookie-bar-container" data-nosnippet="true"><!--googleoff: all--><div id="cookie-law-info-bar" role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="wt-cli-cookie-banner" data-cli-geo-loc="0" style="" class="wt-cli-cookie-bar"><div class="cli-wrapper"><span id="wt-cli-cookie-banner"><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.</div><div class="cli-bar-btn_container"><a id="wt-cli-settings-btn" tabindex="0" role='button' style="" class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cli_settings_button">Cookie settings</a><a id="wt-cli-accept-btn" tabindex="0" role='button' style="margin:0px 10px 0px 5px;" data-cli_action="accept" class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button">ACCEPT</a></div></div></span></div></div><div tabindex="0" id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" id="cliSettingsPopup" role="dialog" aria-labelledby="wt-cli-privacy-title" tabindex="-1" aria-hidden="true">
+<div class="cli-modal-dialog" role="document">
+<div class="cli-modal-content cli-bar-popup">
+<button aria-label="Close" type="button" class="cli-modal-close" id="cliModalClose">
+<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+<span class="wt-cli-sr-only">Close</span>
+</button>
+<div class="cli-modal-body">
+<div class="wt-cli-element cli-container-fluid cli-tab-container">
+<div class="cli-row">
+<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+<div class="cli-privacy-overview">
+<h4 id='wt-cli-privacy-title'>Privacy Overview</h4>                        <div class="cli-privacy-content">
+<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+</div>
+<a id="wt-cli-privacy-readmore" tabindex="0" role="button" class="cli-privacy-readmore" data-readmore-text="Show more" data-readless-text="Show less"></a>                    </div>
+</div>
+<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a id="wt-cli-tab-link-necessary" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-necessary" aria-controls="wt-cli-tab-necessary" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+Necessary                            </a>
+<div class="wt-cli-necessary-checkbox">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" aria-label="Necessary" data-id="checkbox-necessary" checked="checked"/>
+<label class="form-check-label" for="wt-cli-checkbox-necessary"> Necessary </label>
+</div>
+<span class="cli-necessary-caption">
+Always Enabled                                </span>
+</div>
+<div class="cli-tab-content">
+<div id="wt-cli-tab-necessary" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-necessary" class="cli-tab-pane cli-fade" data-id="necessary">
+<p>Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">__cfduid</td><td class="cookielawinfo-column-3">1 month</td><td class="cookielawinfo-column-4">The cookie is used by cdn services like CloudFare to identify individual clients behind a shared IP address and apply security settings on a per-client basis. It does not correspond to any user ID in the web application and does not store any personally identifiable information.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_GRECAPTCHA</td><td class="cookielawinfo-column-3">5 months 27 days</td><td class="cookielawinfo-column-4">This cookie is set by Google. In addition to certain standard Google cookies, reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_pk_id.1.41ae</td><td class="cookielawinfo-column-3">1 year 27 days</td><td class="cookielawinfo-column-4">This cookie is installed by the website. The cookie is used to store users' identifier which is a randomly generated number.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_pk_ses.1.41ae</td><td class="cookielawinfo-column-3">30 minutes</td><td class="cookielawinfo-column-4">This cookie is installed by the website. The cookie is used to store visitor and session data temporarily for continuous improvement of the site. It stores information anonymously and assigns a randomly generated number to identify unique visitors.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table></p>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a id="wt-cli-tab-link-functional" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-functional" aria-controls="wt-cli-tab-functional" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+Functional                            </a>
+<div class="cli-switch">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-functional" aria-label="functional" data-id="checkbox-functional" role="switch" aria-controls="wt-cli-tab-link-functional" aria-labelledby="wt-cli-tab-link-functional"/>
+<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">functional</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div id="wt-cli-tab-functional" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-functional" class="cli-tab-pane cli-fade" data-id="functional">
+<p>Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_icl_visitor_lang_js</td><td class="cookielawinfo-column-3">1 day</td><td class="cookielawinfo-column-4">This cookie is stored by WPML WordPress plugin. The purpose of the cookie is to store the redirected language.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">wpml_browser_redirect_test</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookie is set by WPML WordPress plugin and is used to test if cookies are enabled on the browser.</td></tr></tbody></table></p>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a id="wt-cli-tab-link-performance" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-performance" aria-controls="wt-cli-tab-performance" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+Performance                            </a>
+<div class="cli-switch">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-performance" aria-label="performance" data-id="checkbox-performance" role="switch" aria-controls="wt-cli-tab-link-performance" aria-labelledby="wt-cli-tab-link-performance"/>
+<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">performance</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div id="wt-cli-tab-performance" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-performance" class="cli-tab-pane cli-fade" data-id="performance">
+<p>Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">YSC</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookies is set by Youtube and is used to track the views of embedded videos.</td></tr></tbody></table></p>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a id="wt-cli-tab-link-analytics" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-analytics" aria-controls="wt-cli-tab-analytics" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+Analytics                            </a>
+<div class="cli-switch">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-analytics" aria-label="analytics" data-id="checkbox-analytics" role="switch" aria-controls="wt-cli-tab-link-analytics" aria-labelledby="wt-cli-tab-link-analytics"/>
+<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">analytics</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div id="wt-cli-tab-analytics" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-analytics" class="cli-tab-pane cli-fade" data-id="analytics">
+<p>Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_ga</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">This cookie is installed by Google Analytics. The cookie is used to calculate visitor, session, campaign data and keep track of site usage for the site's analytics report. The cookies store information anonymously and assign a randomly generated number to identify unique visitors.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_gid</td><td class="cookielawinfo-column-3">1 day</td><td class="cookielawinfo-column-4">This cookie is installed by Google Analytics. The cookie is used to store information of how visitors use a website and helps in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visted in an anonymous form.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">SNID</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">This cookie is set by Snitcher B.V. for providing analytics on website users.</td></tr></tbody></table></p>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a id="wt-cli-tab-link-advertisement" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-advertisement" aria-controls="wt-cli-tab-advertisement" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+Advertisement                            </a>
+<div class="cli-switch">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-advertisement" aria-label="advertisement" data-id="checkbox-advertisement" role="switch" aria-controls="wt-cli-tab-link-advertisement" aria-labelledby="wt-cli-tab-link-advertisement"/>
+<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">advertisement</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div id="wt-cli-tab-advertisement" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-advertisement" class="cli-tab-pane cli-fade" data-id="advertisement">
+<p>Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">IDE</td><td class="cookielawinfo-column-3">1 year 24 days</td><td class="cookielawinfo-column-4">Used by Google DoubleClick and stores information about how the user uses the website and any other advertisement before visiting the website. This is used to present users with ads that are relevant to them according to the user profile.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">test_cookie</td><td class="cookielawinfo-column-3">15 minutes</td><td class="cookielawinfo-column-4">This cookie is set by doubleclick.net. The purpose of the cookie is to determine if the user's browser supports cookies.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">VISITOR_INFO1_LIVE</td><td class="cookielawinfo-column-3">5 months 27 days</td><td class="cookielawinfo-column-4">This cookie is set by Youtube. Used to track the information of the embedded YouTube videos on a website.</td></tr></tbody></table></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cli-modal-footer">
+<div class="wt-cli-element cli-container-fluid cli-tab-container">
+<div class="cli-row">
+<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">Save & Accept</a>
+</div>
+<div class="wt-cli-ckyes-footer-section">
+<div class="wt-cli-ckyes-brand-logo">Powered by <a target="_blank" href="https://www.cookieyes.com/"><img src="https://research.aimultiple.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/images/logo-cookieyes.svg" data-pagespeed-url-hash="966168639" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--></div>
+<script type="text/javascript">//<![CDATA[
+cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"rgb(255, 255, 255)","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"rgb(97, 162, 41)","button_1_button_hover":"rgb(97, 162, 41)","button_1_link_colour":"#fff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"rgb(51, 51, 51)","button_2_button_hover":"rgb(51, 51, 51)","button_2_link_colour":"#444","button_2_as_button":true,"button_2_hidebar":false,"button_2_nofollow":false,"button_3_button_colour":"rgb(53, 102, 187)","button_3_button_hover":"rgb(53, 102, 187)","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#ffffff","button_4_button_hover":"#cccccc","button_4_link_colour":"#b3b3b3","button_4_as_button":true,"button_7_button_colour":"rgb(97, 162, 41)","button_7_button_hover":"rgb(97, 162, 41)","button_7_link_colour":"#fff","button_7_as_button":true,"button_7_new_win":false,"font_family":"inherit","header_fix":false,"notify_animate_hide":false,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","cookie_setting_popup":true,"accept_all":true,"js_script_blocker":false,"popup_showagain_position":"bottom-right","widget_position":"left","button_1_style":[["margin","0px 10px 0px 5px"]],"button_2_style":[],"button_3_style":[],"button_4_style":[],"button_5_style":{"1":["background-color","rgba(0, 0, 0, 0)"]},"button_7_style":[],"accept_close_page_navigation":false}';
+//]]></script>
+<!-- <link rel='stylesheet' id='cookie-law-info-table-css'  href='https://research.aimultiple.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-table.css?ver=2.3.4' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//research.aimultiple.com/wp-content/cache/wpfc-minified/2oj8zjcm/A.680nd.css.pagespeed.cf.7CA81JAVUS.css" media="all"/>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>('fetch'in window)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr'+'ipt>');(document.contains)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr'+'ipt>');(window.DOMRect)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr'+'ipt>');(window.URL&&window.URL.prototype&&window.URLSearchParams)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr'+'ipt>');(window.FormData&&window.FormData.prototype.keys)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr'+'ipt>');(Element.prototype.matches&&Element.prototype.closest)||document.write('<script src="https://research.aimultiple.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr'+'ipt>');</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>//<![CDATA[
+var wpcf7={"api":{"root":"https:\/\/research.aimultiple.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/basic-elements/public/js/public-powerkit-basic-elements.js?ver=4.0.0' id='powerkit-basic-elements-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/justified-gallery/public/js/jquery.justifiedGallery.min.js?ver=2.5.2.3' id='justifiedgallery-js'></script>
+<script type='text/javascript' id='powerkit-justified-gallery-js-extra'>//<![CDATA[
+var powerkitJG={"rtl":""};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/justified-gallery/public/js/public-powerkit-justified-gallery.js?ver=2.5.2.3' id='powerkit-justified-gallery-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/lightbox/public/js/jquery.magnific-popup.min.js?ver=2.5.2.3' id='magnific-popup-js'></script>
+<script type='text/javascript' id='powerkit-lightbox-js-extra'>//<![CDATA[
+var powerkit_lightbox_localize={"text_previous":"Previous","text_next":"Next","text_close":"Close","text_loading":"Loading","text_counter":"of","single_image_selectors":".entry-content img,.single .post-media img","gallery_selectors":".wp-block-gallery,.gallery","exclude_selectors":"","zoom_icon":"1"};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/lightbox/public/js/public-powerkit-lightbox.js?ver=2.5.2.3' id='powerkit-lightbox-js'></script>
+<script type='text/javascript' id='powerkit-opt-in-forms-js-extra'>//<![CDATA[
+var opt_in={"ajax_url":"https:\/\/research.aimultiple.com\/wp-admin\/admin-ajax.php","warning_privacy":"Please confirm that you agree with our policies."};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/opt-in-forms/public/js/public-powerkit-opt-in-forms.js?ver=2.5.2.3' id='powerkit-opt-in-forms-js'></script>
+<script type='text/javascript' async="async" defer="defer" src='//assets.pinterest.com/js/pinit.js?ver=5.6.3' id='powerkit-pinterest-js'></script>
+<script type='text/javascript' id='powerkit-pin-it-js-extra'>//<![CDATA[
+var powerkit_pinit_localize={"image_selectors":".entry-content img,.widget-wrap .gallery-item img,.post-media img","exclude_selectors":".pk-block-author,.pk-featured-categories img,.pk-inline-posts-container img,.pk-instagram-image,.pk-subscribe-image,.wp-block-cover,.pk-block-posts,.post-archive","only_hover":"1"};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/pinterest/public/js/public-powerkit-pin-it.js?ver=2.5.2.3' id='powerkit-pin-it-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/scroll-to-top/public/js/public-powerkit-scroll-to-top.js?ver=2.5.2.3' id='powerkit-scroll-to-top-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/share-buttons/public/js/public-powerkit-share-buttons.js?ver=2.5.2.3' id='powerkit-share-buttons-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/powerkit/modules/slider-gallery/public/js/flickity.pkgd.min.js?ver=2.5.2.3' id='flickity-js'></script>
+<script type='text/javascript' id='rate-my-post-js-extra'>//<![CDATA[
+var rmp_frontend={"admin_ajax":"https:\/\/research.aimultiple.com\/wp-admin\/admin-ajax.php","postID":"3997","noVotes":"No votes so far! Be the first to rate this post.","cookie":"You already voted! This vote will not be counted!","afterVote":"Thank you for rating this post!","notShowRating":"2","social":"2","feedback":"2","cookieDisable":"1","emptyFeedback":"Please insert your feedback in the box above!","hoverTexts":"2","preventAccidental":"1","grecaptcha":"2","siteKey":"6LcsNrcUAAAAAMNk3IlsCfN6J02_645qL6dcuj1q","votingPriv":"1","loggedIn":"","positiveThreshold":"4","ajaxLoad":"1","nonce":"f0bf2ae4c8"};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/rate-my-post/public/js/rate-my-post.js?ver=3.3.2' id='rate-my-post-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/owl.carousel.min.js?ver=2.3.4' id='owl-carousel-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/colcade.js?ver=0.2.0' id='colcade-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/ofi.min.js?ver=3.2.4' id='object-fit-images-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/jarallax.min.js?ver=1.10.5' id='jarallax-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/jarallax-video.min.js?ver=1.10.5' id='jarallax-video-js'></script>
+<script type='text/javascript' id='csco-scripts-js-extra'>//<![CDATA[
+var translation={"next":"Next","previous":"Previous","close":"Close","loading":"Loading"};var csco_mega_menu={"rest_url":"https:\/\/research.aimultiple.com\/wp-json\/csco\/v1\/menu-posts"};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/themes/authentic/js/scripts.js?ver=1.0.0' id='csco-scripts-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LcsNrcUAAAAAMNk3IlsCfN6J02_645qL6dcuj1q&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>//<![CDATA[
+var wpcf7_recaptcha={"sitekey":"6LcsNrcUAAAAAMNk3IlsCfN6J02_645qL6dcuj1q","actions":{"homepage":"homepage","contactform":"contactform"}};
+//]]></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.4.1' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://research.aimultiple.com/wp-includes/js/wp-embed.min.js?ver=5.6.3' id='wp-embed-js'></script>
+<script type="text/javascript">"use strict";(function($){$(window).load(function(){var bsaIds=[],bsaRestBox=$('.bsa-mode-rest');bsaRestBox.find('.bsa-item').each(function(){if($(this).attr('data-id').length>0){bsaIds.push($(this).attr('data-id'));}});var bsaData={};if(bsaIds.length>0){bsaData={'ids':bsaIds.join()};}$.ajax({type:'GET',url:'https://research.aimultiple.com/wp-json/social-counts/v1/get-counts',data:bsaData,beforeSend:function(){bsaRestBox.addClass('bsa-loading');},success:function(response){if(!$.isEmptyObject(response)&&!response.hasOwnProperty('code')){$.each(response,function(index,data){var bsaItem=bsaRestBox.find('.bsa-item[data-id="'+index+'"]');if(data.hasOwnProperty('class')){bsaItem.addClass(data.class);}if(data.hasOwnProperty('result')&&data.result!==null&&data.result.hasOwnProperty('count')){bsaItem.addClass('bsa-item-count');bsaItem.find('.bsa-count-rest').addClass('bsa-count').html(data.result.count);}else{bsaItem.addClass('bsa-no-count');}});}bsaRestBox.removeClass('bsa-loading');},error:function(){bsaRestBox.removeClass('bsa-loading');}});});})(jQuery);</script>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.64952802658081 seconds, on 02-05-21 10:12:58 --><!-- via php -->

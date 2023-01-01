@@ -1,0 +1,11 @@
+affected_row_count
+ 3
+ArtistId,ArtistName
+1,Joe Satriani
+2,The Tea Party
+3,Noiseworks
+4,Wayne Jury
+5,Mr Percival
+6,BTS
+7,Jason Thomas Mraz
+8,Bruno Mars

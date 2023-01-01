@@ -1,0 +1,15 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for google api
+google-auth-httplib2
+google-auth-oauthlib
+google-api-python-client
+openpyxl
+
+
+
+
+

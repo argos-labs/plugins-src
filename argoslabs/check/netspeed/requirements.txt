@@ -1,0 +1,7 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for checking system
+speedtest-cli>=2.1.3

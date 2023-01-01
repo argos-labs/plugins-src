@@ -1,0 +1,629 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_description",
+                "table_column_quantity",
+                "table_column_amount_base",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "2345 Yale St FL 1",
+                            "value_type": "text",
+                            "bbox": [
+                                60,
+                                372,
+                                438,
+                                408
+                            ],
+                            "value": "2345 Yale St FL 1"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                546,
+                                372,
+                                600,
+                                408
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "$12",
+                            "value_type": "number",
+                            "bbox": [
+                                762,
+                                372,
+                                876,
+                                408
+                            ],
+                            "value": "12"
+                        },
+                        {
+                            "content": "7/2019",
+                            "value_type": null,
+                            "bbox": [
+                                1068,
+                                372,
+                                1182,
+                                408
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "SALES REP\nGrant Crider",
+                            "value_type": "text",
+                            "bbox": [
+                                60,
+                                450,
+                                438,
+                                516
+                            ],
+                            "value": "SALES REP Grant Crider"
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                546,
+                                450,
+                                600,
+                                516
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                762,
+                                450,
+                                876,
+                                516
+                            ],
+                            "value": null
+                        },
+                        {
+                            "content": "",
+                            "value_type": null,
+                            "bbox": [
+                                1068,
+                                450,
+                                1182,
+                                516
+                            ],
+                            "value": null
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "ACTIVITY",
+                            "value_type": "text",
+                            "bbox": [
+                                60,
+                                534,
+                                438,
+                                576
+                            ],
+                            "value": "ACTIVITY"
+                        },
+                        {
+                            "content": "QTY",
+                            "value_type": "text",
+                            "bbox": [
+                                546,
+                                534,
+                                600,
+                                576
+                            ],
+                            "value": "QTY"
+                        },
+                        {
+                            "content": "RATE",
+                            "value_type": "text",
+                            "bbox": [
+                                762,
+                                534,
+                                876,
+                                576
+                            ],
+                            "value": "RATE"
+                        },
+                        {
+                            "content": "AMOUNT",
+                            "value_type": "text",
+                            "bbox": [
+                                1068,
+                                534,
+                                1182,
+                                576
+                            ],
+                            "value": "AMOUNT"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "Founder University Supporting Partner -\nApril 1st-3rd 2019",
+                            "value_type": "text",
+                            "bbox": [
+                                60,
+                                582,
+                                438,
+                                648
+                            ],
+                            "value": "Founder University Supporting Partner - April 1st-3rd 2019"
+                        },
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                546,
+                                582,
+                                600,
+                                648
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "12,500.00",
+                            "value_type": "number",
+                            "bbox": [
+                                762,
+                                582,
+                                876,
+                                648
+                            ],
+                            "value": "12500.00"
+                        },
+                        {
+                            "content": "12,500.00",
+                            "value_type": "number",
+                            "bbox": [
+                                1068,
+                                582,
+                                1182,
+                                648
+                            ],
+                            "value": "12500.00"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                60,
+                372,
+                1182,
+                648
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "The LAUNCH Partnership, LLC",
+            "767 Bryant Street, #203",
+            "CA 94107 US",
+            "Invoice 2354",
+            "admin+launchpartnership@laun",
+            "ch.co",
+            "BILL TO",
+            "Ruby Sahiwal",
+            "Escalon Services Inc",
+            "2345 Yale St FL 1",
+            "Palo Alto, CA 94306 USA",
+            "DATE",
+            "03/18/2019",
+            "PLEASE PAY",
+            "$12,500.00",
+            "DUE DATE",
+            "04/17/2019",
+            "SALES REP",
+            "Grant Crider",
+            "ACTIVITY",
+            "Founder University Supporting Partner -",
+            "April 1st-3rd 2019",
+            "QTY",
+            "RATE",
+            "AMOUNT",
+            "1",
+            "12,500.00",
+            "12,500.00",
+            "TOTAL DUE",
+            "$12,500.00",
+            "THANK YOU.",
+            "Check:",
+            "The LAUNCH Partnership",
+            "767 Bryant Street, #203",
+            "San Francisco, CA 94107",
+            "Wire:",
+            "Bank of America",
+            "The LAUNCH Partnership LLC",
+            "1 Powell Street",
+            "San Francisco, CA 94102",
+            "Account: 325063459564",
+            "Routing: 121000358",
+            "ABA: 026009593",
+            "Swift Code: BOFAUS3N",
+            "Credit Card:",
+            "If paying via credit card an additional 3.5% processing fee will be added. To pay by credit card, please contact admin@launch.co"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "325063459564",
+            "checks": {},
+            "score": 0.744686178047175,
+            "value_type": "text",
+            "bbox": [
+                138,
+                1404,
+                248,
+                1434
+            ],
+            "title": "Bank Account",
+            "page": 0,
+            "value": "325063459564",
+            "name": "account_num"
+        },
+        {
+            "content": "12,500.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9902046677167139,
+            "value_type": "number",
+            "bbox": [
+                1012,
+                690,
+                1158,
+                738
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "12500.00",
+            "name": "amount_due"
+        },
+        {
+            "content": "12,500.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9861678278210678,
+            "value_type": "number",
+            "bbox": [
+                1012,
+                690,
+                1158,
+                738
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "12500.00",
+            "name": "amount_total"
+        },
+        {
+            "content": "BOFAUS3N",
+            "checks": {},
+            "score": 0.9251728675156334,
+            "value_type": "text",
+            "bbox": [
+                158,
+                1470,
+                248,
+                1500
+            ],
+            "title": "BIC/SWIFT",
+            "page": 0,
+            "value": "BOFAUS3N",
+            "name": "bic"
+        },
+        {
+            "content": "04/17/2019",
+            "checks": {},
+            "score": 0.9801559867906047,
+            "value_type": "date",
+            "bbox": [
+                1032,
+                366,
+                1132,
+                396
+            ],
+            "title": "Date Due",
+            "page": 0,
+            "value": "2019-04-17",
+            "name": "date_due"
+        },
+        {
+            "content": "03/18/2019",
+            "checks": {},
+            "score": 0.9976541306107606,
+            "value_type": "date",
+            "bbox": [
+                657,
+                360,
+                759,
+                396
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2019-03-18",
+            "name": "date_issue"
+        },
+        {
+            "content": "2354",
+            "checks": {},
+            "score": 0.9775874920131623,
+            "value_type": "text",
+            "bbox": [
+                523,
+                78,
+                595,
+                126
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "2354",
+            "name": "invoice_id"
+        },
+        {
+            "content": "Escalon Services Inc\n2345 Yale St FL 1\nPalo Alto, CA 94306 USA",
+            "checks": {},
+            "score": 0.8382829301975232,
+            "value_type": "text",
+            "bbox": [
+                73,
+                348,
+                307,
+                432
+            ],
+            "title": "Recipient Address",
+            "page": 0,
+            "value": "Escalon Services Inc\n2345 Yale St FL 1\nPalo Alto, CA 94306 USA",
+            "name": "recipient_address"
+        },
+        {
+            "content": "2345 Yale St FL 1",
+            "checks": {},
+            "score": 0.9313574647092681,
+            "value_type": "text",
+            "bbox": [
+                73,
+                372,
+                233,
+                408
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "2345 Yale St FL 1",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Escalon Services Inc",
+            "checks": {},
+            "score": 0.6978459799614749,
+            "value_type": "text",
+            "bbox": [
+                73,
+                348,
+                259,
+                378
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Escalon Services Inc",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Palo Alto, CA 94306 USA",
+            "checks": {},
+            "score": 0.932782364046491,
+            "value_type": "text",
+            "bbox": [
+                73,
+                402,
+                307,
+                432
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Palo Alto, CA 94306 USA",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Ruby Sahiwal",
+            "checks": {},
+            "score": 0.9348453348956752,
+            "value_type": "text",
+            "bbox": [
+                73,
+                318,
+                195,
+                348
+            ],
+            "title": "Recipient Name",
+            "page": 0,
+            "value": "Ruby Sahiwal",
+            "name": "recipient_name"
+        },
+        {
+            "content": "767 Bryant Street, #203\nCA 94107 US\nadmin+launchpartnership@laun",
+            "checks": {},
+            "score": 0.8394393150694416,
+            "value_type": "text",
+            "bbox": [
+                85,
+                102,
+                378,
+                192
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "767 Bryant Street, #203\nCA 94107 US\nadmin+launchpartnership@laun",
+            "name": "sender_address"
+        },
+        {
+            "content": "767 Bryant Street, #203",
+            "checks": {},
+            "score": 0.9142838335118644,
+            "value_type": "text",
+            "bbox": [
+                85,
+                102,
+                299,
+                138
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "767 Bryant Street, #203",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "CA 94107 US",
+            "checks": {},
+            "score": 0.8862758714246817,
+            "value_type": "text",
+            "bbox": [
+                85,
+                132,
+                213,
+                168
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "CA 94107 US",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "San Francisco, CA 94107",
+            "checks": {},
+            "score": 0.6480057478639023,
+            "value_type": "text",
+            "bbox": [
+                74,
+                1248,
+                258,
+                1278
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "San Francisco, CA 94107",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "admin+launchpartnership@laun",
+            "checks": {},
+            "score": 0.739784540379035,
+            "value_type": "text",
+            "bbox": [
+                86,
+                162,
+                378,
+                192
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "admin+launchpartnership@laun",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "The LAUNCH Partnership, LLC",
+            "checks": {},
+            "score": 0.895504122835999,
+            "value_type": "text",
+            "bbox": [
+                85,
+                72,
+                367,
+                108
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "The LAUNCH Partnership, LLC",
+            "name": "sender_name"
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "The LAUNCH Partnership, LLC",
+                "767 Bryant Street, #203",
+                "CA 94107 US",
+                "Invoice 2354",
+                "admin+launchpartnership@laun",
+                "ch.co",
+                "BILL TO",
+                "Ruby Sahiwal",
+                "Escalon Services Inc",
+                "2345 Yale St FL 1",
+                "Palo Alto, CA 94306 USA",
+                "DATE",
+                "03/18/2019",
+                "PLEASE PAY",
+                "$12,500.00",
+                "DUE DATE",
+                "04/17/2019",
+                "SALES REP",
+                "Grant Crider",
+                "ACTIVITY",
+                "Founder University Supporting Partner -",
+                "April 1st-3rd 2019",
+                "QTY",
+                "RATE",
+                "AMOUNT",
+                "1",
+                "12,500.00",
+                "12,500.00",
+                "TOTAL DUE",
+                "$12,500.00",
+                "THANK YOU.",
+                "Check:",
+                "The LAUNCH Partnership",
+                "767 Bryant Street, #203",
+                "San Francisco, CA 94107",
+                "Wire:",
+                "Bank of America",
+                "The LAUNCH Partnership LLC",
+                "1 Powell Street",
+                "San Francisco, CA 94102",
+                "Account: 325063459564",
+                "Routing: 121000358",
+                "ABA: 026009593",
+                "Swift Code: BOFAUS3N",
+                "Credit Card:",
+                "If paying via credit card an additional 3.5% processing fee will be added. To pay by credit card, please contact admin@launch.co"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/28f6b08937874ee7bb0fe106_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_28f6b08937874ee7bb0fe106_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/28f6b08937874ee7bb0fe106_0.png"
+}

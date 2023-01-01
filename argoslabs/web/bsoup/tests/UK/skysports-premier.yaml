@@ -1,0 +1,88 @@
+---
+csv:
+  or:
+  - columns:
+    - header: index
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[1]
+    - header: team
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[2]
+    - header: pl
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[3]
+    - header: w
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[4]
+    - header: d
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[5]
+    - header: l
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[6]
+    - header: f
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[7]
+    - header: a
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[8]
+    - header: gd
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[9]
+    - header: pts
+      find:
+      - op: select_one
+        xpath: /html/body/div[4]/div/div[1]/div[3]/div[1]/div[2]/div/table/tbody
+      - op: find_all
+        name: tr
+      - op: find
+        name: td[10]
+#      split:
+#        separator: ","
+#        index: 0
+skip-empty-row: true

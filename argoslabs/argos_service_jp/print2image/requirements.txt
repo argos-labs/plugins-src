@@ -1,0 +1,13 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# required module
+pathvalidate
+pywin32
+comtypes
+docx2pdf
+excel2img
+pdf2image
+Pillow

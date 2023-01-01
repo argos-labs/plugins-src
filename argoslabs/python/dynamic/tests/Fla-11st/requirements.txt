@@ -1,0 +1,6 @@
+requests
+xmltodict
+PyYAML
+
+# for PySelenium
+# alabs.selenium

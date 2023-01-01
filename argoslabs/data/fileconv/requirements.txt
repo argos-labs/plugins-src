@@ -1,0 +1,19 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for xml2json
+# xmltodict==0.12.0
+xmltodict>=0.12.0
+
+# for xls => xlsx
+pyexcel
+pyexcel-xls
+pyexcel-xlsx
+
+# for xls => csv
+xlrd==1.2.0
+
+# for xlsx => xls
+pywin32

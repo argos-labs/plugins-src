@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Monitoring :: File'
+  description: plugin module for file monitoring
+  keywords:
+  - file
+  - monitoring
+  - directory
+  - folder
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.filesystem.monitor: ['icon.*']
+  url: https://www.argos-labs.com
+  # version: 2.1119.2235
+  # version: 2.1119.3300
+  # version: 4.812.842
+  version: 4.812.3456

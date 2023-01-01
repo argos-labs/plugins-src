@@ -1,0 +1,33 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: FileSystem :: FileFolderOp'
+  description: plugin module for file/folder operation
+  keywords:
+  - filesystem
+  - file
+  - folder
+  - operation
+  - copy
+  - move
+  - remove
+  - create
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.filesystem.op: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 3.217.2413
+  # version: 4.310.1131
+  # version: 4.401.1308
+  version: 4.401.3456

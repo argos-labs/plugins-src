@@ -1,0 +1,7 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+#for ABBYY
+python-magic-bin==0.4.14

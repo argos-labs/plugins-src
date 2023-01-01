@@ -1,0 +1,44 @@
+# output type
+csv:
+  # define columns
+  columns:
+   # column header
+  - header: symbol
+    find:
+    - op: select_one
+      xpath: //*[@id="quote_title_and_chart"]/div/h1/span[2]
+   # column header
+  - header: market
+    find:
+    - op: select_one
+      xpath: //*[@id="quote_title_and_chart"]/div/h1/span[3]
+   # column header
+  - header: last_extend
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[2]/td[1]/div[1]/span[1]
+   # column header
+  - header: extend_volumn
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[2]/td[2]/div/span
+   # column header
+  - header: last_original
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[1]/span[1]
+   # column header
+  - header: original_volumn
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[2]/div/span
+   # column header
+  - header: year_low
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[3]/div/span[1]
+   # column header
+  - header: year_high
+    find:
+    - op: select_one
+      xpath: //*[@id="cnbc-contents"]/div/div[3]/div[3]/div[1]/div[2]/div/div[1]/div/table/tbody/tr[5]/td[3]/div/span[3]

@@ -1,0 +1,470 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_other",
+                "table_column_description",
+                "table_column_other",
+                "table_column_other",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "#",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                540,
+                                204,
+                                582
+                            ],
+                            "value": "#"
+                        },
+                        {
+                            "content": "Item & Description",
+                            "value_type": "text",
+                            "bbox": [
+                                228,
+                                540,
+                                408,
+                                582
+                            ],
+                            "value": "Item & Description"
+                        },
+                        {
+                            "content": "Hours",
+                            "value_type": "text",
+                            "bbox": [
+                                702,
+                                540,
+                                774,
+                                582
+                            ],
+                            "value": "Hours"
+                        },
+                        {
+                            "content": "Rate",
+                            "value_type": "text",
+                            "bbox": [
+                                816,
+                                540,
+                                876,
+                                582
+                            ],
+                            "value": "Rate"
+                        },
+                        {
+                            "content": "Amount",
+                            "value_type": "text",
+                            "bbox": [
+                                996,
+                                540,
+                                1080,
+                                582
+                            ],
+                            "value": "Amount"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "1",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                594,
+                                204,
+                                630
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "Services One Sheet",
+                            "value_type": "text",
+                            "bbox": [
+                                228,
+                                594,
+                                408,
+                                630
+                            ],
+                            "value": "Services One Sheet"
+                        },
+                        {
+                            "content": "10.00",
+                            "value_type": "text",
+                            "bbox": [
+                                702,
+                                594,
+                                774,
+                                630
+                            ],
+                            "value": "10.00"
+                        },
+                        {
+                            "content": "75.00",
+                            "value_type": "text",
+                            "bbox": [
+                                816,
+                                594,
+                                876,
+                                630
+                            ],
+                            "value": "75.00"
+                        },
+                        {
+                            "content": "750.00",
+                            "value_type": "number",
+                            "bbox": [
+                                996,
+                                594,
+                                1080,
+                                630
+                            ],
+                            "value": "750.00"
+                        }
+                    ],
+                    "type": "data"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "2",
+                            "value_type": "text",
+                            "bbox": [
+                                168,
+                                648,
+                                204,
+                                684
+                            ],
+                            "value": "2"
+                        },
+                        {
+                            "content": "December Infographic",
+                            "value_type": "text",
+                            "bbox": [
+                                228,
+                                648,
+                                408,
+                                684
+                            ],
+                            "value": "December Infographic"
+                        },
+                        {
+                            "content": "15.00",
+                            "value_type": "text",
+                            "bbox": [
+                                702,
+                                648,
+                                774,
+                                684
+                            ],
+                            "value": "15.00"
+                        },
+                        {
+                            "content": "75.00",
+                            "value_type": "text",
+                            "bbox": [
+                                816,
+                                648,
+                                876,
+                                684
+                            ],
+                            "value": "75.00"
+                        },
+                        {
+                            "content": "1,125.00",
+                            "value_type": "number",
+                            "bbox": [
+                                996,
+                                648,
+                                1080,
+                                684
+                            ],
+                            "value": "1125.00"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                168,
+                540,
+                1080,
+                684
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "Invoice",
+            "Wakegraphic",
+            "# INV-000097",
+            "Fort Collins 80525",
+            "U.S.A",
+            "Balance Due",
+            "$1,875.00",
+            "Bill To",
+            "Escalon",
+            "#",
+            "Item & Description",
+            "1",
+            "2",
+            "Invoice Date :",
+            "01/09/19",
+            "Terms :",
+            "Net 30",
+            "Due Date :",
+            "02/08/19",
+            "Hours",
+            "Rate",
+            "Amount",
+            "Services One Sheet",
+            "10.00",
+            "75.00",
+            "750.00",
+            "December Infographic",
+            "15.00",
+            "75.00",
+            "1,125.00",
+            "Total",
+            "$1,875.00",
+            "Notes + Comments",
+            "If you have any questions or comments, email me at jake@wakegraphic.com.",
+            "Terms & Conditions",
+            "Please make checks payable to: Jacob Wakefield",
+            "Mail to: 2009 Orchard Pl, Fort Collins, CO 80525",
+            "1"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "1,875.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9752891762961893,
+            "value_type": "number",
+            "bbox": [
+                983,
+                294,
+                1083,
+                330
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "1875.00",
+            "name": "amount_due"
+        },
+        {
+            "content": "1,875.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9751840824244117,
+            "value_type": "number",
+            "bbox": [
+                996,
+                708,
+                1066,
+                738
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "1875.00",
+            "name": "amount_total"
+        },
+        {
+            "content": "02/08/19",
+            "checks": {},
+            "score": 0.9889457344121977,
+            "value_type": "date",
+            "bbox": [
+                1004,
+                468,
+                1080,
+                498
+            ],
+            "title": "Date Due",
+            "page": 0,
+            "value": "2019-08-02",
+            "name": "date_due"
+        },
+        {
+            "content": "01/09/19",
+            "checks": {},
+            "score": 0.996024760814826,
+            "value_type": "date",
+            "bbox": [
+                1003,
+                378,
+                1079,
+                414
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2019-09-01",
+            "name": "date_issue"
+        },
+        {
+            "content": "INV-000097",
+            "checks": {},
+            "score": 0.9824481325707417,
+            "value_type": "text",
+            "bbox": [
+                963,
+                210,
+                1079,
+                240
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "INV-000097",
+            "name": "invoice_id"
+        },
+        {
+            "content": "2009 Orchard Pl, Fort Collins, CO 80525",
+            "checks": {},
+            "score": 0.3052933851405847,
+            "value_type": "text",
+            "bbox": [
+                211,
+                990,
+                497,
+                1014
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "2009 Orchard Pl, Fort Collins, CO 80525",
+            "name": "sender_address"
+        },
+        {
+            "content": "2009 Orchard Pl, Fort Collins, CO 80525",
+            "checks": {},
+            "score": 0.3052933851405847,
+            "value_type": "text",
+            "bbox": [
+                211,
+                990,
+                497,
+                1014
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "2009 Orchard Pl, Fort Collins, CO 80525",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Fort Collins 80525",
+            "checks": {},
+            "score": 0.173289107293483,
+            "value_type": "text",
+            "bbox": [
+                159,
+                228,
+                309,
+                258
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Fort Collins 80525",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "U.S.A",
+            "checks": {},
+            "score": 0.10710947143151076,
+            "value_type": "text",
+            "bbox": [
+                159,
+                258,
+                201,
+                282
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "U.S.A",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Wakegraphic",
+            "checks": {},
+            "score": 0.5649718135421823,
+            "value_type": "text",
+            "bbox": [
+                160,
+                204,
+                278,
+                234
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "Wakegraphic",
+            "name": "sender_name"
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "Invoice",
+                "Wakegraphic",
+                "# INV-000097",
+                "Fort Collins 80525",
+                "U.S.A",
+                "Balance Due",
+                "$1,875.00",
+                "Bill To",
+                "Escalon",
+                "#",
+                "Item & Description",
+                "1",
+                "2",
+                "Invoice Date :",
+                "01/09/19",
+                "Terms :",
+                "Net 30",
+                "Due Date :",
+                "02/08/19",
+                "Hours",
+                "Rate",
+                "Amount",
+                "Services One Sheet",
+                "10.00",
+                "75.00",
+                "750.00",
+                "December Infographic",
+                "15.00",
+                "75.00",
+                "1,125.00",
+                "Total",
+                "$1,875.00",
+                "Notes + Comments",
+                "If you have any questions or comments, email me at jake@wakegraphic.com.",
+                "Terms & Conditions",
+                "Please make checks payable to: Jacob Wakefield",
+                "Mail to: 2009 Orchard Pl, Fort Collins, CO 80525",
+                "1"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/fd36a89346a3487bbe00eb36_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_fd36a89346a3487bbe00eb36_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/fd36a89346a3487bbe00eb36_0.png"
+}

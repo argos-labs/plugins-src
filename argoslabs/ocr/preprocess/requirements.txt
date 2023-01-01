@@ -1,0 +1,10 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for preprocess of OCR
+numpy
+opencv-python
+scikit-image
+deskew

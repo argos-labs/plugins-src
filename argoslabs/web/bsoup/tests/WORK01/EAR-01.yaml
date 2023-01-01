@@ -1,0 +1,16 @@
+# corrigo.yaml
+---
+csv:
+  or:
+  - columns:
+    - header: item
+      find:
+      - op: select_one
+        selector: >-
+          /html/body/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/table
+      - op: find_all
+        name: td
+#      re-replace:
+#        from: "^[\\w\\s]+:\\s*"
+#        to: ""
+no-result: There is no Result

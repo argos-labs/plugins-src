@@ -1,0 +1,1 @@
+INSERT INTO Artists (ArtistId, ArtistName) VALUES ({0}, '{1}')

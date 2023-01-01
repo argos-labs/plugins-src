@@ -1,0 +1,11 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# required module
+boto3
+# pysimplegui
+# hurry.filesize
+PySimpleGUIQt
+PySide2

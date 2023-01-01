@@ -1,0 +1,21 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  columns:
+  - header: item
+    find:
+    - op: find
+      name: table
+      class: vertical col4
+    - op: find_all
+      name: th
+  - header: value
+    find:
+    - op: find
+      name: table
+      class: vertical col4
+    - op: find_all
+      name: td
+    re-replace:
+      from: "[\\n\\s]+"
+      to: " "

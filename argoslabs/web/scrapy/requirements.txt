@@ -1,0 +1,10 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# html scraping
+scrapy
+
+# for run_spider
+#Twisted

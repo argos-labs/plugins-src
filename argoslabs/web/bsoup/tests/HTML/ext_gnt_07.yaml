@@ -1,0 +1,31 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: "공급자등록번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[1]/td[2]
+    - header: "공급받는자등록번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]
+    - header: "공급가액"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td[2]
+    - header: "세액"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[4]/td[2]
+    - header: "작성일자"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[5]/td[2]
+    - header: "전자세금계산서승인번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[6]/td[2]
+
+skip-empty-row: true

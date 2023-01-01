@@ -1,0 +1,32 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: ArgTest'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Auto Build & Release at 190114-050651 for darwin'
+  description: plugin module sample - argument test
+  keywords:
+  - rpa
+  - robot
+  - module
+  - demo
+  - argument
+  - marketplace
+  - test
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.demo.argtest: ['icon.*']
+  url: https://www.argos-labs.com
+  version: 4.0.10

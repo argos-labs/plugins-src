@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for rossum : https://rossum.ai/
+# This rossum is out of date
+#rossum
+requests

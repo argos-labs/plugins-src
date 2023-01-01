@@ -1,0 +1,6 @@
+id,name,age
+193,nobody me,100
+194,홍길동,200
+195,Hanna Hwang,53
+196,Alfred Chae,21
+197,Amy O'Cor,19

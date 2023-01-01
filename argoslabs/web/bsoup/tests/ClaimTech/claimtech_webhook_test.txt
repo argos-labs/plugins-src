@@ -1,0 +1,13 @@
+Search Reference : ASKCUEPI0004064595
+Search Date : 01/06/2021 17:19:05
+File Reference : 1234
+Accident Date (DD/MM/YYYY\) : 01/05/2021
+Forename : claim
+Surname : technology
+Date of Birth (DD/MM/YYYY\) : 01/01/2000
+National Insurance Number (AANNNNNNA)
+Address Line 1 : fake street
+Address Line 2
+City / Town : fake city
+County
+Postcode : m503sq

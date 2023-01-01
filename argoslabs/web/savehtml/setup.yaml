@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: HTML :: HtmlExtract'
+  description: plugin module for extracting HTML from Web
+  keywords:
+  - web
+  - html
+  - save
+  - extract
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.web.savehtml: ['icon.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.813.1247
+  # version: 2.813.3500
+  version: 2.814.3456

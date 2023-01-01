@@ -1,0 +1,453 @@
+{
+    "status": "ready",
+    "tables": [],
+    "full_text": {
+        "content": [
+            "Date February 21, 2019",
+            "Invoice# 022119",
+            "Page 1/2",
+            "systems",
+            "visual",
+            "systems visual llc",
+            "Jonathan Walker",
+            "3788 Country Club Drive",
+            "Redwood City, California 94061",
+            "Cell: +1 (650) 391-8153",
+            "Jonathan@SystemsVisual.com",
+            "ATTENTION Ruby Sahiwal, Escalon Services",
+            "Client Escalon Services",
+            "Project Branding // Brand Frameworks, Brand Unique Positioning, Brand Personification",
+            "Deliverables One Branding Session, Continued Exporation of Personas, Persona from perspective of potential",
+            "meeting of persona of customer, Meeting dynamics and suggested strategies for capitalizing on this conversation,",
+            "Miscellaneous addtions",
+            "Details",
+            "Full rights delivered to client. Rights retained by Jonathan Walker to use non-proprietary designs for promotional",
+            "purposes only.",
+            "N.b. Images are for placement only (FPO) \u2014 licenses have not been secured for reuse."
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "6471084829",
+            "checks": {},
+            "score": 0.933726105533443,
+            "value_type": "text",
+            "bbox": [
+                627,
+                564,
+                713,
+                594
+            ],
+            "title": "Bank Account",
+            "page": 1,
+            "value": "6471084829",
+            "name": "account_num"
+        },
+        {
+            "content": "1,050",
+            "checks": {},
+            "score": 0.9655172413793104,
+            "value_type": "number",
+            "bbox": [
+                542,
+                222,
+                578,
+                246
+            ],
+            "title": "Amount Due",
+            "page": 1,
+            "value": "1050",
+            "name": "amount_due"
+        },
+        {
+            "content": "122000496",
+            "checks": {},
+            "score": 0.6693669246396802,
+            "value_type": "text",
+            "bbox": [
+                627,
+                546,
+                705,
+                570
+            ],
+            "title": "Sort Code",
+            "page": 1,
+            "value": "122000496",
+            "name": "bank_num"
+        },
+        {
+            "content": "BOFCUS33MPK",
+            "checks": {},
+            "score": 0.7970871752712267,
+            "value_type": "text",
+            "bbox": [
+                627,
+                528,
+                743,
+                552
+            ],
+            "title": "BIC/SWIFT",
+            "page": 1,
+            "value": "BOFCUS33MPK",
+            "name": "bic"
+        },
+        {
+            "content": "6471084829",
+            "checks": {},
+            "score": 0.6929108524635762,
+            "value_type": "text",
+            "bbox": [
+                627,
+                570,
+                713,
+                594
+            ],
+            "title": "Customer Number",
+            "page": 1,
+            "value": "6471084829",
+            "name": "customer_id"
+        },
+        {
+            "content": "022119",
+            "checks": {},
+            "score": 0.8602644824260385,
+            "value_type": "text",
+            "bbox": [
+                1125,
+                60,
+                1177,
+                84
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "022119",
+            "name": "invoice_id"
+        },
+        {
+            "content": "Mid-Peninsula #647\n400 University Ave\nPalo Alto, CA 94301-1812\nUSA",
+            "checks": {},
+            "score": 0.7661807688254373,
+            "value_type": "text",
+            "bbox": [
+                627,
+                426,
+                797,
+                510
+            ],
+            "title": "Recipient Address",
+            "page": 1,
+            "value": "Mid-Peninsula #647\n400 University Ave\nPalo Alto, CA 94301-1812\nUSA",
+            "name": "recipient_address"
+        },
+        {
+            "content": "3788 Country Club Drive",
+            "checks": {},
+            "score": 0.8708352823463337,
+            "value_type": "text",
+            "bbox": [
+                177,
+                198,
+                339,
+                222
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "3788 Country Club Drive",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "400 University Ave",
+            "checks": {},
+            "score": 0.842342954692061,
+            "value_type": "text",
+            "bbox": [
+                627,
+                444,
+                751,
+                474
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "400 University Ave",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Jonathan Walker",
+            "checks": {},
+            "score": 0.6493125801387187,
+            "value_type": "text",
+            "bbox": [
+                175,
+                180,
+                301,
+                204
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "Jonathan Walker",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Mid-Peninsula #647",
+            "checks": {},
+            "score": 0.78389527564931,
+            "value_type": "text",
+            "bbox": [
+                627,
+                426,
+                757,
+                450
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "Mid-Peninsula #647",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Palo Alto, CA 94301-1812",
+            "checks": {},
+            "score": 0.8015429994431584,
+            "value_type": "text",
+            "bbox": [
+                627,
+                468,
+                797,
+                492
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "Palo Alto, CA 94301-1812",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Redwood City, CA 94061",
+            "checks": {},
+            "score": 0.6247148979136935,
+            "value_type": "text",
+            "bbox": [
+                628,
+                630,
+                792,
+                654
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "Redwood City, CA 94061",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Redwood City, California 94061",
+            "checks": {},
+            "score": 0.7938865482803986,
+            "value_type": "text",
+            "bbox": [
+                177,
+                216,
+                383,
+                240
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Redwood City, California 94061",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "USA",
+            "checks": {},
+            "score": 0.662137269867424,
+            "value_type": "text",
+            "bbox": [
+                627,
+                492,
+                659,
+                510
+            ],
+            "title": "Recipient Address Line",
+            "page": 1,
+            "value": "USA",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "systems visual llc",
+            "checks": {},
+            "score": 0.7261738313569532,
+            "value_type": "text",
+            "bbox": [
+                178,
+                114,
+                334,
+                138
+            ],
+            "title": "Recipient Name",
+            "page": 1,
+            "value": "systems visual llc",
+            "name": "recipient_name"
+        },
+        {
+            "content": "3788 Country Club Drive\nRedwood City, California 94061",
+            "checks": {},
+            "score": 0.8656120397436501,
+            "value_type": "text",
+            "bbox": [
+                177,
+                198,
+                383,
+                240
+            ],
+            "title": "Supplier Address",
+            "page": 1,
+            "value": "3788 Country Club Drive\nRedwood City, California 94061",
+            "name": "sender_address"
+        },
+        {
+            "content": "3788 Country Club Drive",
+            "checks": {},
+            "score": 0.9120700374975224,
+            "value_type": "text",
+            "bbox": [
+                177,
+                198,
+                339,
+                222
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "3788 Country Club Drive",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Jonathan Walker",
+            "checks": {},
+            "score": 0.6305951425587685,
+            "value_type": "text",
+            "bbox": [
+                177,
+                186,
+                303,
+                204
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Jonathan Walker",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Redwood City, California 94061",
+            "checks": {},
+            "score": 0.8713808110045048,
+            "value_type": "text",
+            "bbox": [
+                177,
+                216,
+                383,
+                240
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Redwood City, California 94061",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Jonathan Walker",
+            "checks": {},
+            "score": 0.37201065447831905,
+            "value_type": "text",
+            "bbox": [
+                175,
+                174,
+                301,
+                204
+            ],
+            "title": "Supplier Name",
+            "page": 1,
+            "value": "Jonathan Walker",
+            "name": "sender_name"
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "Date February 21, 2019",
+                "Invoice# 022119",
+                "Page 1/2",
+                "systems",
+                "visual",
+                "systems visual llc",
+                "Jonathan Walker",
+                "3788 Country Club Drive",
+                "Redwood City, California 94061",
+                "Cell: +1 (650) 391-8153",
+                "Jonathan@SystemsVisual.com",
+                "ATTENTION Ruby Sahiwal, Escalon Services",
+                "Client Escalon Services",
+                "Project Branding // Brand Frameworks, Brand Unique Positioning, Brand Personification",
+                "Deliverables One Branding Session, Continued Exporation of Personas, Persona from perspective of potential",
+                "meeting of persona of customer, Meeting dynamics and suggested strategies for capitalizing on this conversation,",
+                "Miscellaneous addtions",
+                "Details",
+                "Full rights delivered to client. Rights retained by Jonathan Walker to use non-proprietary designs for promotional",
+                "purposes only.",
+                "N.b. Images are for placement only (FPO) \u2014 licenses have not been secured for reuse."
+            ],
+            [
+                "Date February 21, 2019",
+                "Invoice# 022119",
+                "Page 2/2",
+                "systems",
+                "visual",
+                "systems visual llc",
+                "Jonathan Walker",
+                "3788 Country Club Drive",
+                "Redwood City, California 94061",
+                "Balance (USD)",
+                "Cell: +1 (650) 391-8153",
+                "Jonathan@SystemsVisual.com",
+                "Payment",
+                "Payment of the above may be made by check or electronic fund transfer to the account named below. Payment",
+                "may be made within 30 days of receipt. Electronic transfers after the first should add an additional USD$35",
+                "transfer fee.",
+                "Total",
+                "$1,050",
+                "Bank Details",
+                "Bank Name",
+                "Address",
+                "Union Bank of California",
+                "Mid-Peninsula #647",
+                "400 University Ave.",
+                "Palo Alto, CA 94301-1812",
+                "USA",
+                "Swift Code",
+                "Routing Number",
+                "Account Number",
+                "Account Name",
+                "Account Address",
+                "BOFCUS33MPK",
+                "122000496",
+                "6471084829",
+                "Jonathan Walker, Marisa Walker",
+                "3788 Country Club Drive",
+                "Redwood City, CA 94061",
+                "USA",
+                "Sincerely yours,",
+                "Jonathan Walker"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/d617e66c073b461e880a3424_0.png",
+        "https://all.rir.rossum.ai/img/d617e66c073b461e880a3424_1.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_d617e66c073b461e880a3424_0.png",
+        "https://all.rir.rossum.ai/img/o_d617e66c073b461e880a3424_1.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/d617e66c073b461e880a3424_0.png"
+}

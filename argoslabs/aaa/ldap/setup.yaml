@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: AAA :: ActiveDirectory'
+  - 'Topic :: AAA :: LDAP'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: plugin module for AD/LDAP
+  keywords:
+  - aaa
+  - active
+  - directory
+  - ldap
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+    argoslabs.aaa.ldap: ['icon.*', 'python_ldap-3.2.0-cp37-cp37m-win32.whl']
+  url: https://www.argos-labs.com
+#  version: 1.1124.2100
+  # version: 1.1124.3300
+  version: 1.1124.3456

@@ -1,0 +1,9 @@
+{
+  "$set":
+  {
+    "author" : "Mike",
+    "text" : "My first blog post!",
+    "tags" : ["my", "update", "sample"],
+    "date": "2020/02/23"
+  }
+}

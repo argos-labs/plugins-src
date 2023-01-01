@@ -1,0 +1,12 @@
+-- create table
+
+CREATE TABLE foo (
+  id NUMBER NOT NULL,
+  name VARCHAR(30) NOT NULL,
+  age INT NOT NULL,
+  PRIMARY KEY (id)
+);
+CREATE SEQUENCE id_seq START WITH 1 INCREMENT BY 1;
+
+-- ALTER DATABASE mytest CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
+-- ALTER TABLE foo CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

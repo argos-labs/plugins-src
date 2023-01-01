@@ -1,0 +1,85 @@
+---
+# output type
+csv:
+  # or criteria (loop until any columns which have the result)
+  or:
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find_all op is once happen
+      find:
+      - op: find
+        name: div
+        class: s-result-list sg-row
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: h2
+    # column header
+    - header: price
+      # find_all op is once happen
+      find:
+      - op: find
+        name: div
+        class: s-result-list sg-row
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 0
+    # column header
+    - header: unit
+      # find_all op is once happen
+      find:
+      - op: find
+        name: div
+        class: s-result-list sg-row
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 1
+  - columns:
+    # column header
+    - header: item
+      # find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: h2
+    # column header
+    - header: price
+      # find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 0
+    # column header
+    - header: unit
+      # find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 1

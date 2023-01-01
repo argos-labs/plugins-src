@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common==2.1021.1637
+
+# for Excel
+openpyxl==3.0.7
+
+# for csv
+xlwings==0.23.0
+
+chardet

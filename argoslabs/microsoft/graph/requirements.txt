@@ -1,0 +1,16 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# for Office 365
+
+# O365>=2.0.5
+# microsoftgraph-python
+
+alabslib.selenium
+
+# source https://github.com/areed1192/ms-graph-python-client
+# build wheel and located https://pypi-official.argos-labs.com/#/package/ms-graph-python-client
+ms-graph-python-client

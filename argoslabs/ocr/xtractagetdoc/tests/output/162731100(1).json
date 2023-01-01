@@ -1,0 +1,97 @@
+{
+    "documents_response": {
+        "status": "200",
+        "message": "The request has been successfully processed",
+        "document": {
+            "@revision": "2",
+            "document_id": "162731100",
+            "document_status": "indexing",
+            "number_of_pages": "1",
+            "api_download_status": "active",
+            "free_form": null,
+            "classification": "full",
+            "classification_class": "3323264",
+            "classification_design": "0",
+            "document_url": "https://web1-akl.xtracta.com/akl_northcote_storage3_datasource1/1/d3/89/iq231245611-d7oVoZvWR7t.pdf",
+            "image_url": "https://web1-akl.xtracta.com/akl_northcote_storage3_datasource1/1/56/23/ds162731100-iq231245611-d7oVoZvWR7t2897-1-800.jpg",
+            "field_data": {
+                "field": [
+                    {
+                        "field_id": "38849592",
+                        "field_name": "Vendor Name",
+                        "field_value": null,
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38849593",
+                        "field_name": "Invoice Number",
+                        "field_value": "4220/19-20",
+                        "field_extraction_confidence": "30"
+                    },
+                    {
+                        "field_id": "38849594",
+                        "field_name": "Invoice Date",
+                        "field_value": "26-Aug-2019",
+                        "field_extraction_confidence": "88"
+                    },
+                    {
+                        "field_id": "38849595",
+                        "field_name": "Sub total",
+                        "field_value": "432.54",
+                        "field_extraction_confidence": "8"
+                    },
+                    {
+                        "field_id": "38849596",
+                        "field_name": "Tax Total",
+                        "field_value": null,
+                        "field_extraction_confidence": "0"
+                    },
+                    {
+                        "field_id": "38849597",
+                        "field_name": "Invoice Total",
+                        "field_value": "216.27",
+                        "field_extraction_confidence": "41"
+                    }
+                ],
+                "field_set": {
+                    "field_set_id": "6200112",
+                    "field_set_name": "Product details",
+                    "row": {
+                        "field": [
+                            {
+                                "field_id": "38849598",
+                                "field_name": "Code",
+                                "field_value": null,
+                                "field_extraction_confidence": null
+                            },
+                            {
+                                "field_id": "38849599",
+                                "field_name": "Description",
+                                "field_value": "PUSHFIT COLLET",
+                                "field_extraction_confidence": "0"
+                            },
+                            {
+                                "field_id": "38849600",
+                                "field_name": "Qty",
+                                "field_value": "1,335.000 NOS",
+                                "field_extraction_confidence": "0"
+                            },
+                            {
+                                "field_id": "38849601",
+                                "field_name": "Price",
+                                "field_value": null,
+                                "field_extraction_confidence": null
+                            },
+                            {
+                                "field_id": "38849602",
+                                "field_name": "Product Total",
+                                "field_value": "2,403.00",
+                                "field_extraction_confidence": "0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

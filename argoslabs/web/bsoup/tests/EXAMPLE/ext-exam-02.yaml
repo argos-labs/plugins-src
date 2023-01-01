@@ -1,0 +1,24 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: item
+      find:
+      - op: select_one
+        xpath: /html/body/div/table[1]
+      - op: find_all
+        name: tr
+      split:
+        separator: ":"
+        index: 0
+    - header: price
+      find:
+      - op: select_one
+        xpath: /html/body/div/table[1]
+      - op: find_all
+        name: tr
+      split:
+        separator: ":"
+        index: 1
+skip-empty-row: true

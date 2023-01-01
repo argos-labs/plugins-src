@@ -1,0 +1,66 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+
+  or:
+  - columns:
+    - header: "당월지침"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[1]/table/tbody/tr[3]/td[2]
+    - header: "당월"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[2]/table/tbody/tr[3]/td[2]
+    - header: "전월지침"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[1]/table/tbody/tr[4]/td[2]
+    - header: "전월"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[2]/table/tbody/tr[4]/td[2]
+    - header: "사용량"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[1]/table/tbody/tr[5]/td[2]
+    - header: "전년동월"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr/td[2]/table/tbody/tr[5]/td[2]
+
+#   TODO
+#  - columns:
+#    - header: item
+#      find:
+#      - op: select_one
+#        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr
+#      - op: find_all
+#        name: img
+#      text-item: src  # default is 'text'
+#      switch:
+#        - case: images/box04_tit.gif
+#          replace: "당월지침"
+#        - case: images/box04_stit01.gif
+#          replace: "전월지침"
+#        - case: images/box04_stit02.gif
+#          replace: "사용량"
+#        - case: images/box04_stit03.gif
+#          replace: "당월"
+#        - case: images/box05_tit.gif
+#          replace: "전월"
+#        - case: images/box05_stit01.gif
+#          replace: "전년동월"
+#        - case: images/box05_stit02.gif
+#          replace: ""
+#        - case: images/box05_stit03.gif
+#          replace: ""
+#    - header: value
+#      find:
+#      - op: select_one
+#        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[3]/table/tbody/tr
+#      - op: find_all
+#        name: td
+#        class: true
+
+skip-empty-row: true

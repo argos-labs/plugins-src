@@ -1,0 +1,7 @@
+{
+  "$set":
+  {
+    "date": "2020/02/22",
+    "update": "update_test"
+  }
+}

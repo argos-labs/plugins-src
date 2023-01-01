@@ -1,0 +1,49 @@
+{
+    "ltlShipment": true,
+    "startDate": {
+        "date": "2021-04-12T04:00:00.000Z",
+        "timezone": "America/Los_Angeles"
+    },
+    "endDate": {
+        "date": "2021-04-12",
+        "timezone": "America/Los_Angeles"
+    },
+    "status": {
+        "code": {
+            "key": "2103",
+            "value": "Tendered"
+        },
+        "notes": "test note"
+    },
+    "equipment": [
+        {
+            "type": {
+                "key": "1200",
+                "value": "Other"
+            },
+            "weight": 100,
+            "temp": 22,
+            "size": {}
+        }
+    ],
+    "lane": {
+        "start": "San Jose, CA",
+        "end": "Sunnyvale, CA"
+    },
+    "customerOrder": [
+        {
+            "customer": {
+                "id": 65475,
+                "name": "A. WALDBART & SONS NURSERY"
+            },
+            "customerOrderSourceId": 123,
+            "totalMiles": 567,
+            "paysUnloading": "false",
+            "items": [],
+            "costs": {},
+            "externalIds": [],
+            "contacts": [],
+            "flexAttributes": []
+        }
+    ]
+}

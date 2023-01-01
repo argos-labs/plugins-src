@@ -1,0 +1,13 @@
+field_id,field_name,field_value,field_extraction_confidence
+38883985,Supplier Name,,0
+38884003,Supplier VAT Number,Customer Information,0
+38884001,Supplier Bank Account Number,GB314034060,6
+38884002,Supplier Bank Account Sort Code,,0
+38884004,Supplier Address,"41 Corsham Street london, Greater London N1 6DR GB",0
+38883986,Invoice Number,S060274305,47
+38883987,Invoice Date,07 Nov 2019,49
+38883991,Due Date,,0
+38883988,Net Total,3.03,77
+38883989,VAT,3.03,0
+38883990,Gross Total,3.03,40
+38884994,Number of Pages,1,100
