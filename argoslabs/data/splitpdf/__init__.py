@@ -14,10 +14,21 @@ ARGOS LABS Splitting and Merging PDF plugin
 # Authors
 # ===========
 #
+<<<<<<< HEAD
+# * Jerry Chae, Irene Cho
+#
+# --------
+#
+#  * [2023/01/09]
+#     - DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+#       => in requirements.txt : PyPDF2 => PyPDF2<3.0
+#       => argspec._output_folder => argspec.output_folder
+=======
 # * Irene Cho
 #
 # --------
 #
+>>>>>>> b70a48d78fb9b31d9b31e3752cae0adaabfe1bc3
 #  * [2020/12/01]
 #     - starting
 
@@ -41,11 +52,19 @@ def pdf(mcxt, argspec):
             argspec.filename += lst
         elif not argspec.filename:
             argspec.filename = [argspec.folder+'/'+ i for i in os.listdir(argspec.folder)]
+<<<<<<< HEAD
+        if not argspec.output_folder and not argspec.output_file:
+            argspec.output_folder = tempfile.mkdtemp()
+        if argspec.op == 'Splitting':
+            if not os.path.exists(argspec.output_folder):
+                os.mkdir(argspec.output_folder)
+=======
         if not argspec._output_folder and not argspec.output_file:
             argspec._output_folder = tempfile.mkdtemp()
         if argspec.op == 'Splitting':
             if not os.path.exists(argspec._output_folder):
                 os.mkdir(argspec._output_folder)
+>>>>>>> b70a48d78fb9b31d9b31e3752cae0adaabfe1bc3
             f = argspec.filename[0]
             if not os.path.exists(f):
                 raise IOError('Cannot read pdf file "%s"' % f)
@@ -55,11 +74,19 @@ def pdf(mcxt, argspec):
                 pwriter = PdfFileWriter()
                 pwriter.addPage(pdf_.getPage(p))
                 out = f'{fbasename}_{p + 1}.pdf'
+<<<<<<< HEAD
+                output = os.path.join(argspec.output_folder, out)
+                with open(output, 'wb') as o:
+                    pwriter.write(o)
+                o.close()
+            print(os.path.abspath(argspec.output_folder), end='')
+=======
                 output = os.path.join(argspec._output_folder, out)
                 with open(output, 'wb') as o:
                     pwriter.write(o)
                 o.close()
             print(os.path.abspath(argspec._output_folder), end='')
+>>>>>>> b70a48d78fb9b31d9b31e3752cae0adaabfe1bc3
         else:
             pmerger = PdfFileMerger()
             for i in argspec.filename:
@@ -70,9 +97,15 @@ def pdf(mcxt, argspec):
             if argspec.output_file:
                 output = argspec.output_file
             else:
+<<<<<<< HEAD
+                if not os.path.exists(argspec.output_folder):
+                    os.mkdir(argspec.output_folder)
+                output = os.path.join(argspec.output_folder, 'merged.pdf')
+=======
                 if not os.path.exists(argspec._output_folder):
                     os.mkdir(argspec._output_folder)
                 output = os.path.join(argspec._output_folder, 'merged.pdf')
+>>>>>>> b70a48d78fb9b31d9b31e3752cae0adaabfe1bc3
             with open(output, 'wb') as f:
                 pmerger.write(f)
             f.close()

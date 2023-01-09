@@ -4,5 +4,9 @@
 alabs.common
 
 # ...
+<<<<<<< HEAD
+PyPDF2<3.0
+=======
 PyPDF2
 
+>>>>>>> b70a48d78fb9b31d9b31e3752cae0adaabfe1bc3
