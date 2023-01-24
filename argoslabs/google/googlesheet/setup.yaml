@@ -23,7 +23,7 @@ setup:
   - Linux
   package_data:
     # next requirements.txt is for pre-install for the prebuilt ethem module
-    argoslabs.google.googlesheet: ['icon.*',]
+    argoslabs.google.googlesheet: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   version: 4.307.1537
 
