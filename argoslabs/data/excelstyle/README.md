@@ -81,21 +81,7 @@ You can choose one of 3 output formats from below:
 
 ![Text_from_Image](README_01.png)
 
-
-
 ![Text_from_Image](README_02.png)
-
-### When using functions with conditional formatting
-
-![Text from Image](README_03.png)
-
-### When the conditional formatting is that the cell contains a "String"
-
-![Text from Image](README_04.png)
-
-### When you want to perform conditional formatting on a row
-
-![Text from Image](README_05.png)
 
 ## Return Code
 Code | Meaning
