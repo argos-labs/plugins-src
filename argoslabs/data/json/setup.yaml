@@ -20,7 +20,7 @@ setup:
   - Windows
   package_data:
 #    argoslabs.data.json: ['icon.*', 'tests/json/*.json']
-    argoslabs.data.json: ['icon.*']
+    argoslabs.data.json: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
 #  version: 3.122.1313
   # version: 3.122.3300
