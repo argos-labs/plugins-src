@@ -25,7 +25,7 @@ setup:
   - Windows
   - Linux
   package_data:
-#    argoslabs.data.excel: ['icon.*', 'tests/*.*']
+#    argoslabs.data.excel: ['icon.*', 'tests/*.*', 'README*.*']
     argoslabs.data.excelread: ['icon.*']
   url: https://www.argos-labs.com
   # version: 4.712.1140
