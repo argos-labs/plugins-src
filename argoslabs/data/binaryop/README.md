@@ -22,7 +22,7 @@ Jerry Chae
 ### Dependent modules
 Module | Source Page | License | Version (If specified otherwise using recent version will be used)
 ---|---|---|---
-[openpyxl](https://pypi.org/project/openpyxl/) | [openpyxl](https://github.com/theorchard/openpyxl) | [MIT](https://github.com/theorchard/openpyxl/blob/master/LICENCE.rst) | newer than `2.6.1` (Latest is `3.0.10`, Dec 2020)
+[python-dateutil](https://pypi.org/project/python-dateutil/) | [python-dateutil](https://github.com/dateutil/dateutil) | [Apache 2.0](https://github.com/dateutil/dateutil/blob/master/LICENSE) | newer than `2.8.0` (Latest is `2.8.2`, Jan 2023)
 
 
 ## Warning 
@@ -171,4 +171,4 @@ You will find a new menu to explicitly specify the formats in the advanced menu.
 Code | Meaning
 -----|---
 0    | Success
-1    | Exceptional case
+99    | Exceptional case
