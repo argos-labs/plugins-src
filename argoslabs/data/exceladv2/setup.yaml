@@ -18,7 +18,7 @@ setup:
   platforms:
   - Windows
   package_data:
-    argoslabs.data.exceladv2: ['icon.*']
+    argoslabs.data.exceladv2: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
 #  version: 2.908.1000
   # version: 3.1110.1817
