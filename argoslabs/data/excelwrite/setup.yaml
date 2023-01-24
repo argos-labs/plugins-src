@@ -26,7 +26,7 @@ setup:
   - Linux
   package_data:
 #    argoslabs.data.excelwrite: ['icon.*', 'tests/*.*']
-    argoslabs.data.excelwrite: ['icon.*']
+    argoslabs.data.excelwrite: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # version: 3.526.1117
   version: 3.526.3456
