@@ -23,7 +23,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.dpath: ['icon.*', 'tests/input/*.json']
+    argoslabs.data.dpath: ['icon.*', 'tests/input/*.json', 'README*.*']
   url: https://www.argos-labs.com
 #  version: 2.1130.1442
   version: 2.1130.3300
