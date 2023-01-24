@@ -1,6 +1,6 @@
 # Excel Simple Read
 
-***ARGOS LABS plugin module for Excel ***
+***ARGOS LABS plugin module for Excel***
 
 > This function is one of Plugins Operation.You can find the movie in [ARGOS RPA+ video tutorial](https://www.argos-labs.com/video-tutorial/).
 
