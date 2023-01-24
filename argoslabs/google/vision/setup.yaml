@@ -31,7 +31,7 @@ setup:
     # next requirements.txt is for pre-install for the prebuilt ethem module
 # Comment out because of too big 20K ==> 30M
 #    argoslabs.google.vision: ['icon.*', 'tests/*']
-    argoslabs.google.vision: ['icon.*']
+    argoslabs.google.vision: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
 #  version: 2.1105.800
