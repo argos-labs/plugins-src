@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.splitpdf: ['icon.*']
+    argoslabs.data.splitpdf: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # version: 3.409.3300
 <<<<<<< HEAD
