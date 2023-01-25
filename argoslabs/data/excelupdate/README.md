@@ -1,6 +1,6 @@
 # Excel Update
 
-***ARGOS LABS plugin module for Excel ***
+***ARGOS LABS plugin module for Excel***
 
 > This function is one of Plugins Operation.You can find the movie in [ARGOS RPA+ video tutorial](https://www.argos-labs.com/video-tutorial/).
 
@@ -22,12 +22,12 @@ Kyobong An
 ### Dependent modules
 Module | Source Page | License | Version (If specified otherwise using recent version will be used)
 ---|---|---|---
-[openpyxl](https://pypi.org/project/openpyxl/) | [openpyxl](https://github.com/theorchard/openpyxl) | [MIT](https://github.com/theorchard/openpyxl/blob/master/LICENCE.rst) | newer than 2.6.1 (Latest is 3.0.10, Dec 2020)
-[xlwings](https://pypi.org/project/xlwings/)  | [xlwings](https://github.com/xlwings/xlwings) | [BSD-Licensed](https://github.com/xlwings/xlwings/blob/main/LICENSE.txt) |  `latest`
-[chardet](https://pypi.org/project/chardet/) | [chardet](https://github.com/chardet/chardet) | [LGPL](https://github.com/chardet/chardet/blob/main/LICENSE) |   `latest`
+[openpyxl](https://pypi.org/project/openpyxl/) | [openpyxl](https://github.com/theorchard/openpyxl) | [MIT](https://github.com/theorchard/openpyxl/blob/master/LICENCE.rst) | Use the version `3.0.7`
+[xlwings](https://pypi.org/project/xlwings/)  | [xlwings](https://github.com/xlwings/xlwings) | [BSD-Licensed](https://github.com/xlwings/xlwings/blob/main/LICENSE.txt) |  Use the version `0.23.0`
+[chardet](https://pypi.org/project/chardet/) | [chardet](https://github.com/chardet/chardet) | [LGPL](https://github.com/chardet/chardet/blob/main/LICENSE) | `latest`
 
 ## Warning 
-![warning](warning.png) The **DATA ONLY** option will remove all “formulas” from Excel as well.
+> The **DATA ONLY** option will remove all “formulas” from Excel as well.
 
 ## Primary Features
 * This plugin replaces a value with another on an Excel sheet or on CSV. A handy tool for simple data manipulation.
