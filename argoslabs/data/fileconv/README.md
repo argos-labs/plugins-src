@@ -55,25 +55,21 @@ None
 ## Input (Required) 
 Display Name | Input Method | Default Value | Description
 ---|----------|---------------|---------
-Operation | Select one from 8 options  | csv2tsv       | Conversion method.
+Operation | Select one from 8 options  | csv2tsv       | Conversion method. One of these `csv2tsv`, `csv2_sv`, `json2xml`, `xml2json`, `xls2xlsx`, `xls2csv`, `xlsx2xls`, `xlsx2csv`.
 Source File | Absolute File Path | - | Choose input file (variable can be used).
 Target File | Absolute File Path | - | Choose output file (variable can be used).
 
 ## Input (Optional)
 Display Name | Input Method        | Default Value | Description
 ---|---------------------|---------------|---------
+Target separator | - | `\t` as tab character | Target separator for `csv2_sv` operation
 Conditional Formatting | -                   | -             | Option to preserve conditional formatting when doing xlsx2xls.
 File Encoding | -                   | utf-8         | By checking this the target file will be encoded.
 
 
 
 ## Return Value
-Return value is the output file path and will be stored in this variable.
-
-* `String`    : Full file path for the output file
-* `CSV`       : Full file path for the output file   
-* `File`      : Full file path for the output file
-
+Absolute file path for the Output resulting file.
 
 ## Parameter setting examples
 
@@ -84,11 +80,9 @@ Return value is the output file path and will be stored in this variable.
 ![Text_from_Image](README_03.png)
 
 
-
 ## Return Code
 Code | Meaning
 ---|---
 0 | Execution Successful
-1 | File Open Error
-9 | Other Failure
+1 | Other Failure
     
