@@ -41,18 +41,26 @@ For more detailed explanations, please refer to the link [here](https://www.w3sc
 ## Input (Required) 
 Display Name | Input Method                                                               | Default Value | Description
 ---|----------------------------------------------------------------------------|---------------|---------
-Operation | (choose one from the 9 pull-down options)![Text_from_Image](README_01.png) | find          | Check [below](#parameter-setting-examples) 
+Operation | (choose one from `find`, `insert`, `update`, `delete`, `count`, `collection_names`, `list_database_names`, `drop_database`, `drop_collection`) | `find` | Check [below](#parameter-setting-examples) 
 Host IP Address | IP Address                                                                 | -             | Specify the Host IP Address.
 Port Number | Number                                                                     | 27017         | Specify the port number.
+DB Name | String | - | Specify the data base name in the text box.
+Collection Name | String | - | Specify the collection name in the text box.
 
 ## Input (Optional)
 Display Name | Input Method | Default Value | Description
 ---|-------------|---------------|---------
-DB Name | String | - | Specify the data base name in the text box.
-Collection Name | String | - | Specify the collection name in the text box.
-User ID | ID | - | After Checking the box type in the proper user id of the db.
-Password | Password | - | User ID and Password works in pair.
-
+User | - | - | User for MongoDB Authentication
+Password | Password | - | Password for MongoDB Authentication
+Input JSON file | fileread | - | JSON file for inserting
+Encoding | - | utf-8 | Encoding for JSON file
+One Doc | True/False | False | If this flag is set apply only one document for finding, updating and deleting
+Filter | - | - | Filter for finding, updating and deleting, this is a [query specification](https://www.w3schools.com/python/python_mongodb_query.asp)
+Find Projection | - | - | Projection for finding, See below `A - 6. Find with "Projection" option`
+Find Sort | - | - | Sort for finding
+Find Skip | Integer | 0 | Skip count for finding
+Find Limit | Integer | 0 | Limit count for finding
+Is Upsert | True/False | False | When this flag is set upsert (insert or update) flag is true for update
 
 ## Return Value
 
