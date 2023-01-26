@@ -41,7 +41,7 @@ For more detailed explanations, please refer to the link [here](https://www.w3sc
 ## Input (Required) 
 Display Name | Input Method                                                               | Default Value | Description
 ---|----------------------------------------------------------------------------|---------------|---------
-Operation | (choose one from `find`, `insert`, `update`, `delete`, `count`, `collection_names`, `list_database_names`, `drop_database`, `drop_collection`) | `find` | Check [below](#parameter-setting-examples) ![text from image](README_01)
+Operation | (choose one from `find`, `insert`, `update`, `delete`, `count`, `collection_names`, `list_database_names`, `drop_database`, `drop_collection`) | `find` | Check [below](#parameter-setting-examples) ![Text_from_Image](README_01.png)
 Host IP Address | IP Address                                                                 | -             | Specify the Host IP Address.
 Port Number | Number                                                                     | 27017         | Specify the port number.
 DB Name | String | - | Specify the data base name in the text box.
