@@ -24,6 +24,6 @@ setup:
   - Linux
   package_data:
 #    argoslabs.data.sqlite: ['icon.*', 'tests/*.*']
-    argoslabs.data.sqlite: ['icon.*', 'README*.*']
+    argoslabs.data.sqlite: ['icon.*']
   url: https://www.argos-labs.com
-  version: 3.713.1749
+  version: 5.105.1530
