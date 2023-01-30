@@ -20,6 +20,10 @@ ARGOS LABS plugin module for Excel Advance II
 # Change Log
 # --------
 #
+#  * [2023/01/27] Kyobong An
+#     - 이전에 수정한 Sheet Copy에 문제점이 있었음. 수전전 코드 다시 복구
+#     - data_only시 새로운 workbook을 불러서 시트만 복사하는 코드 추가
+#       기존 수식이 날라가는 현상은 부르기전에 xlwing를 사용해 한번 저장해준후 진행
 #  * [2021/11/10] Kyobong An
 #     - Sheet Copy 할때 기존시트가 같이 생성되고 data_only까지 사용할때 기존파일이 여러개생기는 오류수정.
 #  * [2021/03/29]
@@ -44,6 +48,7 @@ from alabs.common.util.vvargs import func_log, get_icon_path, ModuleContext, \
     ArgsError, ArgsExit
 # noinspection PyPackageRequirements
 import openpyxl
+import xlwings
 # noinspection PyPackageRequirements
 from openpyxl.utils.cell import column_index_from_string, \
     coordinate_from_string, get_column_letter
@@ -325,23 +330,27 @@ class Excel2API(object):
 
     # ==========================================================================
     def copy_sheet(self):
+        self.wbt = None
         if self.argspec.data_only:
-            self.wb = openpyxl.load_workbook(self.filename,
-                                             data_only=True)
-
-        self.ws = self.wb[self.argspec.sheetname]
+            excel_app = xlwings.App(visible=False)
+            excel_book = excel_app.books.open(self.filename)
+            excel_book.save(self.filename)
+            excel_book.close()
+            excel_app.quit()
+            self.wbt = openpyxl.load_workbook(self.filename, data_only=True)
+            target = self.wbt[self.argspec.sheetname]
+            target.title = 'copy' + target.title
+            target._parent = self.wb
+            self.wb._add_sheet(target)
+            self.ws = self.wb[target.title]
+        else:
+            target = self.wb[self.argspec.sheetname]
+            self.ws = self.wb.copy_worksheet(target)
         if self.argspec.newsheet:
             self.ws.title = self.argspec.newsheet
-        # del self.wb[self.argspec.sheetname]
-        if self.newfilename:
-            for sheet in self.wb.sheetnames:
-                if sheet == self.argspec.newsheet:
-                    pass
-                else:
-                    del self.wb[sheet]
-            self.wb.save(self.newfilename)
-        else:
-            self.save()
+        self.save()
+        if self.wbt:
+            self.wbt.close()
         #self.wb.save('sample0.xlsx')
 
     # ==========================================================================
