@@ -22,7 +22,7 @@ setup:
   package_data:
     # for Oracle, cx_Oracle in Windows: set pre-compiled for pymssql
 #    argoslabs.data.rdb: ['icon.*', '*.dll', '*.whl']
-    argoslabs.data.oracle: ['icon.*', '*.dll', 'README*.*']
+    argoslabs.data.oracle: ['icon.*', '*.dll', 'README*.*', 'warning.png']
   url: https://www.argos-labs.com
   # version: 3.729.1100
   version: 3.729.3456
