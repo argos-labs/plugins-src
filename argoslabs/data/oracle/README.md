@@ -22,7 +22,7 @@ Jerry Chae
 ### Dependent modules
 Module | Source Page                                           | License                                                                     | Version (If specified otherwise using recent version will be used)
 ---|-------------------------------------------------------|-----------------------------------------------------------------------------|---
-[cx-Oracle](https://pypi.org/project/cx-Oracle/) | [cx-Oracle](https://github.com/oracle/python-cx_Oracle) | [BSD License](https://github.com/oracle/python-cx_Oracle/blob/main/LICENSE.txt) | cx-Oracle==`7.1.1`
+[cx-Oracle](https://pypi.org/project/cx-Oracle/) | [cx-Oracle](https://github.com/oracle/python-cx_Oracle) | [BSD License](https://github.com/oracle/python-cx_Oracle/blob/main/LICENSE.txt) | `latest`
 
 ## Warning 
 ![warning](warning.png) **IMPORTANT NOTE**<br>
