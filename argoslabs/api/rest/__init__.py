@@ -19,6 +19,7 @@ ARGOS LABS plugin module sample
 #
 #  * [2022/12/14]
 #     - Next contents are not supported because of --file index are deleted
+#     - modify help contents for --req-item
 #  * [2022/12/01]
 #     - delete --file option : latest httpie does not support @@
 #  * [2021/08/10]
@@ -298,28 +299,29 @@ def _main(*args):
         # ----------------------------------------------------------------------
         mcxt.add_argument('--req-item', '-i', action="append",
                           display_name='Req Item',
-                          help='''REQUEST_ITEM
-      Optional key-value pairs to be included in the request. The separator used
-      determines the type:
-
-      ':' HTTP headers:
-          Referer:http://httpie.org  Cookie:foo=foo  User-Agent:bacon/1.0
-      '==' URL parameters to be appended to the request URI:
-          search==httpie
-      '=' Data fields to be serialized into a JSON object (with --json, -j)
-          or form data (with --form, -f):
-          name=HTTPie  language=Python  description='CLI HTTP client'
-      ':=' Non-string JSON data fields (only with --json, -j):
-          awesome:=true  amount:=42  colors:='["red", "green", "blue"]'
-      '@' Form file fields (only with --form, -f):
-          cs@~/Documents/CV.pdf
-      '=@' A data field like '=', but takes a file path and embeds its content:
-           essay=@Documents/essay.txt
-      ':=@' A raw JSON field like ':=', but takes a file path and embeds its content:
-          package:=@./package.json
-
-      You can use a backslash to escape a colliding separator in the field name:
-          field-name-with\\:colon=value''')
+                          help='Request Item at data part as input')
+      #                     help='''REQUEST_ITEM
+      # Optional key-value pairs to be included in the request. The separator used
+      # determines the type:
+      #
+      # ':' HTTP headers:
+      #     Referer:http://httpie.org  Cookie:foo=foo  User-Agent:bacon/1.0
+      # '==' URL parameters to be appended to the request URI:
+      #     search==httpie
+      # '=' Data fields to be serialized into a JSON object (with --json, -j)
+      #     or form data (with --form, -f):
+      #     name=HTTPie  language=Python  description='CLI HTTP client'
+      # ':=' Non-string JSON data fields (only with --json, -j):
+      #     awesome:=true  amount:=42  colors:='["red", "green", "blue"]'
+      # '@' Form file fields (only with --form, -f):
+      #     cs@~/Documents/CV.pdf
+      # '=@' A data field like '=', but takes a file path and embeds its content:
+      #      essay=@Documents/essay.txt
+      # ':=@' A raw JSON field like ':=', but takes a file path and embeds its content:
+      #     package:=@./package.json
+      #
+      # You can use a backslash to escape a colliding separator in the field name:
+      #     field-name-with\\:colon=value''')
 
     # 2022/12/14 : Next contents are not supported because of --file index are deleted
     #   '@@' Form file fields (only with --form, -f): 
@@ -335,11 +337,12 @@ def _main(*args):
         # ----------------------------------------------------------------------
         mcxt.add_argument('--form', action="store_true",
                           display_name='Form',
-                          help="""--form, -f
-      Data items from the command line are serialized as form fields.
-      The Content-Type is set to application/x-www-form-urlencoded (if not
-      specified). The presence of any file fields results in a
-      multipart/form-data request.""")
+                          help='Flag for using form at HTML')
+      #                     help="""--form, -f
+      # Data items from the command line are serialized as form fields.
+      # The Content-Type is set to application/x-www-form-urlencoded (if not
+      # specified). The presence of any file fields results in a
+      # multipart/form-data request.""")
     #    # ----------------------------------------------------------------------
     #    mcxt.add_argument('--pretty', action="store", default='format',
     #                      choices=['all', 'colors', 'format', 'none'],
@@ -387,16 +390,18 @@ def _main(*args):
         # ----------------------------------------------------------------------
         mcxt.add_argument('--session', action="store", default=None,
                           display_name='Session',
-                          help='''--session SESSION_NAME_OR_PATH
-      Create, or reuse and update a session. Within a session, custom headers,
-      auth credential, as well as any cookies sent by the server persist between
-      requests.''')
+                          help='Session name or path')
+      #                     help='''--session SESSION_NAME_OR_PATH
+      # Create, or reuse and update a session. Within a session, custom headers,
+      # auth credential, as well as any cookies sent by the server persist between
+      # requests.''')
         # ----------------------------------------------------------------------
         mcxt.add_argument('--session-read-only', action="store", default=None,
                           display_name='Session ReadOnly',
-                          help='''--session-read-only SESSION_NAME_OR_PATH
-      Create or read a session without updating it form the request/response
-      exchange.''')
+                          help='Readonly ession name or path')
+      #                     help='''--session-read-only SESSION_NAME_OR_PATH
+      # Create or read a session without updating it form the request/response
+      # exchange.''')
         # ----------------------------------------------------------------------
         mcxt.add_argument('--auth-type', action="store", nargs='?',
                           display_name='Auth Type',
@@ -404,24 +409,25 @@ def _main(*args):
                           choices=['api-auth', 'aws', 'basic', 'digest',
                                    'edgegrid', 'hawk', 'hmac', 'jwt',
                                    'negotiate', 'ntlm', 'oauth1'],
-                          help='''--auth-type {api-auth,aws,basic,digest,edgegrid,hawk,hmac,jwt,negotiate,ntlm,oauth1}, 
-      -A {api-auth,aws,basic,digest,edgegrid,hawk,hmac,jwt,negotiate,ntlm,oauth1}
-      The authentication mechanism to be used. Defaults to "basic".
-
-      "basic": Basic HTTP auth
-      "digest": Digest HTTP auth
-      "hawk": Hawk Auth (provided by https://github.com/mozilla-services/requests-hawk)
-      "oauth1": OAuth 1.0a 2-legged (provided by https://github.com/httpie/httpie-oauth)
-      "ntlm": NTLM auth (provided by https://github.com/httpie/httpie-ntlm)
-      "negotiate": SPNEGO auth (provided by https://github.com/ndzou/httpie-negotiate)
-      "jwt": JWT auth (provided by https://github.com/teracyhq/httpie-jwt-auth)
-        Set the right format for JWT auth request
-      "hmac": HMAC token auth (provided by https://github.com/guardian/httpie-hmac-auth)
-        Sign requests using a HMAC authentication method like AWS
-      "edgegrid": EdgeGrid auth (provided by https://github.com/akamai/httpie-edgegrid)
-      "aws": AWS auth (provided by https://github.com/httpie/httpie-aws-auth)
-      "api-auth": ApiAuth auth (provided by https://github.com/pd/httpie-api-auth)
-        Sign requests using the ApiAuth authentication method''')
+                          help='Refer https://httpie.io/docs/cli/auth-plugins')
+      #                     help='''--auth-type {api-auth,aws,basic,digest,edgegrid,hawk,hmac,jwt,negotiate,ntlm,oauth1},
+      # -A {api-auth,aws,basic,digest,edgegrid,hawk,hmac,jwt,negotiate,ntlm,oauth1}
+      # The authentication mechanism to be used. Defaults to "basic".
+      #
+      # "basic": Basic HTTP auth
+      # "digest": Digest HTTP auth
+      # "hawk": Hawk Auth (provided by https://github.com/mozilla-services/requests-hawk)
+      # "oauth1": OAuth 1.0a 2-legged (provided by https://github.com/httpie/httpie-oauth)
+      # "ntlm": NTLM auth (provided by https://github.com/httpie/httpie-ntlm)
+      # "negotiate": SPNEGO auth (provided by https://github.com/ndzou/httpie-negotiate)
+      # "jwt": JWT auth (provided by https://github.com/teracyhq/httpie-jwt-auth)
+      #   Set the right format for JWT auth request
+      # "hmac": HMAC token auth (provided by https://github.com/guardian/httpie-hmac-auth)
+      #   Sign requests using a HMAC authentication method like AWS
+      # "edgegrid": EdgeGrid auth (provided by https://github.com/akamai/httpie-edgegrid)
+      # "aws": AWS auth (provided by https://github.com/httpie/httpie-aws-auth)
+      # "api-auth": ApiAuth auth (provided by https://github.com/pd/httpie-api-auth)
+      #   Sign requests using the ApiAuth authentication method''')
         # ----------------------------------------------------------------------
         mcxt.add_argument('--auth', '-a', action="store", nargs='?',
                           display_name='Auth',
