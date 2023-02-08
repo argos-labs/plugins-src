@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.mongodb: ['icon.*',]
+    argoslabs.data.mongodb: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
 #  version: 3.215.1300

@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.google.googlecalendar: ['icon.*',]
+    argoslabs.google.googlecalendar: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
   version: 2.803.3300

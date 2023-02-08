@@ -21,7 +21,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.csv2excel: ['icon.*']
+    argoslabs.data.csv2excel: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
 #  version: 3.223.842
   # version: 3.1007.1136

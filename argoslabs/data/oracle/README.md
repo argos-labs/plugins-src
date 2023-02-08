@@ -22,7 +22,7 @@ Jerry Chae
 ### Dependent modules
 Module | Source Page                                           | License                                                                     | Version (If specified otherwise using recent version will be used)
 ---|-------------------------------------------------------|-----------------------------------------------------------------------------|---
-[cx-Oracle](https://pypi.org/project/cx-Oracle/) | [cx-Oracle](https://github.com/oracle/python-cx_Oracle) | [BSD License](https://github.com/oracle/python-cx_Oracle/blob/main/LICENSE.txt) | cx-Oracle==`7.1.1`
+[cx-Oracle](https://pypi.org/project/cx-Oracle/) | [cx-Oracle](https://github.com/oracle/python-cx_Oracle) | [BSD License](https://github.com/oracle/python-cx_Oracle/blob/main/LICENSE.txt) | `latest`
 
 ## Warning 
 ![warning](warning.png) **IMPORTANT NOTE**<br>
@@ -52,20 +52,25 @@ DB Port | Port No.        | - | Specify the port no of the database.
 DB User | User ID(String) | - | Determine the specified user ID of the data base.
 DB Password | Password | - | Determine the specified password of the data base.
 DB Name | String | - | Specify the name of the data base.
-SQL String | String | - | SQL can be sent either as char String or from a text file
 
 ## Input (Optional)
 Display Name | Input Method       | Default Value | Description
 ---|--------------------|-----|---------
-CSV Bulk Input | Absolute file path | -   | Data input can be made from a CSV file. 
-Exc * Headers | String | - | If there is(are) header(s), you can use the Exclusion count option here.
+SQL string | String | - | SQL can be sent either as char String or from a text file
+SQL file | fileread | - | SQL from file. (Note, either one of `SQL string` or `SQL file`)
+CSV bulk input | fileread | -   | Data input can be made from a CSV file in case of `INSERT` sql.
+Exc N Headers | int | - | If there is(are) header(s), you can use the Exclusion count option here.
 Character Set | String | - | The database also uses this character set for metadata such as table names, column names, and SQL statements.
 Encoding  | -                  | utf-8 | By checking this the target strings will be encoded.
 
 
-
 ## Return Value
-Return data can be stored in `String`,`File`,`CSV` (on memory or a file)
+
+### For `SELECT` SQL
+Result will be the output records with CSV output
+
+### for otherwise SQL
+Reuslt will the `affected_row_count` and integer value
 
 ![Text_from_Image](README_02.png)
 

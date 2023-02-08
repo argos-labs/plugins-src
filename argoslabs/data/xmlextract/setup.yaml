@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.xmlextract: ['icon.*']
+    argoslabs.data.xmlextract: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
 #  version: 2.507.1010

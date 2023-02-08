@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.fileconv: ['icon.*', 'tests/*.*', 'tests/issue/*.*']
+    argoslabs.data.fileconv: ['icon.*', 'tests/*.*', 'tests/issue/*.*', 'README*.*', 'warning.png']
   url: https://www.argos-labs.com
 #  version: 3.120.1126
   # version: 3.1126.1633

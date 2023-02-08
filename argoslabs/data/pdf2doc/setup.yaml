@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.pdf2doc: ['icon.*']
+    argoslabs.data.pdf2doc: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
   # version: 3.622.1400

@@ -42,46 +42,63 @@ JSON File          | Absolute File Path | - | Determine the json file path.
 xpath | XML Path | - | It is used to navigate through elements and attributes in an XML document.
 
 ## Input (Optional)
+Display Name | Input Method | Default Value | Description
+---|-------------|---------------|---------
+Raise Except Flag | True/False | False | If this option is on and invalid xpath expression then raise error and return code will be set 2
+Opt Output Format | - | csv | Output format, only `csv` format is allowed
+Get length | True/False | False | If this flag is set then get the length of output elements instead data
+AND Filter | multiple input | - | `AND` filter for matching key=value. eg) --and-filter `key=value`
+OR Filter | multiple input | - | `OR` filter for matching key=value. eg) --or-filter `key=value`
+Find all Opt | - | - | If this option is given with `key` string, then find all matching `key` items recursively
+Cell key | (Only once set) | - | In CSV output cell is dictionary then get the value from with this cell-key
+Exclude index | Integer type | - | In CSV output excluding cell index (1-based) with value
+Exclude value | - | - | In CSV output excluding cell value
+Encoding | - | utf-8 | Encoding for JSON file
+
 ### Usage Guide with Sample JSON code.
->       = Example JSON 
->                     {
->                           "page": 1,
->                           "per_page": 3,
->                           "total": 12,
->                           "total_pages": 4,
->                           "pagedata": {
->                           "data": [
->                     {
->                            "id": 1,
->                            "name": "cerulean",
->                            "year": 2000,
->                            "color": "#98B2D1",
->                            "pantone_value": "We"
->                        },
->                        {
->                            "id": 2,
->                            "name": "fuchsia rose",
->                            "year": 2001,
->                            "color": "#C74375",
->                            "pantone_value": "Freedom"
->                        },
->                        {
->                            "id": 3,
->                            "name": "true red",
->                            "year": 2002,
->                            "color": "#BF1932",
->                            "pantone_value": "Soul"
->                        }
->                    ]
->                },
->                'jpn': {
->                    "data": {
->                        "shippingDay": "2019-04-02",
->                        "mansionName": "新宿ビル"
->                    },
->                    "status": 200
->                }
-                           
+
+***Example JSON***
+
+```json
+{
+    "page": 1,
+    "per_page": 3,
+    "total": 12,
+    "total_pages": 4,
+    "pagedata": {
+        "data": [
+            {
+                "id": 1,
+                "name": "cerulean",
+                "year": 2000,
+                "color": "#98B2D1",
+                "pantone_value": "We"
+            },
+            {
+                "id": 2,
+                "name": "fuchsia rose",
+                "year": 2001,
+                "color": "#C74375",
+                "pantone_value": "Freedom"
+            },
+            {
+                "id": 3,
+                "name": "true red",
+                "year": 2002,
+                "color": "#BF1932",
+                "pantone_value": "Soul"
+            }
+        ]
+    },
+    "jpn": {
+        "data": {
+        "shippingDay": "2019-04-02",
+        "mansionName": "新宿ビル"
+    },
+    "status": 200
+}
+```
+
 ![Text_from_Image](README_01.png)
 ### 1) Execute with xpath "total"
     > result is "12"
@@ -124,10 +141,11 @@ xpath | XML Path | - | It is used to navigate through elements and attributes in
 
 ## Return Value
 
-* `String`    : Full file path for the output file
-* `CSV`       : Full file path for the output file   
-* `File`      : Full file path for the output file
+### `Get length` flag is not set:
+CSV result from the input JSON
 
+### `Get length` flag is set:
+The number of matching results which means number of rows for output CSV result
 
 ## Parameter setting examples
 Check the [above](#input--optional-) for Parameter Setting Example
@@ -141,5 +159,6 @@ Check the [above](#input--optional-) for Parameter Setting Example
 Code | Meaning
 ---|---
 0 | Execution Successful
+1 | If result is empty
 2 | Execution Failed
     

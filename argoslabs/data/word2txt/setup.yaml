@@ -24,7 +24,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.word2txt: ['icon.*']
+    argoslabs.data.word2txt: ['icon.*', 'README*.*]
   url: https://www.argos-labs.com
   # do not start '0'
   # version: 3.1118.1338

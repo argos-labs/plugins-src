@@ -23,7 +23,7 @@ setup:
   - Linux
   package_data:
     # next requirements.txt is for pre-install for the prebuilt module
-    argoslabs.google.googletoken: ['icon.*',]
+    argoslabs.google.googletoken: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # do not start '0'
   # version: 2.731.3300

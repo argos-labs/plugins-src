@@ -22,7 +22,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.excelformula: ['icon.*']
+    argoslabs.data.excelformula: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   # version: 3.824.1425
   version: 3.824.3456

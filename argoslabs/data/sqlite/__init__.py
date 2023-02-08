@@ -19,6 +19,8 @@ ARGOS LABS plugin module for sqlite
 #
 # Change Log
 # --------
+#  * [2023/01/05]
+#  csv file 안에 따옴표(')가 들어갈 경우 에러 발생. Convert single quotes을 옵션으로 만듬. 기본값은 제거
 #  * [2021/07/13]
 #   sql file로 받을떄 executescript를 사용하고 싶었지만 sql file내에 SELECT문이 있을 경우 제대로 작동안할수있다./
 #   기존 SQL의 방법을 가져옴
@@ -98,7 +100,7 @@ class SQLite(object):
             cwr.writerow(row)
 
     # ==========================================================================
-    def sql_execute_with_csv(self, sql, csv_file, header_lines=0):
+    def sql_execute_with_csv(self, sql, csv_file, header_lines=0, single_quotes=''):
         self.logger.debug('SQLite.sql_execute_with_csv: sql=<%s>, csv_file=%s'
                           % (sql, csv_file))
         if not os.path.exists(csv_file):
@@ -110,6 +112,7 @@ class SQLite(object):
             for i, record in enumerate(cooked):
                 if i < header_lines:
                     continue
+                record = [i.replace("'", single_quotes) for i in record]
                 esql = sql.format(*record)
                 cursor.execute(esql)
                 cnt += 1
@@ -146,7 +149,7 @@ def do_sqlite(mcxt, argspec):
         sqls = preprocess_sql(sql)
         for sql in sqls:
             if argspec.csv_file:
-                db.sql_execute_with_csv(sql, argspec.csv_file, argspec.header_lines)
+                db.sql_execute_with_csv(sql, argspec.csv_file, argspec.header_lines, argspec.single_quotes)
             else:
                 if sql.lower().find('select') >= 0:
                     db.sql_select(sql)
@@ -187,6 +190,7 @@ def _main(*args):
                           help='sql string to excutescript')
         mcxt.add_argument('--csv-file', '-c',
                           display_name='CSV bulk input',
+                          input_group='CSV option',
                           input_method='fileread',
                           help='''input csv file if needed for sql insert
         in case insert use the column like these:
@@ -194,10 +198,17 @@ def _main(*args):
             {{0}} - first csv column reference in --execute or --file''')
         mcxt.add_argument('--header-lines', nargs='?', type=int,
                           display_name='Exc # headers',
+                          input_group='CSV option',
                           default=0, const=0,
                           help='''exclude header lines for input csv file
           (defaut is 0 no header, and 1 means one header line to exclude)''')
+        mcxt.add_argument('--single-quotes',
+                          input_group='CSV option',
+                          default='',
+                          display_name='Convert single quotes',
+                          help='Converting single quotes due to single quote recognition issue in SQLite. Default is Remove.')
         mcxt.add_argument('--encoding',
+                          input_group='CSV option',
                           default='utf8',
                           display_name='Encoding for CSV-file or SQL file',
                           help='Set encoding for CSV file for bulk inserting. Default is [[utf8]].')

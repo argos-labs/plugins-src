@@ -26,7 +26,7 @@ setup:
   - Linux
   package_data:
 #    argoslabs.data.excel: ['icon.*', 'tests/*.*']
-    argoslabs.data.excelupdate: ['icon.*']
+    argoslabs.data.excelupdate: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
 #  version: 3.614.1016
   version: 3.614.3456

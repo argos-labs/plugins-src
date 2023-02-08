@@ -25,7 +25,7 @@ setup:
   - Windows
   - Linux
   package_data:
-    argoslabs.data.exceladv3: ['icon.*']
+    argoslabs.data.exceladv3: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
   version: 3.1008.1544
 
