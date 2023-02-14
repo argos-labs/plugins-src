@@ -17,6 +17,9 @@ ARGOS LABS plugin module for select item from JSON
 # Change Log
 # --------
 #
+#  * [2023/02/14]
+#     - 결과 값이 "0" 이거나 빈 배열일 경우 1로 리턴하는 경우 발생
+#       return은 0 , 에러의 경우 99로 변경, print_format에 0일 경우 공백으로 나오는 부분처리.
 #  * [2021/04/01]
 #     - 그룹에 "9-Utility Tools" 넣음
 #  * [2021/01/22]
@@ -111,7 +114,7 @@ def get_value(mcxt, argspec, r, hlist):
 ################################################################################
 @func_log
 def print_format(mcxt, argspec, r, ofp):
-    if not r:
+    if r is None or r == '':
         ofp.write('')
         return
     # lines = []
@@ -263,12 +266,12 @@ def do_json(mcxt, argspec):
             sys.stdout.write(str(len(r)))
         else:
             print_format(mcxt, argspec, r, sys.stdout)
-        return 0 if bool(r) else 1
+        return 0
     except Exception as e:
         msg = 'Error: %s' % str(e)
         mcxt.logger.error(msg)
         sys.stderr.write(msg)
-        return 2
+        return 99
     finally:
         mcxt.logger.info('>>>end...')
 
