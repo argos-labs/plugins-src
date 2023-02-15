@@ -59,10 +59,11 @@ class TU(TestCase):
             print('Skip testing at test/build time')
             return
         try:
-            r = main('ef0e1377caa04ec0b5',
-                     '233e4c2327e849999737',
+            r = main('df0e1377caa04ec0b4',
+                     '133e4c2327e849999736',
                      'imgs/01-Simple-Invoice.pdf',
                      'What is the invoice number?',
+                     "What is the date of this invoice?",
                      '--json-file', 'imgs/01-Simple-Invoice.json',
                      '--yaml-file', 'imgs/01-Simple-Invoice.yaml',
                      )

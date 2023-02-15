@@ -24,4 +24,4 @@ setup:
   package_data:
     argoslabs.api.rikaiinvoice: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
-  version: 5.209.1100
+  version: 5.209.1650

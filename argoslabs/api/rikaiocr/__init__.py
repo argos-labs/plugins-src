@@ -23,6 +23,7 @@ ARGOS LABS plugin module for EasyOCR API Server
 ################################################################################
 import os
 import sys
+import csv
 import json
 import yaml
 import requests
@@ -59,7 +60,14 @@ def do_ocr(mcxt, argspec):
             raise RuntimeError(emg)
 
         rj = rp.json()
-        print(rj['data'][0]['answer'], end='')
+        cw = csv.writer(sys.stdout, lineterminator='\n')
+        cw.writerow(['question', 'answer'])
+        for qa in rj['data']:
+            cw.writerow([
+                qa['question'],
+                qa['answer'],
+            ])
+        # print(rj['data'][0]['answer'], end='')
         if argspec.json_file:
             with open(argspec.json_file, 'w', encoding='utf-8') as ofp:
                 ofp.write(json.dumps(rj, ensure_ascii=False))
@@ -115,11 +123,11 @@ def _main(*args):
     """
     with ModuleContext(
         owner='ARGOS-LABS',
-        group='9',  # Utility Tools
+        group='1',  # AI Solutions
         version='1.0',
         platform=['windows', 'darwin', 'linux'],
         output_type='text',
-        display_name='RikAI API',
+        display_name='Lazarus RikAI',
         icon_path=get_icon_path(__file__),
         description='This is a plugin for RikAI API call and get the result',
     ) as mcxt:
@@ -137,7 +145,7 @@ def _main(*args):
                           display_name='Img File',
                           input_method='fileread',
                           help='Image file to OCR')
-        mcxt.add_argument('question',
+        mcxt.add_argument('question', nargs='+',
                           display_name='Question',
                           help='Question for OCR')
 

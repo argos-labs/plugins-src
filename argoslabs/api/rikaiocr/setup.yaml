@@ -23,4 +23,4 @@ setup:
   package_data:
     argoslabs.api.rikaiocr: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
-  version: 5.208.2310
+  version: 5.209.1700

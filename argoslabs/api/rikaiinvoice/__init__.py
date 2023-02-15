@@ -112,11 +112,11 @@ def _main(*args):
     """
     with ModuleContext(
         owner='ARGOS-LABS',
-        group='9',  # Utility Tools
+        group='1',  # AI Solutions
         version='1.0',
         platform=['windows', 'darwin', 'linux'],
         output_type='text',
-        display_name='RikAI Invoice API',
+        display_name='Lazarus Invoice',
         icon_path=get_icon_path(__file__),
         description='This is a plugin for RikAI API call and get the result',
     ) as mcxt:
