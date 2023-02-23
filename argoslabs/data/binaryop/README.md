@@ -80,11 +80,11 @@ Output Int Function - Trunc | -            | -                | It removes the f
 ### Operators
 Operator | Meaning                                                   | Example 
 ---|-----------------------------------------------------------------|---
-+ | Add two operands or unary plus                                   | x + y 
-- | Subtract right operand from the left or unary minus              | x - y
-* | Multiply two opeands                                             | x * y
-/ | Divide left operand by the right one (always results into float) | x / y
-% | Modulus - remainder of the division of left operand by the right | x % y (remainder of x/y)
+'+' | Add two operands or unary plus                                   | x + y 
+'-' | Subtract right operand from the left or unary minus              | x - y
+'*' | Multiply two opeands                                             | x * y
+'/' | Divide left operand by the right one (always results into float) | x / y
+'%' | Modulus - remainder of the division of left operand by the right | x % y (remainder of x/y)
 
 ## 1. When using User Variables, you can store the Result Value in one of the Left or Right values. (you can use it as a counter!)
 **Example:** When you want to user {{user.variable1}} as a counter for increment of 1
