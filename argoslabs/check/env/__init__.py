@@ -19,6 +19,8 @@ ARGOS LABS plugin module sample
 # Change Log
 # --------
 #
+#  * [2023/03/06]kyobong
+#     - csv 타입 일때 key(width_mm, height_mm, scale)값이 없어 에러발생
 #  * [2021/03/26]
 #     - 그룹에 "9-Utility Tools" 넣음
 #  * [2020/07/08]
@@ -239,9 +241,9 @@ class EnvCheck(object):
             header.append(f'monitors{i+1}_name')
             header.append(f'monitors{i+1}_width')
             header.append(f'monitors{i+1}_height')
-            header.append(f'monitors{i+1}_width_mm')
-            header.append(f'monitors{i+1}_height_mm')
-            header.append(f'monitors{i + 1}_scale')
+            # header.append(f'monitors{i+1}_width_mm')
+            # header.append(f'monitors{i+1}_height_mm')
+            # header.append(f'monitors{i + 1}_scale')
         for i, svcd in enumerate(self.result['services']):
             header.append(f'svc_{svcd["name"]}')
         header.append('language')
@@ -269,9 +271,9 @@ class EnvCheck(object):
             row.append(md['name'])
             row.append(md['width'])
             row.append(md['height'])
-            row.append(md['width_mm'])
-            row.append(md['height_mm'])
-            row.append(md['scale'])
+            # row.append(md['width_mm'])
+            # row.append(md['height_mm'])
+            # row.append(md['scale'])
         for svcd in self.result['services']:
             row.append(f'{svcd["opened"]}')
         row.append(self.result['language']['default'])
