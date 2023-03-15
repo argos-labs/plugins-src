@@ -20,6 +20,10 @@ ARGOS LABS plugin module for Excel Advance II
 # Change Log
 # --------
 #
+#  * [2023/03/02] Kyobong An
+#     - def insert_del_row_col 수정
+#       - insert row/col and delete row/col 옵션에 'A-C,E,G'처럼 여러행 처리할수있도록 변경
+#       - 삭제하면 왼쪽이나 위로 정렬됨 따라서 역순으로 제거해줘야함.
 #  * [2023/01/27] Kyobong An
 #     - 이전에 수정한 Sheet Copy에 문제점이 있었음. 수전전 코드 다시 복구
 #     - data_only시 새로운 workbook을 불러서 시트만 복사하는 코드 추가
@@ -275,17 +279,25 @@ class Excel2API(object):
     # ==========================================================================
     def insert_del_row_col(self):
         if self.argspec.col_name:
-            colname, amount = self.col_name(self.argspec.col_name)
-            self.ws.insert_cols(colname, amount)
+            col_names = self.argspec.col_name.split(',')
+            for col_name in col_names:
+                colname, amount = self.col_name(col_name)
+                self.ws.insert_cols(colname, amount)
         if self.argspec.row_num:
-            rownum, amount = self.row_num(self.argspec.row_num)
-            self.ws.insert_rows(rownum, amount)
+            row_nums = self.argspec.row_num.split(',')
+            for row_num in row_nums:
+                rownum, amount = self.row_num(row_num)
+                self.ws.insert_rows(rownum, amount)
         if self.argspec.del_col_name:
-            colname, amount = self.col_name(self.argspec.del_col_name)
-            self.ws.delete_cols(colname, amount)
+            del_col_names = self.argspec.del_col_name.split(',')
+            for del_col_name in reversed(del_col_names):
+                colname, amount = self.col_name(del_col_name)
+                self.ws.delete_cols(colname, amount)
         if self.argspec.del_row_num:
-            rownum, amount = self.row_num(self.argspec.del_row_num)
-            self.ws.delete_rows(rownum, amount)
+            del_row_nums = self.argspec.del_row_num.split(',')
+            for del_row_num in reversed(del_row_nums):
+                rownum, amount = self.row_num(del_row_num)
+                self.ws.delete_rows(rownum, amount)
         self.save()
 
     # ==========================================================================
