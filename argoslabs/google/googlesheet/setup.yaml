@@ -1,0 +1,30 @@
+setup:
+  author: Irene Cho
+  author_email: irene@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Google Sheet
+  keywords:
+  - google
+  - sheet
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt ethem module
+    argoslabs.google.googlesheet: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  version: 4.307.1537
+
+

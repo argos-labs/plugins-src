@@ -1,0 +1,35 @@
+setup:
+  author: Irene Cho
+  author_email: irene@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Excel Advanced3
+  keywords:
+  - rpa
+  - robot
+  - module
+  - excel
+  #-tool tip window
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.exceladv3: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  version: 5.331.1526
+
+
+
+
+

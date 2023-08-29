@@ -1,0 +1,8 @@
+# requirements.txt for scrapy
+
+cryptography==3.2
+scrapy
+
+# for get plain text from url
+requests
+beautifulsoup4

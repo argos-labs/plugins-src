@@ -1,0 +1,23 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# for IBM watson
+
+# old-one
+#watson-developer-cloud
+
+websocket-client==0.48.0
+#websocket-client
+python-dateutil
+PyJWT
+#ibm-cloud-sdk-core==1.5.1
+ibm-cloud-sdk-core
+
+# 2020.06.16 comment out : 4.3.0 only
+#ibm-watson==4.5.0
+# 2021/01/25 error: It is required that you pass in a value for the "algorithms" argument when calling decode().
+# upgrade to recent version for ibm-cloud-sdk-core and ibm-watson
+ibm-watson

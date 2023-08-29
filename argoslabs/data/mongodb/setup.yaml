@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Data :: MongoDB'
+  description: plugin module for MongoDB
+  keywords:
+  - data
+  - science
+  - database
+  - nosql
+  - mongodb
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.mongodb: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 3.215.1300
+  # version: 3.730.1630
+  version: 3.730.3456

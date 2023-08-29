@@ -1,0 +1,73 @@
+---
+# Specification for extracting data from https://www.mscdirect.com/
+csv:
+  # or criteria (loop until any columns which have the result)
+  or:
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find all <h3 class="pdp">...</h3>, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="pdp-top-content"]
+      - op: find_all
+        name: h2
+#        name: h3
+        class: pdp
+    # column header
+    - header: price
+      # find all <span class="listPriceDiv">...</span>, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="pdp-top-content"]
+      - op: find_all
+        name: span
+        id: webPriceDiv
+      split: 0
+    - header: unit
+      # find all <span class="listPriceDiv">...</span>, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="pdp-top-content"]
+      - op: find_all
+        name: span
+        id: webPriceDiv
+      split: 1
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find all <span class="listPriceDiv">...</span>, find_all op is once happen
+      find:
+      # find all <h4 class="ui header v4-tn-title">...</h4>
+      - op: select_one
+        xpath: //*[@id="v4-tn-items-box"]
+      - op: find_all
+        name: h4
+        class: ui header v4-tn-title
+    # column header
+    - header: price
+      # find all <span class="v4-tn-your-price">...</span>, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="v4-tn-items-box"]
+      - op: find_all
+        name: div
+        class: row msc-cart-price
+      - op: find
+        name: span
+        class: v4-tn-your-price
+      split: 0
+    - header: unit
+      # find all <span class="v4-tn-your-price">...</span>, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="v4-tn-items-box"]
+      - op: find_all
+        name: div
+        class: row msc-cart-price
+      - op: find
+        name: span
+        class: v4-tn-your-price
+      split: 1

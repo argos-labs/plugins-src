@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for Excel
+openpyxl>=2.6.1
+pywin32
+xlwings==0.22.1

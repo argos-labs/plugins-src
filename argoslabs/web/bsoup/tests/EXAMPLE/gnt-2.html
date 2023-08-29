@@ -1,0 +1,1189 @@
+
+
+
+
+
+
+
+
+
+
+
+<!-- 2010.09.28 -->
+<!-- -->
+<!-- -->
+
+
+
+
+
+
+
+
+
+
+<!-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>전기요금이메일청구서</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<style type="text/css">
+<!--
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+body, table, tr, td, input, textarea {
+    font-family:dotum, Arial, verdana;
+    font-size:11px;
+    color:#565656;
+    word-break:break-all;
+    scrollbar-face-color:#DCDCDC;
+    scrollbar-highlight-color: #CCCCCC;
+    scrollbar-shadow-color: #CCCCCC;
+    scrollbar-3dlight-color: #F2F2F2;
+    scrollbar-darkshadow-color: #F2F2F2;
+    scrollbar-track-color: #F2F2F2;
+    scrollbar-arrow-color: #777777;}
+
+ textarea {
+    font-family:dotum, Arial, verdana;
+    font-size:12px;
+    color:#565656;
+    word-break:break-all;
+    scrollbar-face-color:#DCDCDC;
+    scrollbar-highlight-color: #CCCCCC;
+    scrollbar-shadow-color: #CCCCCC;
+    scrollbar-3dlight-color: #F2F2F2;
+    scrollbar-darkshadow-color: #F2F2F2;
+    scrollbar-track-color: #F2F2F2;
+    scrollbar-arrow-color: #777777;}
+
+select {
+border: 1px solid #004500;
+color: #A02D00;
+font-family:dotum, sans-serif;
+font-size:11px;
+background-color: #C7FFA5;
+}
+
+a:link {  font-family: "dotum", "Arial"; line-height: 14pt; color: #454545; text-decoration: none}
+a:active {  font-family: "dotum", "Arial"; line-height: 14pt; color:  #454545; text-decoration: none}
+a:visited {  font-family: "dotum", "Arial"; line-height: 14pt; color: #454545; text-decoration: none}
+a:hover {  font-family: "dotum", "Arial"; line-height: 14pt; color:  #21A2E1; text-decoration: underline}
+
+
+td {
+  font-size: 11px;
+  line-height: 10pt;
+  color: #4c4c4c;
+  font-family: "dotum";
+}
+
+
+.txt {
+  font-size: 9pt;
+  line-height: 10pt;
+  color: #9E7100;
+  font-family: "dotum";
+}
+
+
+.list_02 {
+  font-size: 11px;
+  line-height: 11pt;
+  color: #64351E;
+  font-family: "dotum";
+  font-weight: bold;
+}
+
+.top { color: #000000; font-size: 11pt;font-weight: bold; LINE-HEIGHT: 11pt;}
+
+.dan1 { color: #000000; }
+.dan2 { color: #000000; font-size: 8px;}
+.dan3 { color: #000000; font-size: 11px;font-weight: bold;}
+.dan4 { color: #0000ff; font-size: 11px;font-weight: bold;}
+.dan5 { color: #ff0000; font-size: 11px;font-weight: bold;}
+.dan6 { color: #008000; font-size: 11px;font-weight: bold;}
+
+.num {
+  color: #000000;
+  font-size: 11pt;
+  font-weight: bold;
+  font: Verdana;
+}
+
+.num2 {
+  color: #000000;
+  font-size: 10pt;
+  font-weight: bold;
+  font: Verdana;
+}
+
+.info { color: #444444; padding-left: 9px; font-size: 11px;font-weight: bold;}
+.info_1 { color: #444444; padding-left: 9px; font-size: 10.5px;font-weight: bold;}
+
+.title { color: #444444; font-size: 11px;font-weight: bold;}
+.title_list { color: #444444; padding-left: 12px; font-size: 11px;}
+
+.pay { color: #000000; font-size: 11px}
+.pay2 { color: #000000; font-size: 11px;font-weight: bold;}
+.pay3 { color: #000000; font-size: 10px}
+.pay4 { color: #000080; font-size: 11px}
+.pay5 { color: #000000; font-size: 9px;}
+.charge { color: #F2401D; font-size: 12px;font-weight: bold;}
+.box3 { color: #7329CD; font-size: 12px;font-weight: bold;}
+.select {font-family:돋움; font-size:12px; CURSOR: hand }
+-->
+</style>
+<!-- <link href="style.css" rel="stylesheet" type="text/css">
+ -->
+<script language="JavaScript">
+  function cyjSubmit() {
+  /*  self.open('','yy','left=10,top=10,width=700,height=600,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+    //document.pay25.action='info_print01.jsp';
+    document.pay25.target='yy';
+    document.pay25.submit();
+  */
+  }
+//세금계산서 상계거래고객용
+  function cmfSubmit(sg_sign){//세금계산서 재발행
+  //alert(sg_sign);
+  window.open('','ss','width=665,height=700,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');	
+  //2016.12.08 124477 상계거래고객 요금청구서 개선요청 	
+  //document.cyi50tax.action="http://cyber.kepco.co.kr/cyber/email/E_billing_tax_print_newX1.jsp"; // 상계거래 고객 세금계산서 재발행	
+  
+  if(sg_sign == '1'){ //저압
+	  //2017.10.26 추가 
+	  //구 영업정보
+		 document.cyi50tax.action="http://cyber.kepco.co.kr/cyber/email/E_billing_tax_print_newX1.jsp"; // 상계거래 고객 세금계산서 재발행  
+			  
+		  //document.cyi50tax.action="http://cyber.kepco.co.kr/cyber/email/E_billing_tax_print_newX1_CHA.jsp"; // 상계거래 고객 세금계산서 재발행  	  
+	  
+  }else if(sg_sign =='2'){ //고압
+	  document.cyi50tax.action="http://cyber.kepco.co.kr/cyber/email/E_billing_tax_print_newX4.jsp"; // 상계거래 고객 세금계산서 재발행  
+  }
+  document.cyi50tax.target="ss";
+  document.cyi50tax.submit();
+  }
+
+//세금계산서
+  function cnfSubmit(custNo){//세금계산서 재발행
+  window.open('','ss','width=665,height=415,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=no');
+  document.cyj50tax.action="http://cyber.kepco.co.kr/cyber/email/E_billing_tax_print_newX2.jsp";
+  document.cyj50tax.target="ss";
+  document.cyj50tax.submit();
+  }
+
+//고압-상세보기
+  function go_detail(){
+  window.open('','detail','left=10,top=10,width=650,height=650,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+//  document.detail.action="http://cyber.kepco.co.kr/cyber/email/Ebilling_detail.jsp";
+	
+	//구 영업정보
+	 document.detail.action="https://cyber.kepco.co.kr/cyber/email/Ebilling_detail.jsp";
+	
+  document.detail.target='detail';
+  document.detail.submit();
+  }
+
+//그래프
+  function pageSVG_money() {
+    window.open('','graph','left=10,top=10,width=650,height=650,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+    document.graph.action='http://cyber.kepco.co.kr/cyber/email/Billing_graph.jsp';
+    document.graph.target='graph';
+    document.graph.submit();
+  }
+//popup1 : 계좌이체납부 바로가기
+  function popup1(){
+
+  var url = "http://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/C/CYECHP001.pop01.jsp?gubun=B";
+  window.open(url,'popup1','left=10,top=10,width=650,height=700,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+  }
+//popup2 : 인터넷지로 바로가기
+  function popup2(){
+
+  var url = "http://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/C/CYECHP001.pop02.jsp";
+  window.open(url,'popup2','left=10,top=10,width=620,height=620,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+  }
+//popup3 : 신용카드납부 바로가기
+  function popup3(){
+
+  var url = "http://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/C/CYECHP001.pop01.jsp?gubun=C";
+  window.open(url,'popup1','left=10,top=10,width=650,height=700,toolbar=no,menubar=no,statusbar=no,scrollbars=yes,resizable=yes');
+  }
+//안내팝업
+  function popup_10(){//주택용
+     var openWin=window.open('popup/popup_10.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+  function popup_20(){//일반용
+     var openWin=window.open('popup/popup_20.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+  function popup_30(){//교육용
+     var openWin=window.open('popup/popup_30.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+  function popup_40(){//산업용
+     var openWin=window.open('popup/popup_40.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+  function popup_50(){//농사용
+     var openWin=window.open('popup/popup_50.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+  function popup_60(){//가로등
+     var openWin=window.open('popup/popup_60.html', '_pop_20070326', 'scrollbars=yes,resizable=no,toolbar=no,menubar=no,location=no,width=670,height=600,top=0,statusbar=no');
+     openWin.focus();
+  }
+</script>
+</head>
+
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+<table width="600" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="305" height="38"><img src="images/bi_01.gif" width="114" height="38">    </td>
+    <td width="295"><table width="295" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="20" colspan="10"></td>
+        </tr>
+      <tr>
+        <td><a href="https://cyber.kepco.co.kr/ckepco/front/jsp/CY/E/A/CYEAPP001.jsp" target=_blank ><img src="images/topm_001.gif" width="51" height="10" border="0" alt="전기요금안내"></a></td>
+        <td><img src="images/topm_vline.gif" width="19" height="10"></td>
+        <td><a href="http://cyber.kepco.co.kr/ckepco/front/jsp/CY/F/A/CYFAPP0010101.jsp" target=_blank><img src="images/topm_002.gif" width="51" height="10" border="0"  alt="전자민원센터"></a></td>
+        <td><img src="images/topm_vline.gif" width="19" height="10"></td>
+        <td><a href="http://home.kepco.co.kr/kepco/KO/A/A/KOAAHP00101.do?menuCd=FN05" target=_blank><img src="images/topm_003.gif" width="51" height="10" border="0" alt="전기지식센터"></a></td>
+        <td><img src="images/topm_vline.gif" width="19" height="10"></td>
+        <td><a href="http://home.kepco.co.kr/kepco/PR/A/A/PRAAPP001.do?menuCd=FN06" target=_blank><img src="images/topm_004.gif" width="35" height="10" border="0" alt="홍보센터"></a></td>
+        <td><img src="images/topm_vline.gif" width="19" height="10"></td>
+        <td><a href="http://cyber.kepco.co.kr/ckepco/" target=_blank><img src="images/topm_05_01.gif" width="51" height="10" border="0" alt="회원정보관리"></a></td>
+        <td width="13"></td>
+      </tr>
+      <tr>
+        <td height="8" colspan="10"></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr bgcolor="#000000">
+    <td height="1" colspan="2"></td>
+  </tr>
+  <tr bgcolor="#013F85">
+    <td height="51" colspan="2"><table width="600" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="22"><img src="images/to_first.gif" height="32"></td>
+        <td width="309" align="center" background="images/to_bg.gif" class="top">(주)지엔텔       고객님의 2019년 05월</td>
+        <td width="16"><img src="images/to_end.gif" height="32"></td>
+
+        <td width="57"></td>
+        <td width="182"><img src="images/maintitle.gif" height="21"></td>
+        <td width="14"></td>
+
+      </tr>
+    </table></td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+   <table width="581" border="0" cellpadding="0" cellspacing="0" align="center">
+
+      <tr>
+     <td >
+<!-- 이메일 청구서 고객안내문 추가 2007.07.12  -->
+    <table width="330" border="0" cellspacing="0" cellpadding="0"  bgcolor="ECF4F2">
+      <tr>
+            <td height="5"></td>
+      </tr>
+      <tr>
+            <td>ㅇ 한전에서는 전기요금 환불을 이유로 고객님의 현금카드 및</td>
+      </tr>
+      <tr>
+            <td>주민등록번호를 요구하지 않으며，체납요금의 개인계좌 입금</td>
+      </tr>
+      <tr>
+            <td>을 요청하지 않으니 전화금융사기（보이스피싱）피해를 입지</td>
+      </tr>
+      <tr>
+            <td>않도록 유의하시기 바랍니다．</td>
+      </tr>
+      <tr>
+            <td>ㅇ 휴전안내 및 각종 정보제공을 위하여 고객님의 전화번호가</td>
+      </tr>
+      <tr>
+            <td>변경된 경우에는 즉시 한전으로 알려주시기 바랍니다．</td>
+      </tr>
+      <tr>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+        </table>
+     </td>
+<!--  -->
+     <td height="130" align="right">
+    <table width="245" border="0" cellspacing="0" cellpadding="0"  bgcolor="ECF4F2">
+      <tr>
+            <td height="4"></td>
+      </tr>
+      <tr align="left">
+            <td width="50"><img src="images/stit_num.gif" height="13"></td>
+      <td width="190" class="num">02-4479-9107</td>
+      </tr>
+      <tr>
+        <td height="5" colspan="2"></td>
+      </tr>
+
+      <tr align="right">
+        <td colspan="2"><a href="JavaScript:pageSVG_money();"><img src="images/btn_viewgraph.gif" height="24" border="0" align="right" alt="최근 1년간의 전기요금을 그래프로 확인하실수 있습니다"></a>
+             <form name='graph' method='Post' >
+                <input type='hidden' name='cust_no' value='0244799107'>
+                <input type='hidden' name='gubun' value='5'>
+            </form>
+      </td>
+      </tr>
+      <tr>
+        <td height="1" colspan="2"></td>
+      </tr>
+      <tr align="right">
+        <td colspan="2">
+        <form method='post' name='billing' action='E_billing_NEW.jsp' >
+        <input type='hidden' name='search' value=''>
+        <input type='hidden' name='cust_no' value='0244799107'>
+        <input type='hidden' name='gubun' value='5'>
+
+<!-- 정진국차장님 요청으로 지난달 요금 삭제 처리 2010.11.29 류영희-->
+<input type='hidden' name='cust_no' value='0244799107'>
+                <input type='hidden' name='yy' value='2019'>
+                <input type='hidden' name='mm' value='05'>
+                <input type='hidden' name='gubun' value='5'>
+                <input type='hidden' name='addr' value='경기도 용인시 기흥구  덕영대로 1871 청명호수마을 신안인스빌1단지'>
+                <input type='hidden' name='trade' value='(하갈동,청명호수마을 신안인스빌1단지)'>
+                <input type='hidden' name='name' value='(주)지엔텔      '>
+                <input type='hidden' name='pf' value='100'>
+				<input type='hidden' name='jn_pf' value='   '>
+        </form>
+      </td>
+      </tr>
+ <!-- 고압상세보기 & 고객계약안내문 : 해당고객만 .. -->
+
+      <tr>
+        <td height="1" colspan="2"></td>
+      </tr>
+      <tr align="right" >
+       <td height="22" colspan="2">
+          <img src="images/bt_detail02.gif" style="cursor:hand" onclick="javascript:go_detail();"  valign="middle" align="right" alt="전기요금 상세내역입니다">
+            <form name='detail' method='Post' >
+                <input type='hidden' name='cust_no' value='0244799107'>
+                <input type='hidden' name='yy' value='2019'>
+                <input type='hidden' name='mm' value='05'>
+                <input type='hidden' name='gubun' value='5'>
+                <input type='hidden' name='addr' value='경기도 용인시 기흥구  덕영대로 1871 청명호수마을 신안인스빌1단지'>
+                <input type='hidden' name='trade' value='(하갈동,청명호수마을 신안인스빌1단지)'>
+                <input type='hidden' name='name' value='(주)지엔텔      '>
+                <input type='hidden' name='pf' value='100'>
+				<input type='hidden' name='jn_pf' value='   '>
+				<input type='hidden' name='sg_sign' value='N'>
+            </form>
+      </td>
+      </tr>
+	
+     
+<!-- 20161208 고압 상계거래 추가 -->
+
+	  <tr>
+        <td height="1" colspan="2"></td>
+      </tr>
+ 		<tr>
+        	<td height="22" colspan="2">&nbsp;</td>
+      </tr>
+          
+      
+<!--- 상계거래고객 세금 계산서 재발행 관련 수정사항 2013.07.11 by bhkim--->
+
+
+
+      <tr>
+        <td height="1" colspan="2"></td>
+      </tr>
+      <tr align="right">
+        <td colspan="2" height="22">
+        
+        
+      </td>
+      </tr>
+
+
+
+ <!-- 고압상세보기 & 고객계약안내문 : 해당고객만 .. end.. -->
+      <tr>
+            <td height="5"></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+
+<!-- 상단 내용 끝... -->
+      <tr>
+        <td height="2" colspan="2" bgcolor="#BDE198"></td>
+      </tr>
+      <tr>
+       <!-- 2012.06.12  수정  START -->
+        <td height="22" colspan="2"><table width="581" height="22" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="81" bgcolor="F7F1B9" align="center"><img src="images/stit_01.gif" width="47" height="11"></td>
+            <td width="145" bgcolor="FFFBD0" class="info">(주)지엔텔      </td>
+            <td width="81" bgcolor="F7F1B9" align="center"><img src="images/stit_02.gif" width="47" height="11"></td>
+            <td width="274" bgcolor="FFFBD0" class="info"><font face="gulim">경기도 용인시 기흥구  덕영대로 1871 청명호수마을 신안인스빌1단지 </font></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="1" colspan="2" bgcolor="BDE198"></td>
+      </tr>
+	  <tr>
+        <td height="22" colspan="2"><table width="581" height="22" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="81" bgcolor="EEE8AA" align="center"><img src="images/stit_05.gif" width="47" height="11"></td>
+            <td width="145" bgcolor="F5F5DC" class="info">(주)지엔텔</td>
+            <td width="81" bgcolor="EEE8AA" align="center"><img src="images/stit_06.gif" width="47" height="11"></td>
+            <td width="274" bgcolor="F5F5DC" class="info"><font face="gulim">(하갈동,청명호수마을 신안인스빌1단지)  </font></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="1" colspan="2" bgcolor="BDE198"></td>
+      </tr>
+      <tr>
+        <td height="22" colspan="2"><table width="581" height="22" border="0" cellpadding="0" cellspacing="0">
+      <!-- 2012.06.12  수정  END -->
+          <tr>
+            <td width="81" align="center" bgcolor="E5DECF"><img src="images/stit_03.gif" width="47" height="11"></td>
+            
+            <td width="145" bgcolor="EDE8DE" class="info">2019년 06월 20일까지</td>
+             
+            <td width="81" bgcolor="E5DECF" align="center"><img src="images/stit_04.gif" width="48" height="11"></td>
+            
+          	<td width="274" bgcolor="EDE8DE" class="info">04월 24일  ~ 05월 23일까지&nbsp;&nbsp;&nbsp;</td>
+          	
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="1" colspan="2" bgcolor="DDD4C0"></td>
+      </tr>
+      <tr>
+        <td height="6" colspan="2"></td>
+      </tr>
+<!--  청구서내역, 고객사항, 사용량부분 시작-->
+	  <tr>
+        <td height="293" colspan="2"><table width="581" height="293" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+<!--  1 td  청구서내역 시작-->
+            <td width="173" rowspan="3"><table width="170" height="293" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="4"><img src="images/box01_top.gif" width="170"></td>
+              </tr>
+              <tr>
+                <td height="16" align="center" background="images/box01_bg.gif"><img src="images/stit_box01.gif" width="59" height="16"></td>
+                </tr>
+              <tr>
+                <td height="4"><img src="images/box01_line.gif" width="170"></td>
+                </tr>
+              <tr>
+                <td height="237" background="images/box01_bg.gif" valign="top">
+        <table width="156" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="7" colspan="2"></td>
+                    </tr>
+        <!-- 전기요금 시작 -->
+
+          <tr>
+
+              <td width="87" height="15" class="pay">기본　요금        </td>
+              <td height="15" align="right" class="pay">          147,060</td>
+
+            </tr>
+
+          <tr>
+
+              <td width="87" height="15" class="pay">전력량요금        </td>
+              <td height="15" align="right" class="pay">            2,675</td>
+
+            </tr>
+
+          <tr>
+
+              <td width="87" height="15" class="pay">ＥＶ충전할인      </td>
+              <td height="15" align="right" class="pay">         -148,265</td>
+
+            </tr>
+
+          <tr>
+
+              <td width="87" height="15" class="pay">역률 요금       </td>
+              <td height="15" align="right" class="pay">           -1,470</td>
+
+            </tr>
+
+          <tr>
+
+              <td width="87" height="15" class="pay">                    </td>
+              <td height="15" align="right" class="pay">                 </td>
+
+            </tr>
+
+          <tr>
+
+            <!--td height="15" class="pay">&nbsp;</td>-->
+            <td height="15" colspan="2" align="right" class="charge">                0</td>
+
+            </tr>
+
+                </table></td>
+          <!-- 전기요금 끝 -->
+                </tr>
+              <tr>
+                <td height="4"><img src="images/box01_bottom.gif" width="170"></td>
+                </tr>
+              <tr>
+                <td height="5"></td>
+                </tr>
+              <tr>
+                <td height="23"><table width="170" height="23" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="69"><img src="images/stit_amount.gif" height="23"></td>
+
+                    <td width="92" align="right" background="images/amount_bg.gif" class="num">                0</td>
+
+                    <td width="9"><img src="images/amount_r.gif" height="23"></td>
+                  </tr>
+                </table></td>
+                </tr>
+            </table></td>
+<!--  1 td  청구서내역 끝-->
+<!--  2 td  고객사항  시작-->
+            <td width="160" rowspan="3">
+      <table width="154" height="293" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="23"><img src="images/box02_tit.gif" width="154"></td>
+              </tr>
+              <tr>
+                <td height="129" bgcolor="EAF9F8" valign="top">
+        <table width="140" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="7" colspan="2"></td>
+                    </tr>
+                  <tr>
+                    <td width="60" height="15" class="pay">계약종별</td>
+                    <td width="80" align="right" class="pay3">일반용(갑)I고압A</td>
+                  </tr>
+
+
+                  <tr>
+                    <td height="15" class="pay">정기검침일</td>
+                    <td width="80" align="right">매월 24&nbsp;일</td>
+                  </tr>
+                  <tr>
+                    <td height="15" class="pay">계기번호</td>
+                    <td width="80" align="right">69450196939                   </td>
+                  </tr>
+				  <!-- 2015.07.01 상계거래고객 잉여계기번호가 있을 경우만 표시 -->
+				  
+                  <tr>
+                    <td height="15" class="pay">계기배수</td>
+                    <td width="80" align="right">        1</td>
+                  </tr>
+				  <!-- 20100727 역률이 있을경우만 / 20120309 진상역률표시 추가-->
+				  
+						  <tr>
+								<td height="15" class="pay">역률</td>
+								<td width="80" align="right">100</td>
+						  </tr>
+				  
+				  <!-- 끝 -->
+				  
+				  <!-- 끝 -->
+
+                  <tr>
+                    <td height="15" class="pay">계약전력</td>
+                    <td width="80" align="right">       57&nbsp;kW</td>
+                  </tr>
+                  <tr>
+                    <td height="15" class="pay">가구수</td>
+                    <td width="80" align="right">0</td>
+                  </tr>
+                  <tr>
+                    <td height="15" class="pay">TV대수</td>
+                    <td width="80" align="right">     0</td>
+                  </tr>
+<!-- 2015.01.01 고객희망 납기선택제 관련 전월요금 추가 -->
+                  <tr>
+                 
+                  </tr>
+				  
+				   
+                </table></td>
+              </tr>
+              <tr>
+                <td height="6"><img src="images/box02_bottom.gif" width="154"></td>
+              </tr>
+              <tr>
+                <td height="6"></td>
+              </tr>
+              <tr>
+                <td height="23"><img src="images/box03_tit.gif" width="154"></td>
+              </tr>
+              <tr>
+                <td height="2"></td>
+              </tr>
+              <tr>
+                <td height="17"><img src="images/box03_stit.gif" width="154" height="25"></td>
+              </tr>
+              <tr>
+                <td height="74" background="images/box03_bg.gif">
+
+
+        <table width="140" height="74" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="7" colspan="2"></td>
+                    </tr>
+          <!-- 미납내역 시작 -->
+
+          <!-- 미납내역 끝 -->
+                </table></td>
+              </tr>
+              <tr>
+                <td height="4"><img src="images/box03_bottom.gif"></td>
+              </tr>
+            </table></td>
+<!--  2 td  고객사항  끝-->
+<!--  3 td  사용량부분 시작-->
+			<td height="103"><table width="248" height="103" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+<!-- 사용량사항 시작 -->
+                <td valign="top" width="125">
+		<table width="110" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="2"><img src="images/box04_tit.gif" width="123" height="23"></td>
+                  </tr>
+                  <tr>
+                    <td height="6" colspan="2"></td>
+                  </tr>
+
+                  <tr>
+                    <td width="56" height="16" valign="top"><img src="images/box04_stit01.gif" width="50" height="12"></td>
+                    <td width="74" align="right" class="pay3">720.00</td>
+                  </tr>
+                  <tr>
+                    <td height="16" valign="top"><img src="images/box04_stit02.gif"  width="50" height="12"></td>
+                    <td width="74" align="right" class="pay3">675.00</td>
+                  </tr>
+                  <tr>
+                    <td height="16" valign="top"><img src="images/box04_stit03.gif" width="50" height="12"></td>
+                    <td width="74" align="right" class="pay3">         45&nbsp;kWh</td>
+                  </tr>
+
+
+                </table></td>
+<!-- 사용량사항 끝 -->
+<!-- 사용량비교 시작 -->
+                <td valign="top"><table width="123" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="2"><img src="images/box05_tit.gif" width="123" height="23"></td>
+                  </tr>
+                  <tr>
+                    <td height="6" colspan="2"></td>
+                  </tr>
+                  <tr>
+                    <td width="52" height="16" valign="top"><img src="images/box05_stit01.gif" width="50" height="12"></td>
+                    <td width="79" align="right" class="pay3">         45&nbsp;kWh</td>
+                  </tr>
+                  <tr>
+                    <td height="16" valign="top"><img src="images/box05_stit02.gif" width="50" height="12"></td>
+                    <td width="79" align="right" class="pay3">         46&nbsp;kWh</td>
+                  </tr>
+                  <tr>
+                    <td height="16" valign="top"><img src="images/box05_stit03.gif" width="50" height="12"></td>
+                    <td width="79" align="right" class="pay3">         39&nbsp;kWh</td>
+                  </tr>
+                </table></td>
+<!-- 사용량비교 끝 -->
+			  </tr>
+            </table></td>
+<!--  3 td  사용량부분 끝-->
+          </tr>
+      <tr>
+        <td height="121">
+          <table width="248" height="117" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td height="23"><img src="images/box06_tit.gif" alt="인쇄" width="248" border="0" usemap="#Map" onClick="cnfSubmit()"></td>
+            </tr>
+            <form name='cyj50tax' method='Post' >
+              <input type='hidden' name='custNo' value='0244799107'>
+              <input type='hidden' name='yy' value='2019'>
+              <input type='hidden' name='mm' value='05'>
+              <input type='hidden' name='name' value='(주)지엔텔      '>
+              <input type='hidden' name='tax_no' value='***-**-*****'>
+              <input type='hidden' name='taxer_no' value='123-81-95565'>
+              <input type='hidden' name='chain_bizno_cd' value='    '> 
+              <input type='hidden' name='gnggub_mny' value='                0'>
+              <input type='hidden' name='tax_mny' value='                0'>
+              <input type='hidden' name='sum_mny' value='0'>
+              <input type='hidden' name='print_ymd' value='2019.06.09'>
+              <input type='hidden' name='issue_no' value=''>
+            </form>
+            <tr>
+              <td height="7"><img src="images/box06_top.gif" width="248"></td>
+            </tr>
+            <tr>
+			  <td height="81" background="images/box06_bg.gif">
+                <table width="233" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td width="119"><img src="images/box06_st01.gif" width="119" height="11"></td>
+                    <td width="114" height="16" align="right" class="pay">***-**-*****</td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/box06_st02.gif" width="119" height="11"></td>
+                  
+					 
+							<td width="114" height="16" align="right" class="pay">123-81-95565</td> 
+				  
+                  </tr>
+                  <tr>
+                    <td><img src="images/box06_st03.gif" width="119" height="11"></td>
+                    <td width="114" height="16" align="right" class="pay">                0&nbsp;원</td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/box06_st04.gif" width="119" height="11"></td>
+                    <td width="114" height="16" align="right" class="pay">                0&nbsp;원</td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/box06_st05.gif" width="119" height="11"></td>
+                    
+                    	
+	              <td width="114" height="16" align="right" class="pay">2019년 06월 09일</td>
+	              
+                  </tr>
+                  <tr>
+                    <td><img src="images/box06_st06.gif" width="119" height="11"></td>
+					          <td></td>
+					        </tr>
+					        <tr>
+                    <td  height="16" align="right" class="pay" colspan="2">
+					          
+					          
+					          
+					          </td>
+				          </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="5"><img src="images/box06_bottom.gif" width="248"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+       
+		  
+<!-- 사용량 전체 끝 -->
+          <tr>
+            <td><img src="images/passage.gif" width="248" height="68"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="5" colspan="2" ></td>
+      </tr>
+
+<!-- 2009.07.29  전기요금청구서 표기개선 그래프 start-->
+
+<!-- 2009.07.29  전기요금청구서 표기개선 그래프 end-->
+
+
+<!-- 2006.06.27  자동납부여부에 따른 안내문 분리 ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ-->
+
+      <tr>
+        <td height="1" colspan="2" background="images/bg_dash.gif"></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="330">
+     <table width="581" height="330" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="187" valign="top">
+      <table width="188" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="10" colspan="2"></td>
+              </tr>
+              <tr>
+                <td height="23" colspan="2" background="images/bg_tit07.gif">
+        <table width="93" height="23" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="43"></td>
+    <!-- 지난달 영수내역 -->
+
+      <td class="pay2">2019.04</td>
+
+
+    <!-- 지난달 영수내역 END -->
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td colspan="2" height="6"></td>
+              </tr>
+              <tr>
+                <td width="49"><img src="images/stit01_07.gif" width="34" height="12"></td>
+                <td width="139" class="pay">(주)지엔텔       님 </td>
+              </tr>
+              <tr>
+                <td height="13" colspan="2"></td>
+              </tr>
+              <tr>
+                <td valign="top"><img src="images/stit02_07.gif" width="35" height="12"></td>
+                <td class="pay"><font face="gulim">경기도 용인시 기흥구  덕영대로 1871 청명호수마을 신안인스빌1단지&nbsp;(하갈동,청명호수마을 신안인스빌1단지)</td></font>
+              </tr>
+              <tr>
+                <td height="6" colspan="2"></td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#4252B8"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit_b1_07.gif" width="47" height="23"></td>
+        <td height="29" align="center" class="top">02-4479-9107</td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#4252B8"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit_b2_07.gif" width="47" height="23"></td>
+    <!-- 지난달 영수내역 -->
+        <td height="29" align="right" class="top">0<img src="images/won.gif" width="20" height="13" align="absmiddle"></td>
+    <!-- 지난달 영수내역 END -->
+        </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#4252B8"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit03_07.gif" width="38" height="12"></td>
+                <td height="29">일반용(갑)I고압A</td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+                <td height="21"><img src="images/stit04_07.gif" width="38" height="12"></td>
+                <td height="21"><table width="140" border="0" cellspacing="0" cellpadding="0">
+    <!-- 지난달 영수내역 -->
+
+                  <tr>
+          <td width="64" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_month_07.gif" width="11" height="13" align="absmiddle"></td>
+                    <td width="75" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_date_07.gif" width="11" height="13"></td>
+          </tr>
+
+                </table></td>
+              </tr>
+              <tr>
+                <td height="21">&nbsp;</td>
+                <td height="21"><table width="140" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+          <td width="64" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_month_07.gif" width="11" height="13" align="absmiddle"></td>
+                    <td width="75" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_date_07.gif" width="11" height="13"></td>
+          </tr>
+
+                </table></td>
+              </tr>
+              <tr>
+                <td height="21">&nbsp;</td>
+                <td height="21"><table width="140" border="0" cellspacing="0" cellpadding="0">
+
+                  <tr>
+          <td width="64" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_month_07.gif" width="11" height="13" align="absmiddle"></td>
+                    <td width="75" class="pay">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/stit_date_07.gif" width="11" height="13"></td>
+          </tr>
+
+                </table></td>
+              </tr>
+    <!-- 지난달 영수내역 END -->
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+    <!-- 지난달 영수내역 -->
+    			
+    			 <td height="37" colspan="2">위 금액이          자동납부 되었습니다. </td>
+    			
+    <!-- 지난달 영수내역 END -->
+              </tr>
+              <tr>
+                <td height="8" colspan="2"></td>
+              </tr>
+              <tr>
+                <td height="40" colspan="2">
+					<table width="187" height="23" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td width="114" background="images/07_bg_amount_1.gif">
+								<table width="55" height="23" border="0" cellpadding="0" cellspacing="0">
+									<tr>
+										<td width="20" class="pay2"></td>
+										<td width="15" class="pay2"></td>
+										<td width="20" class="pay2"></td>
+									</tr>
+								</table>
+							</td>
+          <!-- 미납내역 시작 -->
+							<td width="64" align="right" background="images/amount_bg.gif" class="pay2">
+							원</td>
+							<td width="9"><img src="images/amount_r.gif" height="23"></td>
+						</tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+            <td width="11" background="images/bg_vdash.gif"></td>
+            <td width="188" valign="top">
+      <table width="188" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+          <!--높이 수정 2011.08.10   -->
+
+                <!--<td height="12" colspan="2"></td-->
+				<td height="10" colspan="2"></td>
+              </tr>
+              <tr>
+                <td height="23" colspan="2" background="images/bg_tit08.gif">
+                  <table width="55" height="23" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="5"></td>
+                      <td width="50" class="pay2">2019. 05</td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td colspan="2" height="6"></td>
+              </tr>
+              <tr>
+                <td width="49"><img src="images/stit01_07.gif" width="34" height="12"></td>
+                <td width="139" class="pay">(주)지엔텔       님 </td>
+              </tr>
+              <tr>
+                <td height="13" colspan="2"></td>
+              </tr>
+              <tr>
+                <td valign="top"><img src="images/stit02_07.gif" width="35" height="12"></td>
+                <td class="pay"><font face="gulim">경기도 용인시 기흥구  덕영대로 1871 청명호수마을 신안인스빌1단지&nbsp;(하갈동,청명호수마을 신안인스빌1단지)</td></font>
+              </tr>
+              <tr>
+                <td height="6" colspan="2"></td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#FD7416"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit_b1_08.gif" width="47" height="23"></td>
+                <td height="29" align="center" class="top">02-4479-9107</td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#FD7416"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit01_08.gif" width="38" height="12"></td>
+
+            <td height="29" align="right" class="top">                0<img src="images/won.gif" width="20" height="13" align="absmiddle"></td>
+
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+                <td height="29"><img src="images/stit02_08.gif" width="38" height="12"></td>
+                <td height="29" class="pay">2019년 06월 20일</td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+                <td height="24"><img src="images/stit03_08.gif" width="39" height="12"></td>
+                <td height="24" class="pay">기업은행          </td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+                <td height="24"><img src="images/stit04_08.gif" width="39" height="12"></td>
+                <td height="24" class="pay"><img src="images/protect.gif" width="137" height="12"></td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+                <td height="24"><img src="images/stit05_08.gif" width="39" height="12"></td>
+                <td height="24" class="pay"></td>
+              </tr>
+              <tr>
+                <td height="1" colspan="2" bgcolor="#51C7D9"></td>
+              </tr>
+              <tr>
+      <!-- 추가인출금이 있을 경우(지시서:1126130-2006-0069-0)-->
+      
+                <td colspan="2" background="images/08_bg_txt01.gif" height="78">
+          <table width="188" height="78" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+            <td width="120" height="20" colspan="3">&nbsp;</td>
+            <td width="20" class="pay"><b>19</b></td>
+            <td width="20" class="pay"><b>06</b></td>
+            <td width="20" class="pay"><b>20</b></td>
+            </tr>
+            <tr>
+            <td width="65" height="20">&nbsp;</td>
+            <td width="15" class="pay"><b>07</b></td>
+            <td width="40" class="pay"><b>01</b></td>
+            <td width="60" colspan="3"></td>
+            </tr>
+            <tr>
+            <td colspan="4" height="38"></td>
+            </tr>
+          </table>
+        </td>
+      
+
+              </tr>
+            </table>
+      </td>
+            <td width="11" background="images/bg_vdash.gif"></td>
+            <td width="183" valign="top">
+      <table width="183" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="10"></td>
+              </tr>
+              <tr>
+<!-- 인터넷/휴대폰 청구 할인기준 변경에 따른 인터넷 빌링 고객 안내 2011.08.10 -->
+                  <!--<td><img src="images/discount_base_chg.gif" width="183" height="290"></td>-->
+<!-- 연료비연동제’ 시행(’11. 7. 1)에 따른 인터넷 빌링 고객 안내 2011.05.16 -->
+                  <!--<td><img src="images/10_txt4.gif" width="180" height="184"></td>
+<!-- 자동이체 제도변경 관련 안내 2012.02.01 -->
+                  <!--<td><img src="images/autoinfo_chg.gif" width="183" height="321"></td>-->
+                 <td><img src="images/tit_09.gif" width="183" height="23"></td>
+              </tr>
+              <tr>
+                <td height="6"></td>
+              </tr>
+              <tr>
+                <td height="18"><span class="pay2">[우리은행]&nbsp;277-225997-18-053  </span></td>
+              </tr>
+              <tr>
+                <td height="18"><span class="pay2">[신한은행]&nbsp;562-12663-955401   </span></td>
+              </tr>
+        <!-- 지정계좌 추가 2007.07.06 -->
+
+
+              <tr>
+                <td height="18"><span class="pay2">[국민은행]&nbsp;623590-14-385726   </span></td>
+              </tr>
+
+
+        <tr>
+                <td height="18"><span class="pay2">[농　　협]&nbsp;790158-50-527060   </span></td>
+                
+                
+              </tr>
+
+
+              <tr>
+                <td height="18"><span class="pay2">[하나은행]&nbsp;471-920835-14037   </span></td>
+              </tr>
+
+
+              <tr>
+                <td height="18"><span class="pay2">[기업은행]&nbsp;594-522102-97-805  </span></td>
+              </tr>
+
+        <!-- 지정계좌 추가 2007.07.06  END..-->
+        <!-- 2009-40771_농협 지정계좌 확대관련 시스템 보완 2009.04.02  start..-->
+
+              <tr>
+                <td height="18"><span class="pay2">[광주은행]&nbsp;9386-222-509722    </span></td>
+              </tr>
+
+        <!-- 2009-40771_농협 지정계좌 확대관련 시스템 보완 2009.04.02  end..-->
+        <!-- 2011-268284_기업 지정계좌 확대관련 시스템 보완 2011.05.09  start..-->
+
+              <tr>
+                <td height="18"><span class="pay2">[우체국  ]&nbsp;850863-80-316859   </span></td>
+              </tr>
+
+        <!-- 2011-268284_기업 지정계좌 확대관련 시스템 보완 2011.05.09  end..-->
+        <!-- 2011-316591_외환 지정계좌 확대관련 시스템 보완 2011.10.14  start..-->
+
+        <!-- 2011-316591_외환 지정계좌 확대관련 시스템 보완 2011.10.14  end..-->
+		<!-- 2012-473768_우체국 지정계좌 확대관련 시스템 보완 2011.05.09 start..-->
+
+        <!-- 2012-473768_우체국 지정계좌 확대관련 시스템 보완 2011.05.09  end..-->
+
+              <tr>
+                <td height="2"></td>
+              </tr>
+              <tr>
+                <!--<td height="157" bgcolor="ECF4F2" valign="top"><img src="images/09_txt.gif" width="183" height="108"></td>-->
+	            <td height="115" bgcolor="ECF4F2" valign="top"><img src="images/09_txt.gif" width="183" height="108"></td>
+
+              </tr>
+              <!--<tr>
+                <td height="32" bgcolor="ECF4F2" valign="top" align="center">
+              </tr>
+<!-- 연료비연동제’ 시행(’11. 7. 1)에 따른 인터넷 빌링 고객 안내 2011.05.16 end-->
+             
+             <tr>
+                <td height="5" ></td>
+                <!--<td height="30" ></td>-->
+              </tr>
+        <tr>
+        <td width="180" ><a href="JavaScript:window.print();"><img src="images/btn_print.gif" height="18" border="0" align="right"></a></td>
+        </tr>
+              <tr>
+                <td height="3" ></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="45" colspan="2"><img src="image_info/images/m_foot.gif"></td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="211,5,248,19" href="#" alt="인쇄">
+</map>
+</body>
+</html>
+      <tr>
+<!-- 2006.06.27  전기요금납부방법안내(자동납부고객) END!!!!! -->
+
+

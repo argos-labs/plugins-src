@@ -1,0 +1,28 @@
+setup:
+  author: Arun Kumar
+  author_email: arunk@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: FolderSystem :: Status'
+  description: plugin module for checking file status
+  keywords:
+  - file
+  - folder
+  - directory
+  - status
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.filesystem.fo_stat: ['icon.*','README*.*','setup.yaml']
+  url: https://www.argos-labs.com
+#  version: 2.1118.1059
+  # version: 2.1118.3300
+  version: 4.622.1657

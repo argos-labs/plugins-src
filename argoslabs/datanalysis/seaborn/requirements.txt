@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# matplot
+openpyxl
+matplotlib
+seaborn
+
+# for pandas
+pandas

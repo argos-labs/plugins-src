@@ -1,0 +1,30 @@
+---
+csv:
+  or:
+  - columns:
+    - header: item
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[1]/table/tbody/tr[4]/td
+      - op: find_all
+        name: tr
+      split:
+        separator: "\n"
+        index: 0
+      re-replace:
+        from: "\\s+"
+        to: ""
+    - header: cost
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table/tbody/tr[1]/td[1]/table/tbody/tr[4]/td
+      - op: find_all
+        name: tr
+      split:
+        separator: "\n"
+        index: 1
+      re-replace:
+        from: "\\s+"
+        to: ""
+
+skip-empty-row: true

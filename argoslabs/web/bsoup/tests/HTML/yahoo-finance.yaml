@@ -1,0 +1,39 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+      # column header
+    - header: code
+      find:
+      - op: select_one
+        xpath: //*[@id="quote-header-zenity_info"]/div[2]/div[1]/div[1]/h1
+      re-search:
+        match: ([^(]+)\((\w+)\)
+        index: 2
+      # column header
+    - header: company
+      find:
+      - op: select_one
+        xpath: //*[@id="quote-header-zenity_info"]/div[2]/div[1]/div[1]/h1
+      re-search:
+        match: ([^(]+)\((\w+)\)
+        index: 1
+      re-replace:
+        from: \s+$
+        to: ""
+      # column header
+    - header: market
+      find:
+        # find all <div class="search-list-view__price-container">...</div>
+      - op: select_one
+        xpath: //*[@id="quote-header-zenity_info"]/div[2]/div[1]/div[2]/span
+      split: 0
+      # column header
+    - header: stock
+      find:
+        # find all <div class="search-list-view__price-container">...</div>
+      - op: select_one
+        xpath: //*[@id="quote-header-zenity_info"]/div[3]/div[1]/div/span[1]
+

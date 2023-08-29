@@ -1,0 +1,258 @@
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title></title>
+    <link href="/Content/Bootstrap/css/bootstrap-datepicker.css" rel="stylesheet">
+<link href="/Content/Bootstrap/css/bootstrap-mib.css" rel="stylesheet">
+<link href="/Content/Bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<link href="/Content/Bootstrap/css/datepicker.css" rel="stylesheet">
+
+    
+    <link href="/Content/MIBCore/MIB.Core.Layout.css" rel="stylesheet">
+<link href="/Content/MIBCore/MIB.Core.Styles.css" rel="stylesheet">
+
+    <link href="/Content/Gridmvc.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+        <link href="/Content/MIBCore/MIB.Core.IE8.css" rel="stylesheet"/>
+    <![endif]-->
+
+    <script src="/Scripts/JQuery/jquery-1.11.1.js"></script>
+<script src="/Scripts/JQuery/jquery-ui-1.10.4.js"></script>
+<script src="/Scripts/JQuery/jquery.unobtrusive-ajax.js"></script>
+<script src="/Scripts/JQuery/jquery.validate.js"></script>
+<script src="/Scripts/JQuery/jquery.validate.unobtrusive.js"></script>
+<script src="/Scripts/JQuery/validator.js"></script>
+
+    <script src="/Scripts/JQuery/Modernizr-2.7.2.js"></script>
+
+    <script src="/Scripts/Bootstrap/bootstrap.js"></script>
+<script src="/Scripts/Bootstrap/bootstrap-datepicker.js"></script>
+
+    <script src="/Scripts/CoreLib/Core.Helpers-1.0.1.js"></script>
+<script src="/Scripts/CoreLib/Core.AjaxCalls-1.0.1.js"></script>
+<script src="/Scripts/CoreLib/Core.StyleHelpers-1.0.2.js"></script>
+
+    <script src="/Scripts/tinymce/tinymce.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="/Scripts/respond.min.js"></script>
+        <script src="/Scripts/html5shiv.js"></script>
+    <![endif]-->
+
+
+
+</head>
+<body>
+    <!-- Top Level Navigation -->
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-static-top" style="border-bottom-color:rgb(0,149,96);" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- Used to show nav when viewport is too small -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <a class="navbar-brand" href="/"><img alt="MIB Services Logo" src="/Content/MIBCore/MIBServices.png"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown user-details pull-left">
+                                    
+                                    
+                                    
+                                    <a href="javascript:void(0);" class="dropdown-toggle usermenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Organisation Details <span class="caret"></span></a>                                   
+
+                                    <ul class="dropdown-menu user-menu">
+                                        
+                                        <li><p>Organisation registered as: <strong>Thompsons Solicitors LLP</strong></p></li>
+                                        <li><p>Account Number: <strong>00231</strong></p></li>
+
+                                            <li><p>Organisation Admin: <strong>NatalieHarvey@thompsons.law.co.uk</strong></p></li>
+                                                                            </ul>
+                                </li>
+                        <li><a href="/Account/UpdateAccountDetails"><span style="padding-right:5px;" class="glyphicon glyphicon-user"></span>Update Account Details</a></li>
+                        <li><a href="/Account/ChangePassword"><span style="padding-right:5px;" class="glyphicon glyphicon-lock"></span>Change Password</a></li>
+                        <li><a href="/Account/Logout" title="Log Out"><span style="padding-right:5px;" class="glyphicon glyphicon-log-out"></span>Log Out</a></li>
+                <li>&nbsp;&nbsp;</li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+    <div class="jumbotron" style="margin-bottom:0px;">
+        <div class="container">
+            
+    <h2>MIB Services - askCUE PI enquiry match results</h2>
+
+        </div>
+    </div>
+    <div style="background-color:rgb(99, 176, 136);margin-bottom:20px;">
+        <div class="container" style="background-color:rgb(231, 240, 233) !important">
+            <div class="nav">
+
+
+<ul class="nav navbar-nav">
+
+            <li class="top_menu_item active"><a href="/"><span title="Home" style="color:rgb(0,149,96);padding-right:5px;" class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li class="top_menu_item">
+                <a href="/EnquiryService">
+                    <span title="Home" style="color:rgb(0,149,96);padding-right:5px;" class="glyphicon glyphicon-search"></span>Enquiry Services
+                </a>
+            </li>
+                <li class="top_menu_item">
+                    <a href="/EnquiryService/SearchMyEnquiries">
+                        <span title="Previous Enquiries" style="color:rgb(0,149,96)" class="glyphicon glyphicon-time"></span>&nbsp;Previous Enquiries
+                    </a>
+                </li>
+            <li class="top_menu_item">
+                <a href="/UserDocumentation">
+                    <span title="Useful Documents" style="color:rgb(0,149,96)" class="glyphicon glyphicon-file"></span>&nbsp;Useful Documents
+                </a>
+            </li>
+</ul>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Body Container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                
+
+
+<div class="alert alert-info">
+    <p><strong>Accurate data is paramount.</strong> The results returned are based on the information you entered. If the result is not as you expected please check the information you entered for accuracy.</p>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="form-group">
+            <font size="5">
+                    <strong>0 records have been found on the CUE PI database.</strong>
+            </font>
+
+            <p>Search Reference : <b>ASKCUEPI0004088020</b></p>
+            <p>Search Date : <b>21/06/2021 18:09:46</b></p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+            <div class="form-group">
+                <label class="control-label" for="File_Reference">File Reference</label>
+                    <p style="-ms-word-wrap: break-word; word-wrap:break-word">1234</p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Accident_Date__DD_MM_YYYY_">Accident Date (DD/MM/YYYY)</label>
+                    <p style="-ms-word-wrap: break-word; word-wrap:break-word">01/05/2021</p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Forename">Forename</label>
+                    <p style="-ms-word-wrap: break-word; word-wrap:break-word">claim</p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Surname">Surname</label>
+                    <p style="-ms-word-wrap: break-word; word-wrap:break-word">tech</p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Date_of_Birth__DD_MM_YYYY_">Date of Birth (DD/MM/YYYY)</label>
+                    <p style="-ms-word-wrap: break-word; word-wrap:break-word">01/01/2000</p>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="National_Insurance_Number__AANNNNNNA_">National Insurance Number (AANNNNNNA)</label>
+            </div>
+    </div>
+    <div class="col-lg-4">
+
+
+
+
+<div class=" ">
+    <label class="control-label" for="AddressLine1">Address Line 1</label>
+    <p>fake street</p>
+</div>
+
+
+<div class="form-group">
+    <label class="control-label" for="AddressLine2">Address Line 2</label>
+    <p></p>
+</div>
+
+<div class="form-group">
+    <label class="control-label" for="CityTown">City / Town</label>
+    <p>fake city</p>
+</div>
+
+<div class="form-group">
+    <label class="control-label" for="County">County</label>
+    <p></p>
+</div>
+
+<div class="form-group">
+    <label class="control-label" for="PostCode">Postcode</label>
+    <p>m503sq</p>
+</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        To download a copy of the match result, select 'download askCUE PI results'. To make another enquiry, please select 'make new enquiry'.
+    </div>
+</div>
+
+
+                <div class="smallHeight"></div>
+            </div>
+            <div class="col-lg-3">
+                
+<form action="/EnquiryService/PrintCUEEnquiry" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="cqb3haPgw-WHlEcLhyAYE8K_F8WMsyWojsQZx3HqJ4xjExfDmrWMLkxZavbjl9n6se8jLjE6fsi1xX3dQLXCbA8sJ_6AYXCOayPgFDn_5s5SYOdzsn8oHG2chHDVGjsMTatl3WSa6Ji3t8mqn6D6lw2"><input class="SuppressMandatory" id="EnquiryResponse_ClaimReference" name="EnquiryResponse.ClaimReference" type="hidden" value="ASKCUEPI0004088020"><input class="SuppressMandatory" data-val="true" data-val-date="The field SearchDate must be a date." data-val-required="The SearchDate field is required." id="SearchDate" name="SearchDate" type="hidden" value="21/06/2021 18:09:46"><input class="SuppressMandatory" data-val="true" data-val-number="The field ResultCount must be a number." data-val-required="The ResultCount field is required." id="EnquiryResponse_ResultCount" name="EnquiryResponse.ResultCount" type="hidden" value="0"><input class="SuppressMandatory" id="EnquiryServiceName" name="EnquiryServiceName" type="hidden" value="askCUE PI"><input class="SuppressMandatory" id="Address_HouseId" name="Address.HouseId" type="hidden" value=""><input class="SuppressMandatory" data-val="true" data-val-length="Address line is too long" data-val-length-max="32" data-val-required="Address line 1 is required" id="Address_AddressLine1" name="Address.AddressLine1" type="hidden" value="fake street"><input class="SuppressMandatory" data-val="true" data-val-length="Address line is too long" data-val-length-max="32" id="Address_AddressLine2" name="Address.AddressLine2" type="hidden" value=""><input class="SuppressMandatory" data-val="true" data-val-length="City / Town is too long" data-val-length-max="25" data-val-required="City / Town is required" id="Address_CityTown" name="Address.CityTown" type="hidden" value="fake city"><input class="SuppressMandatory" data-val="true" data-val-length="County is too long" data-val-length-max="15" id="Address_County" name="Address.County" type="hidden" value=""><input class="SuppressMandatory" data-val="true" data-val-length="Postcode must be between 1 and 10 characters" data-val-length-max="10" data-val-required="Postcode is required" id="Address_PostCode" name="Address.PostCode" type="hidden" value="m503sq"><input class="SuppressMandatory" id="EnquiryData_0__FieldName" name="EnquiryData[0].FieldName" type="hidden" value="File Reference"><input class="SuppressMandatory" id="EnquiryData_0__FieldValue" name="EnquiryData[0].FieldValue" type="hidden" value="1234"><input class="SuppressMandatory" id="EnquiryData_1__FieldName" name="EnquiryData[1].FieldName" type="hidden" value="Accident Date (DD/MM/YYYY)"><input class="SuppressMandatory" id="EnquiryData_1__FieldValue" name="EnquiryData[1].FieldValue" type="hidden" value="01/05/2021"><input class="SuppressMandatory" id="EnquiryData_2__FieldName" name="EnquiryData[2].FieldName" type="hidden" value="Forename"><input class="SuppressMandatory" id="EnquiryData_2__FieldValue" name="EnquiryData[2].FieldValue" type="hidden" value="claim"><input class="SuppressMandatory" id="EnquiryData_3__FieldName" name="EnquiryData[3].FieldName" type="hidden" value="Surname"><input class="SuppressMandatory" id="EnquiryData_3__FieldValue" name="EnquiryData[3].FieldValue" type="hidden" value="tech"><input class="SuppressMandatory" id="EnquiryData_4__FieldName" name="EnquiryData[4].FieldName" type="hidden" value="Date of Birth (DD/MM/YYYY)"><input class="SuppressMandatory" id="EnquiryData_4__FieldValue" name="EnquiryData[4].FieldValue" type="hidden" value="01/01/2000"><input class="SuppressMandatory" id="EnquiryData_5__FieldName" name="EnquiryData[5].FieldName" type="hidden" value="National Insurance Number (AANNNNNNA)"><input class="SuppressMandatory" id="EnquiryData_5__FieldValue" name="EnquiryData[5].FieldValue" type="hidden" value="">    <button class="btn btn-success btn-block btn-allow-dbl" type="submit">
+    <i class="fa fa-file-pdf-o"></i>
+        Download askCUE PI results</button>
+</form>
+<hr>
+    <a href="https://www.mibservices.org.uk/EnquiryService/MakeEnquiry/11372" class="btn btn-success btn-block">Make new enquiry</a>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <ul>
+            
+            <li>� MIB Services 2015</li>
+                <li><a href="/Resource/GetDocument/1" target="_blank">CUE PI User Agreement</a></li>
+                <li><a href="/Resource/GetDocument/3" target="_blank">Terms of Use</a></li>
+                <li><a href="/Resource/GetDocument/4" target="_blank">Privacy Policy</a></li>
+                <li><a href="/Resource/GetDocument/5" target="_blank">Cookies Policy</a></li>
+                <li><a href="/Resource/GetDocument/6" target="_blank">User Guide</a></li>
+            
+            <li><a href="/Home/ContactUs">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+    
+
+    
+
+
+
+</body></html>

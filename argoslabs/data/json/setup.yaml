@@ -1,0 +1,27 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Data :: JsonSelect'
+  description: plugin module for handling JSON
+  keywords:
+  - data
+  - json
+  - select
+  - xpath
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+#    argoslabs.data.json: ['icon.*', 'tests/json/*.json']
+    argoslabs.data.json: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 3.122.1313
+  # version: 3.122.3300
+  version: 5.214.1124

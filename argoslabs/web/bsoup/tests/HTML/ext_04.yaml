@@ -1,0 +1,71 @@
+---
+# Specification for extracting data from https://www.amazon.com/
+csv:
+  or:
+  # define columns
+  - columns:
+    # column header
+    - header: item
+      # find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: h2
+    # column header
+    - header: price
+      # find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 0
+    # column header
+    - header: unit
+      # find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]
+      - op: find_all
+        name: div
+        data-asin: true
+        data-index: true
+      - op: find
+        name: span
+        class: a-offscreen
+      split: 1
+#  - columns:
+#    # column header
+#    - header: item
+#      # find_all op is once happen
+#      find:
+#      - op: find_all
+#        name: span
+#        class: a-size-base-plus a-color-base a-text-normal
+#    - header: price
+#      # find_all op is once happen
+#      find:
+#      - op: find_all
+#        name: span
+#        class: a-price
+#        data-a-size: l
+#      - op: find
+#        name: span
+#        class: a-offscreen
+#    - header: unit
+#      # find_all op is once happen
+#      find:
+#      - op: find_all
+#        name: nomatch
+#        class: nomatch
+

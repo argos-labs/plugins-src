@@ -1,0 +1,22 @@
+# pip dependent packages
+
+# 2019.10.13 modify
+# alabs.ppm.exe plugin venv argoslabs.data.rdb : error cx-Oracle version
+
+# default for alabs
+alabs.common
+
+# for MySQL
+# PyMySQL==0.9.3
+PyMySQL==1.0.2
+
+# for MSSQL
+#   in case Mac : build process needed : TODO
+# Cython==0.29.5
+pymssql==2.1.4
+# pymssql==2.1.5
+
+# for Oracle
+#  Oracle need required dlls
+# cx-Oracle==7.1.1
+#cx-Oracle

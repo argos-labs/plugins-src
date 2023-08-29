@@ -1,0 +1,13 @@
+name,id,"=VLOOKUP(""Foghorn Leghorn"",a:b,2,False)"
+Band of Coyotes,71.0,
+Bugs Bunny,23.0,
+Daffy Duck,15.0,
+Elmer Fudd,b5511228-b9ef-4713-91b1-ad2cf60eadb1,
+Foghorn Leghorn,4ff5b357-fc11-455c-9848-56720717f035,
+Marvin the Martian,b3c12b21-a9f7-4b05-9315-f2fcc8d2ccb0,
+Porky Pig,a99f5e0c-a4db-452f-8d2c-8fd15482b384,
+Speedy Gonzales,06bf0258-4a11-4a44-b141-a991fcb1d7c7,
+Sylvester,86ad848e-bde0-4c59-959a-59ed94b165db,
+Tasmanian Devil,18.0,
+Tweety,a9e349e4-0b8b-406e-b3b5-92eed8a0ac5f,
+Yosemite Sam,4b052b21-9315-4b05-9315-f2fcc8d2ccb0,

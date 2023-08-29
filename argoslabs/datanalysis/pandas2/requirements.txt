@@ -1,0 +1,16 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# to suppress error
+# wheel
+
+# for import/export in pandas
+xlrd
+xlwt
+openpyxl
+
+# for pandas
+numpy
+pandas

@@ -1,0 +1,11 @@
+# pip dependent packages
+
+
+# default for alabs
+alabs.common
+
+# AWS Textract
+Pillow
+#https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl
+docutils==0.15.2
+boto3

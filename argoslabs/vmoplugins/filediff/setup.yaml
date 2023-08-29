@@ -1,0 +1,30 @@
+setup:
+  author: phuongvmodev
+  author_email: phuong.nguyen@vmodev.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: execution :: filediff'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Check Difference file/folder
+  keywords:
+  - rpa
+  - robot
+  - module
+  - demo
+  license: YOUR-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.vmoplugins.filediff: ['icon.*']
+  url: https://argos-labs.com
+  # do not start with 0
+  version: 2.1.12

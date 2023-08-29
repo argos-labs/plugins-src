@@ -1,0 +1,87 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        class: search-list-view__content
+      - op: find
+        name: h2
+    - header: price
+      find:
+      - op: find_all
+        name: div
+        class: search-list-view__price-container
+      - op: find
+        name: span
+        class: gcprice-value
+    - header: unit
+      find:
+      - op: find_all
+        name: div
+        class: search-list-view__price-container
+      - op: find
+        name: span
+        class: gcprice-unit
+      re-replace:
+        from: ^[/\s]+
+        to: ""
+    # John add mfg_name
+    - header: mfg_name
+      find:
+      - op: find_all
+        name: div
+        class: search-list-view__content
+      - op: find
+        name: dd
+        class: search-list-view__detail-value
+        data-automated-test: brand
+  # define columns
+  - columns:
+      # column header
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        class: head-container clearfix
+      - op: find
+        name: h1
+        class: productName
+      # column header
+    - header: price
+      find:
+      - op: find_all
+        name: div
+        class: priceContainer
+      - op: find
+        name: span
+        itemprop: price
+      # column header
+    - header: unit
+      find:
+      - op: find_all
+        name: div
+        class: priceContainer
+      - op: find
+        name: span
+        class: gcprice-unit
+      re-replace:
+        from: ^[/\s]+
+        to: ""
+    # John add mfg_name
+    - header: mfg_name
+      find:
+      - op: find_all
+        name: div
+        class: head-container clearfix
+      - op: find
+        name: a
+        class: brand solr-brand
+# in case no-result show this message
+no-result: There is no Result

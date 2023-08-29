@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for file
+openpyxl>=2.6.1
+python-docx
+python-pptx
+PyPDF2
+reportlab
+

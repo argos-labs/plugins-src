@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# prebuilt version for workalendar
+#https://download.lfd.uci.edu/pythonlibs/n5jyqt7p/ephem-3.7.6.1-cp37-cp37m-win32.whl; sys_platform == 'win32'
+workalendar

@@ -1,0 +1,13 @@
+# for config
+python-dotenv
+
+# for OpenAI-Whisper (local)
+#openai-whisper
+#soundfile
+
+requests
+
+# brew install portaudio
+PyYAML
+#pyaudio
+openai

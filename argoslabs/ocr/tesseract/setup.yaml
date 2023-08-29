@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: OCR :: Tesseract'
+  description: plugin module for Google Tesseract OCR
+  keywords:
+  - google
+  - ocr
+  - tesseract
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt ethem module
+    argoslabs.ocr.tesseract: ['icon.*', 'install_tesseract.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.322.1540
+#  version: 2.322.3300
+  # version: 4.920.2108
+  version: 4.920.3456

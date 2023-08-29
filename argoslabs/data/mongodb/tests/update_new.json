@@ -1,0 +1,9 @@
+{
+  "$set":
+  {
+    "author" : "Zebra",
+    "text" : "Upsert test for update",
+    "tags" : ["my", "update", "upsert"],
+    "date": "2020/03/13"
+  }
+}

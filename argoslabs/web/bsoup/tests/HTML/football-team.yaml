@@ -1,0 +1,29 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: number
+      find:
+      - op: find_all
+        name: div
+        class: player-thumbnail
+      - op: find
+        name: p
+        class: numero font-titling-swashes
+    - header: name
+      find:
+      - op: find_all
+        name: div
+        class: player-thumbnail
+      - op: find
+        name: p
+        class: nome font-titling-swashes
+    - header: position
+      find:
+      - op: find_all
+        name: div
+        class: player-thumbnail
+      - op: find
+        name: p
+        class: ruolo font-titling

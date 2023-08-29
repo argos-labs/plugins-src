@@ -1,0 +1,27 @@
+---
+csv:
+  or:
+  - columns:
+    - header: name
+      find:
+      - op: select_one
+        xpath: /html/body/div/table/tbody/tr[7]/td[2]
+      - op: find
+        name: span
+      re-search:
+        match: "reset password for ([\\w\\s]+)"
+        index: 1
+    - header: email
+      find:
+      - op: select_one
+        xpath: /html/body/div/table/tbody/tr[7]/td[2]
+      - op: find
+        name: a
+    - header: account
+      find:
+      - op: select_one
+        xpath: /html/body/div/table/tbody/tr[2]/td[3]
+      - op: find
+        name: span
+
+no-result: There is no Result

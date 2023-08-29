@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: DataAnalysis :: PandasProfiling'
+  description: plugin module for PANDAS Profiling
+  keywords:
+  - data
+  - analysis
+  - pandas
+  - profiling
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt ethem module
+    argoslabs.datanalysis.pandasprofiling: ['icon.*',]
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.507.1215
+  # version: 2.507.3300
+  version: 5.724.1350

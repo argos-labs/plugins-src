@@ -1,0 +1,110 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+      # column header
+    - header: savetype
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[2]
+      re-replace:
+        from: "[\\s]+"
+        to: ""
+      # column header
+    - header: app_num
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[3]
+      # column header
+    - header: pt_num
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[4]
+      # column header
+    - header: docket_num
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[5]
+      # column header
+    - header: customer_num
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[6]
+      # column header
+    - header: mailing_date
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[7]
+      # column header
+    - header: image_date
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[8]
+      # column header
+    - header: doc_code
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[9]
+      # column header
+    - header: doc_desc
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[10]
+      # column header
+    - header: earliest_view_date
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[11]
+      # column header
+    - header: viewed_by
+      find:
+      - op: select_one
+        xpath: //*[@id="forpriority"]/div[2]/form/table[1]
+      - op: find_all
+        name: tr
+      - op: select_one
+        xpath: td[12]
+
+skip-empty-row: true

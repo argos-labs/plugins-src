@@ -1,0 +1,8 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# required module
+requests
+urllib3

@@ -1,0 +1,18 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for import/export in pandas
+xlrd
+xlwt
+openpyxl
+
+# for regression
+# Error when python tk is not installed
+#ModuleNotFoundError: No module named 'tkinter'
+numpy
+pandas
+scikit-learn
+jinja2
+yellowbrick

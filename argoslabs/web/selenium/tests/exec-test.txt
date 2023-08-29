@@ -1,0 +1,6 @@
+import sys
+
+def do_start(**params):
+    if 'name' not in params:
+        raise ValueError('Cannot find "name" keyword parameter!')
+    print(f'name="{params["name"]}"')

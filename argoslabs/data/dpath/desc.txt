@@ -1,0 +1,93 @@
+Examples:
+
+= Example JSON
+            {
+                "page": 1,
+                "per_page": 3,
+                "total": 12,
+                "total_pages": 4,
+                "pagedata": {
+                    "data": [
+                        {
+                            "id": 1,
+                            "name": "cerulean",
+                            "year": 2000,
+                            "color": "#98B2D1",
+                            "pantone_value": "우리는"
+                        },
+                        {
+                            "id": 2,
+                            "name": "fuchsia rose",
+                            "year": 2001,
+                            "color": "#C74375",
+                            "pantone_value": "자유"
+                        },
+                        {
+                            "id": 3,
+                            "name": "true red",
+                            "year": 2002,
+                            "color": "#BF1932",
+                            "pantone_value": "영혼"
+                        }
+                    ]
+                },
+                'jpn': {
+                    "data": {
+                        "shippingDay": "2019-04-02",
+                        "mansionName": "新宿ビル"
+                    },
+                    "status": 200
+                }
+
+
+- Execute with xpath "total"
+> result is "12"
+
+
+- Execute with xpath "pagedata/data[2]/id"
+> result is "3"
+
+
+- Execute with xpath "pagedata/data"
+> result are
+"id","name","year","color","pantone_value"
+1,"cerulean",2000,"#98B2D1","우리는"
+2,"fuchsia rose",2001,"#C74375","자유"
+3,"true red",2002,"#BF1932","영혼"
+
+
+- Execute with xpath "pagedata/invalid" with "Raise Except Flag"
+> return Error
+
+- Execute with xpath "pagedata/invalid" without "Raise Except Flag"
+> return Error
+
+==> no need this option
+
+* "Opt Output Format" is only "csv"
+
+
+- Execute with xpath "pagedata/data" with "Get length"
+> result are "3"
+
+
+- Execute with xpath "pagedata/data" with "AND Filter", "id=2"
+  (this "AND Filter" can be mupliple)
+> result are
+"id","name","year","color","pantone_value"
+2,"fuchsia rose",2001,"#C74375","자유"
+
+- Execute with xpath "pagedata/data" with "OR Filter", "id=2", "OR Filter", "id=3"
+  (this "AND Filter" can be mupliple)
+> result are
+"id","name","year","color","pantone_value"
+2,"fuchsia rose",2001,"#C74375","자유"
+3,"true red",2002,"#BF1932","영혼"
+
+
+
+* "Find all Opt" option is gathers all data matching key value
+* "Cell key" option is defined then this column value is valid (exists and not empty)
+
+* "Exclude index" option is 1 and "Exclude value" is "Item" then
+  in csv result first column value is "Item" rows are excluded.

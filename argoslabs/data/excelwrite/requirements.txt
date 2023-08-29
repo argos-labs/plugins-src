@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for Excel
+openpyxl
+
+
+# for csv
+xlwings
+pywin32

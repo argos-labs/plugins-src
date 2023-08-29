@@ -1,0 +1,1024 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>外務省 海外安全ホームページ</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+
+<meta name="description" content="海外に渡航・滞在される方々が自分自身で安全を確保していただくための参考情報を公開しております。" />
+<meta name="keywords" content="外務省,海外安全,海外安全情報,たびレジ,ORRnet,在留届" />
+
+<meta name="author" content="外務省" />
+
+<meta name="copyright" content="Copyright &copy; 2018 Ministry of Foreign Affairs of Japan" />
+
+<meta name="format-detection" content="telephone=no,email=no">
+
+<meta property="og:title" content="外務省 海外安全ホームページ"/>
+
+<meta property="og:type" content="website"/>
+
+<meta property="og:url" content="https://www.anzen.mofa.go.jp/"/>
+
+<meta property="og:image" content="https://www.anzen.mofa.go.jp/common/images/base/ogp.png"/>
+
+<meta property="og:description" content="海外に渡航・滞在される方々が自分自身で安全を確保していただくための参考情報を公開しております。"/>
+
+<meta property="og:site_name" content="外務省 海外安全ホームページ"/>
+<link rel="shortcut icon" href="/image/favicon.ico" />
+
+<link rel="stylesheet" href="/common/css/style.css?08">
+<link rel="stylesheet" href="/common/css/layout.css" />
+
+<script src="/common/js/jquery.min.js"></script>
+
+<script src="/common/js/home.js?03"></script>
+
+<script src="/common/js/jquery/jquery-3.2.1.min.js"></script>
+
+<script src="/common/js/jquery/jquery-migrate-3.0.0.min.js"></script>
+
+<script src="/common/js/jquery/roadxml.js"></script>
+<script src="/common/js/suggest.js"></script>
+
+<script src="/common/js/id-list.js"></script>
+
+<script src="/common/js/list.js"></script>
+
+<script src="/common/js/common.js?02"></script>
+<script src="/common/js/switch.js"></script>
+
+<script type="text/javascript">
+
+<!--// (listは、list.js内で定義している)
+var start = function(){new Suggest.Local
+("text", "suggest", list, idList, {dispMax: 10, highlight: true});}
+;
+    window.addEventListener ?
+    window.addEventListener('load', start, false) :
+
+    window.attachEvent('onload', start);
+//-->
+</script>
+
+<!--[if lt IE 9]>
+<script src="/common/js/html5shiv.js"></script>
+
+<![endif]-->
+
+
+<style type="text/css">
+
+div::-webkit-scrollbar{
+  width: 20px;
+}
+
+div::-webkit-scrollbar-track{
+  background: #fff;
+  border: none;
+  box-shadow: inset 0 0 2px #777; 
+}
+
+div::-webkit-scrollbar-thumb{
+  background: #aaa;
+  box-shadow: none;
+}
+#suggest 
+{
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCFF;
+	max-height: 120px;
+
+	overflow: auto;
+	z-index: 1;
+	letter-spacing: 0px;
+	position: absolute;
+	width: 70%
+}
+#suggest div 
+{
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#suggest div.over 
+{
+	background-color: #99CCFF;
+}
+#suggest div.select 
+{
+	background-color: #99CCFF;
+}
+
+.tab3 {
+    width: 98%;
+    height: 40px;
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    /* display: table;- */
+    position: relative;
+    border-collapse: separate;
+    border-spacing: 6px 0;
+    letter-spacing: -.4em;
+}
+.tab3 li {
+    background: #0099cc;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: 0.08em;
+    color: #fff;
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-top: 3px solid #0099cc;
+    border-left: 3px solid #0099cc;
+    border-right: 3px solid #0099cc;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out 0s;
+    margin-right: 1%;
+}
+.tab3 li.select, .tab3 li:hover {
+    background-color: #dfe4e6;
+    color: #333;
+}
+</style>
+</head>
+<body id="home" class="top">
+
+<noscript>
+<p class="no-data">外務省 海外安全ホームページは「JavaScript」が使われております。
+<br>
+  「JavaScript」をONにしてご利用下さい。</p>
+</noscript>
+
+
+
+<header id="header">
+  
+<div class="content">
+    
+<h1 class="header-logo"><a class="link-logo" href="/">外務省 海外安全ホームページ</a></h1>
+    
+<div id="header_navi">
+      
+<ul class="menu-sub">
+        
+<li class="link-txt">
+<a href="/about_center/index.html">お問い合わせ先</a></li>
+        
+<li class="link-txt">
+<a href="/sitemap/sitemap.html">サイトマップ</a></li>
+        
+<li><a href="/c_info/english.html">
+<img src="/common/images/english-new.png" width="165px" height="25px" alt="日本語環境でない場合"></a></li>
+        
+<li class="fontsize">
+          
+<dl id="textchanger">
+            
+<dt>文字サイズ変更</dt>
+            
+<dd class="small">
+<a href="#">小</a></dd>
+            
+<dd class="middle current">
+<a href="#">中</a></dd>
+            
+<dd class="large"><a href="#">大</a></dd>
+          </dl>
+        </li>
+      </ul>
+      
+<a href="http://www.mofa.go.jp/mofaj/" class="logo-mofa" target="_blank">
+<img src="/common/images/base/logo_mofa.png?03" alt="外務省（別ウィンドウで開きます）"></a>
+      
+<ul class="func">
+        
+<li class="facebook">
+          
+<a href="https://ja-jp.facebook.com/%E5%A4%96%E5%8B%99%E7%9C%81%E9%A0%98%E4%BA%8B%E5%B1%80-%E6%B5%B7%E5%A4%96%E9%82%A6%E4%BA%BA%E5%AE%89%E5%85%A8%E8%AA%B2-373709449654909/" target="_blank" class="opacity">Facebook<img src="../image/icon_blank_white.gif" alt="別ウインドウが開きます" class="icon" style="padding-right:0;"></a>
+        </li>
+        
+<li class="line">
+          
+<a href="https://line.me/R/ti/p/@gaimusho_anzen" target="_blank" class="opacity">友だち追加<img src="../image/icon_blank_white.gif" alt="別ウインドウが開きます" class="icon" style="padding-right:0;"></a>
+        </li>
+        
+<li class="search">
+          
+<form action="searchresult.html" id="cse-search-box" method="get">
+            
+<input name="cx" value="011758268112499481406:etn02wtx874" type="hidden">
+            
+<input name="ie" value="UTF-8" type="hidden">
+            
+<input name="oe" value="UTF-8" type="hidden">
+            
+            
+            
+<input name="siteurl" value="www.mofa.go.jp/mofaj/" type="hidden">
+            
+<input name="ref" value="www.google.co.jp/" type="hidden">
+            
+<input name="ss" type="hidden">
+          </form>
+          
+<script src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+        </li>
+
+        <!-- /#func -->
+      </ul>
+    </div>
+   <ul class="category-nav" aria-hidden="true">
+     <li class="home"></li>
+     <li class="area" id="menu-of-area"><span>国・地域別</span></li>
+     <li class="operation" id="menu-of-operation"><span>目的別</span></li>
+   </ul>
+  </div>
+  
+<a class="link-logo sp" href="/">
+<img class="logo" src="/common/images/base/logo.png?02" alt="外務省 海外安全ホームページ"></a>
+  
+<ul class="func sp">
+    
+<li class="facebook-sp">
+<a href="https://ja-jp.facebook.com/%E5%A4%96%E5%8B%99%E7%9C%81%E9%A0%98%E4%BA%8B%E5%B1%80-%E6%B5%B7%E5%A4%96%E9%82%A6%E4%BA%BA%E5%AE%89%E5%85%A8%E8%AA%B2-373709449654909/" target="_blank" class="opacity">Facebook（別ウィンドウで開きます）</a></li>
+    
+<li class="line-sp"><a href="https://line.me/R/ti/p/@gaimusho_anzen" target="_blank" class="opacity">友だち追加（別ウィンドウで開きます）</a></li>
+    
+<!-- /#func -->
+  </ul>
+</header>
+
+
+
+<div id="wrapper">
+  
+<nav id="top-head">
+    
+<div class="inner">
+      
+<div id="mobile-head">
+       
+ <a for="sp-area" class="btn-search" href="#area">国・地域別
+<br>海外安全情報</a>
+        
+<div id="nav-toggle">
+          目的別
+<br>海外安全情報
+        </div>
+      </div>
+      
+<!-- グローバルナビ / -->
+     
+ <nav id="global-nav">
+        
+<div id="gnav-container">
+          
+<ul id="gnav-ul" class="clearfix">
+            
+<li class="home pc is-active"><a href="/">ホーム</a></li>
+            
+<li class="safety pc"><a href="/riskmap/">海外安全情報</a></li>
+           
+ 
+<li class="travel"><a href="/trip/">海外旅行</a></li>
+            
+
+<li class="business"><a href="/business/">海外出張／ビジネス</a></li>
+           
+ 
+<li class="study"><a href="/study/">海外留学</a></li>
+
+<li class="life"><a href="/life/">海外生活</a></li>
+        </ul>
+        </div>
+      </nav>
+     
+ <!-- / グローバルナビ --> 
+    </div>
+  </nav>
+  <h2 style="z-index: -1;position: absolute;">重要なお知らせ</h2>
+  <section class="attention"> 
+    
+<!-- 重要なお知らせ / -->
+
+<!-- / 重要なお知らせ -->
+  
+<div id="carousel">
+      
+<ul class="liquidlist">
+
+<li>
+<a href="https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_035.html#ad-image-0">
+      
+<figure class="eyecatch"><img class="img100wp" src="/common/images/category/ico_document.png" alt="北朝鮮への渡航自粛要請のアイコン"></figure>
+          
+<p class="entry-title"><strong style="color:red">北朝鮮への渡航自粛要請</strong></p>
+</a></li>
+   
+
+
+<li>
+<a href="/anzen_info/golgo13xgaimusho.html">
+          
+<figure class="eyecatch">
+<img src="/common/images/category/ico_golgo13.png" alt="ゴルゴ13の海外安全対策マニュアルのアイコン"></figure>
+          
+<p class="entry-title">ゴルゴ13の海外安全対策マニュアル</p></a></li>
+
+
+
+<li>
+<a href="/anzen_info/quiz/index.html">
+          
+<figure class="eyecatch">
+<img src="/common/images/category/ico_quiz.png" alt="海外安全クイズのアイコン"></figure>
+          
+<p class="entry-title">海外安全クイズ</p></a></li>
+
+
+
+<li>
+<a href="https://www.anzen.mofa.go.jp/c_info/safety_seminar.html">
+         
+ <figure class="eyecatch"><img class="img100wp" src="/image_top/seminar.PNG" alt="国内安全対策セミナーのアイコン"></figure>
+          
+<p class="entry-title">国内安全対策セミナー<br></strong></p></a></li>
+
+
+<li>
+<a href="https://www.anzen.mofa.go.jp/c_info/zaigai_safety_seminar.html">
+        
+ <figure class="eyecatch"><img class="img100wp" src="/common/images/category/ico_seminar_world.png?03" alt="在外安全対策セミナーのアイコン"></figure>
+         
+<p class="entry-title">在外安全対策セミナー<br></strong></p></a></li>
+
+
+<li>
+<a href="https://www.ezairyu.mofa.go.jp/html/opendata/index.html">
+          
+<figure class="eyecatch">
+<img src="/common/images/category/ico_document.png" alt="オープンデータのアイコン"></figure>
+          
+<p class="entry-title">オープンデータ</p></a></li>
+
+
+<li>
+<a href="http://www.mofa.go.jp/mofaj/toko/passport/pass_4.html#q26">
+         
+<figure class="eyecatch"><img src="/common/images/category/ico_passport.png" alt="パスポートをなくしたときは？のアイコン"></figure>
+          
+<p class="entry-title">パスポートをなくしたときは？</p>
+          </a></li>
+        
+<li>
+<a href="http://www.mofa.go.jp/mofaj/annai/zaigai/list/">
+          
+<figure class="eyecatch"><img src="/common/images/category/ico_consul_list.png" alt="在外公館連絡先リストのアイコン"></figure>
+          
+<p class="entry-title">在外公館連絡先リスト</p>
+          </a></li>
+
+<li>
+<a href="https://www.mofa.go.jp/mofaj/toko/visa/otoiawase.html">
+          
+<figure class="eyecatch">
+<img src="/common/images/category/FRESC.jpg" alt="FRESC"></figure>
+          
+<p class="entry-title">外国人の方の日本入国ビザに関する相談はこちら</p></a></li>
+
+
+<li>
+<a href="https://www.qa.emb-japan.go.jp/itpr_ja/11_000001_00386.html">
+          
+<figure class="eyecatch">
+<img src="/common/images/category/ico_document.png" alt="2022FIFAワールドカップ・カタール大会のアイコン"></figure>
+          
+<p class="entry-title">2022FIFAワールドカップ・カタール大会</p></a></li>
+
+
+      </ul>
+    </div>
+    
+<!--/#carousel--> 
+  </section>
+
+<!--  -->
+  <section class="content aboutlink-area">
+    <div class="aboutlink-area__block aboutlink-area__block--study">
+      <h2 class="aboutlink-area__title">海外で生活される方へ、海外に留学される方へ</h2>
+      <img src="./common/images/aboutlink/aboutlink-area--study.png" alt="">
+      <ul class="aboutlink-area__list">
+        <li class="aboutlink-area__item">
+          在留届を提出すると、安全情報をメールで受け取れるほか、緊急時の連絡、安否確認、支援などが受けられます
+            <a class="aboutlink-area__link" href="https://www.ezairyu.mofa.go.jp/index.html">オンライン在留届へ</a>
+        </li>
+        <li class="aboutlink-area__item">
+          転出届提出の際に、在外選挙人証の登録ができます
+            <a class="aboutlink-area__link" href="https://www.soumu.go.jp/senkyo/netsenkyo.html">在外選挙制度について</a>
+        </li>
+      </ul>
+    </div>
+    <div class="aboutlink-area__block aboutlink-area__block--covid">
+      <h2 class="aboutlink-area__title">新型コロナウィルス感染症について</h2>
+      <img src="./common/images/aboutlink/aboutlink-area--covid.png" alt="">
+      <ul class="aboutlink-area__list">
+        <li class="aboutlink-area__item">
+          緊急情報、重要情報はこちら
+          <a class="aboutlink-area__link" href="#danger_info">緊急情報、重要情報</a>
+        </li>
+        <li class="aboutlink-area__item">
+          各国・地域別の入国制限・行動制限措置について
+            <a class="aboutlink-area__link" href="https://www.anzen.mofa.go.jp/covid19/pdfhistory_world.html">各国・地域別の情報</a>
+        </li>
+      </ul>
+    </div>
+    <div class="aboutlink-area__block aboutlink-area__block--travel">
+      <h2 class="aboutlink-area__title">海外旅行をされる方へ</h2>
+      <img src="./common/images/aboutlink/aboutlink-area--travel.png" alt="">
+      <ul class="aboutlink-area__list">
+        <li class="aboutlink-area__item">
+          たびレジに登録すると、安全情報をメールで受け取れるほか、緊急時の連絡、安否確認、支援などが受けられます
+          <a class="aboutlink-area__link" href="https://www.ezairyu.mofa.go.jp/index.html">たびレジ登録へ</a>
+        </li>
+        <li class="aboutlink-area__item">
+          その他、包括的な海外旅行安全情報はこちら
+            <a class="aboutlink-area__link" href="https://www.anzen.mofa.go.jp/trip/">詳しく見る</a>
+        </li>
+      </ul>
+    </div>
+    <div class="aboutlink-area__block aboutlink-area__block--worries">
+      <h2 class="aboutlink-area__title">海外の生活で悩まれている方へ</h2>
+      <img src="./common/images/aboutlink/aboutlink-area--worries.png" alt="">
+      <ul class="aboutlink-area__list">
+        <li class="aboutlink-area__item">
+          悩み相談ができる団体を紹介しています
+          <a class="aboutlink-area__link" href="https://www.anzen.mofa.go.jp/life/info20210707.html">相談窓口を確認</a>
+        </li>
+        <li class="aboutlink-area__item">
+          DVや国境を越えた子の連れ去りに関する情報提供や支援を確認できます
+            <a class="aboutlink-area__link" href="https://www.anzen.mofa.go.jp/konoshinken/index.html">詳しく見る</a>
+        </li>
+      </ul>
+    </div>
+  </section><!-- aboutlink-area -->
+
+<!-- 緊急情報・重要なお知らせ -->
+<section id="danger_info" class="content danger_information">
+    <h2><strong>新型コロナウイルス感染症に関する緊急情報</strong></h2>
+
+    <!--ここより下を更新する-->
+    <h3>新型コロナウイルス感染症に関する重要なお知らせ</h3>
+   <div class="important-links">
+      <ul>
+        <li><a style="color:#000"
+        href="https://www.anzen.mofa.go.jp/info/pcwideareaspecificinfo_2022C083.html"><strong>新たな水際対策措置【2022年10月11日以降適用】（2022年9月26日）</strong></a></li>
+        <li><a style="color:#000"
+        href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/border_vaccine.html"><strong>海外から日本への入国に際し有効と認めるワクチン接種証明書について（2022年10月5日）</strong></a></li> 
+        <li><a style="color:#000"
+        href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00248.html"><strong>出国前検査証明書について（有効と認めるワクチン接種証明書を所持していない場合に必要）</strong></a></li>
+        <li><a style="color:#000"
+        href="https://www.anzen.mofa.go.jp/info/pchazardspecificinfo_2022T080.html"><strong>感染症危険情報レベルの引下げ（2022年10月19日）</strong></a></li>
+        <li><a style="color:#000"
+        href="https://www.anzen.mofa.go.jp/covid19/vaccine.html"><strong>日本での新型コロナワクチン接種を希望する海外在留邦人等の皆様へのお知らせ</strong></a></li>
+        <li><a style="color:#000"
+        href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00209.html"><strong>日本入国・帰国に係る水際対策措置について（厚生労働省HP）</strong></a></li>
+        
+       
+      </ul>
+    </div>
+
+    <!-- サムネイル表示のリンク ここから-->
+    <div class="emphasis-links">
+      <ul>
+        <!--　感染状況サムネイル「link-infection-status」　-->
+        <!-- <li class="link-infection-status">
+          <a href="/covid19/country_count.html">
+             <strong>
+                <span class="sub-text">国別比較グラフおよび各国・地域毎の情報</span>
+                <span class="main-text">新型コロナウイルス感染症の感染状況</span>
+                <span class="links-detaile">詳しくはこちら</span>
+              </strong>
+          </a>
+        </li>
+        -->
+        <!--　感染状況サムネイル「link-restriction」　-->
+        <li class="link-restriction">
+            <a href="/covid19/pdfhistory_world.html">
+                <b>
+                  <span class="sub-text">新型コロナウイルス感染症に係る</span>
+                  <span class="main-text">入国制限措置と入国後の行動制限措置に関する状況</span>
+                  <span class="links-detaile">詳しくはこちら</span>
+                </b>
+            </a>
+        </li>
+      </ul>
+    </div>
+    <!-- サムネイル表示のリンク ここまで-->
+
+    <!-- 各国・その他の情報への内部リンクリスト ここから -->
+    
+    
+  <!--  **************** 2020.06.01 総務班の判断により国ごとのセクションを丸ごと削除 （ここから）*******************
+        （この範囲での従来のコメント開始は”<==”，終了は”==>”に変換しているので，元に戻すときは正しいコメントアウトに置換してください。）
+         -->
+  
+  <!-- 
+
+    <h3>各国・地域ごとの詳細情報</h3>
+    <div class="section-links">
+      <ul>
+        <li><a href="#CHN">中華人民共和国</a></li>
+        <li><a href="#KOR">大韓民国</a></li>
+        <li><a href="#ITA">イタリア</a></li>
+      </ul>
+    </div>
+    <!==
+      国毎のhrefの内容は、「ISO 3166-1 alpha-3」を参考にしております。
+    ==>
+    <!== 各国・その他の情報への内部リンクリスト ここまで ==>
+
+    <!== 国毎のセクション(中華人民共和国) ここから ==>
+    <div class="section-box" id="CHN"><!== 重要：idには内部リンクリストでhfefに定義を行った文字列を使用する ==>
+      <h4>中華人民共和国</h4>
+
+      <!== 国ごとのメインのリンク ==>
+      <ul class="main-link">
+        <!== 外務省発出情報アイコン「link-info」 ==>
+        <li class="link-info">
+          <a href="/info/pcinfectionspothazardinfo_009.html">
+              <b>中国における外務省発出情報</b>
+          </a>
+        </li>
+        <!== 感染者数アイコン「link-infection」 ==>
+        <li class="link-infection">
+          <a href="/covid19/pdfhistory.html">
+            <b>中国国内における感染者数</b>
+          </a>
+        </li>
+        <!== 移動制限アイコン「link-restriction」 ==>
+        <li class="link-restriction">
+          <a href="/covid19/cn_colomn.html">
+            <b>中国各省における移動制限情報</b>
+          </a>
+        </li>
+      </ul>
+
+
+      <h5>在中国各在外公館からのお知らせ</h5>
+      <ul class="link-side">
+        <li><a href="https://www.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在中国日本国大使館</span></a></li>
+        <li><a href="https://www.guangzhou.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在広州日本国総領事館</span></a></li>
+        <li><a href="https://www.shanghai.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在上海日本国総領事館</span></a></li>
+        <li><a href="https://www.chongqing.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在重慶日本国総領事館</span></a></li>
+        <li><a href="https://www.shenyang.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在瀋陽日本国総領事館</span></a></li>
+        <li><a href="https://www.qingdao.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在青島日本国総領事館</span></a></li>
+        <li><a href="https://www.hk.emb-japan.go.jp/itprtop_ja/index.html"><span>在香港日本国総領事館</span></a></li>
+        <li><a href="https://www.dalian.cn.emb-japan.go.jp/itprtop_ja/index.html"><span>在瀋陽日本国総領事館在大連領事事務所</span></a></li>
+      </ul>
+
+      <!== ↓掲載する内容が多くスクロールが多く発生する場合にコメントを外して使用する ==>
+      <a href="#home" class="page-top">ページトップへ戻る</a>
+    </div>
+    <!== 国毎のセクション(中華人民共和国)　ここまで ==>
+
+    <!== 国毎のセクション(大韓民国) ここから ==>
+    <div class="section-box" id="KOR"><!== 重要：idには内部リンクリストでhfefに定義を行った文字列を使用する ==>
+      <h4>韓国</h4>
+      <ul class="main-link">
+        <!== 外務省発出情報アイコン「link-info」 ==>
+        <li class="link-info">
+          <a href="info/pcinfectionspothazardinfo_003.html">
+              <b>韓国における外務省発出情報</b>
+            </a>
+        </li>
+      </ul>
+      <!== ↓掲載する内容が多くスクロールが多く発生する場合にコメントを外して使用する ==>
+      <!==<a href="#home" class="page-top">ページトップへ戻る</a>==>
+    </div>
+    <!== 国毎のセクション(大韓民国) ここまで ==>
+
+    <!== 国毎のセクション(イタリア) ここから ==>
+    <div class="section-box" id="ITA"><!== 重要：idには内部リンクリストでhfefに定義を行った文字列を使用する ==>
+      <h4>イタリア</h4>
+      <ul class="main-link">
+        <!== 外務省発出情報アイコン「link-info」 ==>
+        <li class="link-info">
+            <a href="info/pcinfectionspothazardinfo_153.html">
+              <b>イタリアにおける外務省発出情報</b>
+            </a>
+        </li>
+      </ul>
+      <!== ↓掲載する内容が多くスクロールが多く発生する場合にコメントを外して使用する ==>
+      <!==<a href="#home" class="page-top">ページトップへ戻る</a>==>
+    </div>
+    <!== 国毎のセクション(イタリア) ここまで ==>
+
+  -->
+
+  <!--  **************** 2020.06.01 総務班の判断により国ごとのセクションを丸ごと削除 （ここまで）******************* -->
+
+
+    <!-- その他の情報のセクション ここから -->
+    <h3>その他の情報</h3>
+    <div class="section-box" id="other"><!-- 重要：idには内部リンクリストでhfefに定義を行った文字列を使用する -->
+      <ul>
+        <li>
+            <a href="https://www.anzen.mofa.go.jp/others/legal-terrace-consultationdial.html">
+            <strong>法テラスにおける「霊感商法等対応ダイヤル」の設置等について</strong></a>
+        </li>
+        <li>
+            <a href="https://www.anzen.mofa.go.jp/life/info20210707.html">
+            <strong>孤独・孤立及びそれに付随する問題でお悩みの方へ</strong></a>
+        </li>
+        <li>
+            <a href="https://www.anzen.mofa.go.jp/others/recruitment-information-sessions.html">
+            <strong>特定非営利活動法人「あなたのいばしょ」の在外邦人相談員募集のための説明会についてのお知らせ</strong></a>
+        </li>
+        <li>
+            <a href="https://www.qa.emb-japan.go.jp/itpr_ja/11_000001_00386.html">
+            <strong>2022FIFAワールドカップ・カタール大会（在カタール日本国大使館ホームページ）</strong></a>
+        </li>
+        <li>
+            <a href="https://www.anzen.mofa.go.jp/c_info/safety_seminar_kyouiku.html">
+            <strong>外務省主催「教育機関関係者向け海外安全対策セミナー（オンライン）」受講者募集中</strong></a>
+        </li>
+        <li>
+            <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou18/index_00003.html">
+            <strong>海外での感染症予防について【１】（海外渡航者向けポスター・リーフレット／厚生労働省ウェブサイト）</strong></a>
+        </li>
+        <li>
+            <a href="https://www.forth.go.jp/news/20190409.html">
+            <strong>海外での感染症予防について【２】（厚生労働省検疫所ウェブサイト）</strong></a>
+        </li>
+        <li>
+            <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html">
+            <strong>新型コロナウイルス感染症について（厚生労働省ウェブサイト）</strong></a>
+        </li>
+        <li>
+            <a href="http://www.moj.go.jp/hisho/kouhou/20200131comment.html">
+            <strong>新型コロナウイルス感染症について（法務省ウェブサイト）</strong></a>
+        </li>
+        <li>
+            <a href="https://www.anzen.mofa.go.jp/covid19/WHO_Report.html">
+            <strong>ＣＯＶＩＤ－１９に関するＷＨＯ・中国合同調査団による報告書（概要：仮訳）</strong></a>
+            <a href="https://extranet.who.int/kobe_centre/sites/default/files/pdf/WHO%E4%B8%AD%E5%9B%BD%E5%90%88%E5%90%8C%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E5%A0%B1%E5%91%8A%E6%9B%B8_20200309.pdf">
+            <strong>（全文和訳（WHO神戸センター公表和訳）</strong><img src="/image/icon_pdf.gif" alt="PDFが開きます" class="icon" style="padding-right:0; margin-left: 5px;"></a>
+        </li>
+        <li>
+            <a href="https://www.mofa.go.jp/mofaj/toko/visa/otoiawase.html">
+            <strong>外国人の方の日本入国ビザに関する相談（外国人在留支援センター　外務省ビザ・インフォメーション）</strong></a>
+        </li>
+
+      </ul>
+      <!-- ↓掲載する内容が多くスクロールが多く発生する場合にコメントを外して使用する -->
+      <!--<a href="#home" class="page-top">ページトップへ戻る</a>-->
+    </div>
+    <!-- その他の情報のセクション　ここまで -->
+    <a href="#home" class="page-top">ページトップへ戻る</a>
+  </section>
+
+
+<section id="area" class="map content">
+<ul class="tab3 dis_flex_nowrap">
+    <li class="kiken">危険情報</li>
+    <li class="kansen select">感染症危険情報</li>
+</ul>
+
+    <div class="map-inner">
+      
+<h2 class="map-title">国・地域別の海外安全情報<span>地図をクリックしてください</span></h2>
+      
+<a href="/readme/readme.html" class="link-anzen">海外安全情報とは？</a>
+      
+<iframe class="vector_kiken w100p" height="271px" src="/map/map.html" style="display:none;"></iframe>
+<iframe class="vector_kansen w100p" height="271px" src="/map/map.html" style="display:block;"></iframe>
+
+   </div>
+
+<div class="vector_kiken" style="display:block;">
+    <div class="level-inner">
+        <h3 class="level-title">危険レベル</h3>
+        <dl class="level-box">
+        <dt><span class="level01" style="background-color: #ffff00">レベル1</span></dt>
+        <dd>十分注意してください。</dd>
+        <dt><span class="level02" style="background-color: #ffcc00">レベル2</span></dt>
+        <dd>不要不急の渡航は止めてください。</dd>
+        <dt><span class="level03" style="background-color: #ff9900">レベル3</span></dt>
+        <dd>渡航は止めてください。(渡航中止勧告)</dd>
+        <dt><span class="level04" style="background-color: #ff0000">レベル4</span></dt>
+        <dd>退避してください。渡航は止めてください。(退避勧告)</dd>
+        </dl>
+    </div>
+</div>
+    
+<div class="vector_kansen" style="display:none;">
+<div class="level-inner">
+      
+<h3 class="level-title">感染症危険レベル</h3>
+      
+<dl class="level-box">
+        
+<dt><span class="level01">レベル1</span></dt>
+        
+<dd>十分注意してください。</dd>
+        <dt><span class="level02">レベル2</span></dt>
+        
+<dd>不要不急の渡航は止めてください。</dd>
+        
+<dt><span class="level03">レベル3</span></dt>
+        
+<dd>渡航は止めてください。(渡航中止勧告)</dd>
+        
+<dt><span class="level04">レベル4</span></dt>
+        
+<dd>退避してください。渡航は止めてください。(退避勧告)</dd>
+      </dl>
+    </div>
+</div>
+
+<div class="search-inner">
+      <h2 class="search-title">国・地域名からの検索</h2>
+     
+<div class="search-area">
+        
+<input id="text" name="pattern" value="" autocomplete="off" placeholder="国・地域名を入力してください" type="text" title="国・地域名を入力してください">
+        
+<div id="suggest" style="display: none;"></div>
+        
+<button type="button" onclick="onSearchClick(1);">検索</button>
+      </div>
+    </div>
+  </section>
+  
+<!-- 「たびレジ」「ORRnet」登録 /　-->
+  <section class="registration content">
+    
+<div class="item">
+      
+<h2 class="registration-title">必ず登録を！</h2>
+      
+<ul class="registration-txt">
+        
+<li>最新の海外安全情報をメールでお届けします。</li>
+        
+<li>緊急時の連絡、安否確認、支援などが受けられます。</li>
+      </ul>
+    </div>
+    
+<ul class="registeration-box">
+      
+<li> <a href="https://www.ezairyu.mofa.go.jp/tabireg/index.html">
+        
+<dl class="itemInfo">
+          
+<dt class="infoLabel">3ヶ月未満の渡航</dt>
+          
+<dd class="infologo">
+<img src="/common/images/base/logo-tabireg.png" alt="「たびレジ」 外務省 海外安全情報配信サービス"></dd>
+        </dl>
+        </a> </li>
+      
+<li> <a href="https://www.ezairyu.mofa.go.jp/RRnet/index.html">
+       
+ <dl class="itemInfo">
+          
+<dt class="infoLabel">3ヶ月以上の渡航</dt>
+          
+<dd class="infologo">
+<img src="/common/images/base/logo_orrnet.png" alt="ORRnet - インターネットによる在留届電子届出システム"></dd>
+        </dl>
+        </a> </li>
+    </ul>
+  </section>
+  
+<!-- /「たびレジ」「ORRnet」登録　-->
+  
+<section class="container">
+				
+<script type="text/javascript">
+					$(function()
+{
+						if(window.sessionStorage)
+{
+							// ------------------------------------------------------------
+	
+						// セッションストレージオブジェクトを取得する
+
+							// ------------------------------------------------------------
+	
+						var session_storage = window.sessionStorage;
+
+
+
+							// 出力テスト
+							
+console.log(session_storage);
+
+							//tab setting
+							
+var str = window.sessionStorage.getItem("target_tab");
+							if(str)
+{
+								//var index = $('.tab li,.tab2 li').index(this);
+
+								$('.itemBg .news').css('display', 'none');
+
+								$('.itemBg .news').eq(str).fadeIn(200).css('display', 'block');
+
+								$('.tab li,.tab2 li').removeClass('select');
+
+								$('.tab li,.tab2 li').eq(str).addClass('select');
+
+							}
+
+							//tab selecting & storage set
+
+							$('.tab li,.tab2 li').click(function () 
+{
+								var selecting_tab = $('.tab li,.tab2 li').index(this);
+
+								window.sessionStorage.setItem("target_tab" , selecting_tab);
+
+							});
+						}
+					})
+;
+				</script>
+    
+<h2 class="title">海外安全情報（新着情報）</h2>
+    
+<nav id="tab-slider2">
+      
+<ul class="tab2 dis_flex_nowrap">
+        <li class="select newdate">全地域</li>
+       
+ <li>アジア</li>
+        <li>大洋州</li>
+        <li>北米</li>
+        <li>中南米</li>
+        <li>欧州</li>
+        <li>中東</li>
+        
+<li>アフリカ</li>
+      
+</ul>
+    </nav>
+    <div class="itemBg">
+      <div class="content info-slider sp_wrap sp_of_auto">
+       
+ <ul class="info-box">
+          
+<li class="sp_mb10"><a href="/masters/spot.html" class="link-spot opacity">スポット情報とは？</a></li>
+          
+<li class="sp_mb10"><a href="/masters/wide.html" class="link-wide opacity">広域情報とは？</a></li>
+          
+<li class="sp_mb10"><a href="/masters/risk.html" class="link-kiken opacity">危険情報とは？</a></li>
+          
+<li class="sp_mb10"><a href="/masters/kansen_risk.html" class="link-kansen opacity">感染症危険情報とは？</a></li>
+          
+<li class="sp_mb10"><a href="/rss/news.xml" class="link-rss opacity">RSS</a></li>
+        </ul>
+      </div>
+      
+<!-- 全地域 / -->
+     
+ <div class="content news">
+        
+<dl class="news-date news-99">
+
+</dl>
+        
+<p class="no-data no-data-99" style="display: block;">現在公開中の情報はありません</p>
+      </div>
+      
+<!-- アジア / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-10">
+</dl>
+        
+<p class="no-data no-data-10" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-10" style="display: none;" href="/info/arealeaveinfolist_10.html">アジアの海外安全情報一覧へ</a>
+      </div>
+      
+<!-- 大洋州 / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-22">
+        </dl>
+        
+<p class="no-data no-data-22" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-22" style="display: none;" href="/info/arealeaveinfolist_22.html">大洋州の海外安全情報一覧へ</a>
+      </div>
+      
+<!-- 北米 / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-19">
+        </dl>
+        
+<p class="no-data no-data-19" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-19" style="display: none;" href="/info/arealeaveinfolist_19.html">北米の海外安全情報一覧へ</a>
+      </div>
+      
+<!-- 中南米 / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-20">
+        </dl>
+        
+<p class="no-data no-data-20" style="display: block;">現在公開中の情報はありません</p>
+       
+<a class="btn-link opacity opacity-20" style="display: none;" href="/info/arealeaveinfolist_20.html">中南米の海外安全情報一覧へ</a>
+      </div>
+      
+<!-- 欧州 / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-16">
+        </dl>
+        
+<p class="no-data no-data-16" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-16" style="display: none;" href="/info/arealeaveinfolist_16.html">欧州の海外安全情報一覧へ</a>
+      </div>
+      
+<!-- 中東 / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-13">
+        </dl>
+        
+<p class="no-data no-data-13" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-13" style="display: none;" href="/info/arealeaveinfolist_13.html">中東の海外安全情報一覧へ</a>
+      </div>
+      
+<!-- アフリカ / -->
+      <div class="content news hide">
+        
+<dl class="news-date news-14">
+        </dl>
+        
+<p class="no-data no-data-14" style="display: block;">現在公開中の情報はありません</p>
+        
+<a class="btn-link opacity opacity-14" style="display: none;" href="/info/arealeaveinfolist_14.html">アフリカの海外安全情報一覧へ</a>
+      </div>
+      
+<!-- / アフリカ --> 
+    </div>
+  </section>
+  
+  <!-- #wrapper --> 
+</div>
+
+<footer class="footer">
+<div class="sp_footer">
+  <ul class="footnav sp">
+    
+<li class="footnav_item"><a class="link" href="/about_center/index.html">お問い合わせ先</a></li>
+    
+<li class="footnav_item"><a class="link" href="/sitemap/sitemap.html">サイトマップ</a></li>
+   
+ <li class="footnav_item"><a class="link" href="/c_info/english.html">日本語環境でない場合</a></li>
+  </ul>
+  
+<ul class="footnav">
+    
+<li class="footnav_item"><a class="link" href="/c_info/legalmatters.html">法的事項</a></li>
+    
+<li class="footnav_item"><a class="link" href="/c_info/policy.html">プライバシー・ポリシー</a></li>
+    
+<li class="footnav_item"><a class="link" href="http://www.mofa.go.jp/mofaj/comment/" target="_blank">ご意見・ご感想<img src="../image/icon_blank.gif" alt="別ウインドウが開きます" class="icon" style="padding-right:0;"></a></li>
+  </ul></div>
+  
+<p class="copyrights" lang="en">Copyright &copy; 2018 Ministry of Foreign Affairs of Japan</p>
+  
+<p class="address">外務省　〒100-8919　東京都千代田区霞が関2-2-1 
+<a href="http://www.mofa.go.jp/mofaj/annai/address/index.html" target="_blank" class="link-map">地図<img src="../image/icon_blank.gif" alt="別ウインドウが開きます" class="icon" style="padding-right:0;"></a>　
+<br class="sp">
+    電話（代表）03-3580-3311　法人番号　9000012040001</p>
+</footer>
+
+<a id="page-top" lang="en">page TOP</a>
+</body>
+</html>

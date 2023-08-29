@@ -1,0 +1,19 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: "주소"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[3]/td/table/tbody/tr/td[4]
+    - header: "공통주택명"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[5]/td/table/tbody/tr/td[4]
+    - header: "사용기간"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[7]/td/table/tbody/tr/td[4]
+
+skip-empty-row: true

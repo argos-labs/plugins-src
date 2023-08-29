@@ -1,0 +1,493 @@
+{
+    "status": "ready",
+    "tables": [
+        {
+            "column_types": [
+                "table_column_quantity",
+                "table_column_description",
+                "table_column_amount",
+                "table_column_amount_total"
+            ],
+            "rows": [
+                {
+                    "cells": [
+                        {
+                            "content": "QUANTITY\n Quantity",
+                            "value_type": "text",
+                            "bbox": [
+                                234,
+                                588,
+                                348,
+                                636
+                            ],
+                            "value": "QUANTITY\n Quantity"
+                        },
+                        {
+                            "content": "Description",
+                            "value_type": "text",
+                            "bbox": [
+                                384,
+                                588,
+                                768,
+                                636
+                            ],
+                            "value": "Description"
+                        },
+                        {
+                            "content": "Unit Price",
+                            "value_type": "text",
+                            "bbox": [
+                                822,
+                                588,
+                                930,
+                                636
+                            ],
+                            "value": "Unit Price"
+                        },
+                        {
+                            "content": "Line Total",
+                            "value_type": "text",
+                            "bbox": [
+                                936,
+                                588,
+                                1092,
+                                636
+                            ],
+                            "value": "Line Total"
+                        }
+                    ],
+                    "type": "header"
+                },
+                {
+                    "cells": [
+                        {
+                            "content": "1",
+                            "value_type": "number",
+                            "bbox": [
+                                234,
+                                636,
+                                348,
+                                672
+                            ],
+                            "value": "1"
+                        },
+                        {
+                            "content": "Development of Sales Dashboard in PowerBI (Fixed Price)",
+                            "value_type": "text",
+                            "bbox": [
+                                384,
+                                636,
+                                768,
+                                672
+                            ],
+                            "value": "Development of Sales Dashboard in PowerBI (Fixed Price)"
+                        },
+                        {
+                            "content": "$2,000.00",
+                            "value_type": "number",
+                            "bbox": [
+                                822,
+                                636,
+                                930,
+                                672
+                            ],
+                            "value": "2000.00"
+                        },
+                        {
+                            "content": "$2,000.00",
+                            "value_type": "number",
+                            "bbox": [
+                                936,
+                                636,
+                                1092,
+                                672
+                            ],
+                            "value": "2000.00"
+                        }
+                    ],
+                    "type": "data"
+                }
+            ],
+            "page": 0,
+            "bbox": [
+                234,
+                588,
+                1092,
+                672
+            ]
+        }
+    ],
+    "full_text": {
+        "content": [
+            "INVOICE",
+            "PeryTUS IT Solutions",
+            "8639, Armstrong Avenue",
+            "Invoice No : 330",
+            "Burnaby, BC, V3N 2H4",
+            "Phone: 604-603-7227",
+            "Date : 2019-02-28",
+            "Currency : USD",
+            "PO:",
+            "info@perytus.com",
+            "Escalaon Services",
+            "2345 Yale Street, 1st Floor",
+            "Silicon Valley, California, USA",
+            "Kind Attn: Ruby Sahiwal",
+            "QUANTITY",
+            "Quantity",
+            "1",
+            "Description",
+            "Unit Price",
+            "Development of Sales Dashboard in PowerBI (Fixed Price)",
+            "$2,000.00",
+            "Subtotal",
+            "Line Total",
+            "$2,000.00",
+            "$",
+            "GST 0.00%",
+            "TOTAL",
+            "THANK YOU FOR YOUR BUSINESS!",
+            "2,000.00",
+            "-",
+            "$",
+            "2,000.00"
+        ],
+        "name": "full_text",
+        "title": "Rough Content"
+    },
+    "language": "eng",
+    "invoice_type": "tax_invoice",
+    "fields": [
+        {
+            "content": "2,000.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9737346769723404,
+            "value_type": "number",
+            "bbox": [
+                1009,
+                1278,
+                1071,
+                1308
+            ],
+            "title": "Amount Due",
+            "page": 0,
+            "value": "2000.00",
+            "name": "amount_due"
+        },
+        {
+            "content": "2,000.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.9376664011170178,
+            "value_type": "number",
+            "bbox": [
+                1009,
+                1278,
+                1071,
+                1308
+            ],
+            "title": "Total Amount",
+            "page": 0,
+            "value": "2000.00",
+            "name": "amount_total"
+        },
+        {
+            "content": "2,000.00",
+            "checks": {
+                "amount_equations": "good"
+            },
+            "score": 0.8813022560918029,
+            "value_type": "number",
+            "bbox": [
+                1013,
+                1218,
+                1071,
+                1248
+            ],
+            "title": "Tax Base Total",
+            "page": 0,
+            "value": "2000.00",
+            "name": "amount_total_base"
+        },
+        {
+            "content": "2019-02-28",
+            "checks": {},
+            "score": 0.9656322238431614,
+            "value_type": "date",
+            "bbox": [
+                832,
+                282,
+                924,
+                306
+            ],
+            "title": "Issue Date",
+            "page": 0,
+            "value": "2019-02-28",
+            "name": "date_issue"
+        },
+        {
+            "content": "330",
+            "checks": {},
+            "score": 0.9818393034130412,
+            "value_type": "text",
+            "bbox": [
+                830,
+                246,
+                864,
+                276
+            ],
+            "title": "Invoice Identifier",
+            "page": 0,
+            "value": "330",
+            "name": "invoice_id"
+        },
+        {
+            "content": "2345 Yale Street, 1st Floor\nSilicon Valley, California, USA",
+            "checks": {},
+            "score": 0.9041650910614785,
+            "value_type": "text",
+            "bbox": [
+                262,
+                426,
+                514,
+                486
+            ],
+            "title": "Recipient Address",
+            "page": 0,
+            "value": "2345 Yale Street, 1st Floor\nSilicon Valley, California, USA",
+            "name": "recipient_address"
+        },
+        {
+            "content": "2345 Yale Street, 1st Floor",
+            "checks": {},
+            "score": 0.8855195546056835,
+            "value_type": "text",
+            "bbox": [
+                262,
+                426,
+                486,
+                462
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "2345 Yale Street, 1st Floor",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Silicon Valley, California, USA",
+            "checks": {},
+            "score": 0.9236127187610885,
+            "value_type": "text",
+            "bbox": [
+                262,
+                456,
+                514,
+                486
+            ],
+            "title": "Recipient Address Line",
+            "page": 0,
+            "value": "Silicon Valley, California, USA",
+            "name": "recipient_addrline"
+        },
+        {
+            "content": "Escalaon Services",
+            "checks": {},
+            "score": 0.893228731625044,
+            "value_type": "text",
+            "bbox": [
+                261,
+                396,
+                407,
+                432
+            ],
+            "title": "Recipient Name",
+            "page": 0,
+            "value": "Escalaon Services",
+            "name": "recipient_name"
+        },
+        {
+            "content": "8639, Armstrong Avenue\nBurnaby, BC, V3N 2H4",
+            "checks": {},
+            "score": 0.9085794420558072,
+            "value_type": "text",
+            "bbox": [
+                261,
+                246,
+                457,
+                306
+            ],
+            "title": "Supplier Address",
+            "page": 0,
+            "value": "8639, Armstrong Avenue\nBurnaby, BC, V3N 2H4",
+            "name": "sender_address"
+        },
+        {
+            "content": "8639, Armstrong Avenue",
+            "checks": {},
+            "score": 0.9045615308687107,
+            "value_type": "text",
+            "bbox": [
+                261,
+                246,
+                457,
+                276
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "8639, Armstrong Avenue",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "Burnaby, BC, V3N 2H4",
+            "checks": {},
+            "score": 0.9126332062764594,
+            "value_type": "text",
+            "bbox": [
+                261,
+                270,
+                437,
+                306
+            ],
+            "title": "Supplier Address Line",
+            "page": 0,
+            "value": "Burnaby, BC, V3N 2H4",
+            "name": "sender_addrline"
+        },
+        {
+            "content": "PeryTUS IT Solutions",
+            "checks": {},
+            "score": 0.8772907545791141,
+            "value_type": "text",
+            "bbox": [
+                262,
+                204,
+                460,
+                246
+            ],
+            "title": "Supplier Name",
+            "page": 0,
+            "value": "PeryTUS IT Solutions",
+            "name": "sender_name"
+        },
+        {
+            "content": [
+                {
+                    "content": "2,000.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.32462600139230985,
+                    "value_type": "number",
+                    "bbox": [
+                        1013,
+                        1218,
+                        1071,
+                        1248
+                    ],
+                    "title": "Tax Base",
+                    "page": 0,
+                    "value": "2000.00",
+                    "name": "tax_detail_base"
+                },
+                {
+                    "content": "0.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.9113402003990875,
+                    "value_type": "number",
+                    "bbox": [
+                        828,
+                        1248,
+                        860,
+                        1278
+                    ],
+                    "title": "Tax Rate",
+                    "page": 0,
+                    "value": "0.00",
+                    "name": "tax_detail_rate"
+                },
+                {
+                    "content": "2,000.00",
+                    "checks": {
+                        "amount_equations": "good"
+                    },
+                    "score": 0.5234902040500438,
+                    "value_type": "number",
+                    "bbox": [
+                        1009,
+                        1278,
+                        1071,
+                        1308
+                    ],
+                    "title": "Tax Total",
+                    "page": 0,
+                    "value": "2000.00",
+                    "name": "tax_detail_total"
+                }
+            ],
+            "score": 0.32462600139230985,
+            "name": "tax_details",
+            "title": "Tax Details",
+            "page": 0,
+            "bbox": [
+                828,
+                1248,
+                860,
+                1278
+            ]
+        }
+    ],
+    "text_lines": {
+        "content": [
+            [
+                "INVOICE",
+                "PeryTUS IT Solutions",
+                "8639, Armstrong Avenue",
+                "Invoice No : 330",
+                "Burnaby, BC, V3N 2H4",
+                "Phone: 604-603-7227",
+                "Date : 2019-02-28",
+                "Currency : USD",
+                "PO:",
+                "info@perytus.com",
+                "Escalaon Services",
+                "2345 Yale Street, 1st Floor",
+                "Silicon Valley, California, USA",
+                "Kind Attn: Ruby Sahiwal",
+                "QUANTITY",
+                "Quantity",
+                "1",
+                "Description",
+                "Unit Price",
+                "Development of Sales Dashboard in PowerBI (Fixed Price)",
+                "$2,000.00",
+                "Subtotal",
+                "Line Total",
+                "$2,000.00",
+                "$",
+                "GST 0.00%",
+                "TOTAL",
+                "THANK YOU FOR YOUR BUSINESS!",
+                "2,000.00",
+                "-",
+                "$",
+                "2,000.00"
+            ]
+        ],
+        "name": "text_lines",
+        "title": "Rough Content"
+    },
+    "previews": [
+        "https://all.rir.rossum.ai/img/f09ef66bbbfe45e29ebfd2a4_0.png"
+    ],
+    "currency": "usd",
+    "original_pages": [
+        "https://all.rir.rossum.ai/img/o_f09ef66bbbfe45e29ebfd2a4_0.png"
+    ],
+    "message": "Document processing finished.",
+    "preview": "https://all.rir.rossum.ai/img/f09ef66bbbfe45e29ebfd2a4_0.png"
+}

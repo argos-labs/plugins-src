@@ -1,0 +1,31 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: API :: Requests'
+  description: plugin module for RESTful API
+  keywords:
+  - api
+  - ocr
+  - rikai
+  - riky
+  - CJK
+  - lazarusforms
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.api.rikairiky: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 5.302.1003
+#  version: 5.515.2211
+#  version: 5.725.707
+  version: 5.804.1000

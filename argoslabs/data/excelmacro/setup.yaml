@@ -1,0 +1,23 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Excel :: Macro'
+  description: plugin for executing excel macro
+  keywords:
+  - excel
+  - macro
+  - data
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+    argoslabs.data.excelmacro: ['icon.*' 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 2.428.2052
+  # version: 2.428.3300
+  version: 2.428.3456

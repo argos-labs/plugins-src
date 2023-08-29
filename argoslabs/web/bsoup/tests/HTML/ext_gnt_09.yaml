@@ -1,0 +1,48 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: "청구금액"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[3]/table/tbody/tr[11]/td[2]
+    - header: "납기일"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[3]/table/tbody/tr[13]/td[2]
+    - header: "거래은행"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[3]/table/tbody/tr[15]/td[2]
+    - header: "계좌번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[3]/table/tbody/tr[17]/td[2]
+    - header: "예금주"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[3]/table/tbody/tr[19]/td[2]
+  - columns:
+    - header: "청구금액"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[3]/table/tbody/tr[11]/td[2]
+    - header: "납기일"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[3]/table/tbody/tr[13]/td[2]
+    - header: "거래은행"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[3]/table/tbody/tr[15]/td[2]
+    - header: "계좌번호"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[3]/table/tbody/tr[17]/td[2]
+    - header: "예금주"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[3]/table/tbody/tr[19]/td[2]
+
+skip-empty-row: true

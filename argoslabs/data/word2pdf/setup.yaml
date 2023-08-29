@@ -1,0 +1,31 @@
+setup:
+  author: Kyobong An
+  author_email: akb0930@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Converting doc to pdf file
+  keywords:
+  - pdf
+  - doc
+  - docx
+  - word
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.word2pdf: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  # version: 3.1112.1600
+  version: 3.1112.3456

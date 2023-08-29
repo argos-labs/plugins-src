@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# PDF extract text
+PyPDF2
+textract
+nltk

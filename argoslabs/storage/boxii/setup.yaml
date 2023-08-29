@@ -1,0 +1,34 @@
+setup:
+  author: Arun Kumar
+  author_email: ak080495@gmail.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Box :: Boxsdk'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Boxsdk plugin module
+  keywords:
+  - rpa
+  - storage
+  - arun
+  - boxii
+  - sdkbox
+  - box
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.storage.boxii: ['icon.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  # version: 4.721.1450
+  # version: 4.913.1342
+  version: 4.913.3456

@@ -1,0 +1,24 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Utility :: Clipboard'
+  description: plugin module for clipboard
+  keywords:
+  - system
+  - clipboard
+  - copy
+  - paste
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+    argoslabs.system.clipboard: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 2.809.239
+  # version: 2.809.3300
+  version: 2.809.3456

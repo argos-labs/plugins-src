@@ -1,0 +1,25 @@
+setup:
+  author: Irene Cho
+  author_email: irene@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Data :: ExcelAdv2'
+  description: plugin for handling excel data
+  keywords:
+  - data
+  - excel
+  - advance
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Windows
+  package_data:
+    argoslabs.data.exceladv2: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 2.908.1000
+  # version: 3.1110.1817
+  version: 5.302.1325

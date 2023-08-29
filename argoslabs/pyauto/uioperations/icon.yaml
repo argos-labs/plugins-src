@@ -1,0 +1,6 @@
+---
+merge_icons:
+  - name: "myicon"
+    from: mouse (2).png
+    size: 30
+    localte: center

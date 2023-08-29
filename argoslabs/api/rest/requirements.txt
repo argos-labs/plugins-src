@@ -1,0 +1,27 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# httpie util
+# PySocks!=1.5.7,>=1.5.6
+
+# for httpie
+#httpie>=1.0.2
+# need for 2.8
+#cryptography>=2.8
+cryptography==3.2
+
+# 1.0.x => 2.x
+httpie
+
+# for httpie auth plugin
+httpie-api-auth
+# httpie-aws-auth  # httpie 2.x this plugin making error
+httpie-edgegrid
+httpie-hmac-auth
+# httpie-jwt-auth
+httpie-negotiate
+httpie-ntlm
+httpie-oauth
+# requests-hawk

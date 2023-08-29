@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Screen :: StopRecording'
+  description: plugin module for stopping screen rocording
+  keywords:
+  - stop
+  - screen
+  - recording
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.screen.stop_record: ['icon.*']
+  url: https://www.argos-labs.com
+  # version: 3.526.1416
+  version: 3.526.3456

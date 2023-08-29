@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for email send and unittest
+## comment out for build.bat error!
+# comment out next for get-packages.bat
+#argoslabs.office.emailsend

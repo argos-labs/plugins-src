@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Web :: Scrapy'
+  description: plugin module for Scrapy
+  keywords:
+  - web
+  - scrapy
+  - crawling
+  - basic
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.web.scrapy: ['icon.*',]
+#    argoslabs.web.scrapy: ['icon.*', 'tests/myspider.py']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.1011.2537
+  # version: 2.1011.3500
+  version: 2.1012.3456

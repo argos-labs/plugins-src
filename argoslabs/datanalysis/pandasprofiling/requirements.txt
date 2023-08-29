@@ -1,0 +1,17 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for import/export in pandas
+xlrd
+xlwt
+openpyxl
+
+# for pandas
+# numpy
+# pandas
+# Error when python tk is not installed
+#   ModuleNotFoundError: No module named 'tkinter'
+requests>=2.23.0
+pandas-profiling

@@ -1,0 +1,14 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# for IBM watson
+
+# old-one
+#watson-developer-cloud
+
+ibm-cloud-sdk-core
+websocket-client
+ibm-watson

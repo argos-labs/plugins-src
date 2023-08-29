@@ -1,0 +1,5 @@
+# requirements.txt for pandas handling
+
+openpyxl
+pandas
+invalid-mod-unknown-37283

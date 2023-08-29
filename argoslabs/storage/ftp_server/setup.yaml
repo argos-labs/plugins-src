@@ -1,0 +1,29 @@
+setup:
+  author: Arun Kumar
+  author_email: ak080495@gmail.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Oci :: Ocisdk'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: ARGOS-LABS RPA FTP Server plugin module
+  keywords:
+  - rpa
+  - storage
+  - FTP Server
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.storage.ftp_server: ['icon.*','README*.*','setup.yaml']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  version: 4.612.1656

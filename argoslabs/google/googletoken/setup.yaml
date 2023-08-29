@@ -1,0 +1,31 @@
+setup:
+  author: Irene Cho
+  author_email: irene@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: plugin module for Google token
+  keywords:
+  - google
+  - token
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt module
+    argoslabs.google.googletoken: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  # version: 2.731.3300
+  # version: 3.407.3300
+  version: 3.407.3456

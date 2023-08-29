@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# requests
+# opencv-python
+# psutil
+
+# for password
+pyzipper

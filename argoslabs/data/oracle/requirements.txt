@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# 2019.10.13 modify
+# alabs.ppm.exe plugin venv argoslabs.data.rdb : error cx-Oracle version
+
+# default for alabs
+alabs.common
+
+# for Oracle
+#  Oracle need required dlls
+# cx-Oracle==7.1.1
+cx-Oracle

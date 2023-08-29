@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Util :: XMLExtract'
+  description: plugin module for extracting data from XML
+  keywords:
+  - xml
+  - xpath
+  - extract
+  - data
+  - csv
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.xmlextract: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.507.1010
+  # version: 2.507.3500
+  version: 2.508.3456

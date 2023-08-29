@@ -1,0 +1,42 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Check :: CheckEnv'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Check Bot Running Environments
+  keywords:
+  - check
+  - environment
+  - platform
+  - public_ip
+  - cpu
+  - memory
+  - disk
+  - monitor
+  - services
+  - network_speed
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.check.env: ['icon.*']
+  install_requires:
+    - dataclasses ; python_version<'3.7'
+    - Cython ; sys_platform=='darwin'
+    - pyobjus ; sys_platform=='darwin'
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.715.2322
+  # version: 2.715.3300
+  version: 5.306.1000

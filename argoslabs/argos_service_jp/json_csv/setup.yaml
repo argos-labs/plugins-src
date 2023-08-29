@@ -1,0 +1,32 @@
+setup:
+  author: Taiki Shimasaki
+  author_email: shimasaki@argos-service.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: ArgosServiceJP :: JSON-CSV'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: Mutual conversion between JSON and CSV
+  keywords:
+  - rpa
+  - robot
+  - module
+  - argos_service_jp
+  - json
+  - csv
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.argos_service_jp.json_csv: ['icon.*']
+  url: https://www.argos-labs.com
+  # do not start '0'
+  version: 3.303.3300

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Webfont */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+/* Common */
+.layout-Warp{
+	width: 477px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	padding-bottom: 40px;
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	/*margin: 0;*/
+    margin-right: auto; margin-left: auto;
+	}
+
+.Top, .Text, .img-Area{padding: 0 35px 0 35px;}
+
+.Top p, .Text p{
+	font-size: 13px;
+	margin: 0;
+	}
+
+.Top{
+	height: 33px;
+	color: #ffffff;
+	font-weight: 500;
+	line-height: 33px;
+	}
+
+.Text h1{
+	font-size: 20px;
+	color: #403f3d;
+	}
+			
+.img-Area{
+	background-color:#f6f8f9;
+	}
+
+.Text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #dddddd;
+	}
+
+.Text p{
+	color: #666666;
+	line-height: 18px;
+	}
+
+.Button{
+	background-color: #6976F6;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 600;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 2px;
+	}
+.Button:hover{background-color: #8e98ef;}
+.Button:active{background-color: #606ce7;}
+
+/* type-A */
+
+.Top-bg-A{background-color: #403f3d;}
+
+/* type-B */
+
+.Top-bg-B{background-color: #181C61;}

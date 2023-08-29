@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: File :: FileConv'
+  description: plugin module for file conversion
+  keywords:
+  - data
+  - convert
+  - csv
+  - tsv
+  - excel
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.fileconv: ['icon.*', 'tests/*.*', 'tests/issue/*.*', 'README*.*', 'warning.png']
+  url: https://www.argos-labs.com
+#  version: 3.120.1126
+  # version: 3.1126.1633
+  version: 3.1126.3456

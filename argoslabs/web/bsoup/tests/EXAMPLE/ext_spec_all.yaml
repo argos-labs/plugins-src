@@ -1,0 +1,64 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: item
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "\n"
+        index: 0
+      re-replace:
+        from: "\\s+"
+        to: ""
+    - header: cost
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[10]/td/table
+      - op: find_all
+        name: tr
+      split:
+        separator: "\n"
+        index: 1
+      re-replace:
+        from: "\\s+"
+        to: ""
+    - header: unit
+      find:
+      - op: find_all
+        name: div
+        class: priceContainer
+      - op: find
+        name: span
+        class: gcprice-unit
+      re-replace:
+        from: ^[/\s]+
+        to: ""
+    - header: unit2
+      # find all <span class="v4-tn-your-price">...</span>, find_all op is once happen
+      find:
+      - op: find_all
+        name: span
+        class: v4-tn-your-price
+      split: 1
+    - header: unit3
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: find_all
+        name: div
+        class: result-item
+      - op: find
+        name: div
+        class: result-item-price
+      # for result : regular expression replace
+      re-replace:
+        from: \s+
+        to: " "
+      split: 1
+
+no-result: There is no Result
+skip-empty-row: true

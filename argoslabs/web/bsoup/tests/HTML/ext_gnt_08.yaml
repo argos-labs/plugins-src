@@ -1,0 +1,16 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  - columns:
+    - header: "현재미납요금"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[13]/td/table/tbody/tr/td[1]/table/tbody/tr[21]/td/table/tbody/tr/td[2]
+  - columns:
+    - header: "현재미납요금"
+      find:
+      - op: select_one
+        xpath: /html/body/table/tbody/tr[4]/td/table/tbody/tr[14]/td/table/tbody/tr/td[1]/table/tbody/tr[21]/td/table/tbody/tr/td[2]
+
+skip-empty-row: true

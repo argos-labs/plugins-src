@@ -1,0 +1,19 @@
+
+// GOODS
+
+▶ int 타입 기본 값 0 , 리턴값 없는 것들은 '' 으로 처리 해주세요
+
+INSERT INTO CBCI_11ST_GOODS VALUES ('SHOP_ID', NULL, NULL, 'cuponcheck', 'dispCtgrNo', 'exchDlvCst', 'prdNm', 'prdNo', 'proxyYn', 'rtngdDlvCst', 'selPrc', 'selStatCd', 'selStatNm', 'sellerPrdCd', 'prdWght', 'gblDlvYn', 'gblHsCode', 'aplBgnDy', 'aplEndDy', 'stdPrdYn', 'asDetail', 'bndlDlvCnYn', 'dispCtgrStatCd', 'outsideYnIn', 'outsideYnOut', 'dscAmtPercnt', 'cupnDscMthdCd', 'sellerItemEventYn', 'dlvClf', 'abrdCnDlvCst', 'ntNo', 'shopNo', 'ntShortNm', 'preSelPrc', 'cupnUseLmtDyYn', 'cupnIssEndDy', 'prdImage01', DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s'), DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s')
+) ON DUPLICATE KEY UPDATE CUPON_CHECK = 'cuponcheck', EXCH_DLV_CST = 'exchDlvCst', PRD_NM = 'prdNm', PROXY_YN = 'proxyYn', RTN_GD_DLV_CST = 'rtngdDlvCst', SEL_PRC = 'selPrc', SEL_STAT_CD = 'selStatCd', SEL_STAT_NM = 'selStatNm', SELLER_PRD_CD = 'sellerPrdCd', PRD_WGHT = 'prdWght', GBL_DLV_YN = 'gblDlvYn', GBL_HS_CODE = 'gblHsCode', APL_BGN_DAY = 'aplBgnDy', APL_END_DAY = 'aplEndDy', STD_PRD_YN = 'stdPrdYn', AS_DETAIL = 'asDetail', BNDL_DLV_CN_YN = 'bndlDlvCnYn', DISP_CTGR_STAT_CD = 'dispCtgrStatCd', OUTSIDE_YN_IN = 'outsideYnIn', OUTSIDE_YN_OUT = 'outsideYnOut', DSC_AMT_PERCNT = 'dscAmtPercnt', CUPN_DSC_MTHD_CD = 'cupnDscMthdCd', SELLER_ITEM_EVENT_YN = 'sellerItemEventYn', DLV_CLF = 'dlvClf', ABRD_CN_DLV_CST = 'abrdCnDlvCst', NT_NO = 'ntNo', SHOP_NO = 'shopNo', NT_SHORT_NM = 'ntShortNm', PRE_SEL_PRC = 'preSelPrc', CUPN_USE_LMT_DAY_YN = 'cupnUseLmtDyYn', CUPN_LSS_END_DAY = 'cupnIssEndDy', PRD_IMAGE_01 = 'prdImage01', UPD_DATE = DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s');
+
+
+
+// STOCK
+
+▶ int 타입 기본 값 0 , 리턴값 없는 것들은 '' 으로 처리 해주세요
+
+INSERT INTO CBCI_11ST_STOCK VALUES ('SHOP_ID', NULL, NULL, 'prdNm', 'prdNo', 'sellerPrdCd', 'addPrc', 'mixDtlOptNm', 'mixOptNm', 'mixOptNo', 'prdStckNo', 'prdStckStatCd', 'selQty', 'stckQty', 'optWght', 'sellerStockCd', 'addCompPrc', 'addPrdGrpNm', 'addPrdWght', 'addUseYn', 'compPrdNm', 'compPrdQty',DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s'), DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s')) ON DUPLICATE KEY UPDATE SELLER_PRD_CD = 'sellerPrdCd', ADD_PRC = 'addPrc', MIX_DTL_OPT_NM = 'mixDtlOptNm', MIX_OPT_NM = 'mixOptNm', MIX_OPT_NO = 'mixOptNo', PRD_STCK_STAT_CD = 'prdStckStatCd', SEL_QTY = 'selQty', STCK_QTY = 'stckQty', OPT_WGHT = 'optWght', SELLER_STOCK_CD = 'sellerStockCd', ADD_COMP_PRC = 'addCompPrc', ADD_PRD_GRP_NM = 'addPrdGrpNm', ADD_PRD_WGHT = 'addPrdWght', ADD_USE_YN = 'addUseYn', COMP_PRD_NM = 'compPrdNm', COMP_PRD_QTY = 'compPrdQty', UPD_DATE = DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s');
+
+
+//CATEGORY
+INSERT INTO CBCI_11ST_CATEGORY VALUES ( 'depth', 'dispNm', 'dispNo', 'parentDispNo', 'engDispYn', 'certType', 'requiredYn', DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s'), DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s') ) ON DUPLICATE KEY UPDATE CATEGORY_DEPTH = 'depth', DISP_NM = 'dispNm', PARENT_DISP_NO = 'parentDispNo', ENG_DISP_YN = 'engDispYn', CERT_TYPE = 'certType', REQUIRED_YN = 'requiredYn', UPD_DATE = DATE_FORMAT(now(), '%Y-%m-%d %H:%i:%s');

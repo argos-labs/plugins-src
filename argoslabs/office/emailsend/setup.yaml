@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Email :: Send'
+  description: plugin module for sending email
+  keywords:
+  - email
+  - send
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.office.emailsend: ['icon.*', 'tests/*.*']
+  url: https://www.argos-labs.com
+#  version: 2.1021.1500
+  # version: 3.1007.1700
+  version: 3.1007.3456

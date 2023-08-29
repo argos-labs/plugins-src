@@ -1,0 +1,13 @@
+---
+csv:
+  or:
+  - columns:
+    - header: item
+      find:
+      - op: find_all
+        name: p
+      re-replace:
+        from: "^[\\w\\s]+:\\s*"
+        to: ""
+
+no-result: There is no Result

@@ -1,0 +1,89 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+      # column header
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: search-list-view__content
+        # After that narrow down with <h2>...</h2> to get column value
+      - op: find
+        name: h2
+      # column header
+    - header: price
+      # find criteria, find_all op is once happen
+      find:
+        # find all <div class="search-list-view__price-container">...</div>
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: search-list-view__price-container
+        # After that narrow down with <span class="gcprice-value">...</span> to get column value
+      - op: find
+        name: span
+        class: gcprice-value
+      # column header
+    - header: unit
+      find:
+        # find all <div class="search-list-view__price-container">...</div>
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: search-list-view__price-container
+        # After that narrow down with <span class="gcprice-unit">...</span> to get column value
+      - op: find
+        name: span
+        class: gcprice-unit
+      re-replace:
+        from: ^[/\s]+
+        to: ""
+  # define columns
+  - columns:
+      # column header
+    - header: item
+      # find tag criteria, find_all op is once happen
+      find:
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: head-container clearfix
+      - op: find
+        name: h1
+        class: productName
+      # column header
+    - header: price
+      find:
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: priceContainer
+      - op: find
+        name: span
+        itemprop: price
+      # column header
+    - header: unit
+      find:
+      - op: select_one
+        xpath: //*[@id="app"]/div/div/div/div[2]/section/div[4]/ul
+      - op: find_all
+        name: div
+        class: priceContainer
+      - op: find
+        name: span
+        class: gcprice-unit
+      re-replace:
+        from: ^[/\s]+
+        to: ""
+# in case no-result show this message
+no-result: There is no Result

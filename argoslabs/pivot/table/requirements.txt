@@ -1,0 +1,8 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for git html
+openpyxl
+pandas

@@ -1,0 +1,47 @@
+{
+    "id": "93f34f2a-ab75-4266-96ee-ed1f6db83e62",
+    "invoiceNumber": "S060274305",
+    "customerRef": {
+        "id": "1"
+    },
+    "issueDate": "2019-11-07T00:00:00Z",
+    "modifiedDate": "2021-01-26T20:39:05Z",
+    "sourceModifiedDate": "2021-01-25T17:41:02Z",
+    "paidOnDate": "2021-01-25T17:41:02Z",
+    "currency": "GBP",
+    "currencyRate": 1.0,
+    "lineItems": [
+        {
+            "description": "string",
+            "unitAmount": 0.0,
+            "quantity": 0.0,
+            "discountAmount": 0.0,
+            "subTotal": 0.0,
+            "taxAmount": 0.0,
+            "totalAmount": 0.0,
+            "accountRef": {
+                "id": "string"
+            },
+            "discountPercentage": 0.0,
+            "taxRateRef": {
+                "id": "string"
+            },
+            "itemRef": {
+                "id": "string"
+            },
+            "trackingCategoryRefs": [
+                {
+                    "id": "string"
+                }
+            ]
+        }
+    ],
+    "paymentAllocations": [],
+    "totalDiscount": 0.0,
+    "subTotal": 3.03,
+    "totalTaxAmount": 0.0,
+    "totalAmount": 3.03,
+    "amountDue": 0.0,
+    "status": "Draft",
+    "note": "string"
+}

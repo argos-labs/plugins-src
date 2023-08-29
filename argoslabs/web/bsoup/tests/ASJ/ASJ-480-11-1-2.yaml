@@ -1,0 +1,72 @@
+---
+csv:
+  columns:
+  - header: 処理
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[1]
+    re-replace:
+      from: "\\s+"
+      to: " "
+  - header: 審査結果
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[2]
+  - header: 商品管理番号
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[3]
+  - header: ポイントバック率
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[4]
+  - header: 掲載開始日
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[5]
+  - header: 掲載終了日
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[6]
+  - header: ブランド名
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[7]
+  - header: 在庫数
+    find:
+    - op: select_one
+      xpath: /html/body/div[2]/div/form/div/table/tbody
+    - op: find_all
+      name: tr
+    - op: find
+      name: td[8]
+
+no-result: There is no Result

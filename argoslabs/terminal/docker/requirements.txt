@@ -1,0 +1,18 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# pexpect
+# pexpect==4.7.0
+
+# In Windows pexpect does not work, so instead use paramiko-expect
+# paramiko>=2.4.2
+# paramiko-expect>=0.2.8
+# cryptography>=2.4.2
+
+# For Rooman site above version has the error for installing
+
+paramiko
+paramiko-expect
+cryptography

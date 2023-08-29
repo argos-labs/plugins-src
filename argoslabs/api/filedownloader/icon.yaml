@@ -1,0 +1,6 @@
+---
+merge_icons:
+  - name: "myicon"
+    from: url-icon-1.jpg
+    size: 30
+    localte: center

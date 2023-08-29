@@ -1,0 +1,8 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for system clipboard
+pyperclip>=1.7.0
+# clipboard

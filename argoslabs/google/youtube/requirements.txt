@@ -1,0 +1,10 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for Youtube
+pytube
+
+# extracting text from XML
+beautifulsoup4

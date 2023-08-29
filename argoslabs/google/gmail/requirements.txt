@@ -1,0 +1,9 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for gmail
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib

@@ -1,0 +1,37 @@
+setup:
+  author: Arun Kumar
+  author_email: arunk@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: ARGOS-LABS RPA plugin for track file
+  keywords:
+  - rpa
+  - robot
+  - module
+  - data
+  - excel
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.ocr.docdigitizertrack: ['icon.*','README*.*','setup.yaml']
+  url: https://www.argos-labs.com
+  version: 4.411.858
+
+
+
+
+
+
+

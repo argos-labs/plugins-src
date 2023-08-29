@@ -1,0 +1,28 @@
+---
+# Specification for extracting data from https://www.grainger.com/
+csv:
+  or:
+  # define columns
+  - columns:
+      # column header
+    - header: abbreviation
+      find:
+      - op: select_one
+        xpath: /html/body/center/center[2]/table/tbody/tr/td/table[1]/tbody/tr[1]/td[2]
+      # column header
+    - header: capital
+      find:
+      - op: select_one
+        xpath: /html/body/center/center[2]/table/tbody/tr/td/table[1]/tbody/tr[2]/td[2]
+      # column header
+    - header: size
+      find:
+      - op: select_one
+        xpath: /html/body/center/center[2]/table/tbody/tr/td/table[1]/tbody/tr[3]/td[2]
+      # column header
+    - header: num_counties
+      find:
+      - op: select_one
+        xpath: /html/body/center/center[2]/table/tbody/tr/td/table[1]/tbody/tr[4]/td[2]
+
+skip-empty-row: true

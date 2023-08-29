@@ -1,0 +1,28 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Business :: ExcelAdvance'
+  description: plugin for handling excel data
+  keywords:
+  - data
+  - business
+  - excel
+  - advance
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+#    argoslabs.data.excel: ['icon.*', 'tests/*.*', 'README*.*']
+    argoslabs.data.excel: ['icon.*']
+  url: https://www.argos-labs.com
+  # version: 4.810.1336
+  version: 5.622.1412

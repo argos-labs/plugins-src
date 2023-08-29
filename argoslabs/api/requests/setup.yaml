@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: API :: Requests'
+  description: plugin module for RESTful API
+  keywords:
+  - api
+  - restful
+  - requests
+  - https
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.api.requests: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 2.1231.1439
+  # version: 4.124.1032
+#  version: 4.124.3456
+#  version: 5.412.1341
+  version: 5.413.1615

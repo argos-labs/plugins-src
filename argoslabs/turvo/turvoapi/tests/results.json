@@ -1,0 +1,429 @@
+{
+    "Status": "SUCCESS",
+    "details": {
+        "id": 37711,
+        "customId": "31486-63211",
+        "ltlShipment": false,
+        "phase": {
+            "value": "Ship",
+            "key": "2002"
+        },
+        "startDate": {
+            "date": "2020-11-26T08:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "endDate": {
+            "date": "2020-11-28T13:00:00Z",
+            "flex": 0,
+            "timeZone": "America/Los_Angeles"
+        },
+        "transportation": {
+            "mode": {
+                "key": "24105",
+                "value": "TL"
+            },
+            "serviceType": {
+                "key": "24304",
+                "value": "Any"
+            }
+        },
+        "status": {
+            "code": {
+                "key": "2116",
+                "value": "Route complete"
+            },
+            "notes": "",
+            "description": "Route complete"
+        },
+        "margin": {
+            "totalReceivableAmount": 3690.0,
+            "totalPayableAmount": 3190.0,
+            "amount": 13.55,
+            "value": 500.0
+        },
+        "equipment": [
+            {
+                "deleted": false,
+                "id": 133454,
+                "type": {
+                    "value": "Refrigerated"
+                }
+            }
+        ],
+        "lane": {
+            "start": "RICHLAND, WA",
+            "end": "Kerman, CA"
+        },
+        "globalRoute": [
+            {
+                "name": "LAMB WESTON",
+                "id": 4074786,
+                "schedulingType": {
+                    "key": "9401",
+                    "value": "By appointment"
+                },
+                "stopType": {
+                    "value": "Pickup"
+                },
+                "timezone": "America/Los_Angeles",
+                "location": {
+                    "id": 63125
+                },
+                "segmentId": "ba63793c-10ee-49cd-8f75-a2ba69811980",
+                "segmentSequence": 0,
+                "sequence": 0,
+                "state": "COMPLETED",
+                "appointment": {
+                    "date": "2020-11-26T08:00:00Z",
+                    "timeZone": "America/Los_Angeles",
+                    "flex": 0,
+                    "hasTime": true
+                },
+                "poNumbers": [
+                    "S730850"
+                ],
+                "customerOrder": [
+                    {
+                        "customerId": 66367,
+                        "id": 38074,
+                        "deleted": false
+                    }
+                ],
+                "carrierOrder": [
+                    {
+                        "carrierId": 66741,
+                        "id": 23380,
+                        "deleted": false
+                    }
+                ],
+                "deleted": false,
+                "fragmentDistance": {
+                    "value": 863,
+                    "units": {
+                        "key": "1540",
+                        "value": "mi"
+                    }
+                },
+                "attributes": {
+                    "departed": {
+                        "date": "2020-12-18T20:38:26Z",
+                        "timezone": "America/Los_Angeles"
+                    }
+                },
+                "isShipmentDwellTimeEdited": false,
+                "plannedDate": {
+                    "schedulingType": {
+                        "value": "By appointment",
+                        "key": "9401"
+                    },
+                    "appointment": {
+                        "date": "2020-11-26T08:00:00.000Z",
+                        "flex": 0,
+                        "timezone": "America/Los_Angeles",
+                        "hasTime": true
+                    }
+                },
+                "transportation": {
+                    "mode": {
+                        "key": "24105",
+                        "value": "TL"
+                    },
+                    "serviceType": {
+                        "key": "24304",
+                        "value": "Any"
+                    }
+                }
+            },
+            {
+                "name": "MFS",
+                "id": 4074787,
+                "schedulingType": {
+                    "key": "9401",
+                    "value": "By appointment"
+                },
+                "stopType": {
+                    "value": "Delivery"
+                },
+                "timezone": "America/Los_Angeles",
+                "location": {
+                    "id": 119364
+                },
+                "segmentId": "ba63793c-10ee-49cd-8f75-a2ba69811980",
+                "segmentSequence": 0,
+                "sequence": 1,
+                "state": "COMPLETED",
+                "appointment": {
+                    "date": "2020-11-28T13:00:00Z",
+                    "timeZone": "America/Los_Angeles",
+                    "flex": 0,
+                    "hasTime": true
+                },
+                "poNumbers": [
+                    "7659231"
+                ],
+                "customerOrder": [
+                    {
+                        "customerId": 66367,
+                        "id": 38074,
+                        "deleted": false
+                    }
+                ],
+                "carrierOrder": [
+                    {
+                        "carrierId": 66741,
+                        "id": 23380,
+                        "deleted": false
+                    }
+                ],
+                "deleted": false,
+                "fragmentDistance": {
+                    "value": 863,
+                    "units": {
+                        "key": "1540",
+                        "value": "mi"
+                    }
+                },
+                "attributes": {
+                    "departed": {
+                        "date": "2020-12-18T20:38:26Z",
+                        "timezone": "America/Los_Angeles"
+                    }
+                },
+                "isShipmentDwellTimeEdited": false,
+                "plannedDate": {
+                    "schedulingType": {
+                        "value": "By appointment",
+                        "key": "9401"
+                    },
+                    "appointment": {
+                        "date": "2020-11-28T13:00:00.000Z",
+                        "flex": 0,
+                        "timezone": "America/Los_Angeles",
+                        "hasTime": true
+                    }
+                },
+                "transportation": {
+                    "mode": {
+                        "key": "24105",
+                        "value": "TL"
+                    },
+                    "serviceType": {
+                        "key": "24304",
+                        "value": "Any"
+                    }
+                }
+            }
+        ],
+        "customerOrder": [
+            {
+                "id": 38074,
+                "deleted": false,
+                "customer": {
+                    "id": 66367,
+                    "name": "LAMB WESTON INC FINISHED GOODS",
+                    "owner": {
+                        "name": "Turvo System Bot",
+                        "id": 1635
+                    }
+                },
+                "totalMiles": 863,
+                "lane": {
+                    "start": "RICHLAND, WA",
+                    "end": "Kerman, CA"
+                },
+                "route": [
+                    {
+                        "deleted": false,
+                        "id": 58966,
+                        "stopType": {
+                            "value": "Pickup"
+                        },
+                        "location": {
+                            "id": 63125,
+                            "name": "LAMB WESTON"
+                        },
+                        "address": {
+                            "id": "0459d051-9722-4cef-a0df-0b5e9f6cae23",
+                            "line1": "2800 POLAR WAY",
+                            "city": "RICHLAND",
+                            "state": "WA",
+                            "zip": "99354",
+                            "lon": -119.30959,
+                            "lat": 46.32539
+                        },
+                        "extension": "",
+                        "phone": "5093712800",
+                        "sequence": 0,
+                        "state": "COMPLETED",
+                        "appointment": {
+                            "start": "2020-11-26T08:00:00Z",
+                            "timeZone": "America/Los_Angeles",
+                            "flex": 0,
+                            "hasTime": true,
+                            "scheduling": {
+                                "key": "9401",
+                                "value": "By appointment"
+                            }
+                        },
+                        "originalAppointment": {
+                            "start": "2020-11-26T08:00:00.000Z",
+                            "flex": 0,
+                            "hasTime": true,
+                            "timeZone": "America/Los_Angeles",
+                            "scheduling": {
+                                "value": "By appointment",
+                                "key": "9401"
+                            }
+                        },
+                        "poNumbers": [
+                            "S730850"
+                        ],
+                        "attributes": {
+                            "departed": {
+                                "date": "2020-12-18T20:38:26Z",
+                                "timezone": "America/Los_Angeles"
+                            }
+                        }
+                    },
+                    {
+                        "deleted": false,
+                        "id": 58967,
+                        "stopType": {
+                            "value": "Delivery"
+                        },
+                        "location": {
+                            "id": 119364,
+                            "name": "MFS"
+                        },
+                        "address": {
+                            "id": "7f84580b-7fba-484d-859b-b57c1f4f55a5",
+                            "line1": "1051 N Vineland Ave",
+                            "line2": "",
+                            "city": "Kerman",
+                            "state": "CA",
+                            "zip": "93630",
+                            "lon": -120.0515122,
+                            "lat": 36.7495129
+                        },
+                        "sequence": 1,
+                        "state": "COMPLETED",
+                        "appointment": {
+                            "start": "2020-11-28T13:00:00Z",
+                            "timeZone": "America/Los_Angeles",
+                            "flex": 0,
+                            "hasTime": true,
+                            "scheduling": {
+                                "key": "9401",
+                                "value": "By appointment"
+                            }
+                        },
+                        "originalAppointment": {
+                            "start": "2020-11-28T13:00:00.000Z",
+                            "flex": 0,
+                            "hasTime": true,
+                            "timeZone": "America/Los_Angeles",
+                            "scheduling": {
+                                "value": "By appointment",
+                                "key": "9401"
+                            }
+                        },
+                        "poNumbers": [
+                            "7659231"
+                        ],
+                        "attributes": {
+                            "departed": {
+                                "date": "2020-12-18T20:38:26Z",
+                                "timezone": "America/Los_Angeles"
+                            }
+                        }
+                    }
+                ],
+                "costs": {
+                    "subTotal": 3690,
+                    "totalTax": 0,
+                    "totalAmount": 3690,
+                    "deleted": false,
+                    "lineItem": [
+                        {
+                            "deleted": false,
+                            "code": {
+                                "key": "1600",
+                                "value": "Freight - flat"
+                            },
+                            "qty": 1,
+                            "price": 3690,
+                            "amount": 3690,
+                            "billable": true,
+                            "id": 24315
+                        }
+                    ]
+                },
+                "externalIds": [
+                    {
+                        "deleted": false,
+                        "type": {
+                            "key": "1401",
+                            "value": "Reference #"
+                        },
+                        "id": 36076,
+                        "value": "7659231"
+                    }
+                ]
+            }
+        ],
+        "carrierOrder": [
+            {
+                "id": 23380,
+                "deleted": false,
+                "carrier": {
+                    "name": "TruckU",
+                    "id": 66741,
+                    "owner": {
+                        "name": "Joaquin",
+                        "id": 1894
+                    }
+                },
+                "equipment": [
+                    {
+                        "deleted": false,
+                        "id": 133455,
+                        "segmentId": "ba63793c-10ee-49cd-8f75-a2ba69811980",
+                        "type": {
+                            "value": "Refrigerated"
+                        }
+                    }
+                ],
+                "costs": {
+                    "subTotal": 3190,
+                    "totalTax": 0,
+                    "totalAmount": 3190,
+                    "deleted": false,
+                    "lineItem": [
+                        {
+                            "deleted": false,
+                            "code": {
+                                "key": "1600",
+                                "value": "Freight - flat"
+                            },
+                            "qty": 1,
+                            "price": 3190,
+                            "amount": 3190,
+                            "payable": true,
+                            "id": 24316
+                        }
+                    ]
+                }
+            }
+        ],
+        "groups": [
+            {
+                "id": 321,
+                "name": "SEND"
+            },
+            {
+                "id": 385,
+                "name": "OREPOD"
+            }
+        ]
+    }
+}

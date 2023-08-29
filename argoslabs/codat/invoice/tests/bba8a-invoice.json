@@ -1,0 +1,15 @@
+{
+    "id": "bba8a30b-0b5b-42c4-b62c-bbc3277f4b7f",
+    "customerRef": {
+        "id": "06bf0258-4a11-4a44-b141-a991fcb1d7c7",
+        "companyName": "Speedy Gonzales"
+    },
+    "issueDate": "0001-01-01T00:00:00Z",
+    "modifiedDate": "2021-01-25T21:11:59Z",
+    "lineItems": [],
+    "paymentAllocations": [],
+    "totalTaxAmount": 0.0,
+    "totalAmount": 0.0,
+    "amountDue": 0.0,
+    "status": "Draft"
+}

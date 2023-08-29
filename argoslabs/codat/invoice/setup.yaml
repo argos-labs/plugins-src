@@ -1,0 +1,26 @@
+setup:
+  author: Irene Cho
+  author_email: irene@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Codat :: Invoice'
+  description: plugin for Codat invoice cloud API service
+  keywords:
+  - codat
+  - api
+  - invoice
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.codat.invoice: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 2.127.1000
+  # version: 2.127.3300
+  version: 2.127.3456

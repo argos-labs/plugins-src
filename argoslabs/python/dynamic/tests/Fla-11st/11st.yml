@@ -1,0 +1,21 @@
+---
+
+params:
+  # from https://openapi.11st.co.kr/openapi/OpenApiServiceRegister.tmall
+  accesskey: 891f46f9376e9aa90273e3cddaf379c5
+  # searching start_time: YYYYMMDDhhmm
+  start_time: 202212040000
+  # searching end_time: YYYYMMDDhhmm
+  end_time: 202212050000
+# input const
+const:
+  mallCode: ML11
+  paymentStateCode: PSDN
+  paymentTypeCode: PTMN
+# env
+env:
+  # if logfile is null then stdout
+  # logfile: 
+  logfile: C:\work\11st.log
+api:
+  save_url: http://61.109.249.21:31000/platform/v1/order/save

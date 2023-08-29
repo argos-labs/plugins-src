@@ -1,0 +1,23 @@
+cloud.ibm.com
+
+한 계정으로 2개 이상의 free 서비스를 이용할 수 없기 때문에 나눔,
+
+mcchae@gmail.com
+
+Visual Recognition
+apikey: c0F37qa8NRAtcO7y73vKkiTipGO7fYou-UyIeyPcYFoS
+URL: https://gateway.watsonplatform.net/visual-recognition/api
+
+Speech to Text
+apikey: LgStjVoSn3uTxf15issaIWoKQKR0ZTDIOhJR_LR1cfLo
+URL: https://stream.watsonplatform.net/speech-to-text/api
+
+mcchae@argos-labs.com
+
+Tone Analyzer
+apikey: CAhlJpVU9TiYRfPuiH9MWVczHpeXf1-hXTdDxNj3pMIZ
+URL: https://gateway.watsonplatform.net/tone-analyzer/api
+
+Natural Language Understanding
+apikey: VQfU9frBg8rDUx8mkFmWZe3-RbSpHFpagnOmATAPnbGr
+URL: https://gateway.watsonplatform.net/natural-language-understanding/api

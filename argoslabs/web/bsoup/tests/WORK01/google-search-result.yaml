@@ -1,0 +1,31 @@
+---
+csv:
+  columns:
+  - header: link
+    find:
+#    - op: find
+#      name: div
+#      id: rso
+#    - op: select_one
+#      xpath: /html/body/div[5]/div[2]/div[9]/div[1]/div[2]/div/div[2]
+#      xpath: /html/body/div[5]/div[2]/div[9]/div[1]/div[2]/div/div[2]/div[2]/div/div
+# result
+#             /html/body/div[5]/div[2]/div[9]/div[1]/div[2]/div/div[1]  # ad
+#    - op: find
+#      name: div
+#      class: med
+#      id: res
+#      role: main
+#    - op: find
+#      name: div
+#      id: taw
+    - op: find_all
+      name: li
+      class: ads-fr
+    - op: find
+      name: w-visurl
+#    re-replace:
+#      from: "\\s+"
+#      to: " "
+
+no-result: There is no Result

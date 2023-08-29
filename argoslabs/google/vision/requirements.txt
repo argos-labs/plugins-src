@@ -1,0 +1,12 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# ...
+# for Google Cloud Vision API
+
+grpcio==1.39.0
+google-cloud-vision
+protobuf3-to-dict>=0.1.5
+opencv-python>=4.1.1.26

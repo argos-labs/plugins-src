@@ -1,0 +1,26 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Screen :: StartRecord'
+  description: plugin module for starting screen recording
+  keywords:
+  - start
+  - screen
+  - recording
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.screen.start_record: ['icon*.png', 'argos_screen_record.py']
+  url: https://www.argos-labs.com
+  # version: 3.527.806
+  version: 3.527.3456

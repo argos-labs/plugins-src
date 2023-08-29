@@ -1,0 +1,81 @@
+{
+    "Status": "SUCCESS",
+    "details": {
+        "id": 38664,
+        "customId": "31407-26565",
+        "ltlShipment": true,
+        "phase": {
+            "value": "Plan",
+            "key": "2001"
+        },
+        "custom_attributes": {
+            "public_api": {
+                "sourceId": "public-api"
+            }
+        },
+        "startDate": {
+            "date": "2021-01-01T00:00:00Z"
+        },
+        "endDate": {
+            "date": "2021-01-02T00:00:00Z"
+        },
+        "transportation": {
+            "mode": {
+                "key": "24107",
+                "value": "LTL"
+            },
+            "serviceType": {
+                "key": "24304",
+                "value": "Any"
+            }
+        },
+        "status": {
+            "code": {
+                "key": 2101,
+                "value": "Tendered"
+            },
+            "notes": "",
+            "description": "Tendered"
+        },
+        "margin": {
+            "totalReceivableAmount": 0.0,
+            "totalPayableAmount": 0.0,
+            "amount": 0.0,
+            "value": 0.0
+        },
+        "equipment": [
+            {
+                "deleted": false,
+                "id": 137466,
+                "type": {
+                    "key": 1200,
+                    "value": "other"
+                }
+            }
+        ],
+        "lane": {
+            "start": "San Jose, CA",
+            "end": "San Jose, CA"
+        },
+        "customerOrder": [
+            {
+                "id": 39020,
+                "deleted": false,
+                "customer": {
+                    "id": 65475,
+                    "name": "A. WALDBART & SONS NURSERY",
+                    "owner": {
+                        "name": "Turvo System Bot",
+                        "id": 1635
+                    }
+                }
+            }
+        ],
+        "groups": [
+            {
+                "id": 321,
+                "name": "SEND"
+            }
+        ]
+    }
+}

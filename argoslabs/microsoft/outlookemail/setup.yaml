@@ -1,0 +1,29 @@
+setup:
+  author: Kyobong An
+  author_email: akb0930@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Mac'
+  - 'Topic :: Change :: Log :: Unittest for Linux'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: plugin for Outlook Email
+  keywords:
+    - mails
+    - outlook
+    - microsoft
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.microsoft.outlookemail: ['icon.*']
+  url: https://www.argos-labs.com
+  # version: 3.1117.1127
+  version: 5.517.1000

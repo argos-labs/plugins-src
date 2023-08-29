@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Demo :: HelloWorld'
+  - 'Topic :: Change :: Log :: Unittest for Windows'
+  description: plugin module for RESTful API
+  keywords:
+  - api
+  - restful
+  - httpie
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+#    argoslabs.api.rest: ['icon.*', 'tests/httpie-tests/*.*']
+    argoslabs.api.rest: ['icon.*', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 2.1223.1730
+  # version: 3.707.240
+#  version: 3.707.3456
+  version: 5.626.1445

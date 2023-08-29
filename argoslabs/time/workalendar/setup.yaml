@@ -1,0 +1,30 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Utility :: WorkCalendar'
+  description: plugin module for Workalendar
+  keywords:
+  - work
+  - calendar
+  - regional
+  - holidays
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    # next requirements.txt is for pre-install for the prebuilt ethem module
+    argoslabs.time.workalendar: ['icon.*', 'ephem-3.7.7.0-cp37-cp37m-win32.whl']
+  url: https://www.argos-labs.com
+  # do not start '0'
+#  version: 2.316.1013
+  # version: 3.1101.1340
+  version: 3.1101.3456

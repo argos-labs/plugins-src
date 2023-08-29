@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Natural Language :: English'
+  - 'Programming Language :: Python :: 3.7'
+  - 'Topic :: Data :: JSON'
+  - 'Topic :: Data :: YAML'
+  description: plugin module for handling JSON, YAML
+  keywords:
+  - data
+  - json
+  - yaml
+  - xpath
+  - dpath
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.dpath: ['icon.*', 'tests/input/*.json', 'README*.*']
+  url: https://www.argos-labs.com
+#  version: 2.1130.1442
+  version: 2.1130.3300

@@ -1,0 +1,14 @@
+# pip dependent packages
+
+# default for alabs
+alabs.common
+
+# for google api
+google-api-python-client==1.12.8
+
+
+
+
+
+
+

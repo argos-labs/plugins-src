@@ -1,0 +1,29 @@
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+  - 'Operating System :: MacOS :: MacOS X'
+  - 'Operating System :: Microsoft :: Windows :: Windows 10'
+  - 'Operating System :: POSIX :: Linux'
+  - 'License :: Other/Proprietary License'
+  - 'Topic :: BinaryOp :: ArithmeticOp'
+  description: plugin module for Arithmatic Operation
+  keywords:
+  - data
+  - arithmetic
+  - binary
+  - operation
+  - add
+  - subtract
+  - multiply
+  - divide
+  license: ARGOS-LABS Proprietary License
+  platforms:
+  - Mac
+  - Windows
+  - Linux
+  package_data:
+    argoslabs.data.binaryop: ['icon.*']
+  url: https://www.argos-labs.com
+#  version: 4.202.925
+  version: 4.202.3456
