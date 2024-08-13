@@ -2,28 +2,28 @@ setup:
   author: Jerry Chae
   author_email: mcchae@argos-labs.com
   classifiers:
-  - 'Operating System :: MacOS :: MacOS X'
-  - 'Operating System :: Microsoft :: Windows :: Windows 10'
-  - 'Operating System :: POSIX :: Linux'
-  - 'License :: Other/Proprietary License'
-  - 'Natural Language :: English'
-  - 'Programming Language :: Python :: 3.7'
-  - 'Topic :: DataAnalysis :: Pandas2'
+    - "Operating System :: MacOS :: MacOS X"
+    - "Operating System :: Microsoft :: Windows :: Windows 10"
+    - "Operating System :: POSIX :: Linux"
+    - "License :: Other/Proprietary License"
+    - "Natural Language :: English"
+    - "Programming Language :: Python :: 3.7"
+    - "Topic :: DataAnalysis :: Pandas2"
   description: plugin module for PANDAS II
   keywords:
-  - data
-  - analysis
-  - pandas2
+    - data
+    - analysis
+    - pandas2
   license: ARGOS-LABS Proprietary License
   platforms:
-  - Mac
-  - Windows
-  - Linux
+    - Mac
+    - Windows
+    - Linux
   package_data:
     # next requirements.txt is for pre-install for the prebuilt ethem module
-    argoslabs.datanalysis.pandas2: ['icon.*', 'tests/*.*']
+    argoslabs.datanalysis.pandas2: ["icon.*", "tests/*.*"]
   url: https://www.argos-labs.com
   # do not start '0'
-#  version: 2.911.1008
+  #  version: 2.911.1008
   # version: 2.911.3300
-  version: 2.911.3456
+  version: 6.624.1100
