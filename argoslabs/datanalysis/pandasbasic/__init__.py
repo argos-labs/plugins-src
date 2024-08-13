@@ -16,6 +16,8 @@ ARGOS LABS data analysis using PANDAS basic
 #
 # Change Log
 # --------
+#  * [2024/06/27]
+#     - to_excel() encoding 인자 삭제
 #
 #  * [2023/07/24] Kyobong
 #     - "Select Range" 메소드 display_name 오류 변경
@@ -119,8 +121,8 @@ def do_pandas(mcxt, argspec):
         # 7) Save
         _, ext = os.path.splitext(argspec.out_file)
         if ext.lower() in ('.xls', '.xlsx'):
-            df.to_excel(argspec.out_file,  # sheet_name=sheet_name, ERROR
-                        encoding=argspec.encoding, index=argspec.out_index)
+            df.to_excel(argspec.out_file, # sheet_name=sheet_name, ERROR
+                         index=argspec.out_index)
         elif ext.lower() in ('.csv', '.tsv'):
             df.to_csv(argspec.out_file, sep=argspec.csv_sep,
                       encoding=argspec.encoding, index=argspec.out_index)
