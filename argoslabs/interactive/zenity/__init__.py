@@ -17,11 +17,19 @@ ARGOS LABS Zenity Plugin
 # * Irene Cho, Jerry Chae
 #
 # --------
+# [2024/04/01]
+#  taehoon ahn
+# - all advanced Date format option fix
+#
+# [2024/03/21]
+#  taehoon ahn
+#  - advanced Date format option fix
 #
 # [2022/09/20]
 #  - add req_gw_get()
 # [2021/02/25]
 #  - starting
+
 
 ################################################################################
 import os
@@ -70,8 +78,17 @@ class datefunc(object):
             'DBYY': "%-d%b%Y" if sys.platform != 'win32' else "%#d%b%Y",
         }
         r = self.dformat
-        rv = datetime.datetime.strptime(rv,'%m/%d/%Y')
-        print(rv.strftime(DATE_FORMAT[r]),end='')
+        # rv = datetime.datetime.strptime(rv, '%m/%d/%Y')
+        # print(rv.strftime(DATE_FORMAT[r]), end='')
+        rv = datetime.datetime.strptime(rv, DATE_FORMAT['YYYY-MM-DD']).strftime(DATE_FORMAT[r])
+        # if r == 'D B YYYY' or '' or '' or '' or '':
+        #     pass
+        # else:
+        #     pass
+        #
+        # rv = datetime.datetime.strptime(rv, DATE_FORMAT[r])
+        # print(rv.strftime(DATE_FORMAT[r]), end='')
+        print(rv)
         return 0
 
 
