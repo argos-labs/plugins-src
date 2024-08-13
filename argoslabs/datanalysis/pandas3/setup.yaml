@@ -2,30 +2,30 @@ setup:
   author: Jerry Chae
   author_email: mcchae@argos-labs.com
   classifiers:
-  - 'Operating System :: MacOS :: MacOS X'
-  - 'Operating System :: Microsoft :: Windows :: Windows 10'
-  - 'Operating System :: POSIX :: Linux'
-  - 'License :: Other/Proprietary License'
-  - 'Natural Language :: English'
-  - 'Programming Language :: Python :: 3.7'
-  - 'Topic :: DataAnalysis :: Pandas3'
+    - "Operating System :: MacOS :: MacOS X"
+    - "Operating System :: Microsoft :: Windows :: Windows 10"
+    - "Operating System :: POSIX :: Linux"
+    - "License :: Other/Proprietary License"
+    - "Natural Language :: English"
+    - "Programming Language :: Python :: 3.7"
+    - "Topic :: DataAnalysis :: Pandas3"
   description: plugin module for PANDAS III
   keywords:
-  - data
-  - analysis
-  - pandas
-  - basic3
+    - data
+    - analysis
+    - pandas
+    - basic3
   license: ARGOS-LABS Proprietary License
   platforms:
-  - Mac
-  - Windows
-  - Linux
+    - Mac
+    - Windows
+    - Linux
   package_data:
     # next requirements.txt is for pre-install for the prebuilt ethem module
-#    argoslabs.datanalysis.pandas3: ['icon.*', 'tests/*.*']  # too big
-    argoslabs.datanalysis.pandas3: ['icon.*']
+    #    argoslabs.datanalysis.pandas3: ['icon.*', 'tests/*.*']  # too big
+    argoslabs.datanalysis.pandas3: ["icon.*"]
   url: https://www.argos-labs.com
   # do not start '0'
-#  version: 2.915.1747
+  #  version: 2.915.1747
   # version: 3.818.1523
-  version: 3.818.3456
+  version: 6.722.0945
