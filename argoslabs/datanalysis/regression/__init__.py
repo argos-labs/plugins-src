@@ -13,10 +13,16 @@ ARGOS LABS data analysis using PANDAS basic
 # ===========
 #
 # * Irene Cho
+# * taehoon ahn
 #
 # Change Log
 # --------
-#
+#  * [2024/07/01]
+#    - plottype == 'CooksDistance' 기능 제거
+#  * [2024/06/24]
+#    - remove encoding option from to_excel()
+#    - compare model 오류 수정
+#    - plottype == 'CooksDistance' 오류 수정
 #  * [2021/04/08]
 #     - remove encoding option from read_excel()
 #  * [2020/06/04]
@@ -68,7 +74,7 @@ class Regression(object):
                  'RandomSampleConsensus', 'Ridge', 'SupportVectorMachine',
                  'TheilSen']
     OP_TYPE = ['Fit Model', 'Compare Models']
-    plottype = ['Residuals', 'PredictionError', 'CooksDistance']
+    plottype = ['Residuals', 'PredictionError']
 
     # ==========================================================================
     def __init__(self, argspec):
@@ -263,7 +269,9 @@ class Regression(object):
             visualizer.score(self.X_test, self.y_test)
         elif self.argspec.plottype == 'CooksDistance':
             visualizer = CooksDistance()
-            visualizer.fit(self.X, self.y)
+            x = np.array(self.X)
+            y = np.array(self.y)
+            visualizer.fit(x,y)
         # pltname = f'{self.argspec.plottype }.png'
         # pth  = os.path.join(os.path.dirname(self.argspec.datafile),pltname)
         visualizer.show(self.argspec.plotoutput)
@@ -278,7 +286,9 @@ class Regression(object):
             self.compare_models()
             pth = os.path.join(os.path.dirname(self.argspec.datafile),
                                'compare_models.html')
-            open(pth, 'w').write(self.res.render())
+            html_str = self.res.highlight_max().to_string()
+            with open(pth, 'w', encoding='utf-8') as f:
+                f.write(html_str)
             print(os.path.abspath(pth), end='')
         else:
             raise RuntimeError('Invalid vision operation "%s"' % op)
