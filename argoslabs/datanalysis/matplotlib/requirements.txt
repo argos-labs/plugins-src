@@ -5,8 +5,8 @@ alabs.common
 
 # matplot
 openpyxl
-matplotlib
+matplotlib==3.3.4
 
 # for pandas
-numpy
+numpy==1.26.4
 pandas
