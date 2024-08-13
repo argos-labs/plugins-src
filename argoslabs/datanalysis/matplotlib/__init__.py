@@ -17,6 +17,8 @@ ARGOS LABS Data Visualization Tool using Matplotlib
 # * Irene Cho
 #
 # --------
+#  * [2024/06/24]
+#     - numpy 버전 수정
 #
 #  * [2021/03/30]
 #     - starting
@@ -25,7 +27,7 @@ ARGOS LABS Data Visualization Tool using Matplotlib
 import os
 import sys
 import pandas as pd
-
+import numpy as np
 import matplotlib.pyplot as plt
 from alabs.common.util.vvargs import ModuleContext, func_log, \
     ArgsError, ArgsExit, get_icon_path
@@ -89,7 +91,10 @@ class matplot(object):
                 s = self.argspec.size
             plt.scatter(xlst, ylst, s=s, label=label)
         elif self.argspec.plotype == 'Linear':
+            xlst = np.array(xlst)
+            ylst = np.array(ylst)
             plt.plot(xlst, ylst, label=label)
+
         elif self.argspec.plotype == 'Bar':
             plt.bar(xlst, ylst, label=label)
         elif self.argspec.plotype == 'Pie':
