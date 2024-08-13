@@ -16,7 +16,9 @@ ARGOS LABS data analysis using PANDAS basic
 #
 # Change Log
 # --------
-#
+#  * [2024/06/24]
+#     - to_excel() encoding 옵션 제거
+#     - numpy 버전 1.26.4로 조정
 #  * [2021/04/02]
 #     - 그룹에 "4-Data Science" 넣음
 #  * [2020/09/11]
@@ -98,7 +100,7 @@ def do_pandas(mcxt, argspec):
         _, ext = os.path.splitext(argspec.out_file)
         if ext.lower() in ('.xls', '.xlsx'):
             df.to_excel(argspec.out_file,  # sheet_name=sheet_name, ERROR
-                        encoding=argspec.encoding, index=argspec.out_index)
+                        index=argspec.out_index)
         elif ext.lower() in ('.csv', '.tsv'):
             df.to_csv(argspec.out_file, sep=argspec.csv_sep,
                       encoding=argspec.encoding, index=argspec.out_index)
