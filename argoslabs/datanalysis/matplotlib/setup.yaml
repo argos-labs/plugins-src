@@ -2,28 +2,28 @@ setup:
   author: Irene Cho
   author_email: irene@argos-labs.com
   classifiers:
-  - 'Operating System :: MacOS :: MacOS X'
-  - 'Operating System :: Microsoft :: Windows :: Windows 10'
-  - 'Operating System :: POSIX :: Linux'
-  - 'License :: Other/Proprietary License'
-  - 'Natural Language :: English'
-  - 'Programming Language :: Python :: 3.7'
-  - 'Topic :: Demo :: HelloWorld'
-  - 'Topic :: Change :: Log :: Unittest for Mac'
-  - 'Topic :: Change :: Log :: Unittest for Linux'
-  - 'Topic :: Change :: Log :: Unittest for Windows'
+    - "Operating System :: MacOS :: MacOS X"
+    - "Operating System :: Microsoft :: Windows :: Windows 10"
+    - "Operating System :: POSIX :: Linux"
+    - "License :: Other/Proprietary License"
+    - "Natural Language :: English"
+    - "Programming Language :: Python :: 3.7"
+    - "Topic :: Demo :: HelloWorld"
+    - "Topic :: Change :: Log :: Unittest for Mac"
+    - "Topic :: Change :: Log :: Unittest for Linux"
+    - "Topic :: Change :: Log :: Unittest for Windows"
   description: Data Visualization Tool using Matplotlib
   keywords:
-  - data
-  - analysis
-  - matplotib
-  - visualization
+    - data
+    - analysis
+    - matplotib
+    - visualization
   license: ARGOS-LABS Proprietary License
   platforms:
-  - Mac
-  - Windows
-  - Linux
+    - Mac
+    - Windows
+    - Linux
   package_data:
-    argoslabs.datanalysis.matplotlib: ['icon.*']
+    argoslabs.datanalysis.matplotlib: ["icon.*"]
   url: https://www.argos-labs.com
-  version: 3.419.1540
+  version: 6.624.1530
