@@ -16,7 +16,9 @@ ARGOS LABS data analysis using PANDAS basic
 #
 # Change Log
 # --------
-#
+#  * [2024/07/22]
+#     - numpy 버전 고정
+#     - to_excel의 encoding 인자 삭제
 #  * [2021/04/06]
 #     - --in-encodings에 default 삭제(오류로 인해서), eval()사용시 문자열의 에러가 있어 수정
 #  * [2021/04/06]
@@ -138,7 +140,7 @@ def do_pandas3(mcxt, argspec):
         out_header = pandas_safe_eval(argspec.out_header, True)
         if ext.lower() in ('.xls', '.xlsx'):
             df.to_excel(argspec.out_file,  # sheet_name=sheet_name, ERROR
-                        encoding=argspec.out_encoding, index=argspec.out_index,
+                        index=argspec.out_index,
                         header=out_header)
         elif ext.lower() in ('.csv', '.tsv'):
             df.to_csv(argspec.out_file, sep=argspec.out_csv_sep,
