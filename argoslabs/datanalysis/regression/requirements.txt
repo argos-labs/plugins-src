@@ -11,8 +11,9 @@ openpyxl
 # for regression
 # Error when python tk is not installed
 #ModuleNotFoundError: No module named 'tkinter'
-numpy
+numpy==1.26.4
 pandas
 scikit-learn
 jinja2
 yellowbrick
+matplotlib
