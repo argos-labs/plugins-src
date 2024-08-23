@@ -4,5 +4,5 @@
 alabs.common
 
 # for Excel
-openpyxl>=2.6.1
-
+openpyxl
+numpy==1.26.4
