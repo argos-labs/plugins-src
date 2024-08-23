@@ -2,27 +2,27 @@ setup:
   author: Irene Cho
   author_email: irene@argos-labs.com
   classifiers:
-  - 'Operating System :: MacOS :: MacOS X'
-  - 'Operating System :: Microsoft :: Windows :: Windows 10'
-  - 'Operating System :: POSIX :: Linux'
-  - 'License :: Other/Proprietary License'
-  - 'Natural Language :: English'
-  - 'Programming Language :: Python :: 3.7'
-  - 'Topic :: Util :: Csv2Excel'
+    - "Operating System :: MacOS :: MacOS X"
+    - "Operating System :: Microsoft :: Windows :: Windows 10"
+    - "Operating System :: POSIX :: Linux"
+    - "License :: Other/Proprietary License"
+    - "Natural Language :: English"
+    - "Programming Language :: Python :: 3.7"
+    - "Topic :: Util :: Csv2Excel"
   description: plugin for converting csv to excel
   keywords:
-  - csv
-  - data
-  - excel
+    - csv
+    - data
+    - excel
   #-tool tip window
   license: ARGOS-LABS Proprietary License
   platforms:
-  - Mac
-  - Windows
-  - Linux
+    - Mac
+    - Windows
+    - Linux
   package_data:
-    argoslabs.data.csv2excel: ['icon.*', 'README*.*']
+    argoslabs.data.csv2excel: ["icon.*", "README*.*"]
   url: https://www.argos-labs.com
-#  version: 3.223.842
+  #  version: 3.223.842
   # version: 3.1007.1136
-  version: 3.1007.3456
+  version: 6.823.0950
