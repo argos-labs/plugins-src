@@ -24,4 +24,4 @@ setup:
   package_data:
     argoslabs.api.rikaiform: ['icon.*', 'README*.*']
   url: https://www.argos-labs.com
-  version: 5.424.3300
+  version: 6.827.1300

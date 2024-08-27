@@ -38,7 +38,7 @@ def do_ocr(mcxt, argspec):
 
     try:
         ifp = open(argspec.img, 'rb')
-        fn = Path(argspec.img).stem
+        fn = Path(argspec.img).name
         files = [
             ('file', (fn, ifp, 'application/octet-stream'))
         ]
