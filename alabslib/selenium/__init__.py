@@ -14,8 +14,11 @@ ARGOS LABS base class to use Selenium
 #
 # * Jerry Chae
 # * taehoon ahn
+# * Wanjin Choi
 # Change Log
 # --------
+#  * [2025/05/20]
+#    - chrome 옵션을 yaml파일을 읽어 추가할 수 있도록 하는 기능 추가
 #  * [2024/07/02]
 #     - driver_execute_script 기능 추가(javascript)
 #     - get_by_xpath() timeout 오류 수정
