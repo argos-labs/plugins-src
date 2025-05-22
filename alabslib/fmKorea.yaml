@@ -1,0 +1,52 @@
+# config file for dcinside
+
+params:
+  # site value is for each site dependent parameters
+  site:
+    user_type: 소비자
+    site: 에펨코리아
+    site_name: 에펨코리아
+    site_number: 241
+    site_sequence: '241'
+    channel: 커뮤니티
+    search: 알뜰배달
+    capture_article: true
+    search_type: 당사
+    service: 배민
+    max_articles: 500
+    stop_article_older_than:
+      datetime: 2023.01.05 09:50:00
+      format: "%Y.%m.%d %H:%M:%S"
+    delay:
+      article:
+        min: 10
+        max: 20
+      comment:
+        min: 0.1
+        max: 2.1
+  # kwargs is for PySelenium dependent parameters
+  kwargs:
+    # 웹의 사이즈를 최대로 키우기 위함. 백그라운드에서는
+#    headless: true
+    headless: false
+    url: https://www.fmkorea.com
+    browser: Chrome
+    width: 1500
+    height: 800
+    chrome_options: '--incognito'
+
+target:
+  folder: C:/work/voc_data/latest/community/fmKorea
+  log_folder: C:/work/voc_data/logs/community/fmKorea/log
+  # if is_clear clear all target/folder
+  is_clear: true
+  # if is_save then save result
+  is_save: true
+  # if is_separate_article is true then save article in each folder (article_id)
+  is_separate_article: true
+#  is_separate_article: false
+  # if is_yaml is false then save as JSON
+#  is_yaml: true
+  is_yaml: false
+  is_tar_gz: false
+  keep_day: 7

@@ -1,0 +1,28 @@
+# util
+alabs.common
+
+# for selenium
+# in case of msedge-selenium-tools
+# alabs.ppm build : Errors happen for latest selenium 4.x (2022.02.03)
+#selenium
+selenium==3.141
+
+# for util
+requests
+xlrd==1.2.0
+
+# for BeautifulSoup
+beautifulsoup4
+
+# for MS Edge Options
+msedge-selenium-tools
+
+# for clipboard : to evoid NAVER capture
+pyperclip
+
+# for PDF download : pyperclip, pyautogui
+pyautogui
+
+# for scrolld screen capture
+# Need to fix 1.7.0 : 20220728
+Selenium-Screenshot==1.7.0

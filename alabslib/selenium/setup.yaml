@@ -1,0 +1,31 @@
+# screen
+
+setup:
+  author: Jerry Chae
+  author_email: mcchae@argos-labs.com
+  classifiers:
+    - "Operating System :: MacOS :: MacOS X"
+    - "Operating System :: Microsoft :: Windows :: Windows 10"
+    - "Operating System :: POSIX :: Linux"
+    - "License :: Other/Proprietary License"
+    - "Natural Language :: English"
+    - "Programming Language :: Python :: 3.7"
+    - "Topic :: Library"
+    - "Topic :: ARGOS :: common"
+    - "Topic :: Web :: Selenium"
+  description: ARGOS-LABS common library for python
+  keywords:
+    - common
+    - library
+    - selenium
+  license: ARGOS-LABS Proprietary License
+  platforms:
+    - Mac
+    - Windows
+    - Linux
+  package_data:
+    alabslib.selenium: ["icon.*"]
+  url: https://www.argos-labs.com
+  # version: 4.222.1415 : for fixing Selenium-Screenshot==1.7.0
+  # version: 4.1207.1426
+  version: 7.520.1725
