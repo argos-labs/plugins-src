@@ -14,11 +14,14 @@ ARGOS LABS plugin module sample
 # Authors
 # ===========
 #
-# * Myeongkook Park
 #
+#
+# * Myeongkook Park
+# * Wanjin Choi
 # Change Log
 # --------
-#
+# [2025.05.27]
+#  - 검색결과 10으로 고정되어있던 것을 옵션에 따라 결과값 나오도록 변경함.
 
 
 ################################################################################
@@ -62,7 +65,7 @@ def customsearch(mcxt, argspec):
         result = service.cse().list(
             q=argspec.query,
             cx=argspec.cx,
-            num=10,
+            num=argspec.count,
             searchType=type_search,
             dateRestrict=argspec.dateRestrict,
             exactTerms=argspec.exactTerms,
@@ -75,14 +78,19 @@ def customsearch(mcxt, argspec):
         if search_count > 1:
             for i in range(search_count - 1):
                 result = service.cse().list(
+                    #검색키워드
                     q=argspec.query,
                     cx=argspec.cx,
-                    num=10,
+                    num=argspec.count,
                     searchType=type_search,
+                    #날짜기준 필터링 (d5는 최근 5일)
                     dateRestrict=argspec.dateRestrict,
+                    #결과에 반드시 포함되어야하는 단어
                     exactTerms=argspec.exactTerms,
                     fileType=argspec.fileType,
+                    # 결과에 제거해야되는단어
                     excludeTerms=argspec.excludeTerms,
+                    #특정사이드
                     siteSearch=argspec.siteSearch,
                     start=result['queries']['nextPage'][0]['startIndex'],
                 ).execute()
