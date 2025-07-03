@@ -19,6 +19,8 @@ ARGOS LABS plugin module for Excel
 #
 # Change Log
 # --------
+#  * [2025/07/03] Wanjin
+#     - csv파일은 덮어쓰기가 원하는 열에 안되는 문제가 있음 해서 원하는 열에 덮어쓰기하는 기능 추가
 #
 #  * [2023/06/22] Kyobong
 #     - data only 사용시 xlwing에서 간헐적으로 sheet를 찾기 못하는 에러발생. sheet를 찾는 로직 추가
@@ -77,7 +79,8 @@ ARGOS LABS plugin module for Excel
 #     - "Copy of Bot Queue Demo.xlsx" 과 같이 헤더 또는 내용에 ,,,,,,, 가 포함되는 것을
 #       제외 시킴
 #     - --keep-blank 가 설정되어 있으면 위의 규칙을 안 따름
-#     - add --set-cell, --set-value 로 입력 엑셀에 특정 셀 값 설정
+#     - add --set-cell, --set-value 로 입력 엑셀에 특정 셀 값 설
+#     정
 #  * [2019/09/10]
 #     - 결과의 앞뒤로 strip() 시켜서 출력
 #  * [2019/07/19]
@@ -111,6 +114,7 @@ import subprocess
 from tempfile import gettempdir
 # noinspection PyPackageRequirements
 from openpyxl.utils import get_column_letter
+from openpyxl.utils import column_index_from_string
 # from openpyxl.workbook.protection import WorkbookProtection
 # from openpyxl.worksheet.protection import SheetProtection
 from io import StringIO
@@ -437,13 +441,58 @@ class Excel(object):
         # 만약 결과를 csv에 쓴다면
         is_csv_write = False
         # 만약 이미 결과 CSV가 있거나 시작 위치가 처음 A1 이 아니라면
-        if argspec_write.lower().endswith('csv') and \
-                (os.path.exists(argspec_write) or self.argspec.write_cell != 'A1'):
-            is_csv_write = True
+        if argspec_write.lower().endswith('csv') and (os.path.exists(argspec_write) or self.argspec.write_cell != 'A1'):
+            cell = self.argspec.write_cell.upper()
+            #덮어쓰고자하는 열값 가져오기
+            col_letters = ''.join(filter(str.isalpha, cell)) #ex)C
+            #덮어쓰고자 하는 행값 가져오기
+            row_digits = ''.join(filter(str.isdigit, cell)) #ex)1
+
+            #시작하는 열
+            start_col = column_index_from_string(col_letters) # 'C'->3
+            #시작하는 행
+            start_row = int(row_digits) #'1' ->1
+
+            # 2. 기존 CSV 읽기(나머지열 보존을 위해)
+            existing_rows = []
+            if os.path.exists(argspec_write):
+                with open(argspec_write, newline='', encoding=self.argspec.encoding or 'utf-8') as f:
+                    reader = csv.reader(f)
+                    existing_rows = list(reader)
+
+            # 3. 기존 행/열 확장
+            required_rows = start_row - 1 + len(self.rr) # selg.rr  덮어쓰기 위한 길이 구하기 -1은 index가 0부터시작해서
+            max_cols = max([len(row) for row in existing_rows] or [0])
+            #기존 csv열 수와 start_col 중 더 큰쪽으로 맞춤
+            total_cols = max(max_cols, start_col)
+
+            #인덱스 에러방지를 위해
+            while len(existing_rows) < required_rows:
+                existing_rows.append([''] * total_cols)
+
+            for r in range(len(existing_rows)):
+                while len(existing_rows[r]) < total_cols:
+                    existing_rows[r].append('')
+
+            # 4. write-cell열만 덮어쓰기
+            for i, row_data in enumerate(self.rr):
+                target_row = start_row - 1 + i
+                existing_rows[target_row][start_col - 1] = row_data[0]
+
+            # 5. 다시 쓰기
+            with open(argspec_write, 'w', newline='',
+                      encoding=self.argspec.encoding or 'utf-8') as f:
+                writer = csv.writer(f, lineterminator='\n')
+                writer.writerows(existing_rows)
+
+            print(os.path.abspath(argspec_write), end='')
+            return 0
+
+
         # 만약 CSV 이면 덮어 씀 (TODO: range write 적용 필요)
-        if argspec_write.lower().endswith('csv'):  # and not is_csv_write:
+        elif argspec_write.lower().endswith('csv'):  # and not is_csv_write:
             # with open(argspec_write, 'wb', newline='') as ofp:
-            with open(argspec_write, 'w', newline='') as ofp:
+            with open(argspec_write, 'w', newline='', encoding=self.argspec.encoding or 'utf-8' ) as ofp:
                 wr = csv.writer(ofp, lineterminator='\n')
                 for row in self.rr:
                     wr.writerow(row)
